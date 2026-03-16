@@ -16,6 +16,7 @@ minima:
 header_pages:
   - blog.md
   - digests.md
+  - tags.md
   - about.md
 
 plugins:
@@ -35,3 +36,12 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+author:
+  name: ZC
+
+giscus:
+  repo: "Fighter-ZC/Fighter-ZC.github.io"
+  repo_id: "R_kgDORoQKJg"
+  category: "Announcements"
+  category_id: "DIC_kwDORoQKJs4C4jVh"
