@@ -73,6 +73,16 @@ The good news: most negative changes are reversible with intervention, typically
 
 **Avoid at all costs:** Chronic sleep debt (<6h/night for a week+). Frequent heavy drinking. Sustained high stress with no recovery. Prolonged sedentary lifestyle.
 
+## A Personal Take: AI and Context Switching
+
+One thing that stood out to me: context switching is one of the most expensive operations your PFC performs. Every time you shift focus — between tabs, between tasks, between a thought and a notification — your prefrontal cortex pays an energy tax. Ophir et al. (2009) showed that heavy multitaskers actually get *worse* at filtering, not better.
+
+This has implications for how we work with AI. The typical pattern — rapid back-and-forth prompting, constant micro-decisions about what to ask next, switching between your own thinking and the AI's output — is essentially high-frequency context switching. It feels productive, but it's draining the very part of your brain that's supposed to be steering.
+
+An alternative: treat your AI interactions more like a message queue. Batch your intent. Write out what you need, hand it off, and step away. Let the AI do its work asynchronously instead of co-piloting every keystroke. You stay in your own flow; the AI stays in its. When you come back, you review the output with a fresh PFC instead of one that's been ping-ponging for an hour.
+
+Less interactive doesn't mean less effective. It might mean your prefrontal cortex still has something left in the tank by the end of the day.
+
 ---
 
 *Key references: Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017)*
@@ -124,6 +134,16 @@ PFC 功能建立在三个基础之上：
 **优化层：** 学点新东西。单任务深度工作，减少上下文切换。如果适合你，试试间歇性禁食。
 
 **红线（绝对避免）：** 连续一周以上每晚不到 6 小时睡眠。频繁大量饮酒。长期高压无恢复期。久坐不动的生活方式。
+
+## 个人思考：AI 与上下文切换
+
+有一点让我印象深刻：上下文切换是前额叶最昂贵的操作之一。每一次你在标签页之间、任务之间、自己的思路和一条通知之间切换焦点，前额叶都要为此支付能量税。Ophir et al. (2009) 的研究表明，频繁的多任务切换者在过滤信息方面反而变得更差，而不是更好。
+
+这对我们与 AI 的协作方式有直接启示。典型的使用模式——快速来回对话、不断做微决策、在自己的思考和 AI 的输出之间反复切换——本质上就是高频上下文切换。感觉很高效，实际上在消耗你大脑中最该掌舵的那部分。
+
+另一种方式：把你和 AI 的交互当作一个消息队列。把意图打包好，交出去，然后走开。让 AI 异步完成工作，而不是每一个按键都陪着它一起飞。你保持自己的心流，AI 保持它的。等你回来时，是用一个恢复过的前额叶来审视结果，而不是一个已经来回弹跳了一个小时的。
+
+减少交互频率不等于降低效率。它可能意味着到了一天结束时，你的前额叶还剩点余力。
 
 ---
 
