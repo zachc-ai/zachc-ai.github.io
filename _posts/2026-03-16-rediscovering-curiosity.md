@@ -1,37 +1,13 @@
 ---
 layout: post
 title: "Rediscovering Curiosity After a Decade"
+title_zh: "重拾好奇心"
 date: 2026-03-16
 categories: life
+bilingual: true
 ---
 
-<style>
-.lang-toggle {
-  display: inline-block;
-  cursor: pointer;
-  padding: 4px 14px;
-  border: 1px solid #ccc;
-  border-radius: 16px;
-  font-size: 14px;
-  margin-bottom: 1.5em;
-  user-select: none;
-  transition: background 0.2s, color 0.2s;
-}
-.lang-toggle:hover {
-  background: #333;
-  color: #fff;
-}
-.lang-hidden { display: none; }
-.post-title { display: none; }
-.bilingual-title { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; }
-</style>
-
-<div class="bilingual-title">
-<span class="lang-en">Rediscovering Curiosity After a Decade</span>
-<span class="lang-zh lang-hidden">重拾好奇心</span>
-</div>
-
-<span class="lang-toggle" onclick="toggleLang()">中文 / EN</span>
+{% include bilingual.html %}
 
 <div class="lang-en" markdown="1">
 
@@ -84,10 +60,3 @@ I drifted away from it once. I don't plan to again.
 我曾经丢了它。这次不打算再丢了。
 
 </div>
-
-<script>
-function toggleLang() {
-  document.querySelectorAll('.lang-en').forEach(el => el.classList.toggle('lang-hidden'));
-  document.querySelectorAll('.lang-zh').forEach(el => el.classList.toggle('lang-hidden'));
-}
-</script>
