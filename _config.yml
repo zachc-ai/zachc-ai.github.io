@@ -1,0 +1,35 @@
+title: Fighter-ZC's Blog
+description: Tech and life, one post at a time.
+url: "https://fighter-zc.github.io"
+baseurl: ""
+
+theme: minima
+
+permalink: /blog/:title/
+
+minima:
+  skin: auto
+  social_links:
+    - platform: github
+      user_url: "https://github.com/Fighter-ZC"
+
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
