@@ -16,6 +16,7 @@ minima:
 header_pages:
   - blog.md
   - digests.md
+  - tags.md
   - about.md
 
 plugins:

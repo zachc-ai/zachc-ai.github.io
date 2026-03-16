@@ -4,6 +4,7 @@ title: "Rediscovering Curiosity After a Decade"
 title_zh: "重拾好奇心"
 date: 2026-03-16
 categories: life
+tags: [life, learning, ai]
 bilingual: true
 ---
 
