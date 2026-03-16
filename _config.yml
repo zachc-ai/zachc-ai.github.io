@@ -36,3 +36,16 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+author:
+  name: ZC
+
+# Giscus comments — fill in after enabling GitHub Discussions
+# 1. Go to https://github.com/Fighter-ZC/Fighter-ZC.github.io/settings → Features → enable Discussions
+# 2. Go to https://giscus.app and fill in your repo to get repo_id, category, and category_id
+# 3. Uncomment and fill in the values below:
+# giscus:
+#   repo: "Fighter-ZC/Fighter-ZC.github.io"
+#   repo_id: ""
+#   category: "Announcements"
+#   category_id: ""
