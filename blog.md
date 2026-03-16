@@ -1,8 +1,16 @@
 ---
-layout: home
+layout: page
 title: Blog
 permalink: /blog/
-list_title: All Posts
 ---
 
-{% assign posts = site.posts | where_exp: "post", "post.categories contains 'life' or post.categories contains 'tech'" | where_exp: "post", "post.categories contains 'digest' == false" %}
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% unless post.categories contains "digest" %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
