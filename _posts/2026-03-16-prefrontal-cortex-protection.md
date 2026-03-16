@@ -23,7 +23,14 @@ source: "https://en.wikipedia.org/wiki/Prefrontal_cortex"
   color: #fff;
 }
 .lang-hidden { display: none; }
+.post-title { display: none; }
+.bilingual-title { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; }
 </style>
+
+<div class="bilingual-title">
+<span class="lang-en">Protecting Your Prefrontal Cortex</span>
+<span class="lang-zh lang-hidden">保护你的前额叶皮层</span>
+</div>
 
 <span class="lang-toggle" onclick="toggleLang()">中文 / EN</span>
 
@@ -153,7 +160,7 @@ PFC 功能建立在三个基础之上：
 
 <script>
 function toggleLang() {
-  document.querySelector('.lang-en').classList.toggle('lang-hidden');
-  document.querySelector('.lang-zh').classList.toggle('lang-hidden');
+  document.querySelectorAll('.lang-en').forEach(el => el.classList.toggle('lang-hidden'));
+  document.querySelectorAll('.lang-zh').forEach(el => el.classList.toggle('lang-hidden'));
 }
 </script>

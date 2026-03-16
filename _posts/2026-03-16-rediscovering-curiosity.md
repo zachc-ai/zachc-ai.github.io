@@ -22,7 +22,14 @@ categories: life
   color: #fff;
 }
 .lang-hidden { display: none; }
+.post-title { display: none; }
+.bilingual-title { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; }
 </style>
+
+<div class="bilingual-title">
+<span class="lang-en">Rediscovering Curiosity After a Decade</span>
+<span class="lang-zh lang-hidden">重拾好奇心</span>
+</div>
 
 <span class="lang-toggle" onclick="toggleLang()">中文 / EN</span>
 
@@ -80,7 +87,7 @@ I drifted away from it once. I don't plan to again.
 
 <script>
 function toggleLang() {
-  document.querySelector('.lang-en').classList.toggle('lang-hidden');
-  document.querySelector('.lang-zh').classList.toggle('lang-hidden');
+  document.querySelectorAll('.lang-en').forEach(el => el.classList.toggle('lang-hidden'));
+  document.querySelectorAll('.lang-zh').forEach(el => el.classList.toggle('lang-hidden'));
 }
 </script>
