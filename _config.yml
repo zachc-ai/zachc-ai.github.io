@@ -14,6 +14,8 @@ minima:
       user_url: "https://github.com/zachc-ai"
 
 header_pages:
+  - blog.md
+  - digests.md
   - about.md
 
 plugins:
