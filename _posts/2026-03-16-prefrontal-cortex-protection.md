@@ -1,38 +1,15 @@
 ---
 layout: post
 title: "Protecting Your Prefrontal Cortex"
+title_zh: "保护你的前额叶皮层"
 date: 2026-03-16
 categories: digest
+tags: [neuroscience, productivity, ai]
 source: "https://en.wikipedia.org/wiki/Prefrontal_cortex"
+bilingual: true
 ---
 
-<style>
-.lang-toggle {
-  display: inline-block;
-  cursor: pointer;
-  padding: 4px 14px;
-  border: 1px solid #ccc;
-  border-radius: 16px;
-  font-size: 14px;
-  margin-bottom: 1.5em;
-  user-select: none;
-  transition: background 0.2s, color 0.2s;
-}
-.lang-toggle:hover {
-  background: #333;
-  color: #fff;
-}
-.lang-hidden { display: none; }
-.post-title { display: none; }
-.bilingual-title { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; }
-</style>
-
-<div class="bilingual-title">
-<span class="lang-en">Protecting Your Prefrontal Cortex</span>
-<span class="lang-zh lang-hidden">保护你的前额叶皮层</span>
-</div>
-
-<span class="lang-toggle" onclick="toggleLang()">中文 / EN</span>
+{% include bilingual.html %}
 
 <div class="lang-en" markdown="1">
 
@@ -157,10 +134,3 @@ PFC 功能建立在三个基础之上：
 *核心文献：Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017)*
 
 </div>
-
-<script>
-function toggleLang() {
-  document.querySelectorAll('.lang-en').forEach(el => el.classList.toggle('lang-hidden'));
-  document.querySelectorAll('.lang-zh').forEach(el => el.classList.toggle('lang-hidden'));
-}
-</script>

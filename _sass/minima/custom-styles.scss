@@ -1,0 +1,82 @@
+// Typography
+body {
+  font-size: 18px;
+}
+
+.post-content {
+  line-height: 1.75;
+
+  h2 { margin-top: 2em; }
+  h3 { margin-top: 1.5em; }
+}
+
+// Post meta — softer, smaller
+.post-meta {
+  font-size: 0.85em;
+
+  .reading-time {
+    font-style: italic;
+  }
+}
+
+// Links — calm hover
+.post-content a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-bottom-color: inherit;
+  }
+}
+
+// Dark mode link underlines
+@media (prefers-color-scheme: dark) {
+  .post-content a {
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+// Code blocks — subtle rounding + tint
+.highlight {
+  border-radius: 6px;
+}
+
+code.highlighter-rouge {
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+// Bilingual toggle — pill style
+.lang-toggle {
+  font-size: 0.8em;
+  opacity: 0.7;
+  transition: opacity 0.2s, background 0.2s, color 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// Post title spacing
+.post-title {
+  letter-spacing: -0.02em;
+}
+
+// Post list on home/blog/tags pages
+.post-list h3 {
+  margin-bottom: 0.2em;
+}
+
+// Comments section spacing
+.post-comments {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-comments {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+}
