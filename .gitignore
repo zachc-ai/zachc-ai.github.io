@@ -7,3 +7,4 @@ vendor/
 Gemfile.lock
 .claude/logs/
 .superset/
+.ruby-version
