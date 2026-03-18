@@ -1,3 +1,8 @@
+---
+permalink: /docs/setup/
+---
+
+{% raw %}
 # Blog Setup Reference
 
 Operational reference for [fighter-zc.github.io](https://fighter-zc.github.io).
@@ -142,3 +147,4 @@ Not yet implemented. To add support:
    {%- endunless -%}
    ```
 2. Then set `comments: false` in the post's front matter.
+{% endraw %}

@@ -37,8 +37,7 @@ defaults:
     values:
       layout: "default"
 
-author:
-  name: ZC
+author: ZC
 
 giscus:
   repo: "Fighter-ZC/Fighter-ZC.github.io"
