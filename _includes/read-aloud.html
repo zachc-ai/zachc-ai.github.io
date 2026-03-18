@@ -1,0 +1,73 @@
+<style>
+.read-aloud-btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 14px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  font-size: 14px;
+  background: none;
+  user-select: none;
+  transition: background 0.2s, color 0.2s;
+}
+.read-aloud-btn:hover {
+  background: #333;
+  color: #fff;
+}
+</style>
+
+<button class="read-aloud-btn" id="read-aloud-btn" onclick="toggleReadAloud()">
+  &#9655; Read Aloud
+</button>
+
+<script>
+(function () {
+  var btn = document.getElementById('read-aloud-btn');
+  var synth = window.speechSynthesis;
+
+  function getVisibleText() {
+    var content = document.querySelector('.post-content');
+    if (!content) return '';
+    // For bilingual posts, only read the visible sections
+    var hidden = content.querySelectorAll('.lang-hidden');
+    hidden.forEach(function (el) { el.dataset.wasHidden = '1'; el.style.display = 'none'; });
+    var text = content.innerText;
+    hidden.forEach(function (el) { el.style.display = ''; delete el.dataset.wasHidden; });
+    return text.trim();
+  }
+
+  function detectLang() {
+    // If bilingual, check which language is visible
+    var zhVisible = document.querySelector('.lang-zh:not(.lang-hidden)');
+    if (zhVisible) return 'zh-CN';
+    return 'en-US';
+  }
+
+  window.toggleReadAloud = function () {
+    if (synth.speaking) {
+      synth.cancel();
+      btn.innerHTML = '&#9655; Read Aloud';
+      return;
+    }
+
+    var text = getVisibleText();
+    if (!text) return;
+
+    var utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = detectLang();
+    utterance.rate = 1;
+
+    utterance.onend = function () {
+      btn.innerHTML = '&#9655; Read Aloud';
+    };
+
+    btn.innerHTML = '&#9632; Stop Reading';
+    synth.speak(utterance);
+  };
+
+  // Clean up if user navigates away
+  window.addEventListener('beforeunload', function () {
+    if (synth.speaking) synth.cancel();
+  });
+})();
+</script>
