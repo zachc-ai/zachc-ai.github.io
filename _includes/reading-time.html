@@ -1,4 +1,8 @@
-{% assign words = content | number_of_words %}
+{% if include.post_content %}
+  {% assign words = include.post_content | number_of_words %}
+{% else %}
+  {% assign words = content | number_of_words %}
+{% endif %}
 {% assign minutes = words | divided_by: 200 %}
 {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
 <span class="reading-time">{{ minutes }} min read</span>
