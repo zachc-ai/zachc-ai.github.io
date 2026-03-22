@@ -8,8 +8,6 @@ tags: [life, learning, ai]
 bilingual: true
 ---
 
-{% include bilingual.html %}
-
 <div class="lang-en" markdown="1">
 
 There's a kind of curiosity you have when you're young — the kind where you stay up late not because you have to, but because you can't stop. Everything is a puzzle. Every new thing connects to three more things you want to try.

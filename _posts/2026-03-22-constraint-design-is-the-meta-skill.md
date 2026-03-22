@@ -8,8 +8,6 @@ tags: [engineering, ai, design]
 bilingual: true
 ---
 
-{% include bilingual.html %}
-
 <div class="lang-en" markdown="1">
 
 > The highest-leverage design work is choosing which constraints to impose — they determine what the system discovers on its own.

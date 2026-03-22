@@ -9,8 +9,6 @@ source: "https://simonwillison.net/guides/agentic-engineering-patterns/"
 bilingual: true
 ---
 
-{% include bilingual.html %}
-
 <div class="lang-en" markdown="1">
 
 Simon Willison (Django co-creator, datasette author) distills his hands-on patterns for using AI coding agents like Claude Code and OpenAI Codex. The guide covers five areas: principles, testing & quality, understanding code, annotated prompts, and appendices. See also: [HN discussion](https://news.ycombinator.com/item?id=47243272).

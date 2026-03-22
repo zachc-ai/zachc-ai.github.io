@@ -9,8 +9,6 @@ source: "https://en.wikipedia.org/wiki/Prefrontal_cortex"
 bilingual: true
 ---
 
-{% include bilingual.html %}
-
 <div class="lang-en" markdown="1">
 
 Your prefrontal cortex (PFC) is the brain's CEO — it handles planning, decision-making, focus, impulse control, and emotional regulation. It's also the last region to mature (around age 25) and one of the most vulnerable to damage. Here's what the research says about what hurts it and what protects it.
