@@ -7,12 +7,6 @@ theme: minima
 
 permalink: /blog/:title/
 
-minima:
-  skin: auto
-  social_links:
-    - platform: github
-      user_url: "https://github.com/zachc-ai"
-
 header_pages:
   - blog.md
   - digests.md

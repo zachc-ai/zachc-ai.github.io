@@ -1,8 +1,191 @@
-// Typography
-body {
-  font-size: 18px;
+// =============================================================================
+// CSS Custom Properties — Light & Dark Palettes
+// =============================================================================
+
+:root {
+  --bg-color: #fdfdfd;
+  --text-color: #111;
+  --brand-color: #2a7ae2;
+  --brand-color-dark: #1756a9;
+  --grey-color: #828282;
+  --grey-color-light: #e8e8e8;
+  --grey-color-dark: #424242;
+  --code-bg: #eef;
+  --code-border: #e8e8e8;
+  --highlight-bg: #eef;
+  --table-text-color: #3b3b3b;
+  --table-border: #e8e8e8;
+  --table-even-bg: #f7f7f7;
+  --table-header-bg: #f0f0f0;
+  --table-header-border: #ddd;
+  --table-header-border-bottom: #ccc;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --link-underline: rgba(0, 0, 0, 0.15);
+  --header-border-top: #424242;
+  --header-border-bottom: #e8e8e8;
+  --footer-border: #e8e8e8;
+  --blockquote-border: #e8e8e8;
+  --blockquote-color: #828282;
+  --nav-bg: #fdfdfd;
+  --nav-border: #e8e8e8;
 }
 
+[data-theme="dark"] {
+  --bg-color: #1a1a2e;
+  --text-color: #e0e0e0;
+  --brand-color: #6db3f2;
+  --brand-color-dark: #4a9de0;
+  --grey-color: #a0a0a0;
+  --grey-color-light: #333;
+  --grey-color-dark: #ccc;
+  --code-bg: #2d2d44;
+  --code-border: #3a3a5c;
+  --highlight-bg: #2d2d44;
+  --table-text-color: #c0c0c0;
+  --table-border: #3a3a5c;
+  --table-even-bg: #22223a;
+  --table-header-bg: #2a2a42;
+  --table-header-border: #3a3a5c;
+  --table-header-border-bottom: #4a4a6c;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --link-underline: rgba(255, 255, 255, 0.2);
+  --header-border-top: #6db3f2;
+  --header-border-bottom: #333;
+  --footer-border: #333;
+  --blockquote-border: #444;
+  --blockquote-color: #a0a0a0;
+  --nav-bg: #1a1a2e;
+  --nav-border: #333;
+}
+
+// =============================================================================
+// Smooth Transitions on Theme Change
+// =============================================================================
+
+body,
+.site-header,
+.site-footer,
+.site-nav,
+pre, code,
+blockquote,
+table, th, td,
+.highlight {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+// =============================================================================
+// Override Minima's Static Colors with CSS Custom Properties
+// =============================================================================
+
+// Body
+body {
+  font-size: 18px;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+// Links
+a {
+  color: var(--brand-color);
+  &:visited { color: var(--brand-color-dark); }
+  &:hover { color: var(--text-color); }
+}
+
+// Header
+.site-header {
+  border-top-color: var(--header-border-top);
+  border-bottom-color: var(--header-border-bottom);
+}
+
+.site-title {
+  &, &:visited { color: var(--grey-color-dark); }
+}
+
+.site-nav {
+  .page-link { color: var(--text-color); }
+
+  @media screen and (max-width: 600px) {
+    background-color: var(--nav-bg);
+    border-color: var(--nav-border);
+
+    .menu-icon > svg {
+      fill: var(--grey-color-dark);
+    }
+  }
+}
+
+// Footer
+.site-footer {
+  border-top-color: var(--footer-border);
+  color: var(--text-color);
+}
+
+.footer-heading {
+  color: var(--text-color);
+}
+
+.footer-col-wrapper {
+  color: var(--grey-color);
+}
+
+// Code
+pre, code {
+  background-color: var(--code-bg);
+  border-color: var(--code-border);
+}
+
+.highlight {
+  background: var(--highlight-bg);
+}
+
+// Blockquotes
+blockquote {
+  color: var(--blockquote-color);
+  border-left-color: var(--blockquote-border);
+}
+
+// Tables
+table {
+  color: var(--table-text-color);
+  border-color: var(--table-border);
+  tr:nth-child(even) { background-color: var(--table-even-bg); }
+  th {
+    background-color: var(--table-header-bg);
+    border-color: var(--table-header-border);
+    border-bottom-color: var(--table-header-border-bottom);
+  }
+  td { border-color: var(--table-border); }
+}
+
+// Post meta
+.post-meta {
+  font-size: 0.85em;
+  color: var(--grey-color);
+
+  .reading-time {
+    font-style: italic;
+  }
+}
+
+// Post link
+.post-link {
+  color: var(--text-color);
+  &:visited { color: var(--text-color); }
+}
+
+// SVG icons
+.svg-icon { fill: var(--grey-color); }
+
+// Page heading
+.page-heading, .post-list-heading {
+  color: var(--text-color);
+}
+
+// =============================================================================
+// Preserved Custom Styles (migrated to CSS variables where needed)
+// =============================================================================
+
+// Typography
 .post-content {
   line-height: 1.75;
 
@@ -10,30 +193,14 @@ body {
   h3 { margin-top: 1.5em; }
 }
 
-// Post meta — softer, smaller
-.post-meta {
-  font-size: 0.85em;
-
-  .reading-time {
-    font-style: italic;
-  }
-}
-
 // Links — calm hover
 .post-content a {
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid var(--link-underline);
   transition: border-color 0.2s;
 
   &:hover {
     border-bottom-color: inherit;
-  }
-}
-
-// Dark mode link underlines
-@media (prefers-color-scheme: dark) {
-  .post-content a {
-    border-bottom-color: rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -61,6 +228,7 @@ code.highlighter-rouge {
 // Post title spacing
 .post-title {
   letter-spacing: -0.02em;
+  color: var(--text-color);
 }
 
 // Post list on home/blog/tags pages
@@ -72,11 +240,84 @@ code.highlighter-rouge {
 .post-comments {
   margin-top: 3em;
   padding-top: 2em;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid var(--border-color);
 }
 
-@media (prefers-color-scheme: dark) {
-  .post-comments {
-    border-top-color: rgba(255, 255, 255, 0.1);
+// =============================================================================
+// Theme Toggle Button
+// =============================================================================
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 0;
+  margin-left: 16px;
+  color: var(--grey-color);
+  float: right;
+  line-height: 1;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--text-color);
   }
+
+  svg {
+    vertical-align: middle;
+  }
+}
+
+// Show sun in dark mode, moon in light mode
+.theme-icon-sun { display: none; }
+.theme-icon-moon { display: inline-block; }
+
+[data-theme="dark"] {
+  .theme-icon-sun { display: inline-block; }
+  .theme-icon-moon { display: none; }
+}
+
+// Mobile: position next to hamburger icon
+@media screen and (max-width: 600px) {
+  .theme-toggle {
+    position: absolute;
+    top: 12px;
+    right: 50px;
+    margin-left: 0;
+  }
+}
+
+// =============================================================================
+// Dark Mode Syntax Highlighting (VS Code dark+ palette)
+// =============================================================================
+
+[data-theme="dark"] .highlight {
+  .c, .cm, .c1, .cs   { color: #6a9955; font-style: italic; }
+  .err                 { color: #f44747; background-color: transparent; }
+  .k, .kc, .kd, .kp, .kr, .kn { color: #569cd6; font-weight: normal; }
+  .kt                  { color: #4ec9b0; }
+  .o, .ow              { color: #d4d4d4; }
+  .cp                  { color: #9b9b9b; }
+  .gd                  { color: #f44747; }
+  .gi                  { color: #6a9955; }
+  .gh, .gu             { color: #a0a0a0; }
+  .go                  { color: #888; }
+  .gp                  { color: #a0a0a0; }
+  .gr, .gt             { color: #f44747; }
+  .m, .mf, .mh, .mi, .mo, .il { color: #b5cea8; }
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s1 { color: #ce9178; }
+  .sr                  { color: #d16969; }
+  .ss                  { color: #c586c0; }
+  .na                  { color: #9cdcfe; }
+  .nb                  { color: #4ec9b0; }
+  .nc                  { color: #4ec9b0; }
+  .no, .nv, .vc, .vg, .vi { color: #9cdcfe; }
+  .ni                  { color: #c586c0; }
+  .ne, .nf             { color: #dcdcaa; }
+  .nn                  { color: #4ec9b0; }
+  .nt                  { color: #569cd6; }
+  .bp                  { color: #9b9b9b; }
+  .w                   { color: #d4d4d4; }
+  .p                   { color: #d4d4d4; }
+  .n                   { color: #d4d4d4; }
+  .nx                  { color: #9cdcfe; }
 }

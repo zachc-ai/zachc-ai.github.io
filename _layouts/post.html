@@ -25,21 +25,27 @@ layout: default
   </div>
 
   {%- if site.giscus.repo -%}
-  <div class="post-comments">
-    <script src="https://giscus.app/client.js"
-      data-repo="{{ site.giscus.repo }}"
-      data-repo-id="{{ site.giscus.repo_id }}"
-      data-category="{{ site.giscus.category }}"
-      data-category-id="{{ site.giscus.category_id }}"
-      data-mapping="pathname"
-      data-strict="0"
-      data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="top"
-      data-theme="preferred_color_scheme"
-      data-lang="en"
-      crossorigin="anonymous"
-      async>
+  <div class="post-comments" id="giscus-container">
+    <script>
+      (function() {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        var s = document.createElement('script');
+        s.src = 'https://giscus.app/client.js';
+        s.setAttribute('data-repo', '{{ site.giscus.repo }}');
+        s.setAttribute('data-repo-id', '{{ site.giscus.repo_id }}');
+        s.setAttribute('data-category', '{{ site.giscus.category }}');
+        s.setAttribute('data-category-id', '{{ site.giscus.category_id }}');
+        s.setAttribute('data-mapping', 'pathname');
+        s.setAttribute('data-strict', '0');
+        s.setAttribute('data-reactions-enabled', '1');
+        s.setAttribute('data-emit-metadata', '0');
+        s.setAttribute('data-input-position', 'top');
+        s.setAttribute('data-theme', isDark ? 'transparent_dark' : 'light');
+        s.setAttribute('data-lang', 'en');
+        s.crossOrigin = 'anonymous';
+        s.async = true;
+        document.getElementById('giscus-container').appendChild(s);
+      })();
     </script>
   </div>
   {%- endif -%}
