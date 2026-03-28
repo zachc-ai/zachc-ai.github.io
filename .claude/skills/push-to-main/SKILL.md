@@ -1,10 +1,10 @@
 ---
-name: ship
-description: Commit local changes, rebase on main, and push directly. Use when user says "ship", "ship it", "push changes", "check in", or wants to commit and push to main. No PR or code review needed — this is a personal repo.
+name: push-to-main
+description: Commit, rebase, and push directly to main for this personal GitHub Pages repo. Use when user says "ship", "push", "check in", or wants to commit and push. No PR or code review — personal repo direct-push workflow.
 user_invocable: true
 ---
 
-# Ship: Commit, Rebase, Push
+# Push to Main: Commit, Rebase, Push (Personal Repo)
 
 This is a personal repo. Push directly to `main` — no PRs or code review required.
 
