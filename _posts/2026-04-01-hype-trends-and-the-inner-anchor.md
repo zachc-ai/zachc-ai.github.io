@@ -18,9 +18,9 @@ I wrote three lines in my notebook this morning. They came out fast — the way 
 > Don't ignore trends willfully.
 > Hold your ground, embrace change, and cherish everything you have and everyone you meet.
 
-I work on capacity planning and AI infrastructure. Every morning I open my laptop to a new "revolution." Vibe coding. AI agent frameworks. Yet another startup claiming it will change everything. Last week's trending repo is already forgotten.
+I work in AI infrastructure. Every morning I open my laptop to a new "revolution." Vibe coding. AI agent frameworks. Yet another startup claiming it will change everything. Last week's trending repo is already forgotten.
 
-But at the same time, something fundamental *is* shifting. GPU compute is reshaping the entire computing infrastructure. The capacity planning work I do every day didn't exist three years ago. Ignoring these changes is just as dangerous as chasing every hot take.
+But at the same time, something fundamental *is* shifting. GPU compute is reshaping the entire computing infrastructure. The infrastructure work I do every day didn't exist three years ago. Ignoring these changes is just as dangerous as chasing every hot take.
 
 The question isn't whether to pay attention. It's *what* deserves attention — and what's just noise wearing the costume of signal.
 
@@ -120,7 +120,7 @@ The lotus leaf doesn't reject the water. The water falls on the leaf, fully in c
 
 Not clinging to hype, not clinging to the status quo, not clinging to outcomes. Fully in contact with the world — but not stuck to it.
 
-My work puts me at a unique intersection: AI infrastructure and capacity planning. Every day I see two forces collide — a genuine computing paradigm shift, and all the noise surrounding it. My anchor isn't a technology or a trend. It's something deeper: the conviction that value lives in the gaps between layers. Others see systems as stacks. I see the dark spaces between them — and I build until information flows through. This doesn't expire with any hype cycle, because it's not about any particular layer. It's about the act of weaving connections itself.
+My work puts me at a unique intersection: where AI meets infrastructure. Every day I see two forces collide — a genuine computing paradigm shift, and all the noise surrounding it. My anchor isn't a technology or a trend. It's something deeper: the conviction that value lives in the gaps between layers. Others see systems as stacks. I see the dark spaces between them — and I build until information flows through. This doesn't expire with any hype cycle, because it's not about any particular layer. It's about the act of weaving connections itself.
 
 ---
 
@@ -162,9 +162,9 @@ The tension between hype and trends isn't a problem to solve. It's a forge. Find
 
 写得很快——就像那种你咀嚼了好几个月、却没意识到的东西，突然成型时那样。
 
-我做容量规划和AI基础设施。每天打开电脑，都有一个新的"革命"在等我。Vibe coding。AI agent框架。又一个号称要改变一切的startup。上周trending的repo，这周已经没人提了。
+我做AI基础设施相关的工作。每天打开电脑，都有一个新的"革命"在等我。Vibe coding。AI agent框架。又一个号称要改变一切的startup。上周trending的repo，这周已经没人提了。
 
-但与此同时，有些东西确实在发生根本性的变化。GPU算力正在重塑整个计算基础设施。我每天做的容量规划工作，三年前根本不存在。忽略这些变化，和追逐每一个热点一样危险。
+但与此同时，有些东西确实在发生根本性的变化。GPU算力正在重塑整个计算基础设施。我每天做的基础设施工作，三年前根本不存在。忽略这些变化，和追逐每一个热点一样危险。
 
 问题不在于要不要关注，而在于*什么*值得关注——什么只是伪装成信号的噪音。
 
@@ -264,7 +264,7 @@ Huang没有在移动芯片火的时候追移动芯片，没有转向社交媒体
 
 不执着于热点，不执着于现状，也不执着于结果。和世界充分接触——但不被黏住。
 
-我的工作让我站在一个特殊的位置：AI基础设施和容量规划的交叉点。每天我都看到两种力量的碰撞——真正的计算范式转移，和围绕它的一切噪音。我的锚点不是某个技术，不是某个趋势，而是一个更底层的信念：价值住在层与层之间的缝隙里。别人看到层，我看到连接。这个信念不会因为热点变化而过时，因为它不是关于任何一层的——它是关于建造脉络本身。
+我的工作让我站在一个特殊的位置：AI与基础设施的交叉点。每天我都看到两种力量的碰撞——真正的计算范式转移，和围绕它的一切噪音。我的锚点不是某个技术，不是某个趋势，而是一个更底层的信念：价值住在层与层之间的缝隙里。别人看到层，我看到连接。这个信念不会因为热点变化而过时，因为它不是关于任何一层的——它是关于建造脉络本身。
 
 ---
 
