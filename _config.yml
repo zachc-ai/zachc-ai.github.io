@@ -31,7 +31,7 @@ defaults:
     values:
       layout: "default"
 
-author: ZC
+author: ZachC
 
 giscus:
   repo: "zachc-ai/zachc-ai.github.io"
