@@ -5,7 +5,7 @@ permalink: /docs/setup/
 {% raw %}
 # Blog Setup Reference
 
-Operational reference for [zachc-ai.github.io](https://zachc-ai.github.io).
+Operational reference for [Zach's Compass](https://zachc.ai) (`zachc-ai/zachc-ai.github.io`).
 
 ## Stack
 
