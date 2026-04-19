@@ -214,17 +214,6 @@ code.highlighter-rouge {
   padding: 2px 5px;
 }
 
-// Bilingual toggle — pill style
-.lang-toggle {
-  font-size: 0.8em;
-  opacity: 0.7;
-  transition: opacity 0.2s, background 0.2s, color 0.2s;
-
-  &:hover {
-    opacity: 1;
-  }
-}
-
 // Post title spacing
 .post-title {
   letter-spacing: -0.02em;
@@ -251,10 +240,10 @@ code.highlighter-rouge {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 4px 0;
-  margin-left: 16px;
+  padding: 0;
+  margin-left: 20px;
   color: var(--grey-color);
-  float: right;
+  vertical-align: middle;
   line-height: 1;
   transition: color 0.2s;
 
@@ -321,3 +310,37 @@ code.highlighter-rouge {
   .n                   { color: #d4d4d4; }
   .nx                  { color: #9cdcfe; }
 }
+
+// =============================================================================
+// Bilingual language toggle — driven by html[data-lang] attribute
+// =============================================================================
+
+html[data-lang="en"] .lang-zh { display: none !important; }
+html[data-lang="zh"] .lang-en { display: none !important; }
+
+html[data-lang="en"] .lang-toggle-zh { opacity: 0.4; }
+html[data-lang="zh"] .lang-toggle-en { opacity: 0.4; }
+
+.lang-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 20px;
+  color: var(--grey-color);
+  font-size: 13px;
+  font-family: inherit;
+  vertical-align: middle;
+  line-height: 1;
+  transition: color 0.2s;
+
+  &:hover { color: var(--text-color); }
+
+  .lang-toggle-sep {
+    margin: 0 2px;
+    opacity: 0.5;
+  }
+}
+
+// Keep nav items on one line
+.site-nav .trigger { white-space: nowrap; }

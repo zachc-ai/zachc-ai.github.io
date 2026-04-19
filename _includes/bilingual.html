@@ -1,36 +1,11 @@
 {% if page.bilingual %}
 <style>
-.lang-toggle {
-  display: inline-block;
-  cursor: pointer;
-  padding: 4px 14px;
-  border: 1px solid #ccc;
-  border-radius: 16px;
-  font-size: 14px;
-  margin-bottom: 1.5em;
-  user-select: none;
-  transition: background 0.2s, color 0.2s;
-}
-.lang-toggle:hover {
-  background: #333;
-  color: #fff;
-}
-.lang-hidden { display: none; }
 .post-title { display: none; }
-.bilingual-title { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; }
+.bilingual-title { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; line-height: 1.25; }
 </style>
 
 <div class="bilingual-title">
 <span class="lang-en">{{ page.title }}</span>
-<span class="lang-zh lang-hidden">{{ page.title_zh }}</span>
+<span class="lang-zh">{{ page.title_zh | default: page.title }}</span>
 </div>
-
-<span class="lang-toggle" onclick="toggleLang()">中文 / EN</span>
-
-<script>
-function toggleLang() {
-  document.querySelectorAll('.lang-en').forEach(el => el.classList.toggle('lang-hidden'));
-  document.querySelectorAll('.lang-zh').forEach(el => el.classList.toggle('lang-hidden'));
-}
-</script>
 {% endif %}

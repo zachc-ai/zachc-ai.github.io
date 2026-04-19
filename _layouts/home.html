@@ -10,7 +10,10 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">
+      <span class="lang-en">{{ page.list_title | default: "Posts" }}</span>
+      <span class="lang-zh">{{ page.list_title_zh | default: "最近文章" }}</span>
+    </h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -18,7 +21,8 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }} · {% include reading-time.html post_content=post.content %}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            <span class="lang-en">{{ post.title | escape }}</span>
+            <span class="lang-zh">{{ post.title_zh | default: post.title | escape }}</span>
           </a>
         </h3>
         {%- if site.show_excerpts -%}
@@ -32,7 +36,7 @@ layout: default
       <a href="{{ "/feed.xml" | relative_url }}">
         <svg class="svg-icon orange">
           <use xlink:href="{{ "/assets/minima-social-icons.svg#rss" | relative_url }}"></use>
-        </svg><span>Subscribe</span>
+        </svg><span class="lang-en">Subscribe</span><span class="lang-zh">订阅</span>
       </a>
     </p>
   {%- endif -%}

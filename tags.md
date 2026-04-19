@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tags
+title_zh: 标签
 permalink: /tags/
 ---
 
@@ -17,7 +18,12 @@ permalink: /tags/
   {% for post in tag[1] %}
   <li>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    <h3>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <span class="lang-en">{{ post.title | escape }}</span>
+        <span class="lang-zh">{{ post.title_zh | default: post.title | escape }}</span>
+      </a>
+    </h3>
   </li>
   {% endfor %}
 </ul>
