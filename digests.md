@@ -6,11 +6,11 @@ permalink: /digests/
 ---
 
 <div class="lang-en" markdown="1">
-Reading digests — summaries and takeaways from articles, papers, and books.
+What I've been reading, distilled — the parts worth keeping from articles, papers, and books.
 </div>
 
 <div class="lang-zh" markdown="1">
-阅读摘要——来自文章、论文和书籍的要点整理。
+最近读的东西，把值得留下的部分摘出来——文章、论文、书。
 </div>
 
 <ul class="post-list">
