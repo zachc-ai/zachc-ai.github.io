@@ -23,9 +23,9 @@ Usually right before I don't do something. *I should write more, but honestly I'
 
 Each one feels reasonable. Even kind of self-aware. And every single one is doing the same trick: using "the real me" as a permission slip to skip the harder, newer, more exposing version of me.
 
-Lately I've been reading an old book that finally cracked this open for me. *Psycho-Cybernetics* by Maxwell Maltz — he was a plastic surgeon, and he kept noticing something weird. He'd successfully reshape someone's nose, and they'd look in the mirror and still feel ugly. The face was different. The *self-image* wasn't. Other times, a tiny little correction would crack a person open into a totally different personality. The size of the surgery had basically nothing to do with it. The size of the *internal* shift was everything.
+Lately I've been reading an old book that finally cracked this open. *Psycho-Cybernetics*, by some plastic surgeon named Maxwell Maltz. He kept noticing something weird at work. He'd successfully reshape someone's nose, and they'd look in the mirror and still feel ugly. The face was different. The *self-image* wasn't. Other times, a tiny little correction would crack a person open into a totally different personality. The size of the surgery had basically nothing to do with it. The size of the *internal* shift was everything.
 
-So Maltz borrowed an idea from cybernetics: your brain is a servo. You set a target — "the kind of person I am" — and the brain runs feedback loops to keep you locked on that target. Behaviors that don't match get filtered out as "weird, not me." Behaviors that do match get amplified. The servo doesn't actually care if you've aimed it high or low. It just keeps you parked wherever you've parked it.
+So Maltz borrowed an idea from cybernetics: your brain is a servo. You set a target — "the kind of person I am" — and the brain runs feedback loops to keep you locked on it. Behaviors that don't match get filtered out as "weird, not me." Behaviors that do match get amplified. The servo doesn't actually care whether you've aimed it high or low. It just keeps you parked wherever you've parked it.
 
 A few annoying things follow.
 
@@ -51,7 +51,7 @@ When you say "I want X," what you're announcing to your brain is "I currently do
 
 Money is mine. I have spent years vaguely "wanting to be more financially set." The feeling never fully arrives. Even when the screen numbers go up, the feeling doesn't. Because the servo target was never the number. The servo target was the *role* — "person who needs more." That role is doing what it was told to do.
 
-Naval and Maltz both point at the same fix, which is: don't want it harder. *Enter the state.* Stop saying "I want to be wealthy" and start asking, with embarrassing literalness, "what would someone who already has enough money do today?" — and then do that. The servo target just changed from "person chasing" to "person who has." Which means the action stream now produces evidence consistent with the new self.
+Naval and Maltz point at the same fix. Don't want it harder. *Enter the state.* Stop saying "I want to be wealthy." Start asking, with embarrassing literalness: "what would someone who already has enough money do today?" And then do that. The servo target just changed from "person chasing" to "person who has." Which means the action stream now produces evidence consistent with the new self.
 
 It sounds woo. It is also roughly what every successful person you've ever read about did, more or less knowingly.
 
@@ -65,23 +65,23 @@ This one is harder to dismantle because it sounds so good.
 
 But the "true self" you're protecting is mostly a stack of accidents. Childhood scripts your parents accidentally installed. Imprints from things that didn't work out when you were twelve. Habits you fell into because the dorm room had bad lighting. Lazy patterns that compounded because you were tired one Tuesday in 2019 and never quite came back online.
 
-That stack got the label "the real me" because it's familiar — not because it's true.
+That stack got the label "the real me" because it's familiar. Not because it's true.
 
-Buddhism has the cleanest take I know on this: *anatta*, no-self. There is no fixed permanent you waiting underneath all the performances to be honored. Whoever you've been performing for the last twenty years is also a performance. It's just been running longer.
+Buddhism has the cleanest take I know on this. *Anatta*, no-self. There is no fixed permanent you waiting underneath all the performances to be honored. Whoever you've been performing for the last twenty years is also a performance. It's just been running longer.
 
 Once you accept that every version is a costume, the question stops being "which one is real?" and quietly becomes "which one would I rather wear?" Because there's no fact-of-the-matter version waiting underneath. Just versions with different track records.
 
 The reframe: if every "me" is performance, the only honest question is — which performance gets me richer, stronger, happier? And why am I not playing that one?
 
-Uncomfortable question. Hard to unhear, once you've heard it.
+Uncomfortable question. Hard to unhear once you've heard it.
 
 ---
 
 ## So how do you actually move the servo?
 
-Three levers. Not equal — you'll lean on different ones at different stages.
+Three levers. Not equal weight. You'll lean on different ones at different stages.
 
-**Cold start: replay the role in your head.** Maltz's most cited finding is that the nervous system can't fully tell the difference between a real experience and a vividly imagined one. So 30 minutes of *specific* mental rehearsal — not "imagine being successful" but "imagine exactly what I'd do at 9 AM tomorrow if I were already this person, what I'd say, what I'd push back on, what I'd ignore" — feeds the servo synthetic training data. The servo doesn't audit the source.
+**Cold start: replay the role in your head.** Maltz's headline finding is that the nervous system can't fully tell the difference between a real experience and a vividly imagined one. So 30 minutes of *specific* mental rehearsal — not "imagine being successful" but "imagine exactly what I'd do at 9 AM tomorrow if I were already this person, what I'd say, what I'd push back on, what I'd ignore" — feeds the servo synthetic training data. The servo doesn't audit the source.
 
 I used to roll my eyes at visualization. Then before a difficult conversation last year I tried it for two weeks. The actual conversation was easier than every version I had run in my head. Whether that's "training" or just "I thought it through more carefully," I don't know. Probably some of both. Either way it was free.
 
@@ -141,9 +141,9 @@ Anyway. Going to go drag my tail in the mud now, I guess.
 
 但说白了，每句都在干同一件事——**拿"真实的我"当借口，绕开那个更难、更陌生、更暴露的我。**
 
-最近重读了 Maxwell Maltz 那本《Psycho-Cybernetics》（中文译名《心理控制术》）。里面一个反直觉的观察，终于把我这个毛病给撬开了。
+最近重读了 Maxwell Maltz 那本《Psycho-Cybernetics》（中文译名《心理控制术》）。里面一个反直觉的观察，终于把我这毛病撬开了。
 
-Maltz 是个整形外科医生。他注意到一件挺怪的事——
+Maltz 是个整形外科医生。他在工作里注意到一件挺怪的事。
 
 手术做得很成功，鼻子改漂亮了，病人照镜子还是觉得自己丑。**脸变了，心里那个"我"没变。** 反过来也有：一个非常小的修整，能把一个人整个性格炸开。这一刀切到的不是脸，是脑子里"我长这样"的那张图。
 
@@ -155,6 +155,8 @@ Maltz 顺手从控制论里借了一个词，叫 **servo（伺服）**。
 跟目标一致的，被它放大。
 
 伺服不挑剔。**你设个高的，它给你拉高；设个低的，它就死死按住你**。它真的不在乎你瞄的是哪儿，只负责让你停在那个点上。
+
+——其实这事金庸早写过。郭靖学降龙十八掌之前，洪七公看他一眼说"我教你也是教，不教你也是教"。郭靖资质鲁钝，可他认了"我就是个老实学武的人"这个目标。然后降龙十八掌就给他练成了。反观令狐冲——天资极高，独孤九剑一上手就开窍——可他早期身体里塞了七八门内功路数，互相打架，差点死掉。他的伺服锁的目标不是"练成什么"，是"我是什么样的人"，而那个人是"风流浪子兼少林大力金刚"——身体兜不住。换句话说，**练什么招式不重要，先得想清楚自己锁的是哪个目标**。郭靖锁对了，所以降龙十八掌从他手里出来重若千钧。这就是伺服。
 
 这件事再往下推，有几条挺烦人的结论。
 
@@ -291,7 +293,7 @@ Maltz 最被引用的一个发现是：**神经系统分不清真实经验和生
 好消息：你可以装一个不一样的进去。
 坏消息：**不是靠决心，是靠去做。**
 
-行了，我去泥里曳尾巴了。
+也就这么回事。我去泥里曳尾巴了。
 
 </div>
 

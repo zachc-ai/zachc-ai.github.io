@@ -19,13 +19,13 @@ sources:
 
 There's a 2,400-year-old test for whether your life is going well, and it goes like this.
 
-Zhuangzi was fishing on the Pu River when two officials showed up to recruit him as prime minister of the state of Chu. He didn't even turn around. He told them about a sacred turtle the king kept wrapped in cloth in the ancestral temple — dead three thousand years, ceremonially honored every spring. *Would the turtle*, Zhuangzi asked, *prefer to be revered as a relic, or alive and dragging its tail through the mud?*
+Zhuangzi was fishing on the Pu River when two officials showed up to recruit him as prime minister of the state of Chu. He didn't even turn around. He told them about a sacred turtle the king kept wrapped in cloth in the ancestral temple. Dead three thousand years. Ceremonially honored every spring. *Would the turtle*, Zhuangzi asked, *prefer to be revered as a relic, or alive and dragging its tail through the mud?*
 
 The officials said: alive. Of course alive.
 
 Zhuangzi: *Then leave. I shall keep dragging my tail through the mud.*
 
-It's a sharp question. It's also a bit smug — easy to nod along to, harder to actually pick the mud when someone's offering you the temple.
+A sharp question. It's also a bit smug. Easy to nod along to. Harder to actually pick the mud when someone's offering you the temple.
 
 ---
 
@@ -33,13 +33,13 @@ I keep returning to it because I just listened to a Mandarin podcast called *FIR
 
 > "FIRE is failure studies dressed up as success studies."
 
-That sounds like a slogan, but it isn't. There's an actual academic discipline called Failureology (失败学), systematized around 2000 by Yotaro Hatamura, an engineering professor at the University of Tokyo. He later chaired the Japanese government's Fukushima nuclear-disaster investigation. His central thesis is engineering by origin, but it generalizes:
+It sounds like a slogan, but it isn't. There's an actual academic discipline called Failureology (失败学), systematized around 2000 by Yotaro Hatamura, an engineering professor at the University of Tokyo. He later chaired the Japanese government's Fukushima nuclear-disaster investigation. His thesis started in engineering but generalizes:
 
-**Failures have shapes.** They are not random. They cluster. The same patterns recur across companies, decades, and domains. Hatamura's main artifact is a Failure Knowledge Database — anonymized cases that engineers consult before decisions, treated as just as valuable as a success-case library.
+**Failures have shapes.** They aren't random. They cluster. The same patterns recur across companies, decades, and domains. Hatamura's main artifact is a Failure Knowledge Database, anonymized cases that engineers consult before decisions, treated as just as valuable as a success-case library.
 
-What the FIRE-as-failureology framing buys you is this: the math of "save 25× expenses, retire on the 4% rule" is the success-studies *packaging*. Underneath, what's usually true is that someone hit a specific shape of failure on a specific kind of success-track — McKinsey burnout, post-IPO emptiness, layoff round seven — and reached for FIRE as a dignified exit. The math is the cover story. The grief is the cause.
+What the FIRE-as-failureology framing buys you is this. The math of "save 25× expenses, retire on the 4% rule" is the success-studies *packaging*. Underneath, what's usually true is that someone hit a specific shape of failure on a specific kind of success-track — McKinsey burnout, post-IPO emptiness, layoff round seven — and reached for FIRE as a dignified exit. The math is the cover story. The grief is the cause.
 
-The framing also dignifies the grief. It says: your pain isn't your inability. You collided with a recognizable, classifiable failure mode of a *path*, not a failure of *you*. Once you can name the shape, you can stop blaming yourself for it.
+The framing also dignifies the grief. Your pain isn't your inability. You collided with a recognizable, classifiable failure mode of a *path*, not a failure of *you*. Once you can name the shape, you can stop blaming yourself for it.
 
 ---
 
@@ -63,11 +63,11 @@ This is useful because most "should I quit" conversations stop at the grievance.
 
 In 2026, the backlog question gets harder for a different reason.
 
-The host names it too. The thing that startled her about the AI era isn't unemployment. It's that all of human knowledge has been compressed into a single crystal — anyone, in five minutes, can summon mid-tier expert competence in any domain via an LLM. Knowledge as a moat is just gone.
+The host names it too. The thing that startled her about the AI era isn't unemployment. It's that all of human knowledge has been compressed into a single crystal. Anyone, in five minutes, can summon mid-tier expert competence in any domain via an LLM. Knowledge as a moat is just gone.
 
-If your backlog used to be "learn X" — write a book, switch into ML, finally master Mandarin literature, get good at financial modeling — the payoff structure has changed. Knowing X used to be load-bearing; now it's a commodity. The new moat isn't *knowing*. It's having lived through something with a particular taste and a particular emotional history. Experience, judgment, taste, the felt sense of having actually done the thing. AI cannot mass-produce that yet.
+If your backlog used to be "learn X" — write a book, switch into ML, finally master Mandarin literature, get good at financial modeling — the payoff structure has changed. Knowing X used to be load-bearing. Now it's a commodity. The new moat isn't *knowing*. It's having lived through something with a particular taste and a particular emotional history. Experience, judgment, taste, the felt sense of having actually done the thing. AI cannot mass-produce that yet.
 
-This adds a quietly heavy redefinition to FIRE. It moves it from "buy your way out of bad work" to **buy time to compound experience**. Which is a much more demanding job description. Compounding experience needs intentional friction — real relationships, projects with real consequences, communities, parenting, art that risks being bad. It is not the same thing as having freedom.
+This adds a quietly heavy redefinition to FIRE. It moves the goal from "buy your way out of bad work" to **buy time to compound experience**. Which is a much more demanding job description. Compounding experience needs intentional friction — real relationships, projects with real consequences, communities, parenting, art that risks being bad. It isn't the same thing as having freedom.
 
 ---
 
@@ -122,9 +122,9 @@ Drag your tail in the mud.
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-有一个两千四百年前的题，可以拿来检测自己活得怎么样。
+话说，有一道两千四百年前的题，可以拿来检测自己活得怎么样。
 
-庄子在濮水钓鱼，楚王派了两个大夫来请他做相国。庄子连头都不回。他反问那两位：楚国不是有一只神龟吗？死了三千年了，被楚王用绸布包着，供在庙堂之上，每年春秋大祭都被尊敬，被记得。**这只乌龟，是愿意死了被供着，还是宁愿活着，在泥里曳着尾巴？**
+庄子那会儿正在濮水钓鱼。楚王派了两个大夫来，请他做相国。庄子连头都不回。他反问那两位：楚国不是有一只神龟吗？死了三千年，被楚王用绸布包着，供在庙堂之上，每年春秋大祭都被尊敬、被记得。**这只乌龟，是愿意死了被供着，还是愿意活着、在泥里曳尾巴？**
 
 两位大夫说：宁可活着曳尾。
 
@@ -132,7 +132,9 @@ Drag your tail in the mud.
 
 ——《庄子·秋水》
 
-这是一个挺锋利的问题。也有点便宜——嘴上点头容易，真有人把"庙堂"递到你面前的时候，能不能选泥潭，是另外一回事。
+挺锋利的一个问题。但也有点便宜。嘴上点头容易，真有人把"庙堂"递到你面前的时候，能不能选泥潭，是另外一回事。
+
+——这就好比金庸笔下的扫地僧。少林寺藏经阁里那位老人，七十年没人记得他名字，扫地、烧水、添灯油。可真到萧远山、慕容博内伤发作的时候，整个少林七十二绝艺加在一起也救不了——只有他能。他不在庙堂上，所以他还是他。换个角度：少林寺方丈玄慈每天香火不断、众星拱月、地位拉满。然后呢？然后他犯戒、自杀、塑像被请下神龛。庙堂的位置，从来不保人活着，它只保人被供。
 
 ---
 
@@ -140,13 +142,13 @@ Drag your tail in the mud.
 
 > "FIRE 是包装成成功学的失败学。"
 
-听上去像句口号，其实不是。"失败学"（しっぱいがく）真的是一门正经学科，2000 年前后由东京大学的机械工程教授**畑村洋太郎**系统化。他后来当过日本福岛核事故调查委员会主席，把这门学问从工程领域推向了制度层面。
+听着像句口号，其实不是。"失败学"（しっぱいがく）真的是一门正经学科，2000 年前后由东京大学的机械工程教授**畑村洋太郎**系统化。他后来当过日本福岛核事故调查委员会主席，把这门学问从工程领域推向了制度层面。
 
-他的核心命题是：**失败是有"形状"的。** 失败不是随机的，是可分类、可预测、可观察的。同样的失败模式，会跨公司、跨年代、跨行业反复出现。所以畑村做了一个**失败知识数据库**——把失败匿名化、结构化、入库——和成功案例库一样重要，决策前要先去翻一遍。
+他的核心命题是：**失败是有"形状"的。** 失败不是随机的，是可分类、可预测、可观察的。同样的失败模式会跨公司、跨年代、跨行业反复出现。所以畑村做了一个**失败知识数据库**：把失败匿名化、结构化、入库，和成功案例库一样重要，决策前先翻一遍。
 
-把这个框架套到 FIRE 上，那句话就立住了：**"存够 25 倍年支出、用 4% 法则退休"——这层成功学的语法是壳。** 壳底下，大多数 FIRE 的人是先有了"我跑不动了 / 我不想跑了"的失败感，再去找 FIRE 这套数学，给自己一个体面的退场理由。数学是包装，痛苦才是因。
+把这个框架套到 FIRE 上，那句话就立住了。**"存够 25 倍年支出、用 4% 法则退休"——这一层成功学的语法是壳。** 壳底下，大多数 FIRE 的人是先有了"我跑不动了 / 我不想跑了"的失败感，再去找 FIRE 这套数学，给自己一个体面的退场理由。数学是包装。痛苦才是因。
 
-这个框架的额外价值是它把"失败"这件事尊重化了。它说：你的痛不是你能力不行。你撞上的是一类成功路径的**系统性失败模式**——它有名字，有形状，有别人也踩过的脚印。一旦你能把它叫出来，就可以不再为它内疚。
+这个框架还把"失败"这件事尊重化了。它说：你的痛不是你能力不行。你撞上的是一类成功路径的**系统性失败模式**。它有名字，有形状，别人也踩过。一旦你能把它叫出来，就可以不再为它内疚。
 
 ---
 
@@ -168,11 +170,11 @@ Drag your tail in the mud.
 
 到 2026 年，backlog 这件事变得更难了。原因是 AI。
 
-大狮姐这段也讲得很狠。AI 时代最让她震撼的不是失业，是**人类过去所有的知识被压成了一颗"晶体"**——任何人，五分钟，通过一个 LLM 就能调出任意领域中等专家的水平。"知识获取"作为一种竞争优势，**整体失效**。
+大狮姐这段也讲得很狠。AI 时代最让她震撼的不是失业，是**人类过去所有的知识被压成了一颗"晶体"**。任何人，五分钟，通过一个 LLM 就能调出任意领域中等专家的水平。"知识获取"作为竞争优势，**整体失效**了。
 
-如果你的 backlog 原来是"学 X"——为了写一本书、为了转行做 ML、为了读完中国古典文学、为了能把财务模型搭得漂亮——那么这个 backlog 的回报结构已经变了。"懂 X"以前是承重的，现在是日用品。新的护城河不是"我懂"，是**我以一种特定的品味、一段特定的情感经验，活过 X**。是体验、判断、品味、亲手做过的那种身体记忆。这些 AI 暂时还没法量产。
+如果你的 backlog 原来是"学 X"——为了写一本书、转行做 ML、读完中国古典文学、把财务模型搭得漂亮——那这个 backlog 的回报结构已经变了。"懂 X"以前是承重的，现在是日用品。新的护城河不是"我懂"，是**我以一种特定的品味、一段特定的情感经验活过 X**。是体验、判断、品味、亲手做过那种身体记忆。这些 AI 暂时还量产不了。
 
-这给 FIRE 加了一层很安静的重新定义：FIRE 不是"花钱买掉烂工作"，而是**"花时间复利体验"**。这是一份明显更难的工作。复利体验需要主动的摩擦——真实的关系、有后果的项目、社区、养育、可能会失败的创作。它和"获得自由"不是同一件事。
+这给 FIRE 悄悄加了一层重新定义：FIRE 不是"花钱买掉烂工作"，是**花时间复利体验**。这份工作要难得多。复利体验需要主动的摩擦：真实的关系、有后果的项目、社区、养育、可能失败的创作。它和"获得自由"不是同一件事。
 
 ---
 
@@ -221,7 +223,7 @@ Drag your tail in the mud.
 
 两千四百年过去了，庄子还是那么锋利。庙堂在招手。绸布很贵。泥巴很诚实。
 
-**曳尾涂中。**
+就这样吧。**去泥里曳尾巴吧。**
 
 </div>
 
