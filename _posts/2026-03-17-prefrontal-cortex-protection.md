@@ -2,7 +2,7 @@
 layout: post
 title: "Protecting Your Prefrontal Cortex"
 title_zh: "保护你的前额叶皮层"
-date: 2026-03-16
+date: 2026-03-17
 categories: digest
 tags: [neuroscience, productivity, ai]
 source: "https://en.wikipedia.org/wiki/Prefrontal_cortex"
