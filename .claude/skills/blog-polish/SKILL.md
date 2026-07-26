@@ -20,15 +20,19 @@ This skill runs a structured polish pass on a draft. It is **NOT** a content gen
 
 1. **Identify the draft.** Default to the most-recently-modified file in `_posts/`. If ambiguous, ask.
 2. **Read the draft fully.** Both `lang-en` and `lang-zh` blocks.
-3. **Load references in order:**
+3. **Run the claims audit FIRST** — `references/claims-audit.md`. This is a hard gate, not a
+   suggestion. If the draft asserts that anything is false, fabricated, invented, or
+   nonexistent, the six-point negative-claim protocol must pass before any polishing happens.
+   Voice does not matter on a post that asserts something untrue. **Stop and fix if it fails.**
+4. **Load the remaining references in order:**
    - `references/en-antipatterns.md` — English AI tells (adapted from ContractorKeith)
    - `references/zh-antipatterns.md` — Chinese machine-translation tells (custom to this skill)
    - `references/voice-samples.md` — Zach's voice anchors from existing posts
-4. **Run the EN pass** — flag every violation, propose specific edits.
-5. **Run the ZH pass** — flag translation-stiff phrasing, propose native-Chinese rewrites.
-6. **Run the voice pass** — check that opening, closing, and section transitions sound like Zach.
-7. **Apply edits via `Edit` tool.** Do not rewrite the whole file at once — make targeted edits so the user can review each change.
-8. **Report a short summary** — count of edits made, any judgment calls flagged for the user.
+5. **Run the EN pass** — flag every violation, propose specific edits.
+6. **Run the ZH pass** — flag translation-stiff phrasing, propose native-Chinese rewrites.
+7. **Run the voice pass** — check that opening, closing, and section transitions sound like Zach.
+8. **Apply edits via `Edit` tool.** Do not rewrite the whole file at once — make targeted edits so the user can review each change.
+9. **Report a short summary** — claims-audit result first, then count of edits, then any judgment calls flagged for the user.
 
 ## Hard rules (apply to both languages unless noted)
 
@@ -91,6 +95,9 @@ Zach's voice anchors (drawn from his existing posts — see `references/voice-sa
 
 Run mentally before reporting done:
 
+0. **Claims audit passed?** Every negative/accusatory claim cleared the six-point protocol in
+   `references/claims-audit.md`? Local corpus grepped? Searched in the claim's own language?
+   Load-bearing facts re-derived rather than inherited from notes? **If no, nothing else matters.**
 1. **EN — em-dashes:** any paragraph with 3+? Any paragraph where every sentence uses one?
 2. **EN — banned words:** any of the figurative-AI vocab survived?
 3. **EN — "It's not X. It's Y." count:** more than 2 in the whole post? Reduce.
