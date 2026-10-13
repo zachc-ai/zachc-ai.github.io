@@ -1,11 +1,16 @@
 # Claims Audit — Verification Gate (runs BEFORE the voice pass)
 
-Added 2026-07-26 after a live failure. A post published on this blog accused a source of
-fabricating an event. The event was real, documented on worldsbk.com, CCTV and 央广网 — and
-its opening scene was already published on this very blog three months earlier. The post had
-to be retitled, rewritten and redirected. See `_posts/2026-07-26-i-checked-the-wrong-table.md`.
+Added 2026-07-26 after a live failure by the AI drafting assistant (Claude Code), not by Zach.
+A post it drafted for this blog accused a source of fabricating an event. The event was real,
+documented on worldsbk.com, CCTV and 央广网, and its opening scene was already published on
+this very blog three months earlier. The post was retitled and rewritten the same day, then
+deleted on 2026-10-12 at Zach's request because it presented the assistant's mistake as his
+own. It survives only in git history (commits b9e790f and d5d2baa).
 
-This file exists so that failure mode cannot ship again.
+This file exists so that failure mode cannot ship again. "I" below means the assistant.
+
+**Attribution rule:** never write the assistant's errors into Zach's first-person voice, and
+never reuse this incident in a post as Zach's own mistake.
 
 ---
 

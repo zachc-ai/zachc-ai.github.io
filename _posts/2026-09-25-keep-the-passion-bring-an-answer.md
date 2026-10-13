@@ -44,9 +44,7 @@ My mentor's point was to go in assuming you're the one who has to solve it. With
 
 The first version is tempting because a menu can't be wrong. If the flag goes badly, it wasn't your call.
 
-You can be wrong, of course. In July I published a post originally titled "A World Champion Who Doesn't Exist." The win was real. Someone pointed that out two hours later, and I [rewrote the post](/blog/i-checked-the-wrong-table) that same afternoon.
-
-That conclusion rested on one lookup. I should have checked more before I published it. But the correction was possible because I'd made a claim clear enough to be wrong. "Might be real, might not be" wouldn't have given anyone much to argue with.
+The second one can be wrong, of course. Maybe the flaky test was hiding a real bug. But then someone can point at your reasoning and say which part doesn't hold, and you're arguing about something concrete. "Thoughts?" doesn't give anyone anything to push against. It just sits in the channel until someone else picks it up.
 
 So "concluded" doesn't mean certain. It means you've done the work and have an answer to offer. You can still be talked out of it.
 
@@ -56,7 +54,7 @@ I think you need both. With only enthusiasm, you can end up cheerleading while s
 
 If I care how it turns out, I'm more willing to stay with a problem until I have an answer. And once I've put that answer out there, I want to see if it works.
 
-That's my concluded opinion, anyway. If it's wrong, someone will tell me. Historically, within about two hours.
+That's my concluded opinion, anyway. If it's wrong, someone will tell me. That's sort of the point.
 
 </div>
 
@@ -94,9 +92,7 @@ mentor 的理由我很认同：来聊这件事，就先当自己是要解决它�
 
 第一种其实也更安全。菜单是不会错的，flag 出问题了，又不是自己拍的板嘛。
 
-七月我发过一篇文章，最初的标题叫《那个不存在的世界冠军》。我只凭一次检索就下了结论，结果那场胜利是真的。发出去两个小时，有人指出了这个错误，当天下午我就把文章[重写了](/blog/i-checked-the-wrong-table)。
-
-那次功课显然没做够。但能改过来，也因为话说得足够明确。错在哪儿，别人看得出来。要是只写"可能是真的，也可能是假的"，别人想反驳都没地方下手。
+第二种当然也可能错。说不定那个 flaky test 底下真藏着 bug 呢。可就算错了，别人也能指着你给的理由，说哪一条站不住，讨论一下子就落到实处了。光问一句“大家怎么看？”，谁也没法反驳，消息就在群里挂着，等别人来接。
 
 concluded 不等于"确定"。功课做了，就把判断说清楚。有人发现问题，当然可以改。
 
@@ -108,6 +104,6 @@ concluded 不等于"确定"。功课做了，就把判断说清楚。有人发�
 
 真在乎这件事，才愿意费劲把它想清楚。等自己拿了个主意，又会更惦记最后到底做成了没有。
 
-这就是我的 concluded opinion。错了的话，会有人告诉我的。按以往的记录，大概两个小时吧。
+这就是我的 concluded opinion。错了的话，会有人告诉我的。本来要的就是这个嘛。
 
 </div>
