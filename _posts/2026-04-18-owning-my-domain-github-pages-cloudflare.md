@@ -2,9 +2,11 @@
 layout: post
 title: "Putting a Custom Domain on GitHub Pages: Six Gotchas"
 title_zh: "给 GitHub Pages 配自定义域名（Cloudflare）：六个坑"
+description: "A five-minute domain setup that took forty-five: GitHub Pages plus Cloudflare DNS, and six gotchas from cert deadlocks to blocked new domains."
+description_zh: "给 GitHub Pages 配自定义域名，以为五分钟搞定，结果折腾了四十五分钟：证书死锁、重定向循环、新域名被屏蔽。"
 date: 2026-04-18
 categories: tech
-tags: [web, infrastructure, diy, tutorial, github-pages, cloudflare]
+tags: [engineering]
 bilingual: true
 sources:
   - title: "GitHub Pages — Managing a custom domain"
@@ -59,7 +61,7 @@ echo "zachc.ai" > CNAME
 url: "https://zachc.ai"
 ```
 
-This updates sitemap, RSS, and canonical links. Skip it and search engines keep indexing the `.github.io` URL.
+This updates the sitemap, RSS, and canonical links. Skip it and search engines keep indexing the `.github.io` URL.
 
 ### 3. Set the custom domain via the GitHub API
 
@@ -69,7 +71,7 @@ gh api repos/<owner>/<repo>/pages \
   --field cname=zachc.ai
 ```
 
-Don't set `https_enforced=true` yet. The cert doesn't exist yet, it'll 404.
+Don't set `https_enforced=true` yet. The cert doesn't exist yet, so it'll 404.
 
 ### 4. Add DNS records in Cloudflare (all DNS-only / gray cloud)
 
@@ -116,7 +118,7 @@ Done.
 - **Full** → works but doesn't verify origin cert.
 - **Full (strict)** → works *and* verifies. This is the only right answer.
 
-Most "my site redirects forever" posts are someone stuck on Flexible.
+Most "my site redirects forever" posts come from someone stuck on Flexible.
 
 ### 3. `https_enforced=true` 404s before the cert exists
 
@@ -165,7 +167,7 @@ If you're going to register a personal domain while working at a large company, 
 
 ---
 
-If you're about to do this yourself: keep Cloudflare on DNS-only until the cert issues, file the corporate allowlist ticket the same day you register. Everything else you can back out of.
+If you're about to do this yourself: keep Cloudflare on DNS-only until the cert issues, and file the corporate allowlist ticket the same day you register. Everything else you can back out of.
 
 ### Sources
 
@@ -180,7 +182,7 @@ If you're about to do this yourself: keep Cloudflare on DNS-only until the cert 
 
 今天买了 `zachc.ai`。以为配置五分钟搞定，结果花了四十五分钟。
 
-顺利路径其实不复杂：加一个 `CNAME` 文件，配五条 DNS 记录，等证书签出来。但每一层（DNS、Cloudflare、GitHub、公司网络）都有自己的坑，交互起来就能吃掉一个下午。下面先写能跑通的流程，再写我踩过的六个坑。
+顺利的话，流程其实不复杂：加一个 `CNAME` 文件，配五条 DNS 记录，等证书签出来。但每一层（DNS、Cloudflare、GitHub、公司网络）都有自己的坑，几层搅在一起，能吃掉你一个下午。下面先写能跑通的流程，再写我踩过的六个坑。
 
 ---
 
@@ -200,7 +202,7 @@ Let's Encrypt 证书，GitHub 自动签发、自动续期
 
 零服务器。证书自动续期。成本就是每年的域名费。
 
-注册商：**Cloudflare Registrar**。按成本价卖，免费 WHOIS 隐私、DNS、CDN。Porkbun 也行。托管：**GitHub Pages**。
+注册商：**Cloudflare Registrar**。按成本价卖，WHOIS 隐私保护、DNS、CDN 都免费。Porkbun 也行。托管：**GitHub Pages**。
 
 ---
 
@@ -218,7 +220,7 @@ echo "zachc.ai" > CNAME
 url: "https://zachc.ai"
 ```
 
-这影响 sitemap、RSS、canonical 链接。不改的话，搜索引擎会一直索引 `.github.io` 地址。
+这会影响 sitemap、RSS 和 canonical 链接。不改的话，搜索引擎会一直索引 `.github.io` 地址。
 
 ### 3. 通过 GitHub API 设置自定义域名
 
@@ -240,7 +242,7 @@ gh api repos/<owner>/<repo>/pages \
 | A | `@` | *GitHub Pages 根域 IP #4* |
 | CNAME | `www` | `<owner>.github.io` |
 
-四条根域 A 记录的当前 IP 去 [GitHub 文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site-apex-domain)拿。历史上变过，未来还会变。
+四条根域 A 记录的当前 IP 去 [GitHub 文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site-apex-domain)拿。以前变过，以后还会变。
 
 然后 **SSL/TLS → Overview** 设为 **Full (strict)**。
 
@@ -283,15 +285,15 @@ gh api repos/<owner>/<repo>/pages \
 {"message": "The certificate does not exist yet", "status": "404"}
 ```
 
-GitHub 在证书真正落到边缘之前拒绝强制 HTTPS。拆成两次 API 调用：先 cname，再加强制标志。
+证书真正部署到边缘之前，GitHub 不让你强制 HTTPS。拆成两次 API 调用：先设 cname，再开强制 HTTPS。
 
 ### 4. 证书队列会卡住，UI 比 API 有用
 
 **症状：** DNS 正确，`is_https_eligible: true`，但 `peer_failed_verification` 就是不消失。API 重新 PUT，没反应。再等十分钟，还是没反应。
 
-**解决：** 打开 Settings → Pages，点域名旁边的 **Remove**，等十秒，把域名输回去，点 **Save**。六十秒后我的证书就批准了。
+**解决：** 打开 Settings → Pages，点域名旁边的 **Remove**，等十秒，把域名输回去，点 **Save**。六十秒后，证书就批下来了。
 
-UI 路径里有某个机制比 REST 接口更“激进”地重新入队。我不知道为什么。我只知道，如果你盯着 `peer_failed_verification` 超过十分钟，别盯了，去做 UI 那一下。
+UI 那条路径里有个什么东西，会触发比 REST 接口更“激进”的重新排队。我不知道为什么。我只知道，如果你盯着 `peer_failed_verification` 超过十分钟，别盯了，去做 UI 那一下。
 
 ### 5. 公司 VPN 经常劫持 DNS
 
@@ -310,15 +312,15 @@ curl -sH 'accept: application/dns-json' \
 
 ### 6. 企业安全网关会屏蔽新注册域名
 
-**症状：** 在公司网络下打开 `https://zachc.ai`，看到公司品牌的“页面被屏蔽——新注册网站”页面。
+**症状：** 在公司网络下打开 `https://zachc.ai`，看到的是公司的“页面被屏蔽——新注册网站”拦截页。
 
-**原因：** 企业 Secure Web Gateway（Zscaler、Palo Alto Prisma、Netskope 等）会自动屏蔽**新注册域名** 14~30 天。NRD 是钓鱼和恶意软件最常见的指标之一，所以整个类别默认屏蔽，直到域名累积信誉。屏蔽发生在 HTTP 代理层。源站完全没事，也完全不知道这次请求发生过。
+**原因：** 企业 Secure Web Gateway（Zscaler、Palo Alto Prisma、Netskope 等）会自动屏蔽**新注册域名** 14~30 天。NRD 是钓鱼和恶意软件最常见的指标之一，所以这一整类默认全屏蔽，等域名攒出信誉才放行。屏蔽发生在 HTTP 代理层。源站完全没事，也完全不知道这次请求发生过。
 
 **解决（并行做）：**
 
 1. **提内部白名单工单**（一般 1~3 个工作日）。理由写“个人域名，注册时间 YYYY-MM-DD，GitHub Pages 博客”就够了。
-2. **在公司网络外验证**——手机切蜂窝数据，或者开热点断 VPN。确认屏蔽是本地策略。
-3. **等。** 通常几周后会随着威胁情报源给域名“续年头”而自动解除。
+2. **在公司网络外验证**——手机切蜂窝数据，或者开热点断 VPN。确认是本地策略在拦。
+3. **等。** 通常过几周，威胁情报源里这个域名的“年头”够了，就会自动解除。
 
 如果你打算在大公司工作期间注册个人域名，注册**当天**就去提白名单。
 

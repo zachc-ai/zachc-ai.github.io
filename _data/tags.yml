@@ -1,0 +1,36 @@
+# Display names for post tags, in the order they appear on /tags/.
+# A tag used in a post but missing here still works; it shows its slug.
+- slug: ai
+  en: AI
+  zh: AI
+- slug: engineering
+  en: Engineering
+  zh: 工程
+- slug: systems
+  en: Systems
+  zh: 系统思维
+- slug: mind
+  en: Mind
+  zh: 心智
+- slug: productivity
+  en: Productivity
+  zh: 效率
+- slug: learning
+  en: Learning
+  zh: 学习
+- slug: philosophy
+  en: Philosophy
+  zh: 哲学
+- slug: career
+  en: Career
+  zh: 职业
+- slug: money
+  en: Money
+  zh: 理财
+- slug: life
+  en: Life
+  zh: 生活
+# Kept on the birthday post on purpose: a later post says it keeps this tag.
+- slug: placeholder
+  en: Placeholder
+  zh: 占位

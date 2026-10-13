@@ -2,9 +2,11 @@
 layout: post
 title: "Agentic Engineering Patterns — Simon Willison"
 title_zh: "AI 代理工程实战模式 — Simon Willison"
+description: "Simon Willison on coding agents: code got cheap but good code didn't, so hoard working examples, use red/green TDD and run the tests first."
+description_zh: "Simon Willison 讲 agent 编程：代码便宜了，好代码可没便宜，所以先跑测试、囤能跑的例子。"
 date: 2026-03-22
 categories: digest
-tags: [ai, engineering, testing, productivity]
+tags: [ai, engineering, productivity]
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/"
 bilingual: true
 ---
@@ -19,9 +21,9 @@ Simon Willison (Django co-creator, datasette author) wrote up his hands-on patte
 
 ### 1. Writing code is cheap now
 
-Agents change the math. Writing code is basically free. Writing *good* code isn't. Good means: correct, tested, documented, solves the right problem, handles edge cases, simple enough, maintainable, and clears the non-functional bar (security, reliability, accessibility).
+Agents change the math. Writing code is basically free. Writing *good* code isn't. Good means it's correct, tested and documented, solves the right problem, handles edge cases, is simple enough and maintainable, and clears the non-functional bar (security, reliability, accessibility).
 
-Almost every engineering habit — micro decisions like "should I refactor?" or "should I write a test?" and macro ones like project planning and feature evaluation — assumed code was expensive to write. That assumption is gone. You can spin up multiple agent sessions in parallel to try approaches. "The worst outcome is learning it doesn't work ten minutes later."
+Almost every engineering habit — micro-decisions like "should I refactor?" or "should I write a test?" and macro ones like project planning and feature evaluation — assumed code was expensive to write. That assumption is gone. You can spin up multiple agent sessions in parallel to try different approaches. "The worst outcome is learning it doesn't work ten minutes later."
 
 What's missing is the new habits to match.
 
@@ -29,7 +31,7 @@ What's missing is the new habits to match.
 
 "Knowing something is theoretically possible" and "having seen it run with your own eyes" are completely different things. Build a stash of working examples: blog posts, GitHub repos (Willison has 1000+), tool sites, research repos. Each one is a reusable block.
 
-The strongest pattern is letting agents recombine working codebases. His OCR tool stitched Tesseract.js (OCR) and PDF.js (PDF rendering) into a single thing. Document the example once, deploy it forever.
+The strongest pattern is letting agents recombine working codebases. His OCR tool is Tesseract.js (OCR) and PDF.js (PDF rendering) stitched together. Document the example once, deploy it forever.
 
 ---
 
@@ -65,9 +67,9 @@ You vibe-coded something. Or inherited a codebase. Ask the agent to read the sou
 
 ### 6. Interactive explanations
 
-**The problem is cognitive debt.** Code the agent generated that you don't understand turns into a black box that blocks the next thing you want to build. **The fix:** ask the agent to build an interactive visualization of the algorithm.
+**The problem is cognitive debt.** Agent-generated code you don't understand turns into a black box that blocks the next thing you want to build. **The fix:** ask the agent to build an interactive visualization of the algorithm.
 
-Willison had Claude Code build an HTML page that stepped through a word-cloud placement algorithm — Archimedean spiral plus random angle offset — with pause, speed, and frame-by-frame playback. "A good coding agent can generate these on demand to explain code, whether it wrote it or someone else did."
+Willison had Claude Code build an HTML page that stepped through a word-cloud placement algorithm — Archimedean spiral plus random angle offset — with pause, speed control, and frame-by-frame playback. "A good coding agent can generate these on demand to explain code, whether it wrote it or someone else did."
 
 ---
 
@@ -89,7 +91,7 @@ What's doing the work:
 
 Willison's Artifacts custom instructions: always vanilla HTML + JS (no React), CSS with 2-space indent and `box-sizing: border-box`, 16px input fonts in Helvetica, JS with module syntax and 2-space indent.
 
-For proofreading: check spelling, grammar, repetition, logic errors, factual inaccuracies, weak arguments, broken links. The line worth highlighting: **he never lets LLMs ghostwrite opinion pieces or first-person blog posts.** Proofread and update technical docs, yes. Author your voice, no.
+For proofreading: check spelling, grammar, repetition, logic errors, factual inaccuracies, weak arguments, broken links. The line worth highlighting: **he never lets LLMs ghostwrite opinion pieces or first-person blog posts.** Proofread and update technical docs, yes. Write in your voice, no.
 
 ---
 
@@ -99,7 +101,7 @@ For proofreading: check spelling, grammar, repetition, logic errors, factual ina
 
 The "hoard working examples" idea reframes my Second Brain as a solution library — every solved problem becomes a building block an agent can recombine. I'd been thinking of those notes as personal memory; they're also AI substrate.
 
-Two harder-to-internalize ones: visualizations for complex algorithms aren't just teaching aids, they're how you escape cognitive debt. And cheap code isn't cheap good code — verification and architecture didn't get any easier just because typing did.
+Two harder-to-internalize ones: visualizations for complex algorithms aren't just teaching aids; they're how you escape cognitive debt. And cheap code isn't cheap good code — verification and architecture didn't get any easier just because typing did.
 
 The prompt advice surprised me. Not long essays. Filename + test command + existing examples. Precise anchors do more work than instructions.
 
@@ -115,9 +117,9 @@ Simon Willison（Django 联合创始人、datasette 作者）整理了他用 Cla
 
 ### 1. 写代码现在很便宜了
 
-Agent 改了帐怎么算。写代码基本免费了。但写**好**代码还是贵。“好”是说：功能正确、有测试、有文档、解决对了问题、处理过边界、够简单、能维护、安全可靠性无障碍这些非功能要求也过得去。
+有了 agent，这笔账得重新算。写代码基本免费了。但写**好**代码还是贵。“好”是说：功能正确、有测试、有文档、解决的是对的问题、处理了边界情况、够简单、能维护，非功能要求（安全、可靠性、无障碍）也过得去。
 
-过去几乎每个工程习惯——小到“要不要重构”“要不要写测试”，大到项目规划和功能评估——都建立在“写代码很贵”这个假设上。这假设现在没了。你可以并行开好几个 agent 会话去试不同方案。“最坏的结果，也就是十分钟后发现不行。”
+过去几乎每个工程习惯，小到“要不要重构”“要不要写测试”，大到项目规划和功能评估，都建立在“写代码很贵”这个假设上。这假设现在没了。你可以并行开好几个 agent 会话去试不同方案。“最坏的结果，也就是十分钟后发现不行。”
 
 缺的是配套的新习惯。
 
@@ -142,11 +144,11 @@ TDD 在用 agent 的时候比平时更重要。原因是 agent 容易出两种�
 
 ### 4. 先跑测试
 
-一句四个词的开场白：`"First run the tests"`。或者 `"Run 'uv run pytest'"`。会触发一连串好事：
+一句四个词的开场白：`"First run the tests"`。或者 `"Run 'uv run pytest'"`。这句话会触发一连串好事：
 
 1. agent 得先找到测试套件、跑一遍。测试意识默认开启。
 2. 测试数量直接告诉你这项目多大、多复杂。
-3. 整个会话的基调就被 framing 成围绕测试转。
+3. 整个会话的基调就定成了围绕测试转。
 4. 模型其实自带质量纪律，这句话能把它叫醒。
 
 “代码要是从来没跑过，它在生产里能工作就是运气。”
@@ -157,13 +159,13 @@ TDD 在用 agent 的时候比平时更重要。原因是 agent 容易出两种�
 
 ### 5. 线性走读
 
-你 vibe coded 了一个东西。或者拿到一个不熟的代码库。让 agent 读源码，写一份逐文件的走读文档。40 分钟 vibe coded 的小玩具，走读完也能变成学新东西的入口。AI 让代码写得更**快**，不代表你可以跳过**理解**那一步。
+你 vibe code 了一个东西。或者拿到一个不熟的代码库。让 agent 读源码，写一份逐文件的走读文档。40 分钟 vibe code 出来的小玩具，走读完也能变成学新东西的入口。AI 让代码写得更**快**，不代表你可以跳过**理解**那一步。
 
 ### 6. 交互式解释
 
 **问题是认知债务。** Agent 写的代码你看不懂 → 变成黑箱 → 挡住下一个想做的事。**解法是**：让 agent 给这个算法做一个交互式可视化。
 
-Willison 用 Claude Code 做了个 HTML 页面，把词云布局算法——阿基米德螺线加随机角度偏移——拆成了可暂停、可调速、可逐帧的过程。“一个好的编程 agent 可以按需生成这种东西来解释代码，不管是它自己写的还是别人写的。”
+Willison 用 Claude Code 做了个 HTML 页面，把词云布局算法（阿基米德螺线加随机角度偏移）拆成了可暂停、可调速、可逐帧播放的过程。“一个好的编程 agent 可以按需生成这种东西来解释代码，不管是它自己写的还是别人写的。”
 
 ---
 
@@ -178,26 +180,26 @@ Willison 用 Claude Code 做了个 HTML 页面，把词云布局算法——阿�
 - **文件名先行。** `gif-optimizer.html` 作为第一个词，输出格式和项目结构就定了。
 - **靠 agent 已经知道的东西。** “Compile gifsicle to WASM” 之所以能跑，是因为 agent 知道 gifsicle（30 年历史的压缩工具）和 Emscripten 工具链。
 - **把测试塞进提示词。** `"Run 'uvx rodney --help'"` 逼 agent 边写边测。
-- **迭代。** 后面追加要求：把构建脚本挪到子目录、把 WASM bundle commit 进去、加归属。
+- **迭代。** 后面追加要求：把构建脚本挪到子目录、把 WASM bundle commit 进去、加上署名。
 
 ---
 
 ## 五、附录：常用提示词
 
-Willison 的 Artifacts 自定义指令：永远不用 React，纯 HTML + vanilla JS；CSS 用 2 空格缩进加 `box-sizing: border-box`；输入框 16px、Helvetica；JS module 语法、2 空格缩进。
+Willison 的 Artifacts 自定义指令：永远不用 React，纯 HTML + vanilla JS；CSS 用 2 空格缩进加 `box-sizing: border-box`；输入框字号 16px，字体用 Helvetica；JS 用 module 语法、2 空格缩进。
 
-校对指令：拼写、语法、措辞重复、逻辑错误、事实不准、论证薄、链接坏。值得划重点的一条：**他从来不让 LLM 代写观点性内容或第一人称博客。**校对和更新技术文档可以，代笔自己的声音不行。
+校对指令：拼写、语法、措辞重复、逻辑错误、事实不准、论证薄弱、链接失效。值得划重点的一条：**他从来不让 LLM 代写观点性内容或第一人称博客。**校对和更新技术文档可以，用他的口吻代笔不行。
 
 ---
 
 ## 我从这里捡走的几样
 
-“First run the tests” 准备直接挪进我每次 Claude Code 会话的开头，尤其是改老代码的时候。
+“First run the tests” 以后会直接放在我每次 Claude Code 会话的开头，尤其是改老代码的时候。
 
 “囤积能跑的例子”这条把我对 Second Brain 的定位整个改了：每个解过的问题都是 agent 能拼起来用的积木。之前我只把它当成自己的记忆，原来它还是 AI 的素材库。
 
-还有两个不太好内化的：复杂算法做交互式可视化，不只是教学用的，是逃出认知债务的方式。还有就是写代码便宜，不等于“好代码”也便宜——验证、测试、架构这些一点没变简单。
+还有两个不太好内化的。一是复杂算法做交互式可视化，不只是教学用的，还是摆脱认知债务的办法。二是写代码便宜，不等于“好代码”也便宜——验证、测试、架构这些一点没变简单。
 
-最后是提示词那一段挺反直觉的。不是写长篇大论，而是给三个准确的锚点：文件名 + 测试命令 + 已有示例。这种精确比解释更有用。
+最后，提示词那一段挺反直觉的。不用写长篇大论，给三个准确的锚点就行：文件名 + 测试命令 + 已有示例。这种精确比解释更有用。
 
 </div>

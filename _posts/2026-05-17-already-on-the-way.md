@@ -4,7 +4,7 @@ title: "Already on the Way"
 title_zh: "重新上路"
 date: 2026-05-17
 categories: life
-tags: [birthday-reflection, placeholder]
+tags: [life, placeholder]
 bilingual: true
 ---
 

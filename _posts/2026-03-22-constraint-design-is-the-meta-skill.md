@@ -2,9 +2,11 @@
 layout: post
 title: "Constraint Design Is the Meta-Skill"
 title_zh: "约束设计是元技能"
+description: "Why picking a few well-placed constraints beats listing every behavior, from a self-discovering topology map to Claude skills."
+description_zh: "与其穷举想要的每种行为，不如挑几个约束放对地方，剩下的让系统自己找。"
 date: 2026-03-22
 categories: tech
-tags: [engineering, ai, design]
+tags: [engineering, ai, systems]
 bilingual: true
 ---
 
@@ -20,7 +22,7 @@ The pattern goes well past code. Designing good constraints — in systems, proc
 
 ## System convergence in the AI era
 
-AI-Ghost-Lab calls this "system convergence" — constraint design specifically aimed at AI-era development. His earlier mistake was leaning on broad test coverage to contain the chaos AI was generating. An agent might take three different paths from A to B, and the test surface tripled with it. The fix is to funnel similar functionality through unified entry points. Control the core nodes. Let everything else flex.
+AI-Ghost-Lab calls this "system convergence" — constraint design specifically aimed at AI-era development. His earlier mistake was leaning on broad test coverage to contain the chaos AI was generating. An agent might take three different paths from A to B, and the test surface triples with it. The fix is to funnel similar functionality through unified entry points. Control the core nodes. Let everything else flex.
 
 The constraints that actually work:
 
@@ -38,7 +40,7 @@ Anthropic's skill-writing advice is constraint design pointed at AI agents. Two 
 1. **"Don't state the obvious."** Don't constrain what the model already does well. Aim constraints at the places its defaults are wrong.
 2. **"Avoid railroading."** Over-specific instructions kill adaptability.
 
-The art is constraining where the model goes wrong and leaving room where it goes right. The `frontend-design` skill is the clean example. It doesn't teach CSS (Claude knows CSS). It corrects Claude's aesthetic defaults — the Inter-font, purple-gradient instinct. A surgical constraint beats a wall of instructions, every time.
+The art is constraining where the model goes wrong and leaving room where it goes right. The `frontend-design` skill is the clean example. Instead of teaching CSS (Claude knows CSS), it corrects Claude's aesthetic defaults — the Inter-font, purple-gradient instinct. A surgical constraint beats a wall of instructions, every time.
 
 ## The principle
 
@@ -52,9 +54,9 @@ The best designers don't enumerate every behavior they want, whether they're des
 
 ## 突破
 
-我在给一个数据分析平台做拓扑可视化。第一版是把已知关系硬编码进去：哪张表喂哪个函数，全靠手列。几天就过期了。后来换成基于约束的设计：定义解析规则（正则、参数默认值），让系统自己去发现关系。它找出来的连接数，比我手列出来的多 2–3 倍。
+我在给一个数据分析平台做拓扑可视化。第一版是把已知关系硬编码进去：哪张表喂哪个函数，全靠手列。没几天就过时了。后来换成基于约束的设计：定义解析规则（正则、参数默认值），让系统自己去发现关系。它找出来的连接数，比我手列出来的多 2–3 倍。
 
-这模式远不止能用在代码上。系统、流程、组织、个人工作流——把约束设计好，就是元技能。选得好的约束不是限制，是把能量引向你预测不到、也穷举不出来的涌现行为。
+这模式远不止能用在代码上。不管是系统、流程、组织还是个人工作流，把约束设计好，就是元技能。选得好的约束不是限制，是把能量引向你预测不到、也穷举不出来的涌现行为。
 
 ## AI 时代的“系统收敛”
 
@@ -67,16 +69,16 @@ AI-Ghost-Lab 把这个叫“系统收敛”：约束设计专门对准 AI 时代
 - 统一的扩展入口
 - 统一的错误处理
 
-他那个比喻一句话拍住：“AI 可以拉屎，但只能在你指定的地方拉。不能拉客厅。”
+他那个比喻一句话就说透了：“AI 可以拉屎，但只能在你指定的地方拉。不能拉客厅。”
 
 ## 约束 agent，不是绑住 agent
 
-Anthropic 写 skill 的那套建议，本质上就是约束设计对准 AI agent。两条原则干了大部分活：
+Anthropic 写 skill 的那套建议，说白了就是把约束设计用在 AI agent 身上。两条原则干了大部分活：
 
 1. **“不要说显而易见的事。”** 模型本来就做得好的，别约束。约束要放在它默认就跑偏的地方。
-2. **“别铁轨化。”** 太具体的指令会把适应性扼杀掉。
+2. **“别把路线写死。”** 太具体的指令会把适应性扼杀掉。
 
-诀窍是：模型容易出错的地方加约束，做得对的地方放开手。`frontend-design` 这个 skill 就是个干净的例子。它不教 CSS（Claude 本来就会），它专门纠正 Claude 那套审美默认值——动不动就上 Inter 字体加紫色渐变。一刀切在点上，比一堵墙的指令强多了。
+诀窍是：模型容易出错的地方加约束，做得对的地方放开手。`frontend-design` 这个 skill 就是个很典型的例子。它不教 CSS（Claude 本来就会），专门纠正 Claude 那套审美默认值：动不动就上 Inter 字体加紫色渐变。一刀下在要害上，比一堵墙的指令强多了。
 
 ## 原则
 
