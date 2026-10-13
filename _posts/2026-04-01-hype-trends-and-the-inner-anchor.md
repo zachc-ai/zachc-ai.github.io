@@ -40,13 +40,13 @@ The pattern is always the same. A real innovation (shared workspaces, blockchain
 
 Buffett has a phrase for this — "circle of competence":
 
-> "The size of your circle doesn't matter. Knowing its boundaries does."
+> "The size of that circle is not very important; knowing its boundaries, however, is vital."
 
 Chasing hype is stepping outside your circle of competence while still believing you're inside it. You don't understand the underlying logic. But you see prices rising, others profiting, the feed buzzing, so you follow. That's not investing. That's imitation.
 
 Naval puts it more directly: "Escape competition through authenticity." Not chasing hype doesn't mean doing nothing. It means honestly asking yourself: *Do I actually understand this, or am I just afraid of missing out?*
 
-AI is in the same cycle right now. In Y Combinator's Winter 2025 batch, 25% of startups had codebases that were 95% AI-generated. Sounds cool. But research says that AI-generated code has 2.74× the security-vulnerability rate of human-written code, and senior developers got 19% slower when using AI tools. Karpathy coined "vibe coding," but his definition was "fully giving up on understanding the code itself." That's a warning, not a recommendation.
+AI is in the same cycle right now. In Y Combinator's Winter 2025 batch, 25% of startups had codebases that were 95% AI-generated. Sounds cool. But research says that AI-generated code has 1.57× as many security issues as human-written code (2.74× for XSS), and senior developers got 19% slower when using AI tools. Karpathy coined "vibe coding," but his definition was to "forget that the code even exists." That's a warning, not a recommendation.
 
 The SEC has started fining companies for "AI washing" — slapping "AI-powered" on products with no meaningful AI inside. The ".com" suffix of our decade.
 
@@ -62,13 +62,13 @@ Not competing isn't the same as not moving. It means not being swept along by ot
 
 In 1975, Kodak engineer Steven Sasson built the world's first digital camera. 10,000 pixels.
 
-He brought it to management. Management said: Nice, but our film business makes $16 billion a year. Drop it.
+He brought it to management. Management said: Nice, but our film business makes billions a year. Drop it.
 
 In 2012, Kodak filed for bankruptcy.
 
 Kodak's tragedy wasn't a technology blind spot. They *invented* the technology. The tragedy was that they saw the trend and chose not to look.
 
-Blockbuster's story is even more absurd. In 2000, Netflix came knocking and offered to sell itself for $50 million. Blockbuster laughed and said no. At the time, Blockbuster had over 9,000 stores and 84,000 employees. A decade later, bankruptcy. Netflix is now worth $300 billion.
+Blockbuster's story is even more absurd. In 2000, Netflix came knocking and offered to sell itself for $50 million. Blockbuster laughed and said no. At the time, Blockbuster had nearly 7,700 stores and about 96,000 employees. A decade later, bankruptcy. Netflix is now worth hundreds of billions.
 
 A former Blockbuster executive eventually admitted: "Digital would have changed Blockbuster's business... but it wasn't its killer. That credit belongs to Blockbuster itself."
 
@@ -102,11 +102,11 @@ In 1993, three people started a company at a Denny's, $200 each. Jensen Huang la
 
 In 2006, NVIDIA released CUDA, a platform for general-purpose GPU computing. Nobody cared. Gaming companies didn't care. Scientific computing didn't care. Wall Street didn't care.
 
-Huang didn't chase mobile chips when those got hot. Didn't pivot to social. Didn't rebrand as a crypto company when miners were buying every GPU on the planet. He stayed on GPU compute. For thirty years.
+Huang tried mobile chips when those got hot, and pulled back when Tegra didn't stick in phones. Didn't pivot to social. Didn't rebrand as a crypto company when miners were buying every GPU on the planet. He stayed on GPU compute. For thirty years.
 
 Then the AI wave hit. Suddenly the whole world realized only NVIDIA had the infrastructure. By October 2025, NVIDIA was the first company to clear $5 trillion in market cap.
 
-Sun Tzu's *Art of War* captures this in four characters: 守正出奇. Defend the orthodox, attack with the extraordinary. The "orthodox" is holding your ground: your foundation doesn't move. The "extraordinary" is embracing change: on top of that foundation, you adapt and explore. NVIDIA's "orthodox" was GPU computing. Its "extraordinary" was that every time a new wave came, it was already prepared.
+Chinese has a four-character phrase for this, distilled from Sun Tzu's *Art of War*: 守正出奇. Defend the orthodox, attack with the extraordinary. The "orthodox" is holding your ground: your foundation doesn't move. The "extraordinary" is embracing change: on top of that foundation, you adapt and explore. NVIDIA's "orthodox" was GPU computing. Its "extraordinary" was that every time a new wave came, it was already prepared.
 
 Zeng Guofan, the Qing statesman, put it more bluntly:
 
@@ -188,7 +188,7 @@ So don't fear the confusion. Feeling torn between hype and trends is the forging
 
 Naval 说得更直接：“Escape competition through authenticity.” 用真实摆脱竞争。不追热点，不代表躺平。你得老老实实问自己一句：*这件事，我是真懂，还是只是怕错过？*
 
-AI 现在就在跑同一个循环。Y Combinator 2025 冬季批次里，25% 的创业公司，代码库 95% 是 AI 生成的。听着挺酷。但研究显示，AI 生成的代码安全漏洞率是人工的 2.74 倍，资深开发者用 AI 工具反而慢了 19%。“Vibe coding”这词是 Karpathy 造的，但他的定义是“完全放弃理解代码本身”。这是 warning，不是 recommendation。
+AI 现在就在跑同一个循环。Y Combinator 2025 冬季批次里，25% 的创业公司，代码库 95% 是 AI 生成的。听着挺酷。但研究显示，AI 生成的代码安全问题是人工的 1.57 倍（XSS 漏洞是 2.74 倍），资深开发者用 AI 工具反而慢了 19%。“Vibe coding”这词是 Karpathy 造的，但他的定义是“连代码的存在都忘掉”。这是 warning，不是 recommendation。
 
 SEC 已经开始罚“AI washing”了——给没什么实质 AI 的产品贴“AI-powered”标签。这就是我们这年代的“.com”后缀。
 
@@ -204,13 +204,13 @@ SEC 已经开始罚“AI washing”了——给没什么实质 AI 的产品贴�
 
 1975 年，柯达工程师 Steven Sasson 造出了世界上第一台数码相机。10000 像素。
 
-他拿去给管理层看。管理层说：好东西，但我们的胶卷业务每年赚 160 亿美元。别搞了。
+他拿去给管理层看。管理层说：好东西，但我们的胶卷业务每年进账几十亿美元。别搞了。
 
 2012 年，柯达申请破产。
 
 柯达的悲剧不是技术盲区。那技术是他们*发明*的。悲剧是他们看到了趋势，却选择不看。
 
-Blockbuster 的故事更荒诞。2000 年，Netflix 主动上门，想把自己卖给对方，开价 5000 万美元。Blockbuster 笑着拒了。那时候 Blockbuster 有 9000 多家门店、84000 名员工。十年后，破产。Netflix 现在市值 3000 亿美元。
+Blockbuster 的故事更荒诞。2000 年，Netflix 主动上门，想把自己卖给对方，开价 5000 万美元。Blockbuster 笑着拒了。那时候 Blockbuster 有近 7700 家门店、约 9.6 万名员工。十年后，破产。Netflix 现在市值几千亿美元。
 
 后来一位前 Blockbuster 高管承认：“数字化会改变 Blockbuster 的业务……但不是杀死它的原因。真正杀死它的是 Blockbuster 自己。”
 
@@ -244,13 +244,13 @@ NVIDIA 给了答案。
 
 2006 年，NVIDIA 发布了 CUDA，一个让 GPU 做通用计算的平台。当时没人在乎。游戏公司不在乎，科学计算社区不在乎，华尔街不在乎。
 
-Huang 没在移动芯片火的时候去追移动芯片。没转向社交媒体。没在矿工买光所有 GPU 的时候给公司贴个加密货币的标签。他守着 GPU 计算，守了三十年。
+移动芯片火的时候，Huang 也下场做过 Tegra，手机没做起来，就撤了。没转向社交媒体。没在矿工买光所有 GPU 的时候给公司贴个加密货币的标签。他守着 GPU 计算，守了三十年。
 
 然后 AI 浪潮来了。全世界突然发现，只有 NVIDIA 有这个基础设施。2025 年 10 月，NVIDIA 成了第一家市值过 5 万亿美元的公司。
 
-《孙子兵法》有四个字：守正出奇。以正合，以奇胜。守正就是固守本心，根基不动。出奇就是拥抱变化，在根基之上不停适应、不停探索。NVIDIA 守的“正”是 GPU 计算。出的“奇”是每一次新浪潮来，它都已经准备好了。
+《孙子兵法》说“以正合，以奇胜”，后人浓缩成四个字：守正出奇。守正就是固守本心，根基不动。出奇就是拥抱变化，在根基之上不停适应、不停探索。NVIDIA 守的“正”是 GPU 计算。出的“奇”是每一次新浪潮来，它都已经准备好了。
 
-其实 NBA 里也有这条规律。马刺 1997 年抽到邓肯，然后波波维奇就守了二十年的“正”：低位、传切、纪律。期间小球革命来了、抱团时代来了、三分时代来了，别的球队跟着潮流换教练换体系，马刺动都不动。可马刺每年都在场上打得跟时代不一样：他们的 Beautiful Game 就是 2014 年的“奇”，三传两递把热火 GDP 打到没脾气。守了二十年那个“正”，等到机会来，“奇”出得行云流水。
+其实 NBA 里也有这条规律。马刺 1997 年抽到邓肯，然后波波维奇就守了二十年的“正”：低位、传切、纪律。期间小球革命来了、抱团时代来了、三分时代来了，别的球队跟着潮流换教练换体系，马刺动都不动。可马刺每年都在场上打得跟时代不一样：他们的 Beautiful Game 就是 2014 年的“奇”，三传两递把热火三巨头打到没脾气。守了二十年那个“正”，等到机会来，“奇”出得行云流水。
 
 库里 2015 年改写了 NBA，是另一种“出奇”，但他底下也有一个“正”——从小练投篮，他爸 Dell Curry 三分球时代的功底。所有的“奇”都长在某个“正”上。**单出奇没用，没根基那不叫奇兵，叫散兵。**
 

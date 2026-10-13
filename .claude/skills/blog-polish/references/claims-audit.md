@@ -127,3 +127,36 @@ If there are zero negative claims, say so explicitly. That is the good case.
   of debt (~¥1.1M swing) on the Hong Kong chicken-feed rumour, then a credit-financed
   double-down that cleared ¥3M+, which seeded Vanke. "First deal lost, borrowed, went again"
   is a compression, not an inversion.
+
+### From the 2026-10-12 fact-check pass (verified against primary sources)
+
+- **Feng Ji's line is “踏上取经路比抵达灵山更重要”** (新华社《扬声》, Aug 2024). “比取到真经更重要” is
+  this blog's own riff, used in the Journey post's title, not his words.
+- **Jensen Huang's "I hope suffering happens to you"** comes from the SIEPR Economic Summit at
+  Stanford (2024-03-01), not a commencement speech.
+- **The ZXMOTO race bike is over 90% domestic, not "entirely Chinese."** The engine, electronics
+  and frame are in-house; the calipers are Brembo. It broke a European/Japanese hold, which
+  includes Honda, so not only "Ducati, Yamaha, Kawasaki."
+- **守正出奇 is not in 《孙子兵法》.** It's a later distillation of “以正合，以奇胜” (《兵势篇》).
+- **GDP = the Spurs** (Ginóbili, Duncan, Parker). They beat the Heat's big three in 2014.
+- **The *Outliers* hockey cutoff is January 1.** September 1 is the English soccer cutoff.
+- **Verbatim, not paraphrase:**
+  - Buffett 1996: "The size of that circle is not very important; knowing its boundaries,
+    however, is vital."
+  - Karpathy: "forget that the code even exists."
+  - Naval (nav.al/rich): "…right 80% of the time, and somebody else is right 90% of time…"
+  - Willison: "…check ten minutes later and find that it wasn't worth the tokens."
+- **金庸:**
+  - The warning to 鸠摩智 comes from the 扫地僧, not 玄慈, and 鸠摩智 really does 走火入魔.
+  - 游坦之 had deep 内力 but mediocre 招式.
+  - The 扫地僧 says “四十二年，还是四十三年”, not seventy.
+  - 玄慈 took 二百棍 and 自绝经脉. There is no statue.
+  - “我教你也是教，不教你也是教” is not in 射雕.
+  - “大力金刚” is not in 笑傲.
+- **《秋水》 turtle:** the text has cloth, a box and the temple. There is no seasonal rite.
+- **Studies:**
+  - Hölzel 2011 found gray-matter gains in the hippocampus and posterior cingulate, not the PFC.
+  - Lim & Dinges 2010 gives no "20–30%".
+  - Supertaskers (2.5%) are Watson & Strayer 2010, not Meyer.
+  - Upwork 2024: 77% say AI added to their workload, 71% are burned out, and 38% feel
+    overwhelmed about using AI. There is no "over half overwhelmed."

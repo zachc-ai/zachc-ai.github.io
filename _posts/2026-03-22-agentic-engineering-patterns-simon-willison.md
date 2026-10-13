@@ -23,13 +23,13 @@ Simon Willison (Django co-creator, datasette author) wrote up his hands-on patte
 
 Agents change the math. Writing code is basically free. Writing *good* code isn't. Good means it's correct, tested and documented, solves the right problem, handles edge cases, is simple enough and maintainable, and clears the non-functional bar (security, reliability, accessibility).
 
-Almost every engineering habit — micro-decisions like "should I refactor?" or "should I write a test?" and macro ones like project planning and feature evaluation — assumed code was expensive to write. That assumption is gone. You can spin up multiple agent sessions in parallel to try different approaches. "The worst outcome is learning it doesn't work ten minutes later."
+Almost every engineering habit — micro-decisions like "should I refactor?" or "should I write a test?" and macro ones like project planning and feature evaluation — assumed code was expensive to write. That assumption is gone. You can spin up multiple agent sessions in parallel to try different approaches. "The worst that can happen is you check ten minutes later and find that it wasn't worth the tokens."
 
 What's missing is the new habits to match.
 
 ### 2. Hoard things you know how to do
 
-"Knowing something is theoretically possible" and "having seen it run with your own eyes" are completely different things. Build a stash of working examples: blog posts, GitHub repos (Willison has 1000+), tool sites, research repos. Each one is a reusable block.
+"Knowing that something is theoretically possible is not the same as having seen it done for yourself." Build a stash of working examples: blog posts, GitHub repos (Willison has 1000+), tool sites, research repos. Each one is a reusable block.
 
 The strongest pattern is letting agents recombine working codebases. His OCR tool is Tesseract.js (OCR) and PDF.js (PDF rendering) stitched together. Document the example once, deploy it forever.
 
@@ -51,11 +51,11 @@ Skip red and you might be staring at a test that was already passing — useless
 A four-word session opener: "First run the tests." What it triggers:
 
 1. The agent has to find and execute the test suite. Test awareness on by default.
-2. The test count tells you how big and gnarly the project is.
+2. The test count gives the agent a rough idea of how big and gnarly the project is.
 3. It frames the whole session around tests.
 4. Models have built-in quality discipline that this prompt actually wakes up.
 
-"If code has never been executed, it working in production is pure luck."
+"If the code has never been executed it's pure luck if it actually works when deployed to production."
 
 ---
 
@@ -69,7 +69,7 @@ You vibe-coded something. Or inherited a codebase. Ask the agent to read the sou
 
 **The problem is cognitive debt.** Agent-generated code you don't understand turns into a black box that blocks the next thing you want to build. **The fix:** ask the agent to build an interactive visualization of the algorithm.
 
-Willison had Claude Code build an HTML page that stepped through a word-cloud placement algorithm — Archimedean spiral plus random angle offset — with pause, speed control, and frame-by-frame playback. "A good coding agent can generate these on demand to explain code, whether it wrote it or someone else did."
+Willison had Claude Code build an HTML page that stepped through a word-cloud placement algorithm — Archimedean spiral plus random angle offset — with pause, speed control, and frame-by-frame playback. "A good coding agent can produce these on demand to help explain code — its own code or code written by others."
 
 ---
 
@@ -91,7 +91,7 @@ What's doing the work:
 
 Willison's Artifacts custom instructions: always vanilla HTML + JS (no React), CSS with 2-space indent and `box-sizing: border-box`, 16px input fonts in Helvetica, JS with module syntax and 2-space indent.
 
-For proofreading: check spelling, grammar, repetition, logic errors, factual inaccuracies, weak arguments, broken links. The line worth highlighting: **he never lets LLMs ghostwrite opinion pieces or first-person blog posts.** Proofread and update technical docs, yes. Write in your voice, no.
+For proofreading: check spelling, grammar, repetition, logic errors, factual inaccuracies, weak arguments, empty or placeholder links. The line worth highlighting: **he never lets LLMs ghostwrite opinion pieces or first-person blog posts.** Proofread and update technical docs, yes. Write in your voice, no.
 
 ---
 
@@ -119,7 +119,7 @@ Simon Willison（Django 联合创始人、datasette 作者）整理了他用 Cla
 
 有了 agent，这笔账得重新算。写代码基本免费了。但写**好**代码还是贵。“好”是说：功能正确、有测试、有文档、解决的是对的问题、处理了边界情况、够简单、能维护，非功能要求（安全、可靠性、无障碍）也过得去。
 
-过去几乎每个工程习惯，小到“要不要重构”“要不要写测试”，大到项目规划和功能评估，都建立在“写代码很贵”这个假设上。这假设现在没了。你可以并行开好几个 agent 会话去试不同方案。“最坏的结果，也就是十分钟后发现不行。”
+过去几乎每个工程习惯，小到“要不要重构”“要不要写测试”，大到项目规划和功能评估，都建立在“写代码很贵”这个假设上。这假设现在没了。你可以并行开好几个 agent 会话去试不同方案。“最坏的结果，也就是十分钟后回来一看，这点 token 花得不值。”
 
 缺的是配套的新习惯。
 
@@ -147,7 +147,7 @@ TDD 在用 agent 的时候比平时更重要。原因是 agent 容易出两种�
 一句四个词的开场白：`"First run the tests"`。或者 `"Run 'uv run pytest'"`。这句话会触发一连串好事：
 
 1. agent 得先找到测试套件、跑一遍。测试意识默认开启。
-2. 测试数量直接告诉你这项目多大、多复杂。
+2. 测试数量能让 agent 大致知道这项目多大、多复杂。
 3. 整个会话的基调就定成了围绕测试转。
 4. 模型其实自带质量纪律，这句话能把它叫醒。
 
@@ -188,7 +188,7 @@ Willison 用 Claude Code 做了个 HTML 页面，把词云布局算法（阿基�
 
 Willison 的 Artifacts 自定义指令：永远不用 React，纯 HTML + vanilla JS；CSS 用 2 空格缩进加 `box-sizing: border-box`；输入框字号 16px，字体用 Helvetica；JS 用 module 语法、2 空格缩进。
 
-校对指令：拼写、语法、措辞重复、逻辑错误、事实不准、论证薄弱、链接失效。值得划重点的一条：**他从来不让 LLM 代写观点性内容或第一人称博客。**校对和更新技术文档可以，用他的口吻代笔不行。
+校对指令：拼写、语法、措辞重复、逻辑错误、事实不准、论证薄弱、空链接或占位链接。值得划重点的一条：**他从来不让 LLM 代写观点性内容或第一人称博客。**校对和更新技术文档可以，用他的口吻代笔不行。
 
 ---
 

@@ -8,6 +8,11 @@ date: 2026-04-05
 categories: life
 tags: [philosophy, life]
 bilingual: true
+sources:
+  - title: "Jensen Huang — Keynote at the 2024 SIEPR Economic Summit, Stanford"
+    url: https://www.youtube.com/watch?v=cEg8cOx7UZk
+  - title: "新华社《扬声》专访冯骥（腾讯新闻转载）"
+    url: https://news.qq.com/rain/a/20240820A01LOJ00
 ---
 
 <div class="lang-en" markdown="1">
@@ -16,17 +21,17 @@ bilingual: true
 
 March 28, 2026. Portugal. World Superbike Championship, WorldSSP class.
 
-A motorcycle numbered ZX820RR-RS crosses the finish line four seconds ahead of Yamaha. The next day, the same bike comes back from third to first and wins again. Back to back. The rider, Valentin Debise, is French. But the machine under him is entirely Chinese — engine, brake discs, suspension, calipers, all from a Chongqing company called ZXMOTO, founded by a man named Zhang Xue.
+A ZX820RR-RS motorcycle crosses the finish line nearly four seconds ahead of a Ducati. The next day, the same bike comes back from third to first and wins again. Back to back. The rider, Valentin Debise, is French. But the machine under him is Chinese — engine, frame and electronics all developed in-house by a Chongqing company called ZXMOTO, founded by a man named Zhang Xue.
 
-That broke decades of monopoly by Ducati, Yamaha, and Kawasaki. Watching the livestream from Chongqing, Zhang Xue cried.
+That broke decades of monopoly by Japanese and European makers. Watching the livestream from Chongqing, Zhang Xue cried.
 
-Most people will focus on the championship. What moved me was something Zhang Xue once said:
+Most people will focus on the wins. What moved me was something Zhang Xue once said:
 
 > "Doing something not for the result but out of genuine love — the outcome might truly be different."
 
-That reminded me of a line attributed to Feng Ji, the creator of *Black Myth: Wukong*:
+That reminded me of a line from Feng Ji, the creator of *Black Myth: Wukong*:
 
-> "Setting out on the journey to the West is more important than obtaining the scripture itself."
+> "Setting out on the journey to the West is more important than reaching Vulture Peak."
 
 The line has been spinning in my head. Because across eras and cultures, the people who ultimately built something real have all been saying a version of this same thing.
 
@@ -46,7 +51,7 @@ And:
 
 > "If you do it while young, even if you fail when you grow old, you won't regret it — absolutely not."
 
-That Portugal championship didn't fall from the sky. It was built up from 20,000 yuan, through countless last-place finishes, retirements, and doubts. Lap by lap.
+Those two wins in Portugal didn't fall from the sky. It was built up from 20,000 yuan, through countless last-place finishes, retirements, and doubts. Lap by lap.
 
 ---
 
@@ -167,7 +172,7 @@ His first principle is speed. Nobody starts when they're ready. Everyone learns 
 
 ### Jensen Huang
 
-At Stanford's 2024 commencement, Jensen Huang told the graduates:
+At a Stanford talk in March 2024, Jensen Huang told the students:
 
 > "I hope suffering happens to you."
 
@@ -226,7 +231,7 @@ Every step on that journey *is* the scripture.
 
 ---
 
-*Written April 5, 2026. A week after Zhang Xue's championship in Portugal.*
+*Written April 5, 2026. A week after Zhang Xue's double win in Portugal.*
 
 </div>
 
@@ -236,17 +241,17 @@ Every step on that journey *is* the scripture.
 
 2026 年 3 月 28 日，葡萄牙。世界超级摩托车锦标赛（WSBK）WorldSSP 组别。
 
-一辆编号 ZX820RR-RS 的摩托车冲过终点线，领先雅马哈四秒。第二天，同一辆车从第三位追到第一，再次夺冠。连续两场。骑手 Valentin Debise 是法国人，但他胯下那台机器从发动机、制动盘到悬挂，全是中国造的——来自重庆一家叫“张雪机车”（ZXMOTO）的公司，创始人张雪。
+一辆 ZX820RR-RS 摩托车冲过终点线，领先杜卡迪近四秒。第二天，同一辆车从第三位追到第一，再次夺冠。连续两场。骑手 Valentin Debise 是法国人，但他胯下是一台中国车，发动机、电控、车架三大件都是自主研发——出自重庆一家叫“张雪机车”（ZXMOTO）的公司，创始人张雪。
 
-这一下打破了 Ducati、雅马哈、川崎几十年的垄断。远在重庆看直播的张雪，哭了。
+这一下打破了欧洲和日本厂商几十年的垄断。远在重庆看直播的张雪，哭了。
 
 大多数人关心的是那个冠军。我被打动的，倒是张雪说过的一句话：
 
 > “做一件事不是奔着结果去，而是因为热爱，可能结果真的不一样。”
 
-这让我想起一句话，据说来自《黑神话：悟空》的制作人冯骥：
+这让我想起《黑神话：悟空》制作人冯骥说过的一句话：
 
-> “踏上取经路，比取到真经更重要。”
+> “踏上取经路，比抵达灵山更重要。”
 
 这句话最近一直在我脑子里打转。因为古今中外，最终做成事情的人，说的好像都是同一件事。
 
@@ -390,7 +395,7 @@ Jobs 说这话的时候，Apple 还不是万亿市值。他在说的是：不要
 
 ### Jensen Huang
 
-2024 年斯坦福毕业典礼，黄仁勋对台下的毕业生说：
+2024 年 3 月，黄仁勋在斯坦福演讲，对台下的学生说：
 
 > “我希望苦难发生在你们身上。”
 
@@ -454,3 +459,10 @@ Jobs 说这话的时候，Apple 还不是万亿市值。他在说的是：不要
 *写于 2026 年 4 月 5 日。张雪在葡萄牙夺冠之后一周。*
 
 </div>
+
+---
+
+### Sources / 来源
+
+- [Jensen Huang — Keynote at the 2024 SIEPR Economic Summit, Stanford](https://www.youtube.com/watch?v=cEg8cOx7UZk) — "I hope suffering happens to you"
+- [新华社《扬声》专访冯骥（腾讯新闻转载）](https://news.qq.com/rain/a/20240820A01LOJ00) — “踏上取经路比抵达灵山更重要”
