@@ -263,7 +263,7 @@ gh api repos/<owner>/<repo>/pages \
 
 ### 1. Cloudflare 的橙色云会卡住证书签发
 
-**症状：** `curl https://zachc.ai` 返回 Cloudflare **526 "Invalid SSL certificate from origin"**。GitHub 拒绝签证书。
+**症状：** `curl https://zachc.ai` 返回 Cloudflare **526 “Invalid SSL certificate from origin”**。GitHub 拒绝签证书。
 
 **原因：** GitHub 在跑 ACME 验证时需要看到**自己**的 IP。橙色云一开，公共 DNS 解析到 Cloudflare 边缘；Cloudflare 在 Full (strict) 模式下又要求源站有合法证书。但 GitHub 被挡在外面，签不出来。死锁。
 
@@ -275,7 +275,7 @@ gh api repos/<owner>/<repo>/pages \
 - **Full** → 能用，但不验证源站证书。
 - **Full (strict)** → 能用，**且**验证证书。唯一正确选项。
 
-大多数"我的站点无限重定向"的帖子，都是卡在 Flexible。
+大多数“我的站点无限重定向”的帖子，都是卡在 Flexible。
 
 ### 3. 证书没签出来之前，`https_enforced=true` 会 404
 
@@ -291,7 +291,7 @@ GitHub 在证书真正落到边缘之前拒绝强制 HTTPS。拆成两次 API �
 
 **解决：** 打开 Settings → Pages，点域名旁边的 **Remove**，等十秒，把域名输回去，点 **Save**。六十秒后我的证书就批准了。
 
-UI 路径里有某个机制比 REST 接口更"激进"地重新入队。我不知道为什么。我只知道，如果你盯着 `peer_failed_verification` 超过十分钟，别盯了，去做 UI 那一下。
+UI 路径里有某个机制比 REST 接口更“激进”地重新入队。我不知道为什么。我只知道，如果你盯着 `peer_failed_verification` 超过十分钟，别盯了，去做 UI 那一下。
 
 ### 5. 公司 VPN 经常劫持 DNS
 
@@ -310,15 +310,15 @@ curl -sH 'accept: application/dns-json' \
 
 ### 6. 企业安全网关会屏蔽新注册域名
 
-**症状：** 在公司网络下打开 `https://zachc.ai`，看到公司品牌的"页面被屏蔽——新注册网站"页面。
+**症状：** 在公司网络下打开 `https://zachc.ai`，看到公司品牌的“页面被屏蔽——新注册网站”页面。
 
 **原因：** 企业 Secure Web Gateway（Zscaler、Palo Alto Prisma、Netskope 等）会自动屏蔽**新注册域名** 14~30 天。NRD 是钓鱼和恶意软件最常见的指标之一，所以整个类别默认屏蔽，直到域名累积信誉。屏蔽发生在 HTTP 代理层。源站完全没事，也完全不知道这次请求发生过。
 
 **解决（并行做）：**
 
-1. **提内部白名单工单**（一般 1~3 个工作日）。理由写"个人域名，注册时间 YYYY-MM-DD，GitHub Pages 博客"就够了。
+1. **提内部白名单工单**（一般 1~3 个工作日）。理由写“个人域名，注册时间 YYYY-MM-DD，GitHub Pages 博客”就够了。
 2. **在公司网络外验证**——手机切蜂窝数据，或者开热点断 VPN。确认屏蔽是本地策略。
-3. **等。** 通常几周后会随着威胁情报源给域名"续年头"而自动解除。
+3. **等。** 通常几周后会随着威胁情报源给域名“续年头”而自动解除。
 
 如果你打算在大公司工作期间注册个人域名，注册**当天**就去提白名单。
 

@@ -55,7 +55,7 @@ The steersman role isn't new. We keep rediscovering it. The question isn't wheth
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-> 每加一层新的控制层，人的角色就从"做这件事"挪到"设计反馈环"。感知、比较、调整、循环。1780 年以来，一直是同一个模式。
+> 每加一层新的控制层，人的角色就从“做这件事”挪到“设计反馈环”。感知、比较、调整、循环。1780 年以来，一直是同一个模式。
 
 ## 250 年的同一个模式
 
