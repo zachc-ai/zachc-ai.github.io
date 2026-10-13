@@ -1,0 +1,219 @@
+// Long-form text: paragraphs, headings, links, quotes, lists, code, tables.
+
+.prose {
+  overflow-wrap: break-word;
+}
+
+.prose p,
+.prose ul,
+.prose ol,
+.prose pre,
+.prose table,
+.prose .highlighter-rouge {
+  margin: 0 0 1.2em;
+}
+
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: var(--ink);
+  font-family: var(--font-heading);
+  font-weight: var(--heading-weight);
+  letter-spacing: var(--heading-tracking);
+  text-wrap: balance;
+}
+
+.prose h2 {
+  margin: 2.4em 0 0.7em;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.prose h3 {
+  margin: 2em 0 0.6em;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+.prose h4 {
+  margin: 1.6em 0 0.5em;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+html[data-lang="zh"] .prose h2 {
+  font-size: 1.375rem;
+  line-height: 1.45;
+}
+
+html[data-lang="zh"] .prose h3 {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+// A heading right after a divider doesn't need both gaps.
+.prose hr + h2,
+.prose hr + h3 {
+  margin-top: 0;
+}
+
+.prose a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--link-line);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.prose a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+html[data-lang="zh"] .prose a {
+  text-underline-offset: 0.3em;
+}
+
+.prose strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+html[data-lang="zh"] .prose strong {
+  font-weight: 600;
+}
+
+// Chinese has no italics, and a synthetic slant looks broken. 楷体 is the
+// traditional counterpart, so emphasis switches to Kai instead.
+html[data-lang="zh"] .prose em,
+.lang-zh em {
+  font-style: normal;
+  font-family: "Kaiti SC", STKaiti, KaiTi, "楷体", var(--font-sans);
+}
+
+.prose blockquote {
+  margin: 1.7em 0;
+  padding: 0.15em 0 0.15em 1.25em;
+  border-left: 3px solid var(--accent);
+  color: var(--ink-2);
+}
+
+.prose blockquote p {
+  margin-bottom: 0.65em;
+}
+
+.prose blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+// Section break: a quiet dinkus instead of a full-width rule.
+.prose hr {
+  margin: 2.8em 0;
+  border: 0;
+  text-align: center;
+  color: var(--faint);
+  overflow: visible;
+}
+
+.prose hr::after {
+  content: "\00B7\2003\00B7\2003\00B7";
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.4em;
+}
+
+.prose li {
+  margin: 0.4em 0;
+}
+
+.prose li > p {
+  margin-bottom: 0.5em;
+}
+
+.prose li::marker {
+  color: var(--muted);
+}
+
+.prose ol > li::marker {
+  font-family: var(--font-sans);
+  font-size: 0.9em;
+  font-variant-numeric: tabular-nums;
+}
+
+.prose code {
+  padding: 0.12em 0.35em;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--bg-elev);
+  font-family: var(--font-mono);
+  font-size: 0.84em;
+}
+
+.prose pre,
+.prose .highlight {
+  border-radius: 8px;
+  background: var(--bg-elev);
+}
+
+.prose pre {
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line);
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prose .highlight pre {
+  margin: 0;
+}
+
+.prose pre code {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: inherit;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.prose th,
+.prose td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose th {
+  border-bottom: 2px solid var(--line);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+@media (max-width: 36rem) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.prose img {
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 6px;
+}

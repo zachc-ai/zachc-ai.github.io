@@ -1,0 +1,28 @@
+{%- if site.giscus.repo -%}
+<section class="post-comments" aria-label="Comments">
+  <h2 class="section-label"><span class="lang-en">Comments</span><span class="lang-zh">留言</span></h2>
+  <div id="giscus-container"></div>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var s = document.createElement('script');
+      s.src = 'https://giscus.app/client.js';
+      s.setAttribute('data-repo', '{{ site.giscus.repo }}');
+      s.setAttribute('data-repo-id', '{{ site.giscus.repo_id }}');
+      s.setAttribute('data-category', '{{ site.giscus.category }}');
+      s.setAttribute('data-category-id', '{{ site.giscus.category_id }}');
+      s.setAttribute('data-mapping', 'pathname');
+      s.setAttribute('data-strict', '0');
+      s.setAttribute('data-reactions-enabled', '1');
+      s.setAttribute('data-emit-metadata', '0');
+      s.setAttribute('data-input-position', 'top');
+      s.setAttribute('data-loading', 'lazy');
+      s.setAttribute('data-theme', root.getAttribute('data-theme') === 'dark' ? 'transparent_dark' : 'light');
+      s.setAttribute('data-lang', root.getAttribute('data-lang') === 'zh' ? 'zh-CN' : 'en');
+      s.crossOrigin = 'anonymous';
+      s.async = true;
+      document.getElementById('giscus-container').appendChild(s);
+    })();
+  </script>
+</section>
+{%- endif -%}

@@ -1,8 +1,19 @@
-{% if include.post_content %}
-  {% assign words = include.post_content | number_of_words %}
-{% else %}
-  {% assign words = content | number_of_words %}
-{% endif %}
-{% assign minutes = words | divided_by: 200 %}
-{% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
-<span class="reading-time"><span class="lang-en">{{ minutes }} min read</span><span class="lang-zh">阅读 {{ minutes }} 分钟</span></span>
+{%- comment -%}
+  Reading time per language. English counts words in the English block at
+  220 wpm; Chinese counts characters in the Chinese block at 400 per minute.
+  Param: content (optional, defaults to the current page's content).
+{%- endcomment -%}
+{%- assign rt_source = include.content | default: content -%}
+{%- if rt_source contains 'class="lang-zh' -%}
+  {%- assign rt_parts = rt_source | split: '<div class="lang-zh' -%}
+  {%- assign rt_en = rt_parts | first -%}
+  {%- assign rt_zh = rt_parts | last -%}
+{%- else -%}
+  {%- assign rt_en = rt_source -%}
+  {%- assign rt_zh = rt_source -%}
+{%- endif -%}
+{%- assign rt_en_min = rt_en | strip_html | number_of_words | plus: 110 | divided_by: 220 -%}
+{%- if rt_en_min < 1 -%}{%- assign rt_en_min = 1 -%}{%- endif -%}
+{%- assign rt_zh_min = rt_zh | strip_html | strip_newlines | remove: " " | size | plus: 200 | divided_by: 400 -%}
+{%- if rt_zh_min < 1 -%}{%- assign rt_zh_min = 1 -%}{%- endif -%}
+<span class="reading-time"><span class="lang-en">{{ rt_en_min }} min read</span><span class="lang-zh">阅读 {{ rt_zh_min }} 分钟</span></span>

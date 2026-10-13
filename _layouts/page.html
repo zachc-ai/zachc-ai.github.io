@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="container page">
+  <header class="page-header">
+    <h1 class="page-title"><span class="lang-en">{{ page.title | escape }}</span><span class="lang-zh">{{ page.title_zh | default: page.title | escape }}</span></h1>
+    {%- if page.intro %}
+    <p class="page-intro"><span class="lang-en">{{ page.intro }}</span><span class="lang-zh">{{ page.intro_zh | default: page.intro }}</span></p>
+    {%- endif %}
+  </header>
+  <div class="page-body{% unless page.prose == false %} prose{% endunless %}">
+    {{ content }}
+  </div>
+</article>

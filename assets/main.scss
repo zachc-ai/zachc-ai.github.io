@@ -1,6 +1,12 @@
 ---
 ---
 
-@import "minima/custom-variables";
-@import "minima";
-@import "minima/custom-styles";
+// Zach's Compass. Self-contained styles; minima's CSS is no longer imported.
+@import "zc/tokens";
+@import "zc/base";
+@import "zc/header";
+@import "zc/lists";
+@import "zc/post";
+@import "zc/prose";
+@import "zc/syntax";
+@import "zc/footer";

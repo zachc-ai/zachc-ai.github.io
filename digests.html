@@ -1,0 +1,16 @@
+---
+layout: page
+title: Digests
+title_zh: 阅读笔记
+permalink: /digests/
+prose: false
+intro: "What I've been reading, distilled: the parts of long articles and guides worth keeping."
+intro_zh: "读过的长文章和指南，把值得留下的部分摘出来。"
+---
+<ol class="archive-list">
+{%- for post in site.posts -%}
+  {%- if post.categories contains "digest" %}
+{% include archive-item.html post=post en="%b %-d, %Y" zh="%Y年%-m月%-d日" source="yes" %}
+  {%- endif -%}
+{%- endfor %}
+</ol>

@@ -1,0 +1,2 @@
+{%- assign tn = site.data.tags | where: "slug", include.tag | first -%}
+<span class="lang-en">{{ tn.en | default: include.tag }}</span><span class="lang-zh">{{ tn.zh | default: tn.en | default: include.tag }}</span>
