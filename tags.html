@@ -1,0 +1,49 @@
+---
+layout: page
+title: Tags
+title_zh: 标签
+permalink: /tags/
+prose: false
+intro: "The topics I keep coming back to."
+intro_zh: "反复写到的几个主题。"
+---
+{%- assign zc_known = site.data.tags | map: "slug" -%}
+<ul class="tag-cloud" aria-label="Topics">
+{%- for t in site.data.tags -%}
+  {%- assign zc_posts = site.tags[t.slug] -%}
+  {%- if zc_posts %}
+  <li><a class="tag" href="#{{ t.slug }}"><span class="lang-en">{{ t.en }}</span><span class="lang-zh">{{ t.zh }}</span><span class="tag-count">{{ zc_posts.size }}</span></a></li>
+  {%- endif -%}
+{%- endfor -%}
+{%- for pair in site.tags -%}
+  {%- unless zc_known contains pair[0] %}
+  <li><a class="tag" href="#{{ pair[0] | slugify }}">{{ pair[0] }}<span class="tag-count">{{ pair[1].size }}</span></a></li>
+  {%- endunless -%}
+{%- endfor %}
+</ul>
+
+{%- for t in site.data.tags -%}
+  {%- assign zc_posts = site.tags[t.slug] -%}
+  {%- if zc_posts %}
+<section class="tag-section" id="{{ t.slug }}">
+  <h2 class="section-label"><span class="lang-en">{{ t.en }}</span><span class="lang-zh">{{ t.zh }}</span></h2>
+  <ol class="archive-list">
+    {%- for post in zc_posts %}
+    {% include archive-item.html post=post en="%b %-d, %Y" zh="%Y年%-m月%-d日" desc="no" %}
+    {%- endfor %}
+  </ol>
+</section>
+  {%- endif -%}
+{%- endfor -%}
+{%- for pair in site.tags -%}
+  {%- unless zc_known contains pair[0] %}
+<section class="tag-section" id="{{ pair[0] | slugify }}">
+  <h2 class="section-label">{{ pair[0] }}</h2>
+  <ol class="archive-list">
+    {%- for post in pair[1] %}
+    {% include archive-item.html post=post en="%b %-d, %Y" zh="%Y年%-m月%-d日" desc="no" %}
+    {%- endfor %}
+  </ol>
+</section>
+  {%- endunless -%}
+{%- endfor %}

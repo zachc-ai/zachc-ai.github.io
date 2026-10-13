@@ -1,43 +1,38 @@
 ---
 layout: default
 ---
+<div class="container home">
+  <section class="home-intro">
+    {{ content }}
+  </section>
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">
-      <span class="lang-en">{{ page.list_title | default: "Posts" }}</span>
-      <span class="lang-zh">{{ page.list_title_zh | default: "最近文章" }}</span>
-    </h2>
-    <ul class="post-list">
+  <section class="home-section" aria-labelledby="home-latest">
+    <h2 class="section-label" id="home-latest"><span class="lang-en">Latest essays</span><span class="lang-zh">最新文章</span></h2>
+    <ol class="post-feed">
+      {%- assign zc_shown = 0 -%}
       {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }} · {% include reading-time.html post_content=post.content %}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            <span class="lang-en">{{ post.title | escape }}</span>
-            <span class="lang-zh">{{ post.title_zh | default: post.title | escape }}</span>
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+        {%- if zc_shown >= 6 -%}{%- break -%}{%- endif -%}
+        {%- unless post.categories contains "digest" -%}
+          {%- include post-item.html post=post -%}
+          {%- assign zc_shown = zc_shown | plus: 1 -%}
+        {%- endunless -%}
       {%- endfor -%}
-    </ul>
+    </ol>
+    <p class="more"><a class="more-link" href="{{ '/blog/' | relative_url }}"><span class="lang-en">All essays</span><span class="lang-zh">全部文章</span> <span aria-hidden="true">→</span></a></p>
+  </section>
 
-    <p class="feed-subscribe">
-      <a href="{{ "/feed.xml" | relative_url }}">
-        <svg class="svg-icon orange">
-          <use xlink:href="{{ "/assets/minima-social-icons.svg#rss" | relative_url }}"></use>
-        </svg><span class="lang-en">Subscribe</span><span class="lang-zh">订阅</span>
-      </a>
-    </p>
-  {%- endif -%}
+  {%- assign zc_digests = site.posts | where_exp: "p", "p.categories contains 'digest'" -%}
+  {%- if zc_digests.size > 0 %}
+  <section class="home-section" aria-labelledby="home-notes">
+    <h2 class="section-label" id="home-notes"><span class="lang-en">Digests</span><span class="lang-zh">阅读笔记</span></h2>
+    <ol class="post-feed">
+      {%- for post in zc_digests limit: 3 -%}
+        {%- include post-item.html post=post -%}
+      {%- endfor -%}
+    </ol>
+    {%- if zc_digests.size > 3 %}
+    <p class="more"><a class="more-link" href="{{ '/digests/' | relative_url }}"><span class="lang-en">All digests</span><span class="lang-zh">全部阅读笔记</span> <span aria-hidden="true">→</span></a></p>
+    {%- endif %}
+  </section>
+  {%- endif %}
 </div>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" data-lang="en" data-theme="light" id="top">
+  {%- include head.html -%}
+  <body class="layout-{{ page.layout | default: 'default' }}" data-site-title="{{ site.title | escape }}"{% if page.title_zh %} data-title-zh="{{ page.title_zh | escape }}"{% endif %}>
+    <a class="skip-link" href="#main"><span class="lang-en">Skip to content</span><span class="lang-zh">跳到正文</span></a>
+    {%- include header.html -%}
+    <main id="main" class="site-main">
+      {{ content }}
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>

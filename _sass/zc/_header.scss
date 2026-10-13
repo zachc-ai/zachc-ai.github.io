@@ -1,0 +1,190 @@
+// Site header: compass mark + title, nav, language and theme switches.
+// No hamburger: on small screens the nav drops to its own row.
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 1.5rem;
+  min-height: 4.25rem;
+}
+
+.brand {
+  order: 1;
+  margin-right: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  width: 1.4rem;
+  height: 1.4rem;
+  flex: none;
+}
+
+.brand-ring {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+
+.brand-north {
+  fill: var(--accent);
+}
+
+.brand-south {
+  fill: currentColor;
+}
+
+.brand-needle {
+  transform: rotate(20deg);
+  transform-origin: 12px 12px;
+  transition: transform 0.6s cubic-bezier(0.2, 0.9, 0.3, 1.3);
+}
+
+.brand:hover .brand-needle,
+.brand:focus-visible .brand-needle {
+  transform: rotate(0deg);
+}
+
+.site-nav {
+  order: 2;
+  display: flex;
+  gap: 1.15rem;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+}
+
+.nav-link {
+  padding: 0.3rem 0;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1.5px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--ink);
+}
+
+.nav-link.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+.header-tools {
+  order: 3;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.lang-switch {
+  display: inline-flex;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--muted);
+}
+
+.lang-opt {
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+html[data-lang="en"] .lang-opt-en,
+html[data-lang="zh"] .lang-opt-zh {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.lang-switch:hover {
+  border-color: var(--faint);
+}
+
+.theme-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.theme-switch:hover {
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+.theme-switch svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon-sun,
+html[data-theme="dark"] .icon-moon {
+  display: none;
+}
+
+html[data-theme="dark"] .icon-sun {
+  display: block;
+}
+
+@media (max-width: 36rem) {
+  .header-inner {
+    padding-top: 0.85rem;
+    padding-bottom: 0.65rem;
+    column-gap: 0.75rem;
+    row-gap: 0.5rem;
+    min-height: 0;
+  }
+
+  .lang-opt {
+    padding: 0.35rem 0.5rem;
+  }
+
+  .brand {
+    order: 1;
+  }
+
+  .header-tools {
+    order: 2;
+  }
+
+  .site-nav {
+    order: 3;
+    width: 100%;
+    gap: 1.35rem;
+  }
+}

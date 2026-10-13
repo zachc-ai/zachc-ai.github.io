@@ -1,0 +1,264 @@
+// Homepage intro, section labels, post feed, archive rows, tag pills.
+
+.home-intro {
+  padding: 3.75rem 0 0.5rem;
+}
+
+.lede {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-heading);
+  font-size: unquote("clamp(1.65rem, 1.2rem + 1.9vw, 2.25rem)");
+  font-weight: var(--heading-weight);
+  line-height: 1.22;
+  letter-spacing: var(--heading-tracking);
+  text-wrap: balance;
+}
+
+html[data-lang="zh"] .lede {
+  line-height: 1.4;
+}
+
+.lede-sub {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 3rem 0 0.5rem;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.section-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+html[data-lang="zh"] .section-label {
+  font-size: 0.8125rem;
+  letter-spacing: 0.15em;
+}
+
+// Feed (homepage)
+
+.post-feed,
+.archive-list,
+.tag-cloud,
+.tag-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  position: relative;
+  padding: 1.4rem 0 1.35rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.post-item:last-child {
+  border-bottom: 0;
+}
+
+.post-item-title {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-heading);
+  font-size: 1.375rem;
+  font-weight: var(--heading-weight);
+  line-height: 1.3;
+  letter-spacing: var(--heading-tracking);
+  text-wrap: balance;
+  transition: color 0.15s;
+}
+
+html[data-lang="zh"] .post-item-title {
+  font-size: 1.25rem;
+  line-height: 1.45;
+}
+
+.post-item-link,
+.archive-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+// The whole entry is clickable; the link stays the single tab stop.
+.post-item-link::after,
+.archive-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.post-item:hover .post-item-title,
+.archive-item:hover .archive-title {
+  color: var(--accent);
+}
+
+.post-item-desc {
+  margin: 0 0 0.55rem;
+  color: var(--ink-2);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+html[data-lang="zh"] .post-item-desc {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.post-item-meta {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+}
+
+.more {
+  margin: 0.75rem 0 0;
+}
+
+.more-link {
+  display: inline-block;
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.more-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+// Archive rows (blog, digests, tags)
+
+.archive-year:first-of-type .section-label {
+  margin-top: 0.5rem;
+}
+
+.archive-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  column-gap: 1.25rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.archive-item:last-child {
+  border-bottom: 0;
+}
+
+.archive-date {
+  padding-top: 0.2rem;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.archive-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.1875rem;
+  font-weight: var(--heading-weight);
+  line-height: 1.35;
+  letter-spacing: var(--heading-tracking);
+  transition: color 0.15s;
+}
+
+html[data-lang="zh"] .archive-title {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+.archive-desc,
+.archive-source {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+html[data-lang="zh"] .archive-desc {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
+.archive-source {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+}
+
+@media (max-width: 36rem) {
+  .archive-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
+  }
+
+  .archive-date {
+    padding-top: 0;
+  }
+}
+
+// Tags
+
+.tag-cloud,
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.42rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink-2);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tag:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.tag-count {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.tag-section {
+  scroll-margin-top: 1.5rem;
+}
+
+.tag-section:target .section-label {
+  color: var(--accent);
+}

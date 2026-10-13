@@ -1,0 +1,35 @@
+// Rouge syntax colors, matched to the palette. Light first, then dark.
+
+.highlight {
+  color: var(--ink);
+
+  .c, .ch, .cm, .c1, .cs, .cpf { color: #8a8478; font-style: italic; }
+  .cp { color: #8a8478; }
+  .err { color: inherit; background: none; }
+  .k, .kc, .kd, .kn, .kp, .kr, .kv { color: #a2371f; }
+  .kt { color: #1f6f63; }
+  .o, .ow, .p { color: #5a564f; }
+  .s, .sa, .sb, .sc, .sd, .s1, .s2, .se, .sh, .si, .sx, .dl { color: #2f6b45; }
+  .sr, .ss { color: #7a4fa8; }
+  .m, .mb, .mf, .mh, .mi, .mo, .il { color: #7a4fa8; }
+  .na, .nv, .vc, .vg, .vi { color: #2b59c3; }
+  .nb, .bp, .nc, .nn, .ne { color: #1f6f63; }
+  .nf, .fm { color: #8a5a00; }
+  .nt { color: #a2371f; }
+  .gd { color: #a2371f; }
+  .gi { color: #2f6b45; }
+  .gp, .go { color: #8a8478; }
+  .gh, .gu { color: #2b59c3; font-weight: 600; }
+}
+
+html[data-theme="dark"] .highlight {
+  .c, .ch, .cm, .c1, .cs, .cpf, .cp { color: #8b857a; }
+  .k, .kc, .kd, .kn, .kp, .kr, .kv, .nt, .gd { color: #f0937b; }
+  .kt, .nb, .bp, .nc, .nn, .ne { color: #6cc4b2; }
+  .o, .ow, .p { color: #b9b3a8; }
+  .s, .sa, .sb, .sc, .sd, .s1, .s2, .se, .sh, .si, .sx, .dl, .gi { color: #9bd3a4; }
+  .sr, .ss, .m, .mb, .mf, .mh, .mi, .mo, .il { color: #c8a8f0; }
+  .na, .nv, .vc, .vg, .vi, .gh, .gu { color: #93b4f5; }
+  .nf, .fm { color: #e8c37a; }
+  .gp, .go { color: #8b857a; }
+}

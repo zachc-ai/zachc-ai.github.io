@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-line">
+      <span class="lang-en">{{ site.description }}</span>
+      <span class="lang-zh">边做，边学，把事情想明白。</span>
+    </p>
+    <p class="footer-line footer-links">
+      <span>&copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}</span>
+      <a href="{{ '/feed.xml' | relative_url }}"><span class="lang-en">RSS feed</span><span class="lang-zh">RSS 订阅</span></a>
+      <a href="#top"><span class="lang-en">Back to top</span><span class="lang-zh">回到顶部</span> <span aria-hidden="true">↑</span></a>
+    </p>
+  </div>
+</footer>

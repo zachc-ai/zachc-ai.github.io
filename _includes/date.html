@@ -1,0 +1,6 @@
+{%- comment -%}
+  Bilingual date. Params: date (required), en / zh (optional strftime formats).
+{%- endcomment -%}
+{%- assign zc_date_en = include.en | default: "%b %-d, %Y" -%}
+{%- assign zc_date_zh = include.zh | default: "%Y年%-m月%-d日" -%}
+<time datetime="{{ include.date | date_to_xmlschema }}"><span class="lang-en">{{ include.date | date: zc_date_en }}</span><span class="lang-zh">{{ include.date | date: zc_date_zh }}</span></time>

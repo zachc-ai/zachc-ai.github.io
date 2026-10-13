@@ -1,54 +1,52 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
+{%- assign zc_is_digest = false -%}
+{%- if page.categories contains "digest" -%}{%- assign zc_is_digest = true -%}{%- endif -%}
+<article class="container post">
   <header class="post-header">
-    {% include bilingual.html %}
-    {% unless page.bilingual %}
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    {% endunless %}
+    {%- if zc_is_digest %}
+    <p class="post-kicker"><span class="lang-en">Digest</span><span class="lang-zh">阅读笔记</span></p>
+    {%- endif %}
+    <h1 class="post-title"><span class="lang-en">{{ page.title | escape }}</span><span class="lang-zh">{{ page.title_zh | default: page.title | escape }}</span></h1>
     <p class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        · <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}
-      · {% include reading-time.html %}
+      {% include date.html date=page.date %}<span class="dot" aria-hidden="true">·</span>{% include reading-time.html %}
+      {%- if zc_is_digest and page.source -%}
+      <span class="dot" aria-hidden="true">·</span><a href="{{ page.source }}" rel="noopener"><span class="lang-en">Original</span><span class="lang-zh">原文</span> <span aria-hidden="true">↗</span></a>
+      {%- endif %}
     </p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-body prose">
     {{ content }}
   </div>
 
-  {%- if site.giscus.repo -%}
-  <div class="post-comments" id="giscus-container">
-    <script>
-      (function() {
-        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        var s = document.createElement('script');
-        s.src = 'https://giscus.app/client.js';
-        s.setAttribute('data-repo', '{{ site.giscus.repo }}');
-        s.setAttribute('data-repo-id', '{{ site.giscus.repo_id }}');
-        s.setAttribute('data-category', '{{ site.giscus.category }}');
-        s.setAttribute('data-category-id', '{{ site.giscus.category_id }}');
-        s.setAttribute('data-mapping', 'pathname');
-        s.setAttribute('data-strict', '0');
-        s.setAttribute('data-reactions-enabled', '1');
-        s.setAttribute('data-emit-metadata', '0');
-        s.setAttribute('data-input-position', 'top');
-        s.setAttribute('data-theme', isDark ? 'transparent_dark' : 'light');
-        s.setAttribute('data-lang', 'en');
-        s.crossOrigin = 'anonymous';
-        s.async = true;
-        document.getElementById('giscus-container').appendChild(s);
-      })();
-    </script>
-  </div>
-  {%- endif -%}
+  <footer class="post-footer">
+    {%- if page.tags.size > 0 %}
+    <ul class="tag-list" aria-label="Tags">
+      {%- for t in page.tags %}
+      <li><a class="tag" href="{{ '/tags/' | relative_url }}#{{ t | slugify }}">{% include tag-name.html tag=t %}</a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    {%- if page.previous or page.next %}
+    <nav class="post-nav" aria-label="More posts">
+      {%- if page.previous %}
+      <a class="post-nav-link post-nav-prev" href="{{ page.previous.url | relative_url }}" rel="prev">
+        <span class="post-nav-label"><span aria-hidden="true">←</span> <span class="lang-en">Older</span><span class="lang-zh">上一篇</span></span>
+        <span class="post-nav-title"><span class="lang-en">{{ page.previous.title | escape }}</span><span class="lang-zh">{{ page.previous.title_zh | default: page.previous.title | escape }}</span></span>
+      </a>
+      {%- endif %}
+      {%- if page.next %}
+      <a class="post-nav-link post-nav-next" href="{{ page.next.url | relative_url }}" rel="next">
+        <span class="post-nav-label"><span class="lang-en">Newer</span><span class="lang-zh">下一篇</span> <span aria-hidden="true">→</span></span>
+        <span class="post-nav-title"><span class="lang-en">{{ page.next.title | escape }}</span><span class="lang-zh">{{ page.next.title_zh | default: page.next.title | escape }}</span></span>
+      </a>
+      {%- endif %}
+    </nav>
+    {%- endif %}
+  </footer>
+
+  {%- include giscus.html -%}
 </article>

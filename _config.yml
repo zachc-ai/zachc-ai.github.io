@@ -2,15 +2,16 @@ title: Zach's Compass
 description: Notes on building, learning, and figuring things out.
 url: "https://zachc.ai"
 baseurl: ""
+lang: en
 
 theme: minima
 
 permalink: /blog/:title/
 
 header_pages:
-  - blog.md
-  - digests.md
-  - tags.md
+  - blog.html
+  - digests.html
+  - tags.html
   - about.md
 
 plugins:
@@ -20,6 +21,18 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
+
+sass:
+  style: compressed
+
+# Working notes live in the repo but are not part of the site.
+exclude:
+  - CLAUDE.md
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
 defaults:
   - scope:
