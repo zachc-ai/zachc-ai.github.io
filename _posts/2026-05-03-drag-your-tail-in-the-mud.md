@@ -9,7 +9,7 @@ categories: life
 tags: [philosophy, career, money, ai]
 bilingual: true
 sources:
-  - title: "Fire 一期一会 — FIRE 是包装成成功学的失败学：泥潭里摇尾巴的乌龟，还是庙堂上的祭品？"
+  - title: "Fire一期一会 — EP7 对话大狮姐：Fire是包装成成功学的失败学"
     url: https://podcasts.apple.com/us/podcast/fire%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A/id1877746180?i=1000762967732
   - title: "庄子《秋水》— Wikisource"
     url: https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90/%E7%A7%8B%E6%B0%B4
@@ -21,7 +21,7 @@ sources:
 
 There's a 2,400-year-old test for whether your life is going well, and it goes like this.
 
-Zhuangzi was fishing on the Pu River when two officials showed up to recruit him as prime minister of the state of Chu. He didn't even turn around. He told them about a sacred turtle the king kept wrapped in cloth in the ancestral temple. Dead three thousand years. Ceremonially honored every spring. *Would the turtle*, Zhuangzi asked, *prefer to be revered as a relic, or alive and dragging its tail through the mud?*
+Zhuangzi was fishing on the Pu River when two officials showed up to recruit him as prime minister of the state of Chu. He didn't even turn around. He told them about a sacred turtle the king kept wrapped in cloth and boxed in the ancestral temple. Dead three thousand years. Its bones still honored. *Would the turtle*, Zhuangzi asked, *prefer to be revered as a relic, or alive and dragging its tail through the mud?*
 
 The officials said: alive. Of course alive.
 
@@ -31,7 +31,7 @@ A sharp question. It's also a bit smug. Easy to nod along to. Harder to actually
 
 ---
 
-I've been returning to it because I just listened to a Mandarin podcast called *FIRE 一期一会*. The host, 大狮姐, is a Tsinghua PhD who went to McKinsey and then walked away from the whole thing to FIRE. Her reframing of the FIRE movement is the cleanest one I've heard:
+I've been returning to it because I just listened to a Mandarin podcast called *Fire一期一会*. This episode's guest, 大狮姐, is a Tsinghua PhD who went to McKinsey and then walked away from the whole thing to FIRE. Her reframing of the FIRE movement is the cleanest one I've heard:
 
 > "FIRE is failure studies dressed up as success studies."
 
@@ -45,7 +45,7 @@ The framing also dignifies the grief. Your pain isn't a verdict on your ability.
 
 ---
 
-But here's where the episode gets sharpest. The host makes a quiet distinction that I think is the most actionable idea in the whole hour.
+But here's where the episode gets sharpest. 大狮姐 makes a quiet distinction that I think is the most actionable idea in the whole hour.
 
 There are two kinds of FIRE people.
 
@@ -65,7 +65,7 @@ This is useful because most "should I quit" conversations stop at the grievance.
 
 In 2026, the backlog question gets harder for a different reason.
 
-The host names it too. The thing that startled her about the AI era isn't unemployment. It's that all of human knowledge has been compressed into a single crystal. Anyone, in five minutes, can summon mid-tier expert competence in any domain via an LLM. Knowledge as a moat is just gone.
+大狮姐 names it too. The thing that startled her about the AI era isn't unemployment. It's that all of human knowledge has been compressed into a single crystal. Anyone, in five minutes, can summon mid-tier expert competence in any domain via an LLM. Knowledge as a moat is just gone.
 
 If your backlog used to be "learn X" — write a book, switch into ML, finally master Chinese literature, get good at financial modeling — the payoff structure has changed. Knowing X used to be load-bearing. Now it's a commodity. The new moat is having lived through something with a particular taste and a particular emotional history. Experience, judgment, taste, the felt sense of having actually done the thing. AI cannot mass-produce that yet.
 
@@ -126,7 +126,7 @@ Drag your tail in the mud.
 
 话说，有一道两千四百年前的题，可以拿来检测自己活得怎么样。
 
-庄子那会儿正在濮水钓鱼。楚王派了两个大夫来，请他做相国。庄子连头都不回。他反问那两位：楚国不是有一只神龟吗？死了三千年，被楚王用绸布包着，供在庙堂之上，每年春秋大祭都被尊敬、被记得。**这只乌龟，是愿意死了被供着，还是愿意活着、在泥里曳尾巴？**
+庄子那会儿正在濮水钓鱼。楚王派了两个大夫来，请他做相国。庄子连头都不回。他反问那两位：楚国不是有一只神龟吗？死了三千年，被楚王用绸布包着、装进竹箱，供在庙堂之上，只剩一把骨头还被人敬着。**这只乌龟，是愿意死了被供着，还是愿意活着、在泥里曳尾巴？**
 
 两位大夫说：宁可活着曳尾。
 
@@ -136,13 +136,13 @@ Drag your tail in the mud.
 
 挺锋利的一个问题。但也说得有点轻巧。嘴上点头容易，真有人把“庙堂”递到你面前的时候，能不能选泥潭，是另外一回事。
 
-这就好比金庸笔下的扫地僧。少林寺藏经阁里那位老人，七十年没人记得他名字，扫地、烧水、添灯油。可真到萧远山、慕容博内伤发作的时候，整个少林七十二绝艺加在一起也救不了——只有他能。他不在庙堂上，所以他还是他。
+这就好比金庸笔下的扫地僧。少林寺藏经阁里那位老人，四十多年没人记得他名字，扫地、烧火、干粗活。可真到萧远山、慕容博内伤发作的时候，整个少林七十二绝艺加在一起也救不了——只有他能。他不在庙堂上，所以他还是他。
 
-换个角度：少林寺方丈玄慈每天香火不断、众星拱月、地位拉满。然后呢？然后他犯戒、自杀、塑像被请下神龛。庙堂的位置，从来不保人活着，它只保人被供。
+换个角度：少林寺方丈玄慈每天香火不断、众星拱月、地位拉满。然后呢？然后当年犯的戒被翻出来，当众挨了二百棍，自绝经脉。庙堂的位置，从来不保人活着，它只保人被供。
 
 ---
 
-我最近又想起这道题，是因为听了一期叫《Fire 一期一会》的中文播客。这一期请的嘉宾是大狮姐——清华博士，去了麦肯锡，干到能主动 FIRE 退休了。她对 FIRE 的重新定义，是我听过最干脆的一个：
+我最近又想起这道题，是因为听了一期叫《Fire一期一会》的中文播客。这一期请的嘉宾是大狮姐——清华博士，去了麦肯锡，干到能主动 FIRE 退休了。她对 FIRE 的重新定义，是我听过最干脆的一个：
 
 > “FIRE 是包装成成功学的失败学。”
 
@@ -235,6 +235,6 @@ Drag your tail in the mud.
 
 ### Sources / 来源
 
-- [Fire 一期一会 — *FIRE 是包装成成功学的失败学：泥潭里摇尾巴的乌龟，还是庙堂上的祭品？*](https://podcasts.apple.com/us/podcast/fire%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A/id1877746180?i=1000762967732) — host 大狮姐, *提前退休那些事儿*
+- [Fire一期一会 — *EP7 对话大狮姐：Fire是包装成成功学的失败学*](https://podcasts.apple.com/us/podcast/fire%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A/id1877746180?i=1000762967732) — guest 大狮姐 (host of *提前退休那些事儿*)
 - [《庄子·秋水》— Wikisource](https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90/%E7%A7%8B%E6%B0%B4) — the turtle parable in original
 - [Yotaro Hatamura — *An Invitation to Failure Studies* (失敗学のすすめ, 2000)](https://en.wikipedia.org/wiki/Yotaro_Hatamura) — failure studies as a discipline

@@ -26,7 +26,7 @@ sources:
   - title: "Stanovich — Matthew Effects in Reading (1986)"
     url: https://doi.org/10.1598/RRQ.21.4.1
   - title: "Malcolm Gladwell — Outliers"
-    url: https://www.gladwell.com/outliers/
+    url: https://www.hachettebookgroup.com/titles/malcolm-gladwell/outliers/9780316017930/
   - title: "Ericsson & Pool — Peak (2016) — refuting the 10,000-hour rule"
     url: https://www.salon.com/2016/04/10/malcolm_gladwell_got_us_wrong_our_research_was_key_to_the_10000_hour_rule_but_heres_what_got_oversimplified/
   - title: "James Clear — Continuous Improvement (Atomic Habits)"
@@ -45,7 +45,7 @@ Buffett took over Berkshire Hathaway in 1965 with a book value of $22 million. H
 
 Retain all earnings, give it long enough, let compound interest do its magic. That's Buffett's own summary of his life's work. Not IQ, not luck, not insider information. **Time × rate × no interruption.**
 
-Strip out the investing and what's left is a single equation: `Value(t) = Principal × (1 + rate)^time`. The math is two centuries old. What I want to write about is what Naval did with it:
+Strip out the investing and what's left is a single equation: `Value(t) = Principal × (1 + rate)^time`. The math is centuries old. What I want to write about is what Naval did with it:
 
 > "All returns in life, whether in wealth, relationships, or knowledge, come from compound interest."
 
@@ -79,7 +79,7 @@ The market's compound lesson is less a magic trick than a discipline. **Make sur
 
 Naval put learning right next to wealth in that one sentence. His follow-up essay on specific knowledge explains why:
 
-> "In leveraged domains, someone 90% correct vs 80% correct will literally get paid hundreds of times more by the market because of the leverage and because of the compounding factors."
+> "If you're operating with 1,000 times leverage and somebody is right 80% of the time, and somebody else is right 90% of time, the person who's right 90% of the time will literally get paid hundreds of times more by the market because of the leverage and because of the compounding factors and being correct."
 
 Why such a brutal gap from a 10-point difference? Because learning's compound isn't linear. The deeper you understand something, the cheaper the next layer becomes. "I read about it once" and "I've watched it run on my own machine" are different categories. Every working example you've actually built lowers the activation energy for the next one. That's the compounding mechanism.
 
@@ -113,7 +113,7 @@ A single mental model nudges your `r` in one domain. Two or three intersecting m
 
 The real opposite of a mental model is using a model once and forgetting it. The equivalent of selling a great company too early — you converted a compounding asset into a one-shot cash payment.
 
-So in the compound equation for mental models, "time" means **how many years a model has been running in my head**, not how long I live. Munger at 80 used the same lattice better than at 60. Same 80 models, 60-plus years of operation.
+So in the compound equation for mental models, "time" means **how many years a model has been running in my head**, not how long I live. Munger at 80 used the same lattice better than at 60. Same 80 or 90 models, 60-plus years of operation.
 
 ---
 
@@ -133,9 +133,9 @@ The name comes from Matthew 25:29, which Gladwell put on the opening page of Cha
 
 > "FOR UNTO EVERYONE THAT HATH SHALL BE GIVEN, AND HE SHALL HAVE ABUNDANCE. BUT FROM HIM THAT HATH NOT SHALL BE TAKEN AWAY EVEN THAT WHICH HE HATH."
 
-There's a more visceral version of the same effect. Canadian junior hockey selection cuts off on September 1. Pull the stats and you find January, February, and March birthdays massively over-represented among elite professional players. Why?
+There's a more visceral version of the same effect. Canadian junior hockey selection cuts off on January 1. Pull the stats and you find January, February, and March birthdays massively over-represented among elite professional players. Why?
 
-- Within a single grade, a January-born child is almost a year older than a December-born one.
+- Within a single age group, a January-born child is almost a year older than a December-born one.
 - At ages 8, 10, 12, a one-year size and coordination gap is enormous.
 - Older kids get picked for "good teams" → more training → gap widens → picked again at the next level → eventually professional.
 - Two children born the same year, separated by a few months on the calendar, end up on exponentially diverging tracks.
@@ -178,7 +178,7 @@ Buffett 1965 年接管 Berkshire Hathaway 的时候，公司账面净值是 2200
 
 **留住所有利润，给它足够长的时间，让复利施展它的魔法。**这是 Buffett 对自己一生事业的总结。不靠智商，不靠运气，不靠独家信息。靠的是**时间 × 利率 × 不中断**。
 
-其实这跟投资关系不大，秘密全在一条公式里：`Value(t) = Principal × (1 + rate)^time`。这数学两百年前就有人写过了。真正值得写一篇文章的是 Naval 那句话：
+其实这跟投资关系不大，秘密全在一条公式里：`Value(t) = Principal × (1 + rate)^time`。这数学几百年前就有人写过了。真正值得写一篇文章的是 Naval 那句话：
 
 > “All returns in life, whether in wealth, relationships, or knowledge, come from compound interest.”
 
@@ -198,7 +198,7 @@ Buffett 还有一句被引用很多、被理解很少的话：
 
 这话的含义跟大部分人想的不一样。大部分人以为时间长了 = 收益大。Buffett 说的是：时间只放大**本来就有的质量**。生意要是平庸的（`r` 很低甚至是负的），时间只会让它**更平庸**。本金好（`r` 可持续）的时候，时间才是朋友。
 
-讲到这儿，其实就是金庸笔下“内功 vs 招式”那一套。乔峰会的招数不算特别多，降龙十八掌翻来覆去就那十八招。可他打太祖长拳都能打得江湖闻风丧胆。为什么？内功深。换成游坦之——冰蚕毒掌、易筋经、神功盖世，招式比乔峰还炫，结局呢？走火入魔、瞎了眼、自杀。招式是 `r`，内功才是本金。本金不对，招式炫得越多，崩得越快。
+讲到这儿，其实就是金庸笔下“内功 vs 招式”那一套。乔峰会的招数不算特别多，降龙十八掌翻来覆去就那十八招。可他打太祖长拳都能打得江湖闻风丧胆。为什么？内功深。招式是 `r`，内功才是本金。本金不对，招式炫得越多，崩得越快。
 
 所以股市复利的第一个秘密其实是**本金质量**，利率还得往后排。Buffett 自己用的词叫“能力圈”：
 
@@ -218,7 +218,7 @@ Buffett 还有一句被引用很多、被理解很少的话：
 
 Naval 把“学习”和“财富”并排放在复利那句话里。他另一篇关于 specific knowledge 的文章解释了原因：
 
-> “In leveraged domains, someone 90% correct vs 80% correct will literally get paid hundreds of times more by the market because of the leverage and because of the compounding factors.”
+> “If you're operating with 1,000 times leverage and somebody is right 80% of the time, and somebody else is right 90% of time, the person who's right 90% of the time will literally get paid hundreds of times more by the market because of the leverage and because of the compounding factors and being correct.”
 
 **在有杠杆的领域，90% 正确和 80% 正确的回报，能差出几百倍。**
 
@@ -236,7 +236,7 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 
 所以学习的复利，**利率不是“你多认真”，是“你选了什么在复利”**。
 
-还是拿金庸来讲好懂。少林七十二绝艺一辈子学不完，可绝艺归绝艺，学十几门也就够了。但《九阳真经》《易筋经》这种内功心法，越老越值钱。张三丰一百岁的时候武功还在涨。鸠摩智花二十年学招式，结果四十多岁就开始走火入魔。**学什么，决定了你的复利能跑多长。**
+还是拿金庸来讲好懂。少林七十二绝艺一辈子学不完，可绝艺归绝艺，学十几门也就够了。但《九阳真经》《易筋经》这种内功心法，越老越值钱。张三丰一百岁的时候武功还在涨。鸠摩智贪多务得，招式一门门往身上堆，结果四十多岁就开始走火入魔。**学什么，决定了你的复利能跑多长。**
 
 ---
 
@@ -278,9 +278,9 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 
 **凡有的，还要加倍给他，使他多余。没有的，连他所有的也要夺去。**
 
-同一章里还有一个更直观的例子。加拿大青少年冰球队的选拔分年级，9 月 1 日为分界线。统计下来，顶级职业球员里 1、2、3 月出生的比例远高于 10、11、12 月。为什么？
+同一章里还有一个更直观的例子。加拿大青少年冰球队的选拔按年龄分组，1 月 1 日为分界线。统计下来，顶级职业球员里 1、2、3 月出生的比例远高于 10、11、12 月。为什么？
 
-- 同一学年里，1 月出生的孩子比 12 月出生的大接近一岁。
+- 同一个年龄组里，1 月出生的孩子比 12 月出生的大接近一岁。
 - 8 岁、10 岁这些关键年龄，差一岁，体型和协调性就差一大截。
 - 大的孩子被选进“好队”→ 接受更多训练 → 差距**进一步拉大** → 更高级别选拔时又被选上 → 最终进职业。
 - 同一年生的孩子，只因为生日差了几个月，走上了两条指数发散的轨道。
@@ -327,7 +327,7 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 - [Naval Ravikant — Specific Knowledge](https://nav.al/specific-knowledge)
 - [Charlie Munger — A Lesson on Elementary, Worldly Wisdom (USC 1994)](https://fs.blog/a-lesson-on-worldly-wisdom/)
 - [Stanovich — Matthew Effects in Reading (1986)](https://doi.org/10.1598/RRQ.21.4.1)
-- [Malcolm Gladwell — *Outliers*](https://www.gladwell.com/outliers/) — Ch. 1, "The Matthew Effect"
+- [Malcolm Gladwell — *Outliers*](https://www.hachettebookgroup.com/titles/malcolm-gladwell/outliers/9780316017930/) — Ch. 1, "The Matthew Effect"
 - [Ericsson & Pool — *Peak* (2016) refutation of the 10,000-hour rule, via Salon excerpt](https://www.salon.com/2016/04/10/malcolm_gladwell_got_us_wrong_our_research_was_key_to_the_10000_hour_rule_but_heres_what_got_oversimplified/)
 - Carol S. Dweck — *Mindset: The New Psychology of Success* (Random House, 2006)
 - [James Clear — Continuous Improvement](https://jamesclear.com/continuous-improvement) — "1% better each day"

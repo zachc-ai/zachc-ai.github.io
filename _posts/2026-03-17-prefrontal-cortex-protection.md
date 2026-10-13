@@ -19,7 +19,7 @@ Your prefrontal cortex (PFC) does the executive work: planning, decisions, focus
 
 **Chronic stress** is the biggest threat. Sustained cortisol exposure literally shrinks the dendritic spines in your PFC. Connections weaken, and control shifts from your rational brain to your emotional brain (Arnsten, 2009, *Nature Reviews Neuroscience*).
 
-**Sleep deprivation** hits hard. Even one bad night drops PFC-dependent attention and decision-making by 20–30% (Lim & Dinges, 2010). Long-term, poor sleep accelerates the buildup of beta-amyloid, the protein linked to neurodegeneration.
+**Sleep deprivation** hits hard. Even one night without sleep drags down attention and working memory (Lim & Dinges, 2010). Long-term, poor sleep accelerates the buildup of beta-amyloid, the protein linked to neurodegeneration.
 
 **A sedentary lifestyle** starves the PFC. Without exercise, your brain produces less BDNF (brain-derived neurotrophic factor), the molecule that drives neuroplasticity and keeps neurons healthy.
 
@@ -31,9 +31,9 @@ Two interventions sit above everything else:
 
 **Exercise.** 150 min/week of moderate aerobic activity. It raises BDNF, improves cerebral blood flow to the PFC, lowers baseline cortisol, and tunes dopamine and norepinephrine to where they should be. A 6-month aerobic training program measurably grew PFC gray and white matter in older adults (Colcombe et al., 2006).
 
-**Sleep.** 7–9 hours, consistent schedule. During deep sleep the glymphatic system runs 10–20× faster and flushes metabolic waste from the PFC. Slow-wave sleep is when PFC–hippocampus memory consolidation actually happens.
+**Sleep.** 7–9 hours, consistent schedule. During deep sleep the glymphatic system is 10–20× more active and flushes metabolic waste from the PFC. Slow-wave sleep is when PFC–hippocampus memory consolidation actually happens.
 
-**Meditation** comes next. 8 weeks of mindfulness practice raised PFC gray matter density (Hölzel et al., 2011). The mechanism: stronger top-down control from the PFC over the amygdala.
+**Meditation** comes next. 8 weeks of mindfulness practice raised gray matter density in the hippocampus and posterior cingulate, though that study didn't find a change in the PFC itself (Hölzel et al., 2011). The usual explanation: stronger top-down control from the PFC over the amygdala.
 
 Other evidence-backed strategies: a Mediterranean-style anti-inflammatory diet (omega-3, polyphenols, magnesium), meaningful social interaction, and learning new skills (instruments, languages, strategy games). Emerging evidence supports intermittent fasting and cold exposure, though human data is still limited.
 
@@ -81,7 +81,7 @@ Less interactive isn't less effective. It might be the only way to still have a 
 
 **慢性压力**是头号杀手。皮质醇长期偏高会让 PFC 的树突棘萎缩，神经连接变弱，大脑的方向盘就从理性脑滑到情绪脑那边去了（Arnsten, 2009, *Nature Reviews Neuroscience*）。
 
-**睡眠不足**伤得也快。一晚没睡好，PFC 负责的注意力和决策能力就掉 20–30%（Lim & Dinges, 2010）。长期睡不够还会加速 β-淀粉样蛋白堆积，这玩意儿跟神经退行性疾病直接挂钩。
+**睡眠不足**伤得也快。一整晚不睡，注意力和工作记忆就会明显下滑（Lim & Dinges, 2010）。长期睡不够还会加速 β-淀粉样蛋白堆积，这玩意儿跟神经退行性疾病直接挂钩。
 
 **久坐**则是在慢慢饿死它。不运动，BDNF（脑源性神经营养因子）的分泌就上不去，而 BDNF 是神经可塑性最重要的驱动因子。
 
@@ -91,11 +91,11 @@ Less interactive isn't less effective. It might be the only way to still have a 
 
 有两个干预手段，效果明显高出其他一截：
 
-**运动。** 每周 150 分钟中等强度有氧。能提升 BDNF，改善 PFC 脑血流，降低皮质醇基线，把多巴胺和去甲肾上腺素调到最佳浓度。有项研究让老年人做了 6 个月有氧训练，PFC 的灰质和白质体积都长回来了（Colcombe et al., 2006）。
+**运动。** 每周 150 分钟中等强度有氧。能提升 BDNF，改善 PFC 脑血流，降低皮质醇基线，把多巴胺和去甲肾上腺素调到最佳浓度。有项研究让老年人做了 6 个月有氧训练，PFC 的灰质和白质体积都增加了（Colcombe et al., 2006）。
 
 **睡眠。** 7–9 小时，作息规律。深度睡眠时类淋巴系统活跃度提升 10–20 倍，把 PFC 的代谢废物冲掉。慢波睡眠是 PFC 跟海马做记忆巩固的窗口。
 
-**冥想**排第三。8 周正念练习就能增加 PFC 灰质密度（Hölzel et al., 2011）。机制是 PFC 对杏仁核的自上而下控制变强了。
+**冥想**排第三。8 周正念练习就能增加海马体和后扣带回的灰质密度，不过这项研究没在 PFC 本身测出变化（Hölzel et al., 2011）。通常的解释是，PFC 对杏仁核的自上而下控制变强了。
 
 其他有证据支持的策略：地中海式抗炎饮食（Omega-3、多酚类、镁）、有意义的社交互动、学习新技能（乐器、语言、策略游戏）。间歇性禁食和冷暴露有初步证据支持，但人体数据还不多。
 

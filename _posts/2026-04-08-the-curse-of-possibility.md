@@ -20,7 +20,7 @@ sources:
   - title: "Microsoft 2024 Work Trend Index"
     url: https://www.microsoft.com/en-us/worklab/work-trend-index/
   - title: "APA 2023 Work in America Survey"
-    url: https://www.apa.org/pubs/reports/work-in-america/2023-workplace-health-well-being
+    url: https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring
   - title: "The Paradox of Choice (Barry Schwartz)"
     url: https://en.wikipedia.org/wiki/The_Paradox_of_Choice
   - title: "Solow Paradox"
@@ -39,7 +39,7 @@ Then I noticed a paradox. Everything became "doable," but everything took longer
 
 I assumed it was just me. Maybe I wasn't efficient enough. Maybe I hadn't found the right workflow. Then I saw the data:
 
-> Upwork's 2024 research found that **over half of employees using AI tools feel MORE overwhelmed** — not less burdened, more exhausted.
+> Upwork's 2024 research found that **77% of employees using AI say the tools have added to their workload** — more work, not less.
 
 It's not just me. It's structural.
 
@@ -80,7 +80,7 @@ Every new "possibility" is a new valve. Every valve asks: open or not?
 
 There's a famous Israeli study on parole judges that shows what this does to people. Approval rates start around **65%** at the beginning of a session, then **gradually drop to near 0%** as decisions accumulate. After a break, they reset to 65%. The cases didn't get worse. The judges' brains got tired.
 
-David Meyer's research is more direct. Multitasking **more than doubles** completion time. The brain spends zero-progress "restart" time every time it switches tasks. Only **2–5% of people** are true "supertaskers"; the other 95% just perform worse when multitasking.
+David Meyer's research is more direct. Switching between tasks can cost **as much as 40%** of your productive time. The brain spends zero-progress "restart" time every time it switches tasks. And David Strayer at Utah found only **2.5% of people** are true "supertaskers"; everyone else just performs worse when multitasking.
 
 That's the trap. AI lets you open more valves, but the pipe hasn't changed. Each new valve adds no output. It just thins what every valve gets.
 
@@ -94,7 +94,7 @@ If it were just me, fine. Maybe I'm doing it wrong. But the numbers say otherwis
 
 - **38%** of employees worry AI will make their jobs obsolete
 - Among those worried: **51%** say work hurts their mental health, **64%** feel tense or stressed daily, **37%** report emotional exhaustion
-- Even among those NOT worried about AI replacement, stress is rising — **56%** feel micromanaged by tech surveillance
+- Surveillance adds its own load: **56%** of workers monitored by tech feel tense or stressed during the workday, vs. 40% of those who aren't
 
 **Microsoft's 2024 Work Trend Index:**
 
@@ -106,8 +106,8 @@ If it were just me, fine. Maybe I'm doing it wrong. But the numbers say otherwis
 
 **Upwork's 2024 Research (the most damning):**
 
-- **Over 50%** of AI-using employees report feeling "overwhelmed"
-- Workers with AI tool access report **more burnout**, not less
+- **77%** of AI-using employees say the tools have added to their workload
+- **71%** of full-time employees are burned out; **38%** feel overwhelmed about having to use AI at work
 
 **Gallup 2021 Global Emotions Report:**
 
@@ -130,7 +130,7 @@ In 1987 Robert Solow wrote a line that became the "Solow Paradox":
 
 Erik Brynjolfsson quantified it in 1993. Computing power grew **100×** through the 1970s and 80s, and yet labor productivity growth *fell* from **over 3%** in the 1960s to **roughly 1%**. More computers didn't translate into more productivity, at least not in the short term.
 
-Same story with steam and electricity. The productivity payoff took decades. Factories in the 1870s bolted electric motors onto steam-era floor plans and wondered why nothing changed. It wasn't until someone rethought the entire factory layout that electricity actually delivered.
+Same story with steam and electricity. The productivity payoff took decades. Factories in the 1890s bolted electric motors onto steam-era floor plans and wondered why nothing changed. It wasn't until someone rethought the entire factory layout that electricity actually delivered.
 
 AI is running the same cycle:
 
@@ -205,7 +205,7 @@ The moments you decide **not** to use AI.
 - [Attention Restoration Theory](https://en.wikipedia.org/wiki/Attention_restoration_theory) — Kaplan & Kaplan on directed attention fatigue
 - [Upwork 2024 Research](https://www.upwork.com/research/ai-enhanced-work-models) — AI and workforce overwhelm
 - [Microsoft 2024 Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/) — AI adoption and productivity metrics
-- [APA 2023 Work in America Survey](https://www.apa.org/pubs/reports/work-in-america/2023-workplace-health-well-being) — AI anxiety and workplace mental health
+- [APA 2023 Work in America Survey](https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring) — AI anxiety and workplace mental health
 - [The Paradox of Choice](https://en.wikipedia.org/wiki/The_Paradox_of_Choice) — Barry Schwartz on choice overload
 - [Solow Paradox](https://en.wikipedia.org/wiki/Productivity_paradox) — The productivity paradox of new technology
 
@@ -225,7 +225,7 @@ The moments you decide **not** to use AI.
 
 一开始我以为是自己的问题。可能效率不够高，或者还没找到对的工作方式。直到看见一组数据：
 
-> Upwork 2024 年的研究发现，**超过一半使用 AI 工具的员工感到更加不堪重负（overwhelmed）**——不是更轻松，是更累。
+> Upwork 2024 年的研究发现，**用 AI 工具的员工里，77% 说这些工具反而加重了工作量**——不是减负，是加码。
 
 不是我一个人的错觉。是结构性的。
 
@@ -248,7 +248,7 @@ The moments you decide **not** to use AI.
 
 说白了，大脑就是一根固定口径的管子。从 Miller 到 Sweller 到 Kaplan，半个多世纪的研究都在重复同一句话：**管道不会变粗。**
 
-这就好比《天龙八部》里的鸠摩智。他把少林七十二绝艺一门一门学会了，看上去无敌。结果运起小无相功硬撑那些招式，自己内息逆转，差点走火入魔。问题不出在招式上，出在他那条经脉就那么粗，硬塞了七十二门进去。少林寺方丈玄慈劝过他一句：“本派绝技，每一门都需相应的内功修为，否则……”鸠摩智没听进去。
+这就好比《天龙八部》里的鸠摩智。他把少林七十二绝艺一门一门学会了，看上去无敌。结果运起小无相功硬撑那些招式，自己内息逆转，走火入魔。问题不出在招式上，出在他那条经脉就那么粗，硬塞了七十二门进去。藏经阁的扫地僧点破过他：“每一项绝技，均须有相应的慈悲佛法为之化解。”鸠摩智没听进去。
 
 AI 工具就是这种“少林七十二绝艺”——一上手都能开，可你的内息（注意力、决策力）还是那么多。开得越多，每一门用得越浅。
 
@@ -270,7 +270,7 @@ Herbert Simon 在 1971 年写过一句话，到了 AI 时代越来越准：
 
 以色列有个挺有名的假释法官研究，结果挺扎心。每轮裁决开始时，批准率大约**65%**。决策数量一多，批准率**就一路降到接近 0%**。休息之后，又回到 65%。案子还是那些案子，累的是法官的脑子。
 
-David Meyer 的研究更直接：多任务切换让完成时间**增加一倍以上**。大脑每切换一次任务，都得花一段“重启”时间，这段时间里一点进展都没有。而且只有**2–5% 的人**是真正的“超级任务者”，其余 95% 多任务时表现都会下降。
+David Meyer 的研究更直接：来回切换任务，最多能吃掉**40%** 的有效时间。大脑每切换一次任务，都得花一段“重启”时间，这段时间里一点进展都没有。犹他大学的 David Strayer 则发现，只有**2.5% 的人**是真正的“超级任务者”，其余的人多任务时表现都会下降。
 
 陷阱就在这。AI 让你能开更多阀门，但管子没变粗。每多开一个，产出没多，每个阀门分到的水反而更少了。
 
@@ -284,7 +284,7 @@ David Meyer 的研究更直接：多任务切换让完成时间**增加一倍以
 
 - **38%** 的员工担心 AI 会让自己的工作过时
 - 这些担心 AI 的人里，**51%** 觉得工作伤害了自己的心理健康，**64%** 上班时常感到紧张、有压力，**37%** 感到情感耗竭
-- 就算不担心被 AI 取代，压力也在涨：**56%** 觉得技术监控让自己被微管理
+- 被技术监控本身就是压力：被监控的员工里，**56%** 上班时常感到紧张、有压力，没被监控的只有 40%
 
 **Microsoft 2024 年工作趋势指数：**
 
@@ -296,8 +296,8 @@ David Meyer 的研究更直接：多任务切换让完成时间**增加一倍以
 
 **Upwork 2024 年研究（最扎心的一组）：**
 
-- 用 AI 的员工里，**超过 50%** 说自己“不堪重负”
-- 能用上 AI 工具的员工，**倦怠（burnout）反而更多**
+- 用 AI 的员工里，**77%** 说这些工具反而加重了工作量
+- **71%** 的全职员工已经倦怠（burnout），**38%** 因为工作中必须用 AI 而不堪重负
 
 **Gallup 2021 全球情绪报告：**
 
@@ -320,7 +320,7 @@ David Meyer 的研究更直接：多任务切换让完成时间**增加一倍以
 
 Erik Brynjolfsson 在 1993 年把这件事量化了。1970–80 年代计算能力翻了**100 倍**，但劳动生产率的增速却从 1960 年代的**3% 以上**掉到**大约 1%**。更多计算机没带来更高生产力，至少短期内没有。
 
-蒸汽机和电力也是同一个故事。生产力红利花了几十年才兑现。1870 年代的工厂装上电动机，车间布局还是蒸汽机时代那套。直到有人想明白要重新设计整个流程，电力的好处才真正出现。
+蒸汽机和电力也是同一个故事。生产力红利花了几十年才兑现。1890 年代的工厂装上电动机，车间布局还是蒸汽机时代那套。直到有人想明白要重新设计整个流程，电力的好处才真正出现。
 
 今天的 AI 时代在跑同一个循环：
 
@@ -397,7 +397,7 @@ Simon 在 1971 年就说清楚了：信息丰富的世界里，匮乏的不是�
 - [注意力恢复理论](https://en.wikipedia.org/wiki/Attention_restoration_theory) — Kaplan & Kaplan关于定向注意力疲劳的研究
 - [Upwork 2024研究](https://www.upwork.com/research/ai-enhanced-work-models) — AI与职场压力
 - [Microsoft 2024工作趋势指数](https://www.microsoft.com/en-us/worklab/work-trend-index/) — AI采用率与生产力指标
-- [APA 2023美国职场调查](https://www.apa.org/pubs/reports/work-in-america/2023-workplace-health-well-being) — AI焦虑与职场心理健康
+- [APA 2023美国职场调查](https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring) — AI焦虑与职场心理健康
 - [选择的悖论](https://en.wikipedia.org/wiki/The_Paradox_of_Choice) — Barry Schwartz关于选择过载
 - [Solow悖论](https://en.wikipedia.org/wiki/Productivity_paradox) — 新技术的生产力悖论
 
