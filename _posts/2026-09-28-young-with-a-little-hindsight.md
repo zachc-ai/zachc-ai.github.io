@@ -2,9 +2,11 @@
 layout: post
 title: "Young, With a Little Hindsight"
 title_zh: "还年轻，也懂一点了"
+description: "You can't have youth and understand it at the same time, but at 35 you can guess what you'll miss, and being a beginner again gets close."
+description_zh: "青春和对青春的感悟没法同时拥有，但 35 岁可以先猜猜以后会想念什么，或者找件新事从头学起。"
 date: 2026-09-28
 categories: life
-tags: [youth, reflection, learning, birthday-reflection]
+tags: [life, learning, philosophy]
 bilingual: true
 ---
 

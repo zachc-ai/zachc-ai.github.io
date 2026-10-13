@@ -2,9 +2,11 @@
 layout: post
 title: "The Journey Is the Scripture"
 title_zh: "踏上取经路，比取到真经更重要"
+description: "Zhang Xue raced to find the gaps and Jiaozi animated on his mother's pension: nobody starts ready, and the trials on the road are the scripture."
+description_zh: "张雪先上赛道再找差距，饺子靠母亲的退休金做动画：没人是准备好了才出发的，路上那八十一难就是真经。"
 date: 2026-04-05
 categories: life
-tags: [philosophy, perseverance, journey, china]
+tags: [philosophy, life]
 bilingual: true
 ---
 
@@ -32,9 +34,9 @@ The line has been spinning in my head. Because across eras and cultures, the peo
 
 ## Zhang Xue: ride first, learn the gap later
 
-In 2013, Zhang Xue arrived in Chongqing with 20,000 yuan. He assembled motorcycles, modified them, sold them online. In 2017 he founded Kaiyue Motorcycle and scaled from 800 to 30,000 units per year. In 2024 he left to start ZXMOTO, focused on high-performance bikes and proprietary engine R&D.
+In 2013, Zhang Xue arrived in Chongqing with 20,000 yuan. He assembled motorcycles, modified them, sold them online. In 2017 he founded Kaiyue Motorcycle and scaled it from 800 to 30,000 units per year. In 2024 he left to start ZXMOTO, focused on high-performance bikes and proprietary engine R&D.
 
-The gap between Chinese motorcycle manufacturing and Japan and Italy is real. The conventional approach: catch up on the technology, then go race. Zhang Xue did the opposite. Race first, discover the gaps on the track, improve through them.
+The gap between Chinese motorcycle makers and the Japanese and Italians is real. The conventional approach: catch up on the technology, then go race. Zhang Xue did the opposite. Race first, discover the gaps on the track, improve through them.
 
 He said:
 
@@ -44,7 +46,7 @@ And:
 
 > "If you do it while young, even if you fail when you grow old, you won't regret it — absolutely not."
 
-That Portugal championship didn't fall from the sky. It was earned from 20,000 yuan through countless last-place finishes, retirements, and doubts. Lap by lap.
+That Portugal championship didn't fall from the sky. It was built up from 20,000 yuan, through countless last-place finishes, retirements, and doubts. Lap by lap.
 
 ---
 
@@ -52,11 +54,11 @@ That Portugal championship didn't fall from the sky. It was earned from 20,000 y
 
 Jiaozi (Yang Yu) graduated from Sichuan University's School of Pharmacy in 2002. He abandoned a conventional career to teach himself animation. His mother's monthly pension of 1,000 yuan was his only income. Three and a half years later, alone, he produced the short film *Beat Up the Big Watermelon*, which won a special commendation at the Berlin International Short Film Festival in 2008.
 
-He wrote a line for his film that became a rallying cry for all of Chinese animation:
+He later wrote a line for *Ne Zha* that became a rallying cry for all of Chinese animation:
 
 > "My fate is my own, not decided by the heavens."
 
-That line isn't only Ne Zha's. It's Jiaozi's own life. A pharmacy graduate with no animation training, no industry connections, surviving on his mother's pension, questioned by everyone. His choice wasn't to prove he was qualified to make animation. It was to just make it.
+Ne Zha says that line, but it's also Jiaozi's own life. A pharmacy graduate with no animation training, no industry connections, surviving on his mother's pension, questioned by everyone. Instead of proving he was qualified to make animation, he just made it.
 
 *Ne Zha* grossed 5 billion RMB in 2019. *Ne Zha 2* hit $2.2 billion globally in 2025, the highest-grossing animated film ever. But the starting point was one person, one computer, 1,000 yuan a month, and one decision: start.
 
@@ -83,7 +85,7 @@ Wang Yangming spent his life arguing one point. You think you "know" something. 
 > "A journey of a thousand miles begins with a single step."
 > — Lao Tzu, *Tao Te Ching*, Chapter 64
 
-Probably the most quoted line ever written. Most people see "a thousand miles" and miss the key word: "begins." The point isn't the distance. It's the starting.
+Probably the most quoted line ever written. Most people see "a thousand miles" and miss the key word: "begins." The point is the start, not the distance.
 
 ### Li Bai: the hard road
 
@@ -92,7 +94,7 @@ Probably the most quoted line ever written. Most people see "a thousand miles" a
 > Yet someday I will ride the long wind and break the heavy waves,
 > and set my cloudy sail straight across the deep, deep sea."
 
-When Li Bai wrote this, his career was blocked and every path seemed closed. But the poem doesn't end in despair. It ends in "riding the wind and breaking the waves." Knowing the road is hard and walking it anyway. That IS the answer.
+When Li Bai wrote this, his career was blocked and every path seemed closed. But instead of ending in despair, the poem ends with "riding the wind and breaking the waves." Knowing the road is hard and walking it anyway. That IS the answer.
 
 ---
 
@@ -186,9 +188,9 @@ If everyone knows this, why do most people still not move?
 
 Because setting out has a hidden cost. **You expose your imperfection.**
 
-Don't race, you can always say "my bike is still being tuned." Don't ship, "I'm still polishing." Don't try building with new tools, "the technology isn't mature enough yet."
+Don't race, and you can always say "my bike is still being tuned." Don't ship, "I'm still polishing." Don't try building with new tools, "the technology isn't mature enough yet."
 
-Standing still, your self-image stays intact. "I just haven't started yet; once I do, I'll be amazing." Step out, and reality holds up a mirror. You see the gaps, your own clumsiness, the people who are faster, better, more experienced than you are.
+Stand still, and your self-image stays intact. "I just haven't started yet; once I do, I'll be amazing." Step out, and reality holds up a mirror. You see the gaps, your own clumsiness, the people who are faster, better, more experienced than you are.
 
 Zhang Xue saw that mirror and kept riding. Jiaozi saw it and kept drawing. Feng Ji saw it and kept building.
 
@@ -216,7 +218,7 @@ But I think of Zhang Xue, of Jiaozi, of Wang Yangming's "knowledge is the beginn
 
 Lu Xun said roads are made by walking. Cavafy said Ithaca is just the reason to set out. Roosevelt said credit belongs to the man in the arena. Jobs said the journey is the reward.
 
-All of them saying a version of the same thing:
+They're all saying a version of the same thing:
 
 > **Setting out on the journey matters more than reaching the destination.**
 
@@ -234,11 +236,11 @@ Every step on that journey *is* the scripture.
 
 2026 年 3 月 28 日，葡萄牙。世界超级摩托车锦标赛（WSBK）WorldSSP 组别。
 
-一辆编号 ZX820RR-RS 的摩托车冲过终点线，领先雅马哈四秒。第二天，同一辆车从第三位追到第一，再次夺冠。连续两场。骑手 Valentin Debise 是法国人，但他胯下那台机器从发动机到制动盘到悬挂，全是中国造的——来自重庆一家叫“张雪机车”（ZXMOTO）的公司，创始人张雪。
+一辆编号 ZX820RR-RS 的摩托车冲过终点线，领先雅马哈四秒。第二天，同一辆车从第三位追到第一，再次夺冠。连续两场。骑手 Valentin Debise 是法国人，但他胯下那台机器从发动机、制动盘到悬挂，全是中国造的——来自重庆一家叫“张雪机车”（ZXMOTO）的公司，创始人张雪。
 
 这一下打破了 Ducati、雅马哈、川崎几十年的垄断。远在重庆看直播的张雪，哭了。
 
-大多数人关心的是那个冠军。我被打动的是张雪说过的另一句话：
+大多数人关心的是那个冠军。我被打动的，倒是张雪说过的一句话：
 
 > “做一件事不是奔着结果去，而是因为热爱，可能结果真的不一样。”
 
@@ -254,7 +256,9 @@ Every step on that journey *is* the scripture.
 
 2013 年，张雪揣着两万块钱到了重庆。组装摩托、改装摩托、网上卖摩托。2017 年创立凯越机车，从年产 800 台干到 30000 台。2024 年从凯越出来，成立张雪机车（ZXMOTO），专攻高性能摩托和自主发动机研发。
 
-——其实这套路子有点像段誉的北冥神功。段誉自己不会武功，可一接战就把对方内力吸过来。打一场，长一份。这就是张雪干的事。中国摩托车工业跟日本、意大利比，差距是真的有。传统思路是：先把技术追上来，再去比赛。张雪反过来：先去比赛，在赛道上把差距找出来，在差距里改进。
+中国摩托车工业跟日本、意大利比，差距是真的有。传统思路是：先把技术追上来，再去比赛。张雪反过来：先去比赛，在赛道上把差距找出来，在差距里改进。
+
+其实这套路子有点像段誉的北冥神功。段誉自己不会武功，可一接战就把对方内力吸过来。打一场，长一份。这就是张雪干的事。
 
 他自己说过：
 
@@ -276,7 +280,7 @@ Every step on that journey *is* the scripture.
 
 > “我命由我不由天。”
 
-这不只是哪吒的台词。这是饺子自己的人生。一个药学毕业生，没受过动画训练，没行业人脉，靠母亲退休金活着，被所有人质疑。他的选择不是去证明自己有资格做动画。他的选择是先做出来。
+这不只是哪吒的台词。这是饺子自己的人生。一个药学毕业生，没受过动画训练，没行业人脉，靠母亲退休金活着，被所有人质疑。他没去证明自己有资格做动画，直接动手先做了出来。
 
 《哪吒之魔童降世》2019 年票房 50 亿人民币。《哪吒 2》2025 年全球票房 22 亿美元，成为有史以来票房最高的动画电影。但起点是一个人、一台电脑、每月 1000 块钱，以及一个决定：先做。
 
@@ -289,21 +293,21 @@ Every step on that journey *is* the scripture.
 > “其实地上本没有路，走的人多了，也便成了路。”
 > — 鲁迅《故乡》
 
-路不是被规划出来的。路是被走出来的。第一个走的人脚下没有路。她走过去之后，路才出现。
+路不是规划出来的，是走出来的。第一个走的人脚下没有路。人走过去了，路才出现。
 
 ### 王阳明：知行合一
 
 > “知者行之始，行者知之成。”
 > — 王阳明《传习录》
 
-王阳明一辈子在说一件事。你以为自己“知道”了。但如果你没做，你其实什么都不知道。真知只能从行中来。取经路上的每一步，本身就是真经。
+王阳明一辈子在说一件事。你以为自己“知道”了。可要是没做过，其实什么都不知道。真知只能从行中来。取经路上的每一步，本身就是真经。
 
 ### 老子：千里之行
 
 > “千里之行，始于足下。”
 > — 老子《道德经》第六十四章
 
-可能是最被引用过的一句话。但大部分人只看到“千里”，把“始”漏了。重点不是距离，是开始。
+这大概是被引用得最多的一句话了。但大部分人只看到“千里”，把“始”漏了。重点在开始，不在距离。
 
 ### 李白：行路难
 
@@ -311,7 +315,7 @@ Every step on that journey *is* the scripture.
 > “长风破浪会有时，直挂云帆济沧海。”
 > — 李白《行路难》
 
-李白写这首诗的时候，仕途受阻，前路茫茫。黄河冰封，太行雪满，每条路都走不通。但诗不是在绝望里结束的。它在“长风破浪”里结束。明知道路难还要走，这本身就是李白的答案。
+李白写这首诗的时候，仕途受阻，前路茫茫。黄河冰封，太行雪满，每条路都走不通。但这首诗最后没落在绝望上，落在了“长风破浪”。明知道路难还要走，这本身就是李白的答案。
 
 ---
 
@@ -328,7 +332,7 @@ Roosevelt 这话和曾国藩的“躬身入局”是一回事。站在场外评�
 
 > “旅程就是回报。”
 
-Jobs说这话的时候，Apple还不是万亿市值。他在说的是：不要为了终点而走路。走路本身就是意义。
+Jobs 说这话的时候，Apple 还不是万亿市值。他在说的是：不要为了终点而走路。走路本身就是意义。
 
 ### C.P. Cavafy：《伊萨卡》
 
@@ -374,7 +378,7 @@ Jobs说这话的时候，Apple还不是万亿市值。他在说的是：不要�
 >
 > — C.P. Cavafy,《伊萨卡》(1911)
 
-这首诗已经说尽了。伊萨卡最大的价值，是它让你出发了。旅途中遇到的一切——风暴、港口、陌生人——才是你真正得到的东西。即使终点不如想象中辉煌，它也没有骗你。因为到那时，你已经明白了伊萨卡的真正含义。
+这首诗已经说尽了。伊萨卡最大的价值，是它让你出发了。旅途中遇到的风暴、港口、陌生人，这些才是你真正得到的东西。即使终点不如想象中辉煌，它也没有骗你。因为到那时，你已经明白了伊萨卡的真正含义。
 
 ### Reid Hoffman
 
@@ -386,18 +390,18 @@ Jobs说这话的时候，Apple还不是万亿市值。他在说的是：不要�
 
 ### Jensen Huang
 
-2024年斯坦福毕业典礼，黄仁勋对台下的毕业生说：
+2024 年斯坦福毕业典礼，黄仁勋对台下的毕业生说：
 
 > “我希望苦难发生在你们身上。”
 
-他不是诅咒他们。NVIDIA 差点没熬过 1997 年，只剩一个月现金流。他后来说，创建 NVIDIA 比想象中难“一百万倍”。要是当初知道要受多少“痛苦、羞耻和尴尬”，他可能就不会开始。但他开始了。然后他在痛苦里学到了活下来需要的一切。
+他不是诅咒他们。NVIDIA 差点没熬过 1997 年，账上的钱只够再发一个月工资。他后来说，创建 NVIDIA 比想象中难“一百万倍”。要是当初知道要受多少“痛苦、羞耻和尴尬”，他可能就不会开始。但他开始了。然后他在痛苦里学到了活下来需要的一切。
 
 ### Rilke
 
 > “对你心中一切未解之事保持耐心，试着去爱问题本身。活在问题之中。也许你会不知不觉地，在某个遥远的日子里，活进答案之中。”
 > — Rilke,《给青年诗人的信》(1903)
 
-里尔克和王阳明说的是同一件事。你不是先找到答案再出发。你是在路上活成了答案。
+里尔克和王阳明说的是同一件事。先找到答案再出发？没这回事。你是在路上活成了答案。
 
 ---
 
@@ -413,7 +417,7 @@ Jobs说这话的时候，Apple还不是万亿市值。他在说的是：不要�
 
 张雪看到了这面镜子，然后继续骑。饺子看到了，然后继续画。冯骥看到了，然后继续做。
 
-这就是“人格修养”。不是道德审判，是面对真实反馈时不逃跑的能力。
+这就是“人格修养”：面对真实反馈时不逃跑的能力，跟道德审判没关系。
 
 ---
 
@@ -425,7 +429,7 @@ Jobs说这话的时候，Apple还不是万亿市值。他在说的是：不要�
 
 不是。真经是孙悟空学会的克制，是猪八戒学会的坚持，是沙僧学会的承担，是唐僧学会的信任。这些东西都不在灵山上。全在路上。
 
-九九八十一难不是“到达真经之前的障碍”。它们本身就是真经。
+九九八十一难不是“取到真经之前的障碍”。它们本身就是真经。
 
 ---
 

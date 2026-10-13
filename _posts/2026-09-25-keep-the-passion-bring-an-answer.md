@@ -2,9 +2,11 @@
 layout: post
 title: "Keep the Passion, Bring an Answer"
 title_zh: "保持热情，带着答案来"
+description: "A mentor's two pieces of advice: don't let experience talk you out of caring, and bring a conclusion instead of a menu of options."
+description_zh: "一位 mentor 给的两条建议：别让经验把热情磨没了，提问题时也把自己的结论带上。"
 date: 2026-09-25
 categories: life
-tags: [career, mentorship, mindset, ownership, decision-making]
+tags: [career, mind]
 bilingual: true
 redirect_from:
   - /blog/bring-yourself/
