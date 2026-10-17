@@ -1,6 +1,6 @@
 ---
 name: blog-polish
-description: Polish a bilingual (EN + ZH) blog draft for Zach's Compass so it reads like Zach wrote it, not like AI generated it. Use after drafting a post in `_posts/`, before pushing. Also use when user says "polish this", "check for AI tells", "the Chinese sounds translated", or asks to refine a draft. Adapted from ContractorKeith/ai-writing-skill with Zach-specific voice rules and Chinese anti-translation rules.
+description: Polish a bilingual (EN + ZH) blog draft for Zach's Compass so it reads like Zach wrote it, not like AI generated it. Use after drafting a post in `_posts/`, before pushing. Also use when user says "polish this", "check for AI tells", "the Chinese sounds translated", or asks to refine a draft. Adapted from ContractorKeith/ai-writing-skill with Zach-specific voice rules and Chinese anti-translation rules. Runs the vendored `humanizer` skill as its structural pass.
 user_invocable: true
 ---
 
@@ -25,14 +25,29 @@ This skill runs a structured polish pass on a draft. It is **NOT** a content gen
    nonexistent, the six-point negative-claim protocol must pass before any polishing happens.
    Voice does not matter on a post that asserts something untrue. **Stop and fix if it fails.**
 4. **Load the remaining references in order:**
+   - `../humanizer/SKILL.md` — general AI-tell catalog, 26 patterns (see "Humanizer pass" below)
    - `references/en-antipatterns.md` — English AI tells (adapted from ContractorKeith)
    - `references/zh-antipatterns.md` — Chinese machine-translation tells (custom to this skill)
    - `references/voice-samples.md` — Zach's voice anchors from existing posts
-5. **Run the EN pass** — flag every violation, propose specific edits.
-6. **Run the ZH pass** — flag translation-stiff phrasing, propose native-Chinese rewrites.
-7. **Run the voice pass** — check that opening, closing, and section transitions sound like Zach.
-8. **Apply edits via `Edit` tool.** Do not rewrite the whole file at once — make targeted edits so the user can review each change.
-9. **Report a short summary** — claims-audit result first, then count of edits, then any judgment calls flagged for the user.
+5. **Run the humanizer pass** on both language blocks, following its "How to work" steps and the overrides in "Humanizer pass" below.
+6. **Run the EN pass** — flag every violation, propose specific edits.
+7. **Run the ZH pass** — flag translation-stiff phrasing, propose native-Chinese rewrites.
+8. **Run the voice pass** — check that opening, closing, and section transitions sound like Zach.
+9. **Apply edits via `Edit` tool.** Do not rewrite the whole file at once — make targeted edits so the user can review each change.
+10. **Report a short summary** — claims-audit result first, then count of edits, then any judgment calls flagged for the user.
+
+## Humanizer pass (runs on every post)
+
+`.claude/skills/humanizer/` is an unmodified copy of [blader/humanizer](https://github.com/blader/humanizer) (MIT, v3.1.0, upstream commit `8c307f3`). Don't edit it; put Zach-specific overrides here. To update, re-download upstream `SKILL.md`, review the diff, and bump the commit above.
+
+Where humanizer and this skill disagree, this skill wins. Humanizer's own Voice rule says a writer's sample overrides its patterns, and `references/voice-samples.md` is that sample.
+
+- **Dashes (§8):** don't strip to zero. Keep the EN em-dash rule below (≤1 per paragraph average). ZH 破折号 follows `references/zh-antipatterns.md`.
+- **Fragments and closers (§2):** one fragment that lands ("Worth it.") and a half-step closing stay. Cut rows of fragments and closers that restate the paragraph.
+- **Not X but Y (§1):** apply humanizer's test (keep a contrast only when the negative half corrects a belief the reader actually holds) on top of the "once or twice per post" cap below.
+- **Language scope:** §10, §12, §16, §18, and §21 are English word and typography rules, so apply them to `lang-en` only. Chinese “” quotes are correct in `lang-zh`. Every other pattern applies to both blocks.
+- **Output:** targeted `Edit` calls, not humanizer's whole-file rewrite.
+- **No new facts:** a rewrite may not add a name, number, date, or quote the draft doesn't have. Ask Zach instead.
 
 ## Hard rules (apply to both languages unless noted)
 
@@ -111,8 +126,9 @@ Run mentally before reporting done:
 11. **ZH — em-dashes:** Chinese 破折号 reduced where 冒号/换行/括号work?
 12. **Voice:** does the opening sound like Zach (specific scene) and the closing sound like Zach (half-step away)?
 13. **Bilingual symmetry:** does ZH carry the EN argument without being a translation?
+14. **Humanizer re-scan:** after edits, any §1 contrasts, §2 closers, §6 triads, §8 dash clusters, or §19 bold labels left in either block? Did any edit add or drop a fact?
 
-If all 13 pass, report polish complete with a 2-3 sentence summary of what changed.
+If all 14 pass, report polish complete with a 2-3 sentence summary of what changed.
 
 ## Output format
 
@@ -122,6 +138,7 @@ When reporting back to the user:
 Polish complete on _posts/<filename>.md
 
 Edits made:
+- Humanizer: <count> structural fixes (which § patterns)
 - EN: <count> em-dash reductions, <count> banned-word swaps, <count> rhythm fixes
 - ZH: <count> de-translation rewrites, <count> 语气词 adds, <count> pronoun simplifications
 - Voice: <opening / closing / callback notes>
