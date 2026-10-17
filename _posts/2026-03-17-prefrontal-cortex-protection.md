@@ -61,7 +61,7 @@ The good news: most negative changes are reversible with intervention, typically
 
 One thing from this literature sticks with me. Context switching is among the most expensive things the PFC does. Every focus jump (tab to tab, task to task, thought to notification) costs energy. Ophir et al. (2009) found that heavy multitaskers actually filter *worse*, not better.
 
-The way most people work with AI is basically high-frequency context switching dressed up as productivity. Rapid prompts. Micro-decisions on what to ask next. Constant ping-pong between your thinking and the model's output. It feels efficient. It's draining the part of your brain that's supposed to be steering.
+The way most people work with AI is basically high-frequency context switching dressed up as productivity. You fire off a prompt, make a micro-decision about what to ask next, and ping-pong between your own thinking and the model's output, over and over. It feels efficient, and the whole time it's draining the part of your brain that's supposed to be steering.
 
 I've been trying the opposite: treat AI like a message queue. Batch the intent, hand it off, walk away. Let it run asynchronously instead of co-piloting every keystroke. You stay in your flow. It stays in its. When you come back, you review with a fresh PFC instead of one that's been bouncing for an hour.
 
@@ -123,7 +123,7 @@ PFC 功能建立在三个基础之上：
 
 文献里有一条我一直惦记着：上下文切换是 PFC 最贵的操作之一。注意力每跳一次（标签页之间、任务之间、思路和通知之间），PFC 都要交一次能量税。Ophir et al. (2009) 发现，重度多任务者过滤信息的能力反而更差。
 
-大多数人用 AI 的方式，说白了就是高频上下文切换披了层“高效”的皮。快速来回、不停做微决策、在自己的脑子和模型输出之间反复跳。感觉很爽，其实在掏空那块本来该掌舵的脑子。
+大多数人用 AI 的方式，说白了就是高频上下文切换披了层“高效”的皮。提示词一条接一条地发，不停琢磨下一句问什么，在自己的思路和模型输出之间来回跳。感觉很爽，其实在掏空那块本来该掌舵的脑子。
 
 我最近反过来做：把 AI 当成消息队列。意图打包，丢出去，走开。让它异步去跑，别每个按键都陪着。你保持自己的心流，它保持它的。回来 review 的时候，你用的是一个还活着的 PFC，不是一个已经来回蹦了一小时的。
 

@@ -27,7 +27,7 @@ The officials said: alive. Of course alive.
 
 Zhuangzi: *Then leave. I shall keep dragging my tail through the mud.*
 
-A sharp question. It's also a bit smug. Easy to nod along to. Harder to actually pick the mud when someone's offering you the temple.
+A sharp question, and a bit smug. It's easy to nod along to, and harder to actually pick the mud when someone's offering you the temple.
 
 ---
 
@@ -39,13 +39,13 @@ It sounds like a slogan, but it isn't. There's an actual academic discipline cal
 
 **Failures have shapes.** They aren't random. They cluster. The same patterns recur across companies, decades, and domains. Hatamura's main artifact is a Failure Knowledge Database: anonymized cases that engineers consult before making decisions, treated as just as valuable as a success-case library.
 
-What the FIRE-as-failureology framing buys you is this. The math of "save 25× expenses, retire on the 4% rule" is the success-studies *packaging*. Underneath, what's usually true is that someone hit a specific shape of failure on a specific kind of success track — McKinsey burnout, post-IPO emptiness, layoff round seven — and reached for FIRE as a dignified exit. The math is the cover story. The grief is the cause.
+Read FIRE as failure studies, and the math of "save 25× expenses, retire on the 4% rule" is the success-studies *packaging*. Underneath, what's usually true is that someone hit a specific shape of failure on a specific kind of success track — McKinsey burnout, post-IPO emptiness, layoff round seven — and reached for FIRE as a dignified exit. The grief is the cause, and the math is its cover story.
 
-The framing also dignifies the grief. Your pain isn't a verdict on your ability. You collided with a recognizable, classifiable failure mode of a *path*, not a failure of *you*. Once you can name the shape, you can stop blaming yourself for it.
+The framing also dignifies the grief. Your pain isn't a verdict on your ability. You collided with a recognizable, classifiable failure mode of the path you were on. Once you can name the shape, you can stop blaming yourself for it.
 
 ---
 
-But here's where the episode gets sharpest. 大狮姐 makes a quiet distinction that I think is the most actionable idea in the whole hour.
+But the sharpest part of the episode is a distinction 大狮姐 makes almost in passing. I think it's the most actionable idea in the whole hour.
 
 There are two kinds of FIRE people.
 
@@ -69,7 +69,7 @@ In 2026, the backlog question gets harder for a different reason.
 
 If your backlog used to be "learn X" — write a book, switch into ML, finally master Chinese literature, get good at financial modeling — the payoff structure has changed. Knowing X used to be load-bearing. Now it's a commodity. The new moat is having lived through something with a particular taste and a particular emotional history. Experience, judgment, taste, the felt sense of having actually done the thing. AI cannot mass-produce that yet.
 
-This adds a quietly heavy redefinition to FIRE. It moves the goal from "buy your way out of bad work" to **buy time to compound experience**. Which is a much more demanding job description. Compounding experience needs intentional friction — real relationships, projects with real consequences, communities, parenting, art that risks being bad. It isn't the same thing as having freedom.
+This slips a heavier definition into FIRE. It moves the goal from "buy your way out of bad work" to **buy time to compound experience**. Which is a much more demanding job description. Compounding experience needs intentional friction — real relationships, projects with real consequences, communities, parenting, art that risks being bad. It isn't the same thing as having freedom.
 
 ---
 
@@ -85,7 +85,7 @@ Three: step off the rails and build a small bamboo raft alongside the ship.
 
 The raft is not a lifeboat. It can't save everyone. It may not save you. What it does is change your relationship with the ship. You no longer depend on it, but you can still trade with it.
 
-That last clause is the part I want to underline. People talk about FIRE as a binary — working or not working. The raft framing turns it into a question of relationship instead. The question isn't "do I show up to the office today?" It's *am I a passenger on this thing, or a neighbor of it?*
+That last clause is the part I want to underline. People talk about FIRE as a binary — working or not working. The raft framing turns it into a question of relationship instead. "Do I show up to the office today?" becomes *am I a passenger on this thing, or a neighbor of it?*
 
 A passenger has no leverage. A neighbor has every option a passenger has, plus the option to walk away. That extra option, even unused, changes how you negotiate.
 
@@ -138,7 +138,7 @@ Drag your tail in the mud.
 
 这就好比金庸笔下的扫地僧。少林寺藏经阁里那位老人，四十多年没人记得他名字，扫地、烧火、干粗活。可真到萧远山、慕容博内伤发作的时候，整个少林七十二绝艺加在一起也救不了——只有他能。他不在庙堂上，所以他还是他。
 
-换个角度：少林寺方丈玄慈每天香火不断、众星拱月、地位拉满。然后呢？然后当年犯的戒被翻出来，当众挨了二百棍，自绝经脉。庙堂的位置，从来不保人活着，它只保人被供。
+换个角度：少林寺方丈玄慈，香火不断，地位拉满。然后呢？然后当年犯的戒被翻出来，当众挨了二百棍，自绝经脉。庙堂的位置，从来不保人活着，它只保人被供。
 
 ---
 
@@ -146,11 +146,11 @@ Drag your tail in the mud.
 
 > “FIRE 是包装成成功学的失败学。”
 
-听着像句口号，其实不是。“失败学”（しっぱいがく）真的是一门正经学科。2000 年前后，东京大学的机械工程教授**畑村洋太郎**把它系统化了。他后来当过日本福岛核事故调查委员会主席，把这门学问从工程领域推向了制度层面。
+听着像句口号，其实不是。“失败学”（しっぱいがく）真的是一门正经学科。2000 年前后，东京大学的机械工程教授畑村洋太郎把它系统化了。他后来当过日本福岛核事故调查委员会主席，把这门学问从工程领域推向了制度层面。
 
-他的核心命题是：**失败是有“形状”的。** 失败并不随机。它可分类、可预测、可观察。同样的失败模式会跨公司、跨年代、跨行业反复出现。所以畑村做了一个**失败知识数据库**：把失败匿名化、结构化、入库，决策前先翻一遍。这个库和成功案例库一样重要。
+他的核心命题是：**失败是有“形状”的。** 失败并不随机，能分类，也能预判。同样的失败模式，会跨公司、跨年代、跨行业反复出现。所以畑村做了一个失败知识数据库，把案例匿名整理好入库，工程师做决策前先翻一遍。在他看来，这个库和成功案例库一样重要。
 
-把这个框架套到 FIRE 上，那句话就立住了。**“存够 25 倍年支出、用 4% 法则退休”——这一层成功学的语法是壳。** 壳底下，大多数 FIRE 的人是先有了“我跑不动了 / 我不想跑了”的失败感，再去找 FIRE 这套数学，给自己一个体面的退场理由。数学是包装。痛苦才是因。
+把这个框架套到 FIRE 上，那句话就立住了。**“存够 25 倍年支出、用 4% 法则退休”——这一层成功学的语法是壳。** 壳底下，大多数 FIRE 的人是先有了“我跑不动了 / 我不想跑了”的失败感，再去找 FIRE 这套数学，给自己一个体面的退场理由。
 
 这个框架还让“失败”这件事变得体面了。它说：你痛，不是因为你能力不行。你撞上的是一类成功路径的**系统性失败模式**。它有名字，有形状，别人也踩过。一旦你能把它叫出来，就可以不再为它内疚。
 
@@ -158,7 +158,7 @@ Drag your tail in the mud.
 
 但真正让我觉得有用的，是大狮姐顺嘴提的一个分类。她说，FIRE 的人其实分两种。
 
-**第一种，逃避痛苦型。** 被职场里某个具体的东西伤到了——无意义、政治、PUA、内卷、一个烂老板。FIRE 是逃生票。退休后大概率有 6 到 18 个月的蜜月期：睡觉、运动、旅行、没有 Slack。然后痛感消退，**真空**升上来。如果手里没有一件特别想做的事，他们会进入一种很难命名的反悔螺旋：我为什么要放弃那份高薪？
+**第一种，逃避痛苦型。** 被职场里某个具体的东西伤到了——无意义、政治、PUA、内卷、一个烂老板。FIRE 是逃生票。退休后大概率有 6 到 18 个月的蜜月期：睡觉、运动、旅行、没有 Slack。然后痛感消退，真空升上来。如果手里没有一件特别想做的事，他们会进入一种很难命名的反悔螺旋：我为什么要放弃那份高薪？
 
 **第二种，时间不够用型。** 本来就有一堆想做的事（写作、研究、创业、陪娃、读书），工作只是占着时间。FIRE 不解决任何问题，它只是把障碍挪开。没有真空期，因为想做的事排到了三辈子以后。
 
@@ -176,13 +176,13 @@ Drag your tail in the mud.
 
 大狮姐这段也讲得很狠。AI 时代最让她震撼的不是失业，是**人类过去所有的知识被压成了一颗“晶体”**。任何人，五分钟，通过一个 LLM 就能调出任意领域中等专家的水平。“知识获取”这条护城河，**整体失效**了。
 
-如果你的 backlog 原来是“学 X”（为了写一本书、转行做 ML、读完中国古典文学、把财务模型搭得漂亮），那这个 backlog 的回报结构已经变了。“懂 X”以前是承重的，现在是大路货。新的护城河，是**我以一种特定的品味、一段特定的情感经验活过 X**。是体验、判断、品味、亲手做过的那种身体记忆。这些 AI 暂时还量产不了。
+如果你的 backlog 原来是“学 X”（为了写一本书、转行做 ML、读完中国古典文学、把财务模型搭得漂亮），那这个 backlog 的回报结构已经变了。“懂 X”以前是承重的，现在是大路货。新的护城河，是**带着自己的品味和情感，亲身经历过 X**。是体验、判断、品味、亲手做过的那种身体记忆。这些 AI 暂时还量产不了。
 
-这等于悄悄给 FIRE 换了个定义：FIRE 不是“花钱买掉烂工作”，是**花时间复利体验**。这份工作要难得多。复利体验需要主动的摩擦：真实的关系、有后果的项目、社区、养育、可能失败的创作。它和“获得自由”不是同一件事。
+这等于悄悄给 FIRE 换了个定义：目标从“花钱买掉烂工作”，变成了**花时间复利体验**。这份工作可难多了。复利体验需要主动的摩擦：真实的关系、有后果的项目、社区、养育、可能失败的创作。它和“获得自由”不是同一件事。
 
 ---
 
-这一期里另一个一直在我脑子里转的比喻，是**小竹筏**。
+这一期里另一个一直在我脑子里转的比喻，是小竹筏。
 
 画面是这样的：人类社会这艘“泰坦尼克”，正撞向 AI 这块冰山。我们有三种姿态可选：
 
@@ -194,7 +194,7 @@ Drag your tail in the mud.
 
 竹筏不是逃生艇。它救不了所有人，未必能救你自己。它的价值是**改变你和那艘船的关系**：你不再依赖它，但还能和它共存。
 
-这后半句是我想划重点的地方。大家讲 FIRE 时习惯把它讲成二元——上班 / 不上班。竹筏这个比喻点破了一件事：FIRE 不是物理位置的改变，是**关系的改变**。该问的问题，也就从“我今天要不要去办公室”，换成了“我是这艘船的乘客，还是它的邻居”。
+这后半句是我想划重点的地方。大家讲 FIRE 时习惯把它讲成二元——上班 / 不上班。竹筏这个比喻把它变成了一个**关系**问题。该问的，也就从“我今天要不要去办公室”，换成了“我是这艘船的乘客，还是它的邻居”。
 
 乘客没有筹码。邻居有乘客的所有选项，加上一个“随时走开”的选项。这个额外的选项**就算从不行使，也已经改变了谈判结构**。
 

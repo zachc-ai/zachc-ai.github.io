@@ -18,7 +18,7 @@ I drifted away from it without noticing. Life got busy. I got good at executing,
 
 ---
 
-Then AI happened. Not the buzzword version. The version where you sit down with a tool and realize it changes what one person can build. I started tinkering. Small experiments at first. Then staying up late again. Waking up with ideas. Building things on weekends, not for a deadline, not for anyone else, just to see what would happen.
+Then AI happened. Not the buzzword version. The version where you sit down with a tool and realize it changes what one person can build. I started tinkering, small experiments at first. Then I was staying up late again and waking up with ideas. I built things on weekends, not for a deadline or for anyone else, just to see what would happen.
 
 It took a while to recognize the feeling. It was the same one I had as a kid learning to code. Same one I felt every time life dropped me into a new environment as an underdog with no reputation and no playbook. Just curiosity and a willingness to figure it out.
 
@@ -26,11 +26,11 @@ It took a while to recognize the feeling. It was the same one I had as a kid lea
 
 What I think happened is that AI leveled the playing field enough to give me permission to be a beginner again. When the tools are this new, nobody has ten years of experience. The people who move fastest are the ones willing to experiment and fail. That's the underdog mindset, and I've been there before. Every time, I found my way. Not by being the smartest in the room. By being the most willing to stay in the room.
 
-I'm choosing that again. Not because I have to, but because I remember how alive it feels.
+I'm choosing that again. Because I remember how alive it feels.
 
 ---
 
-If you've been on autopilot for a while, executing but not exploring, optimizing but not wondering — go find something that makes you feel like a beginner again. The discomfort of not knowing is where curiosity lives.
+If you've been on autopilot for a while, executing but not exploring, optimizing but not wondering — go find something that makes you feel like a beginner again. My curiosity came back in the discomfort of not knowing.
 
 I drifted away from it once. I don't plan to again.
 
@@ -50,13 +50,13 @@ I drifted away from it once. I don't plan to again.
 
 ---
 
-我觉得 AI 做的事很简单：它把所有人拉回同一条起跑线，让我有机会重新当初学者。工具这么新，没人有十年经验。跑得最快的，就是最愿意去试、去错、去学的那帮人。这就是“从底层往上爬”的心态，我以前经历过好几回。每次都找到了路。不是因为最聪明。是因为最愿意留在场上。
+我觉得 AI 做的事很简单：它把所有人拉回同一条起跑线，让我有机会重新当初学者。工具这么新，没人有十年经验。跑得最快的，就是最愿意去试、也不怕犯错的那帮人。这就是“从底层往上爬”的心态，我以前经历过好几回。每次都找到了路。不是因为最聪明。是因为最愿意留在场上。
 
-我决定再来一次。不是非来不可，是因为我还记得那种整个人活过来的感觉。
+我决定再来一次。没别的，就是还记得那种整个人活过来的感觉。
 
 ---
 
-如果你也开了好一阵的自动驾驶，只顾执行不再探索，只顾优化不再好奇，那就找件事，让自己重新当一回初学者吧。那种不知道答案的不安感，恰恰是好奇心住的地方。
+如果你也开了好一阵的自动驾驶，只顾执行不再探索，只顾优化不再好奇，那就找件事，让自己重新当一回初学者吧。我的好奇心，就是在那种不知道答案的不安里回来的。
 
 我丢过它一次。这次不打算再丢了。
 
