@@ -160,3 +160,27 @@ If there are zero negative claims, say so explicitly. That is the good case.
   - Supertaskers (2.5%) are Watson & Strayer 2010, not Meyer.
   - Upwork 2024: 77% say AI added to their workload, 71% are burned out, and 38% feel
     overwhelmed about using AI. There is no "over half overwhelmed."
+
+### From the 2026-10-17 fact-fix pass (verified against primary sources)
+
+- **《秋水》's 巾 is plain cloth** (成玄英疏 / 經典釋文: 覆之以巾). No silk, no embroidery, no
+  stated luxury. “绸布” and “绣花” were embellishments.
+- **扫地僧** is a 服事僧, so “烧火、洒扫” fits the novel. The text says 玄字辈 “不识此僧”, not
+  that nobody remembered his name. The novel's term is 七十二**绝技**, not 绝艺.
+- **Xie et al. 2013 (glymphatic) is a mouse study:** ~60% wider interstitial space and ~2×
+  faster Aβ clearance in sleep. Not "10–20×," not PFC-specific. Miao et al. 2024 (mice)
+  found clearance *drops* in sleep, so the "sleep rinses the brain" story is contested.
+- **Hungry judges (Danziger 2011):** ~65% → near 0 → ~65% after a food break is right. The
+  fatigue explanation is disputed (Weinshall-Margel & Shapard 2011 on case order; Glöckner
+  2016 simulation). Don't state "the cases didn't get worse" as settled.
+- **Myelin:** practice changes white matter (Bengtsson 2005, Scholz 2009; McKenzie 2014 in
+  mice), but "more myelin = more skill" is not settled. Not "much weaker," not "proven."
+- **METR's 19% slowdown** is 16 experienced open-source developers on their own repos in
+  early 2025, not "senior developers." METR's Feb 2026 update calls it out of date.
+- **CodeRabbit's 1.57× security / 2.74× XSS** come from 470 open-source PRs (Dec 2025), not
+  "AI-generated code" in general. The per-category split is reported by The Register.
+- **"Don't State the Obvious" / "Avoid Railroading Claude"** are from Thariq Shihipar's X
+  article (2026-03-17), not Anthropic's official docs. `frontend-design` named Inter and
+  purple gradients only in its pre-2026-09-03 version.
+- **AI-Ghost-Lab's "not in the living room" line** is an unverified gist (Bilibili blocks
+  fetches). Present it as a translated paraphrase, never as a verbatim quote.

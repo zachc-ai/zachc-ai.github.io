@@ -8,6 +8,23 @@ date: 2026-04-01
 categories: life
 tags: [philosophy, career, ai]
 bilingual: true
+sources:
+  - title: "TechCrunch — A quarter of startups in YC's current cohort have codebases that are almost entirely AI-generated (Mar 2025)"
+    url: https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated/
+  - title: "CodeRabbit — State of AI vs Human Code Generation Report (Dec 2025)"
+    url: https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report
+  - title: "The Register — AI-authored code needs more attention, contains worse bugs (Dec 2025)"
+    url: https://www.theregister.com/software/2025/12/17/ai-authored-code-needs-more-attention-contains-worse-bugs/2576263
+  - title: "METR — Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity (Jul 2025)"
+    url: https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
+  - title: "Andrej Karpathy — the original \"vibe coding\" post on X (Feb 2025)"
+    url: https://x.com/karpathy/status/1886192184808149383
+  - title: "SEC press release 2024-36 — \"AI washing\" charges against two investment advisers (Mar 2024)"
+    url: https://www.sec.gov/newsroom/press-releases/2024-36
+  - title: "Warren Buffett — 1996 Berkshire Hathaway shareholder letter"
+    url: https://www.berkshirehathaway.com/letters/1996.html
+  - title: "Naval Ravikant — How to Get Rich"
+    url: https://nav.al/rich
 ---
 
 <div class="lang-en" markdown="1">
@@ -46,7 +63,7 @@ Chasing hype is stepping outside your circle of competence while still believing
 
 Naval puts it more directly: "Escape competition through authenticity." Not chasing hype still takes work. You have to ask yourself, honestly: *Do I actually understand this, or am I just afraid of missing out?*
 
-AI is in the same cycle right now. In Y Combinator's Winter 2025 batch, 25% of startups had codebases that were 95% AI-generated. Sounds cool. But research says that AI-generated code has 1.57× as many security issues as human-written code (2.74× for XSS), and senior developers got 19% slower when using AI tools. Karpathy coined "vibe coding," but his definition was to "forget that the code even exists." That reads like a warning.
+AI is in the same cycle right now. YC's Jared Friedman said a quarter of the Winter 2025 batch had codebases that were 95% AI-generated. Sounds cool. But when CodeRabbit went through 470 open-source pull requests, the AI-co-authored ones had 1.57× the security findings of the human-only ones (2.74× for XSS). And in METR's early-2025 randomized trial, 16 experienced open-source developers took 19% longer with AI tools, on repos they'd contributed to for years. Karpathy coined "vibe coding," but his definition was to "forget that the code even exists." That reads like a warning.
 
 The SEC has started fining companies for "AI washing" — slapping "AI-powered" on products with no meaningful AI inside. The ".com" suffix of our decade.
 
@@ -188,7 +205,7 @@ So don't fear the confusion. Feeling torn between hype and trends is the forging
 
 Naval 说得更直接：“Escape competition through authenticity.” 用真实摆脱竞争。不追热点，不代表躺平。你得老老实实问自己一句：*这件事，我是真懂，还是只是怕错过？*
 
-AI 现在就在跑同一个循环。Y Combinator 2025 冬季批次里，25% 的创业公司，代码库 95% 是 AI 生成的。听着挺酷。但研究显示，AI 生成的代码安全问题是人工的 1.57 倍（XSS 漏洞是 2.74 倍），资深开发者用 AI 工具反而慢了 19%。“Vibe coding”这词是 Karpathy 造的，但他的定义是“连代码的存在都忘掉”。这话听着更像个 warning。
+AI 现在就在跑同一个循环。YC 合伙人 Jared Friedman 说，2025 冬季批次里有四分之一的公司，代码库 95% 是 AI 生成的。听着挺酷。可 CodeRabbit 翻了 470 个开源 PR，AI 参与写的那些，安全问题是纯人工 PR 的 1.57 倍（XSS 漏洞是 2.74 倍）。METR 在 2025 年初做过一个随机对照实验：16 位资深开源开发者，在自己参与了好几年的仓库里干活，用上 AI 工具反而多花了 19% 的时间。“Vibe coding”这词是 Karpathy 造的，但他的定义是“连代码的存在都忘掉”。这话听着更像个 warning。
 
 SEC 已经开始罚“AI washing”了——给没什么实质 AI 的产品贴“AI-powered”标签。这就是我们这年代的“.com”后缀。
 
@@ -297,3 +314,16 @@ Naval：“Desire is a contract that you make with yourself to be unhappy until 
 *写于 2026 年 4 月 1 日，那天早上又冒出了三个新 AI 框架。*
 
 </div>
+
+---
+
+### Sources / 来源
+
+- [TechCrunch — *A quarter of startups in YC's current cohort have codebases that are almost entirely AI-generated* (Mar 2025)](https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated/) — Jared Friedman's 95% figure for YC W25
+- [CodeRabbit — *State of AI vs Human Code Generation Report* (Dec 2025)](https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report) — 470 open-source PRs, 320 AI-co-authored vs 150 human-only
+- [The Register — *AI-authored code needs more attention, contains worse bugs* (Dec 2025)](https://www.theregister.com/software/2025/12/17/ai-authored-code-needs-more-attention-contains-worse-bugs/2576263) — the report's per-category numbers: 1.57× security findings, 2.74× XSS
+- [METR — *Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity* (Jul 2025)](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) — the 19% slowdown; METR's [Feb 2026 update](https://metr.org/blog/2026-02-24-uplift-update/) calls these early-2025 numbers out of date
+- [Andrej Karpathy on X (Feb 2025)](https://x.com/karpathy/status/1886192184808149383) — the original "vibe coding" post
+- [SEC press release 2024-36 (Mar 2024)](https://www.sec.gov/newsroom/press-releases/2024-36) — "AI washing" charges against Delphia and Global Predictions
+- [Warren Buffett — 1996 Berkshire Hathaway shareholder letter](https://www.berkshirehathaway.com/letters/1996.html) — the circle-of-competence line
+- [Naval Ravikant — *How to Get Rich*](https://nav.al/rich) — "Escape competition through authenticity"

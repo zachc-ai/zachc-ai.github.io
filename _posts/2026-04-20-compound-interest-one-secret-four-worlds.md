@@ -33,6 +33,8 @@ sources:
     url: https://jamesclear.com/continuous-improvement
   - title: "Daniel Coyle — The Talent Code"
     url: https://danielcoyle.com/the-talent-code/
+  - title: "McKenzie et al. — Motor Skill Learning Requires Active Central Myelination (Science, 2014)"
+    url: https://doi.org/10.1126/science.1254960
 ---
 
 <div class="lang-en" markdown="1">
@@ -150,7 +152,7 @@ What parents can actually compound is closer to three things:
 2. **Confidence as a compoundable asset.** Confidence isn't built by praise. Carol Dweck wrote a great book about this — the punchline is: **"Praising children's intelligence harms motivation and it harms performance."** Praise intelligence and kids avoid challenge. Praise effort and they seek it. Confidence compounds from feedback on **process**, not feedback on outcomes.
 3. **The time window itself.** A child has 20+ years of unbroken compounding ahead. The longest single window any human gets. The famous version of this: 1% better every day for a year leaves you 37 times better. The math is elementary. The point is that "every day" lasts twenty years if you don't break it.
 
-One honest caveat. That 1.01^365 = 37.78 number is just exponential math, not anyone's invention, and it doesn't auto-execute on children. The "myelin → skill" story from Coyle is popularization. The actual neuroscience of myelination is fuzzier than the metaphor. The compound framework points in a direction. It doesn't promise the outcome will arrive on its own. Forget making 37.78 happen. The parent's actual job is to **not break the exponent.** Don't sever the kid's intrinsic motivation. Don't strip-mine their interests for your résumé. Don't let the rate go negative.
+One honest caveat. That 1.01^365 = 37.78 number is just exponential math, not anyone's invention, and it doesn't auto-execute on children. The "myelin → skill" story from Coyle is popularization. Practice does change myelin, but the neat "more myelin, more skill" line is far less settled than the book makes it sound. The compound framework points in a direction. It doesn't promise the outcome will arrive on its own. Forget making 37.78 happen. The parent's actual job is to **not break the exponent.** Don't sever the kid's intrinsic motivation. Don't strip-mine their interests for your résumé. Don't let the rate go negative.
 
 ---
 
@@ -293,7 +295,7 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 2. **自信这个复利资产。** 自信不是夸出来的。Carol Dweck 写过一本很好的书讲这件事，重点就一句话：**“Praising children's intelligence harms motivation and it harms performance.”** 夸聪明，孩子会躲着挑战走；夸努力，孩子会主动去找挑战。自信的复利来自对**过程**的反馈，不来自对结果的夸奖。
 3. **时间窗口本身。** 孩子的 20+ 年是人生最长的一段不可逆复利。最有名的版本：每天 1% 的改进，一年后是 37 倍。数学很简单。重点是“每天”这个频率，在孩子身上有 20 年的连乘效果。
 
-不过得老实补一句。1.01^365 = 37.78 是标准指数数学，不是谁的原创，也不会在孩子身上自动实现。Coyle 关于“髓鞘 → 技能”的故事也是通俗化的比喻，放到严格的神经科学里，髓鞘和技能的因果关系比他说的弱得多。复利框架告诉你方向，不告诉你结果会自己来。父母用不着去让 37.78 发生，要做的是**不让指数归零。** 不切断孩子的兴趣。不剥夺内在动机。不把孩子当成自己简历的一部分。
+不过得老实补一句。1.01^365 = 37.78 是标准指数数学，不是谁的原创，也不会在孩子身上自动实现。Coyle 关于“髓鞘 → 技能”的故事也是通俗化的比喻。练习确实会改变髓鞘，可“髓鞘越多，技能越强”这条线，远没有书里讲得那么板上钉钉。复利框架告诉你方向，不告诉你结果会自己来。父母用不着去让 37.78 发生，要做的是**不让指数归零。** 不切断孩子的兴趣。不剥夺内在动机。不把孩子当成自己简历的一部分。
 
 ---
 
@@ -328,3 +330,4 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 - Carol S. Dweck — *Mindset: The New Psychology of Success* (Random House, 2006)
 - [James Clear — Continuous Improvement](https://jamesclear.com/continuous-improvement) — "1% better each day"
 - [Daniel Coyle — *The Talent Code*](https://danielcoyle.com/the-talent-code/)
+- [McKenzie et al. — Motor Skill Learning Requires Active Central Myelination (*Science*, 2014)](https://doi.org/10.1126/science.1254960) — mice that couldn't make new myelin failed to master a new motor skill
