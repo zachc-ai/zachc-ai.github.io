@@ -2,7 +2,7 @@
 layout: post
 title: "Protecting Your Prefrontal Cortex"
 title_zh: "保护你的前额叶皮层"
-description: "Stress, short sleep and sitting wear down the prefrontal cortex, exercise and sleep protect it, and constant AI back-and-forth quietly drains it."
+description: "Stress, short sleep and sitting wear down the prefrontal cortex, exercise and sleep protect it, and constant AI back-and-forth drains it too."
 description_zh: "慢性压力、缺觉、久坐都在伤前额叶，运动和睡眠最能护住它；跟 AI 高频来回切换，也是在消耗它。"
 date: 2026-03-17
 categories: digest
