@@ -23,7 +23,7 @@ sources:
 
 Anthropic noticed something specific: "one of the most powerful tools you can give Claude is code." When a skill ships with executable scripts and function libraries, Claude stops spending tokens reinventing data-fetching code. It just calls what's already there. The tokens go into the higher-order question instead.
 
-**A concrete example.** A data science skill includes helpers for fetching events. A user asks: "What happened on Tuesday?" Claude doesn't write the fetching code. It writes a script that composes existing functions — filter, aggregate, analyze. Tokens land on logic and judgment, not plumbing.
+For example, a data science skill includes helpers for fetching events. A user asks: "What happened on Tuesday?" Claude doesn't write the fetching code. It writes a script that composes the existing functions: filter, aggregate, analyze.
 
 ## The technique
 
@@ -35,11 +35,7 @@ The shift is from _reconstruction_ to _composition_. A much higher-leverage use 
 
 CLI-Anything (HKUDS, 21.5k GitHub stars) pushes this all the way. A 7-phase automated pipeline turns any desktop software into an installable CLI package. After `pip install`, the agent can drive Blender, GIMP, OBS, and others through structured JSON commands.
 
-The agent never learns the underlying API or GUI. It calls a pre-built CLI library. Each generated CLI ships with:
-
-- A **SKILL.md** for auto-discovery
-- A **REPL** for exploration
-- **Undo/redo** for safe state management
+The agent never learns the underlying API or GUI. It calls a pre-built CLI library. Each generated CLI ships with a SKILL.md for auto-discovery, a REPL for exploration, and undo/redo for safe state management.
 
 This is the most literal version of "give agents libraries": the library *is* the CLI package.
 
@@ -61,7 +57,7 @@ Any time you catch yourself writing the same kind of instructions to an agent tw
 
 Anthropic 发现了一件挺具体的事：“你能给 Claude 的最强大的工具之一，就是代码。”如果 skill 里带着能执行的脚本和函数库，Claude 就不用花 token 重新生成获取数据的代码了。它直接调已有的函数，把精力放在更高阶的问题上。
 
-**举个具体例子。** 一个数据科学 skill 自带获取事件的辅助函数。用户问“周二发生了啥？”，Claude 不写数据获取那一段。它写一个组合脚本：过滤、聚合、分析。Token 花在逻辑和判断上，不花在搬砖上。
+举个例子，一个数据科学 skill 自带获取事件的辅助函数。用户问“周二发生了啥？”，Claude 不写数据获取那一段，直接写个脚本，把现成的函数串起来：过滤、聚合、分析。
 
 ## 技巧
 
@@ -73,11 +69,7 @@ Anthropic 发现了一件挺具体的事：“你能给 Claude 的最强大的�
 
 CLI-Anything（HKUDS，21.5k GitHub stars）把这个思路推到了头。一条 7 步自动化流水线，把任意桌面软件变成一个可安装的 CLI 包。`pip install` 完，agent 就能通过结构化 JSON 命令操控 Blender、GIMP、OBS 这些软件。
 
-Agent 不用学软件本身的 API 或者 GUI。它调一个预先构建好的 CLI 库就行。每个生成的 CLI 都自带：
-
-- **SKILL.md** 用于自动发现
-- **REPL** 用于探索
-- **Undo/redo** 用于安全的状态管理
+Agent 不用学软件本身的 API 或者 GUI。它调一个预先构建好的 CLI 库就行。每个生成的 CLI 都自带一份 SKILL.md 供自动发现，一个 REPL 方便探索，还有 undo/redo，状态改坏了能撤回。
 
 这是“给 agent 库而不是指令”最字面的实现：库就是 CLI 包本身。
 

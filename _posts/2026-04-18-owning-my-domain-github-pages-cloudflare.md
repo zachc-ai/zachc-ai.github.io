@@ -163,8 +163,6 @@ Useful general-purpose VPN workaround, not specific to GitHub Pages.
 2. **Verify off-network** — phone on cellular, or tether + disconnect VPN. Confirms the block is local policy.
 3. **Wait it out** — typically clears in a few weeks as threat-intel feeds age the domain.
 
-If you're going to register a personal domain while working at a large company, file the ticket on day one.
-
 ---
 
 If you're about to do this yourself: keep Cloudflare on DNS-only until the cert issues, and file the corporate allowlist ticket the same day you register. Everything else you can back out of.
@@ -321,8 +319,6 @@ curl -sH 'accept: application/dns-json' \
 1. **提内部白名单工单**（一般 1~3 个工作日）。理由写“个人域名，注册时间 YYYY-MM-DD，GitHub Pages 博客”就够了。
 2. **在公司网络外验证**——手机切蜂窝数据，或者开热点断 VPN。确认是本地策略在拦。
 3. **等。** 通常过几周，威胁情报源里这个域名的“年头”够了，就会自动解除。
-
-如果你打算在大公司工作期间注册个人域名，注册**当天**就去提白名单。
 
 ---
 

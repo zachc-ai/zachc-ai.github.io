@@ -43,7 +43,7 @@ Buffett took over Berkshire Hathaway in 1965 with a book value of $22 million. H
 
 > "By retaining all earnings for a very long time, and allowing compound interest to work its magic, we have amassed funds..."
 
-Retain all earnings, give it long enough, let compound interest do its magic. That's Buffett's own summary of his life's work. Not IQ, not luck, not insider information. **Time × rate × no interruption.**
+Retain all earnings, give it long enough, let compound interest do its magic. That's Buffett's own summary of his life's work, and IQ, luck, and insider information don't come into it. **Time × rate × no interruption.**
 
 Strip out the investing and what's left is a single equation: `Value(t) = Principal × (1 + rate)^time`. The math is centuries old. What I want to write about is what Naval did with it:
 
@@ -65,7 +65,7 @@ So the first secret of stock-market compounding comes before the rate: the **qua
 
 > "You only have to be able to evaluate companies within your circle of competence. The size of that circle is not very important; knowing its boundaries, however, is vital."
 
-**The size of the circle doesn't matter. Knowing where it ends does.** High returns outside your circle are an illusion. They're things you don't understand, pretending to grow.
+High returns outside your circle are an illusion. They're things you don't understand, pretending to grow.
 
 This is why WeWork went from a $47 billion valuation to bankruptcy. Why Terra/Luna evaporated $45 billion in a week. They were still compounding. Their underlying `r` was just negative. FOMO and liquidity pushed prices up for a while; eventually the math caught up. Stepping outside your circle is adding leverage on top of a negative rate.
 
@@ -91,7 +91,7 @@ It sounds like compounding. Practice 10,000 hours and you become an expert. Ande
 
 His point: 10,000 hours was the *average* for his top violinists by age 20, not a threshold for any field. And it was hours of **deliberate practice** with feedback, goals, and correction, not "time spent." **Hours don't compound. Deliberate hours do.**
 
-This distinction is the whole game. Different skills have wildly different half-lives. Framework APIs decay in 1–2 years. Language syntax in 3–5. System design lasts 10–15. Deep domain expertise 15–20. Meta-skills, a lifetime. Learn for the same number of years, and the person stacking framework knowledge is compounding an asset that resets every two years. The person stacking domain expertise is compounding something that holds for two decades.
+Different skills have wildly different half-lives. Framework APIs decay in 1–2 years. Language syntax in 3–5. System design lasts 10–15. Deep domain expertise 15–20. Meta-skills, a lifetime. Learn for the same number of years, and the person stacking framework knowledge is compounding an asset that resets every two years. The person stacking domain expertise is compounding something that holds for two decades.
 
 So the rate in your learning compound isn't "how hard you tried." It's **what you chose to compound on**.
 
@@ -107,7 +107,7 @@ And the follow-up, which matters more:
 
 > "Fortunately, it isn't that tough — because 80 or 90 important models will carry about 90% of the freight in making you a worldly-wise person."
 
-80 to 90 models cover 90% of the work. Not "more is better." The *right* 80 to 90.
+So you don't need every model, just the *right* 80 to 90.
 
 A single mental model nudges your `r` in one domain. Two or three intersecting models can produce a sudden non-linear jump. Munger called this the Lollapalooza Effect: multiple forces aligning in the same direction at the same time produce extreme outcomes.
 
@@ -127,7 +127,7 @@ I learned to read earlier than my classmates. Looks small. The downstream effect
 - Read more than peers → understood class faster → teachers gave positive feedback → liked learning
 - Liked learning → more independent exploration → learned more → **confidence itself was compounding**
 
-This isn't something I noticed at the time. There's a famous psychology finding for it: the Matthew effect in reading. Kids who get the basics down before grade three keep accelerating in vocabulary, knowledge, and comprehension for life. Kids who don't get there fall behind at an accelerating rate. The gap doesn't stay constant. It widens.
+This isn't something I noticed at the time. There's a famous psychology finding for it: the Matthew effect in reading. Kids who get the basics down before grade three keep accelerating in vocabulary, knowledge, and comprehension for life. Kids who don't get there fall behind at an accelerating rate.
 
 The name comes from Matthew 25:29, which Gladwell put on the opening page of Chapter 1 of *Outliers*:
 
@@ -158,9 +158,7 @@ One honest caveat. That 1.01^365 = 37.78 number is just exponential math, not an
 
 Back to Buffett's $22 million that became $349 billion. It is a story about patience and compounding. But that's not why I wrote this.
 
-The real secret in `Value(t) = Principal × (1 + rate)^time` isn't that it makes money grow. It's that **life doesn't have separate domains**. Principal, rate, time, leverage. Those four dimensions are the same in stocks, in learning, in mental models, in raising a child. Discipline you build in one becomes leverage in the other three.
-
-Stock-market discipline, learning selection, model assembly, parenting. They look like four unrelated things. They aren't. The seam between them is where this post lives.
+The secret in `Value(t) = Principal × (1 + rate)^time` is that **life doesn't have separate domains**. Principal, rate, time, leverage. Those four dimensions are the same in stocks, in learning, in mental models, in raising a child. Discipline you build in one becomes leverage in the other three.
 
 So the question I'd actually leave you with: **which dimension did you cash out too early today?** Did you pick something with a high `r` whose `t` will go to zero? Did you have good principal sitting idle? Did you have leverage you didn't use? Were you compounding on a negative `r` without noticing?
 
@@ -176,7 +174,7 @@ Buffett 1965 年接管 Berkshire Hathaway 的时候，公司账面净值是 2200
 
 > “By retaining all earnings for a very long time, and allowing compound interest to work its magic, we have amassed funds...”
 
-**留住所有利润，给它足够长的时间，让复利施展它的魔法。**这是 Buffett 对自己一生事业的总结。不靠智商，不靠运气，不靠独家信息。靠的是**时间 × 利率 × 不中断**。
+**留住所有利润，给它足够长的时间，让复利去施展魔法。**这是 Buffett 对自己一生事业的总结，里头没有智商、运气和独家信息，只有**时间 × 利率 × 不中断**。
 
 其实这跟投资关系不大，秘密全在一条公式里：`Value(t) = Principal × (1 + rate)^time`。这数学几百年前就有人写过了。真正值得写一篇文章的是 Naval 那句话：
 
@@ -232,7 +230,7 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 
 他的重点是：10,000 小时是他研究里前几名小提琴手到 20 岁的**平均**时间，不是任何领域的门槛。而且这是**刻意练习**（有反馈、有目标、有纠正）的小时数，不是“做了多久”。**小时数本身不复利。刻意练习的小时数才复利。**
 
-这个区别就是命门。技能的半衰期差异巨大。框架 API 1–2 年，语言语法 3–5 年，系统设计 10–15 年，领域专长 15–20 年，元能力终身。学同样长的时间，选框架 API 的人在复利一个每两年归零的资产；选领域专长的人在复利一个二十年都不贬值的资产。
+技能的半衰期差异巨大。框架 API 1–2 年，语言语法 3–5 年，系统设计 10–15 年，领域专长 15–20 年，元能力终身。学同样长的时间，选框架 API 的人在复利一个每两年归零的资产；选领域专长的人在复利一个二十年都不贬值的资产。
 
 所以学习的复利，**利率不是“你多认真”，是“你选了什么在复利”**。
 
@@ -303,9 +301,7 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 
 回到 Buffett 那个 2200 万长到 3490 亿的数字。它确实是一个关于耐心和复利的故事。但我写这篇文章不是为了讲 Buffett。
 
-复利方程 `Value(t) = Principal × (1 + rate)^time` 的真正秘密，不是它能让钱变多。是它告诉你一件事：**生活里其实没有“单独的”领域。** 本金、利率、时间、杠杆这四个维度，在股市、学习、心智模型、孩子身上是同一套。你在任何一个领域学到的复利纪律，都是其他三个领域的杠杆。
-
-股市的纪律、学习的选择、心智模型的组合、孩子的成长。表面看是四件不相干的事。其实不是。这篇文章就住在它们之间的缝隙里——同一支笔画出的四笔。
+复利方程 `Value(t) = Principal × (1 + rate)^time` 藏着的秘密是：**生活里其实没有“单独的”领域。** 本金、利率、时间、杠杆这四个维度，在股市、学习、心智模型、孩子身上是同一套。你在任何一个领域学到的复利纪律，都是其他三个领域的杠杆。
 
 那留给你一个问题：**今天的某个决定，你在哪个维度上过早兑现了？** 是选了 `r` 很高但 `t` 会归零的东西？是有好本金却任它闲置？是有杠杆却没敢加？还是在复利一个负的 `r`？
 

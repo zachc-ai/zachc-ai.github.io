@@ -24,7 +24,7 @@ I work in AI infrastructure. Every morning I open my laptop to a new "revolution
 
 But something fundamental *is* moving underneath all that noise. GPU compute is reshaping the entire computing stack. The infrastructure work I do every day didn't exist three years ago. Ignoring real change is exactly as dangerous as chasing fake change.
 
-So the real question is *what* deserves attention, and what's just noise dressed up as signal.
+So the question is *what* deserves attention, and what's just noise dressed up as signal.
 
 There's no formula. But I've found three anchors.
 
@@ -42,11 +42,11 @@ Buffett has a phrase for this — "circle of competence":
 
 > "The size of that circle is not very important; knowing its boundaries, however, is vital."
 
-Chasing hype is stepping outside your circle of competence while still believing you're inside it. You don't understand the underlying logic. But you see prices rising, others profiting, the feed buzzing, so you follow. That's not investing. That's imitation.
+Chasing hype is stepping outside your circle of competence while still believing you're inside it. You don't understand the underlying logic. But you see prices rising, others profiting, the feed buzzing, so you follow. That's imitation.
 
-Naval puts it more directly: "Escape competition through authenticity." Not chasing hype doesn't mean doing nothing. It means honestly asking yourself: *Do I actually understand this, or am I just afraid of missing out?*
+Naval puts it more directly: "Escape competition through authenticity." Not chasing hype still takes work. You have to ask yourself, honestly: *Do I actually understand this, or am I just afraid of missing out?*
 
-AI is in the same cycle right now. In Y Combinator's Winter 2025 batch, 25% of startups had codebases that were 95% AI-generated. Sounds cool. But research says that AI-generated code has 1.57× as many security issues as human-written code (2.74× for XSS), and senior developers got 19% slower when using AI tools. Karpathy coined "vibe coding," but his definition was to "forget that the code even exists." That's a warning, not a recommendation.
+AI is in the same cycle right now. In Y Combinator's Winter 2025 batch, 25% of startups had codebases that were 95% AI-generated. Sounds cool. But research says that AI-generated code has 1.57× as many security issues as human-written code (2.74× for XSS), and senior developers got 19% slower when using AI tools. Karpathy coined "vibe coding," but his definition was to "forget that the code even exists." That reads like a warning.
 
 The SEC has started fining companies for "AI washing" — slapping "AI-powered" on products with no meaningful AI inside. The ".com" suffix of our decade.
 
@@ -54,7 +54,7 @@ Laozi said: *The highest good is like water. Water benefits all things and does 
 
 Water doesn't rush to be where everyone else is. It finds the low places nobody wants. And precisely because of that, nothing is stronger.
 
-Not competing isn't the same as not moving. It means not being swept along by other people's movement.
+Not competing still involves moving. You just don't get swept along by other people's movement.
 
 ---
 
@@ -72,23 +72,23 @@ Blockbuster's story is even more absurd. In 2000, Netflix came knocking and offe
 
 A former Blockbuster executive eventually admitted: "Digital would have changed Blockbuster's business... but it wasn't its killer. That credit belongs to Blockbuster itself."
 
-What kills you isn't change. It's your avoidance of it.
+What kills you is avoiding change.
 
 Marcus Aurelius:
 
 > "The universe is change; our life is what our thoughts make it."
 
-He also said: "Observe constantly that all things take place by change, and accustom thyself to consider that the nature of the Universe loves nothing so much as to change the things which are." This isn't self-help. A Roman emperor wrote it on battlefields and during plagues, as practical philosophy. Change is the default state, not the exception.
+He also said: "Observe constantly that all things take place by change, and accustom thyself to consider that the nature of the Universe loves nothing so much as to change the things which are." This isn't self-help. A Roman emperor wrote it on battlefields and during plagues, as practical philosophy.
 
 Laozi used water to make the same point: *Nothing in the world is softer or weaker than water, yet for attacking the hard and strong, nothing surpasses it.*
 
-Water doesn't resist change. Water *is* change. It doesn't need to become a rock to fight a rock. It flows around and seeps in. Given enough time, the rock splits open.
+Water *is* change. It doesn't need to become a rock to fight a rock. It flows around and seeps in. Given enough time, the rock splits open.
 
-Trends are like water. You may not like them, but you can't pretend they don't exist. GPU compute is changing the computing paradigm — that's the reality of my workweek, not hype. LLMs aren't a passing fad either: they're rewriting the basic assumptions of software engineering.
+Trends are like water. You may not like them, but you can't pretend they don't exist. GPU compute is changing the computing paradigm — that's the reality of my workweek, not hype. Same goes for LLMs: they're rewriting the basic assumptions of software engineering.
 
-The difference between a trend and hype is durability. Hype disappears when the money runs out. A trend reshapes everything even after the excitement fades.
+The difference between a trend and hype is durability. A trend reshapes everything even after the excitement fades.
 
-How to tell them apart, in one sentence: when the money pulls out, is it still there?
+The test for anything new, then: when the money pulls out, is it still there?
 
 ---
 
@@ -112,7 +112,7 @@ Zeng Guofan, the Qing statesman, put it more bluntly:
 
 > "Shouting opinions from the sidelines is useless. You must step into the arena, shoulder the responsibility, before success is even possible."
 
-守正出奇 is wisdom from the arena, not the armchair. You have to be on the field before you can talk about defense and offense.
+守正出奇 comes from the arena. You have to be on the field before you can talk about defense and offense.
 
 There's a Buddhist image I keep coming back to. Dhammapada, verse 401:
 
@@ -120,7 +120,7 @@ There's a Buddhist image I keep coming back to. Dhammapada, verse 401:
 
 The lotus leaf doesn't reject the water. The water falls on the leaf, fully in contact. But the water doesn't stick. The leaf doesn't absorb it. They meet, then each goes its own way.
 
-Not clinging to hype. Not clinging to the status quo. Not clinging to outcomes. Fully in contact with the world, but not stuck to it.
+That's the stance to take toward hype, the status quo, and outcomes: fully in contact with the world, but not stuck to it.
 
 My work puts me at an intersection: AI meets infrastructure. Every day two forces collide on my desk — a real computing paradigm shift, and all the noise around it. My anchor sits underneath any technology or trend: the conviction that value lives in the gaps between layers. Other people see systems as stacks. I see the dark spaces between them, and I build until information flows through. That doesn't expire with any hype cycle, because weaving connections doesn't belong to any particular layer.
 
@@ -136,7 +136,7 @@ Naval: "Desire is a contract that you make with yourself to be unhappy until you
 
 Chasing hype is a form of desire. Fearing the trend is also a form of desire. Both keep you living in the future instead of the present.
 
-Holding your ground isn't stubbornness. Embracing change isn't chasing the wind. Cherishing what you have isn't a platitude. Taken together, they're water on a lotus leaf — in full contact with the world, bound by none of it.
+Each piece of that third line is easy to mistake for something cheaper. Holding your ground looks like stubbornness, embracing change like chasing the wind, cherishing what you have like a platitude. Taken together, they're water on a lotus leaf — in full contact with the world, bound by none of it.
 
 Zeng Guofan again:
 
@@ -166,7 +166,7 @@ So don't fear the confusion. Feeling torn between hype and trends is the forging
 
 但底下确实在发生根本性的变化。GPU 算力正在重塑整个计算栈。我每天做的基础设施工作，三年前根本不存在。忽略真变化，和追逐每一个假变化，是一样危险的。
 
-所以真正的问题是：*什么*值得关注，什么只是披着信号外衣的噪音。
+所以要问的是：*什么*值得关注，什么只是披着信号外衣的噪音。
 
 这件事没公式。但我找到了三个锚点。
 
@@ -176,7 +176,7 @@ So don't fear the confusion. Feeling torn between hype and trends is the forging
 
 2019 年 1 月，WeWork 估值 470 亿美元。九个月后，连 IPO 都没上成。估值暴跌 78%，CEO 套现 7 亿美元后被扫地出门，公司最终在 2023 年申请破产。
 
-2022 年 5 月，Terra/Luna 一周蒸发了 450 亿美元。FTX 紧随其后。Celsius。Three Arrows Capital。整个加密世界像多米诺骨牌一样倒下。追进去的人，不是因为真正理解了区块链技术，而是因为别人都在赚钱。
+2022 年 5 月，Terra/Luna 一周蒸发了 450 亿美元。FTX 紧随其后。Celsius。Three Arrows Capital。整个加密世界像多米诺骨牌一样倒下。追进去的人并没真弄懂区块链，只是看见别人都在赚钱。
 
 模式每次都一样。一个真正的创新（共享办公、区块链）被资本和 FOMO 一路推高，直到价格跟底层价值毫无关系。受伤的不是建造者，是跟风的人。
 
@@ -184,11 +184,11 @@ So don't fear the confusion. Feeling torn between hype and trends is the forging
 
 > “圈的大小不重要，重要的是你知道边界在哪。”
 
-追热点的本质，是你已经走出了能力圈，但还以为自己在里面。你不懂底下的逻辑，但看见价格在涨、别人在赚、朋友圈在刷——于是就跟了。这不是投资，是模仿。
+追热点，就是你已经走出了能力圈，却还以为自己在里面。你不懂底下的逻辑，但看见价格在涨、别人在赚、朋友圈在刷，于是也跟了。说白了就是模仿。
 
 Naval 说得更直接：“Escape competition through authenticity.” 用真实摆脱竞争。不追热点，不代表躺平。你得老老实实问自己一句：*这件事，我是真懂，还是只是怕错过？*
 
-AI 现在就在跑同一个循环。Y Combinator 2025 冬季批次里，25% 的创业公司，代码库 95% 是 AI 生成的。听着挺酷。但研究显示，AI 生成的代码安全问题是人工的 1.57 倍（XSS 漏洞是 2.74 倍），资深开发者用 AI 工具反而慢了 19%。“Vibe coding”这词是 Karpathy 造的，但他的定义是“连代码的存在都忘掉”。这是 warning，不是 recommendation。
+AI 现在就在跑同一个循环。Y Combinator 2025 冬季批次里，25% 的创业公司，代码库 95% 是 AI 生成的。听着挺酷。但研究显示，AI 生成的代码安全问题是人工的 1.57 倍（XSS 漏洞是 2.74 倍），资深开发者用 AI 工具反而慢了 19%。“Vibe coding”这词是 Karpathy 造的，但他的定义是“连代码的存在都忘掉”。这话听着更像个 warning。
 
 SEC 已经开始罚“AI washing”了——给没什么实质 AI 的产品贴“AI-powered”标签。这就是我们这年代的“.com”后缀。
 
@@ -196,7 +196,7 @@ SEC 已经开始罚“AI washing”了——给没什么实质 AI 的产品贴�
 
 水不争。水不急着去所有人都挤的地方。水找的是别人不要的低处。正因为这样，没什么比它更强。
 
-不争，不等于不动。只是不被别人裹挟着走。
+不争，也得动。只是不被别人裹挟着走。
 
 ---
 
@@ -214,29 +214,29 @@ Blockbuster 的故事更荒诞。2000 年，Netflix 主动上门，想把自己�
 
 后来一位前 Blockbuster 高管承认：“数字化会改变 Blockbuster 的业务……但不是杀死它的原因。真正杀死它的是 Blockbuster 自己。”
 
-杀死你的不是变化。是你对变化的回避。
+所以说，要命的是躲着变化走。
 
 Marcus Aurelius 在《沉思录》里写过：
 
 > “宇宙即变化，我们的生命由思想塑造。”
 
-他还有一句：“留意万物皆是变化的结果，习惯这样的认知：自然最喜欢做的事，就是改变现有的形态。”这是一个罗马皇帝在战场上、在瘟疫里写下的实操哲学，可不是鸡汤。变化才是默认状态，不是意外。
+他还有一句：“留意万物皆是变化的结果，习惯这样的认知：自然最喜欢做的事，就是改变现有的形态。”这是一个罗马皇帝在战场上、在瘟疫里写下的实操哲学，可不是鸡汤。
 
 老子用水说明了同一件事：*天下莫柔弱于水，而攻坚强者莫之能胜。*
 
-水不抗拒变化。水就是变化本身。它不需要变成石头才能对抗石头。它绕过去，渗进去，年深日久，石头就裂开了。
+水本身就是变化。它不需要变成石头才能对抗石头。它绕过去，渗进去，年深日久，石头就裂开了。
 
-趋势就是水。你可以不喜欢，但没法假装它不存在。GPU 算力正在改写计算范式——这是我每天工作的现实，不是炒作。LLM 也不是一阵风就过去的时髦玩意，它在重写软件工程的基本假设。
+趋势就是水。你可以不喜欢，但没法假装它不存在。GPU 算力正在改写计算范式——这是我每天工作的现实，不是炒作。LLM 也一样，它在重写软件工程的基本假设。
 
-热点和趋势的区别就两个字：持久。热点，钱一撤就没了。趋势在兴奋退潮之后还在重塑整个地形。
+热点和趋势的区别就两个字：持久。趋势在兴奋退潮之后，还在重塑整个地形。
 
-怎么分？一句话：钱撤走之后，它还在不在？
+所以看什么新东西，都可以问一句：钱撤走之后，它还在不在？
 
 ---
 
 ## 三、固守本心，拥抱变化，珍惜一切
 
-如果“不追热点”加上“不忽略趋势”就够了，所有人早就在做了。真正难的是第三句。怎么同时做到固守和拥抱？
+如果“不追热点”加上“不忽略趋势”就够了，所有人早就在做了。难就难在第三句。怎么同时做到固守和拥抱？
 
 NVIDIA 给了答案。
 
@@ -266,7 +266,7 @@ NVIDIA 给了答案。
 
 荷叶不拒绝水。水落在叶上，完全接触。但水不沾叶。叶不吸水。它们相遇，然后各自自在。
 
-不执着于热点，不执着于现状，也不执着于结果。跟世界充分接触，但不被黏住。
+对热点、对现状、对结果，都该是这个态度：跟世界充分接触，但不被黏住。
 
 我的工作正好卡在一个特殊的位置：AI 和基础设施的交叉点。每天眼前都是两股力在撞——一个真正的计算范式转移，还有围绕它的所有噪音。我的锚点压在技术和趋势底下，是一个更老的信念：价值住在层和层之间的缝隙里。别人看到栈，我看到栈之间的暗处，然后一直搭，直到信息流得过去。这件事不会随哪一波热点过期，因为“织连接”本身不属于任何一层。
 
@@ -282,7 +282,7 @@ Naval：“Desire is a contract that you make with yourself to be unhappy until 
 
 追热点是一种欲望。对趋势的恐惧，也是一种欲望。两者都把你拽进未来，让你不在当下。
 
-固守本心不是固执。拥抱变化不是追风。珍惜一切不是鸡汤。三样合在一起，就是荷叶上的水珠：跟世界完全接触，谁也不黏住。
+第三句拆开看，每一样都容易被看偏：固守本心看着像固执，拥抱变化像追风，珍惜一切听着又像鸡汤。三样合在一起，就是荷叶上的水珠：跟世界完全接触，谁也不黏住。
 
 曾国藩还有一句：
 

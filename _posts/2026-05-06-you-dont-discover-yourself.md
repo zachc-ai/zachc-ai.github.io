@@ -35,7 +35,7 @@ A few annoying things follow.
 
 **Two.** Willpower can override the servo for two or three weeks. Then the servo wins. This is why every diet you've ever tried evaporated. You were fighting your self-image, not your willpower.
 
-**Three.** The self-image is editable. Just not by reading about it. Or deciding really hard. It's editable by *behavior*. Your brain is locked inside your skull. It can't see the outside world. The only data it gets about who you are is what you do. So if you keep doing the thing you don't think you are, eventually the brain shrugs and updates: huh, I guess we're a writer now.
+**Three.** The self-image is editable, just not by reading about it or deciding really hard. It's editable by *behavior*. Your brain is locked inside your skull. It can't see the outside world. The only data it gets about who you are is what you do. So if you keep doing the thing you don't think you are, eventually the brain shrugs and updates: huh, I guess we're a writer now.
 
 This is what's actually under "fake it till you make it." A phrase that sounds like bullshit until you remember the alternative is "wait until you feel like it" — i.e., never.
 
@@ -71,11 +71,11 @@ That stack got the label "the real me" because it's familiar. Not because it's t
 
 Buddhism has the cleanest take I know on this. *Anatta*, no-self. There is no fixed, permanent you waiting underneath all the performances to be honored. Whoever you've been performing for the last twenty years is also a performance. It's just been running longer.
 
-Once you accept that every version is a costume, the question stops being "which one is real?" and quietly becomes "which one would I rather wear?" Because there's no fact-of-the-matter version waiting underneath. Just versions with different track records.
+Once you accept that every version is a costume, the question stops being "which one is real?" and becomes "which one would I rather wear?" Because there's no fact-of-the-matter version waiting underneath. Just versions with different track records.
 
-The reframe: if every "me" is performance, the only honest question is — which performance gets me richer, stronger, happier? And why am I not playing that one?
+So which performance gets me richer, stronger, happier? And why am I not playing that one?
 
-Uncomfortable question. Hard to unhear once you've heard it.
+Uncomfortable question, and hard to unhear once you've heard it.
 
 ---
 
@@ -87,9 +87,9 @@ Three levers. Not equal weight. You'll lean on different ones at different stage
 
 I used to roll my eyes at visualization. Then before a difficult conversation last year I tried it for two weeks. The actual conversation was easier than every version I had run in my head. Whether that's "training" or just "I thought it through more carefully," I don't know. Probably some of both. Either way it was free.
 
-**Live execution: don't argue with your brain.** Here's a thing nobody tells you about starting a new behavior: *your brain will actively sabotage it*. Not because the goal is wrong. Because new neural pathways are expensive, and your brain is a deeply lazy organ that would rather you keep doing the cheap thing.
+**Live execution: don't argue with your brain.** When you start a new behavior, *your brain will actively sabotage it*. Not because the goal is wrong. Because new neural pathways are expensive, and your brain is a deeply lazy organ that would rather you keep doing the cheap thing.
 
-So when you sit down to write and a wave of "ugh, not today, you're tired" rises up — that's the cost of doing business, not a signal. The technique I've found most useful is to step *back* from the brain. Don't fight it, observe it. Like there's a screaming toddler in the back seat and I'm the adult driving. The toddler doesn't want to listen to reason. Fine. We're still going to the dentist.
+So when you sit down to write and a wave of "ugh, not today, you're tired" rises up — that's the cost of doing business. The technique I've found most useful is to step *back* from the brain. Don't fight it, observe it. Like there's a screaming toddler in the back seat and I'm the adult driving. The toddler doesn't want to listen to reason. Fine. We're still going to the dentist.
 
 It's the most boring superpower you can develop. Annoyingly, it also works.
 
@@ -105,7 +105,7 @@ This is the part that I wish someone had told me earlier: *it does get easier.* 
 
 I write code for a living, and I've been noticing: the same mechanism that makes humans hard to change makes AI agents hard to change too.
 
-If you've used Claude Code or any of the agent harnesses, you know there's a config file (CLAUDE.md, or whatever your harness calls it) where you describe how the agent should behave. People assume the secret to a better agent is a smarter prompt. The real secret is the *file* — the persona, the standing rules, the durable instructions. That's the agent's self-image. Change the file, change the behavior. Add a vague "be more careful" instruction in chat without changing the file, and the agent reverts within a few turns.
+If you've used Claude Code or any of the agent harnesses, you know there's a config file (CLAUDE.md, or whatever your harness calls it) where you describe how the agent should behave. People assume the secret to a better agent is a smarter prompt. It's the *file* — the persona, the standing rules, the durable instructions. That's the agent's self-image. Change the file, change the behavior. Add a vague "be more careful" instruction in chat without changing the file, and the agent reverts within a few turns.
 
 Same servo loop. Persona is the target. Completions are the feedback. The agent drifts toward whoever it thinks it is.
 
@@ -129,7 +129,7 @@ Anyway. Going to go drag my tail in the mud now, I guess.
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-今年我老挂在嘴边一句话，最近才注意到——
+今年我老挂在嘴边一句话，最近才注意到：
 
 > “我不是那种人。”
 
@@ -162,7 +162,7 @@ Maltz 顺手从控制论里借了一个词，叫 **servo（伺服）**。
 
 反观令狐冲，天资极高，独孤九剑一上手就开窍，可他早期身体里塞了七八门内功路数，互相打架，差点死掉。他的伺服锁的其实是“我是什么样的人”，而不是“练成什么”。偏偏那个人死活不肯改投别派：方证要传他易筋经救命，条件是入少林，他一拂袖子就走了。
 
-也就是说，**练什么招式不重要，先得想清楚自己锁的是哪个目标**。郭靖锁对了，所以降龙十八掌从他手里出来重若千钧。这就是伺服。
+也就是说，**练什么招式不重要，先得想清楚自己锁的是哪个目标**。郭靖锁对了，所以降龙十八掌从他手里出来重若千钧。
 
 这件事再往下推，有几条挺烦人的结论。
 
@@ -184,7 +184,7 @@ Naval 有句话，每年读都更狠一点：
 
 读两遍。
 
-你说“我想要 X”的时候，**其实是在告诉自己**：我现在没有 X，并且拿到之前我都不能开心。这一下子把“现在”标记成了**亏空**。伺服立刻把你的身份认成“那个还没拿到 X 的人”。
+你说“我想要 X”的时候，其实是在告诉自己：我现在没有 X，并且拿到之前我都不能开心。这一下子把“现在”标记成了**亏空**。伺服立刻把你的身份认成“那个还没拿到 X 的人”。
 
 更糟的是，这事没完没了。**就算你真的拿到了 X，伺服也会立刻给你生出一个 Y**，让你继续不开心。
 
@@ -213,13 +213,13 @@ Naval 跟 Maltz 都指向同一个解法：别更努力地“想要”。**直�
 
 这一堆东西被贴上“真实的我”四个字，**不是因为它真，是因为它熟**。
 
-佛家有个说法最准：**无我**。**底下没有一个固定不变的“你”在等你回去尊重。** 你过去二十年扮演的那个角色，**也是表演**。它只是演得久。
+佛家有个说法最准：无我。**底下没有一个固定不变的“你”在等你回去尊重。** 你过去二十年扮演的那个角色，也是表演。它只是演得久。
 
-一旦你接受“每个版本都是表演”，问题就不再是“哪个最真”。问题就悄悄变成了——
+一旦你接受“每个版本都是表演”，问题就不再是“哪个最真”了。该问的是：
 
-**既然每个版本都是演的，那我演哪一个，能让我变富、变强、变开心？**
+**我演哪一个，能让我变富、变强、变开心？**
 
-第一次听到这个问题，是会扎心的。然后你会发现，它就立在那儿，没法反驳。
+这问题挺扎心。而且听过一次，就很难再当没听过了。
 
 ---
 
@@ -229,7 +229,7 @@ Naval 跟 Maltz 都指向同一个解法：别更努力地“想要”。**直�
 
 **冷启动：在脑子里把那个角色排练一遍。**
 
-Maltz 最出名的一个发现是：**神经系统分不清真实经验和生动想象**。所以“每天 30 分钟具体的心理排练”，不是你以为的那种泛泛“想象成功”。它要非常具体——
+Maltz 最出名的一个发现是：**神经系统分不清真实经验和生动想象**。所以“每天 30 分钟具体的心理排练”，不是你以为的那种泛泛“想象成功”。它要非常具体：
 
 > 如果我已经是那个人了，明天早上 9 点我会在做什么？说什么？推掉哪个会？忽略哪条消息？
 
@@ -239,7 +239,7 @@ Maltz 最出名的一个发现是：**神经系统分不清真实经验和生动
 
 **真上场：别跟你的大脑讲道理。**
 
-这件事真的没人事先告诉你——**你尝试新行为的时候，大脑会主动给你制造阻力**。焦虑、犯困、各种合理化（“明天再开始”、“这真不像我”）。
+**你尝试新行为的时候，大脑会主动给你制造阻力**。焦虑、犯困、各种合理化（“明天再开始”、“这真不像我”）。
 
 **别把这些当成“目标错了”。它们是开张成本。** 新神经回路烧能量，大脑非常懒，它当然想让你回到便宜的旧轨。
 
@@ -256,7 +256,7 @@ Maltz 最出名的一个发现是：**神经系统分不清真实经验和生动
 
 每完成一次新角色的动作，旧回路砍一刀，新回路加一砖。第一个月很苦。第十二个月明显轻松一点。第一年之后，新角色变成默认配置——意志力可以挪去别的地方了。
 
-这是很少有人提的一段：**它真的会变容易**。伺服真的会把新目标装上。**只是你得喂它真的数据，喂够长时间。**
+这是很少有人提的一段：**它真的会变容易**。伺服真的会把新目标装上。只是你得喂它真的数据，喂够长时间。
 
 ---
 
@@ -289,7 +289,7 @@ Maltz 最出名的一个发现是：**神经系统分不清真实经验和生动
 
 行了，打住。
 
-整件事最后落到一个**听起来很傻、但你真的坐下来想就坐不住**的问题——
+整件事最后落到一个**听起来很傻、但你真的坐下来想就坐不住**的问题：
 
 **你的行为永远和“你以为自己是谁”一致。**
 **所以——你以为自己是谁？**

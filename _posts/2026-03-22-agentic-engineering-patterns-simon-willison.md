@@ -67,7 +67,7 @@ You vibe-coded something. Or inherited a codebase. Ask the agent to read the sou
 
 ### 6. Interactive explanations
 
-**The problem is cognitive debt.** Agent-generated code you don't understand turns into a black box that blocks the next thing you want to build. **The fix:** ask the agent to build an interactive visualization of the algorithm.
+**The problem is cognitive debt.** Agent-generated code you don't understand turns into a black box that blocks the next thing you want to build. The fix is to ask the agent to build an interactive visualization of the algorithm.
 
 Willison had Claude Code build an HTML page that stepped through a word-cloud placement algorithm — Archimedean spiral plus random angle offset — with pause, speed control, and frame-by-frame playback. "A good coding agent can produce these on demand to help explain code — its own code or code written by others."
 
@@ -91,7 +91,7 @@ What's doing the work:
 
 Willison's Artifacts custom instructions: always vanilla HTML + JS (no React), CSS with 2-space indent and `box-sizing: border-box`, 16px input fonts in Helvetica, JS with module syntax and 2-space indent.
 
-For proofreading: check spelling, grammar, repetition, logic errors, factual inaccuracies, weak arguments, empty or placeholder links. The line worth highlighting: **he never lets LLMs ghostwrite opinion pieces or first-person blog posts.** Proofread and update technical docs, yes. Write in your voice, no.
+For proofreading: check spelling, grammar, repetition, logic errors, factual inaccuracies, weak arguments, empty or placeholder links. The line I'd underline: **he never lets LLMs ghostwrite opinion pieces or first-person blog posts.** Proofread and update technical docs, yes. Write in your voice, no.
 
 ---
 
@@ -101,9 +101,9 @@ For proofreading: check spelling, grammar, repetition, logic errors, factual ina
 
 The "hoard working examples" idea reframes my Second Brain as a solution library — every solved problem becomes a building block an agent can recombine. I'd been thinking of those notes as personal memory; they're also AI substrate.
 
-Two harder-to-internalize ones: visualizations for complex algorithms aren't just teaching aids; they're how you escape cognitive debt. And cheap code isn't cheap good code — verification and architecture didn't get any easier just because typing did.
+Two harder-to-internalize ones: visualizations for complex algorithms are how you escape cognitive debt, so they're worth building even when nobody else will see them. And cheap code isn't cheap good code — verification and architecture didn't get any easier just because typing did.
 
-The prompt advice surprised me. Not long essays. Filename + test command + existing examples. Precise anchors do more work than instructions.
+The prompt advice surprised me: no long essays, just filename + test command + existing examples. Precise anchors do more work than instructions.
 
 </div>
 
@@ -163,7 +163,7 @@ TDD 在用 agent 的时候比平时更重要。原因是 agent 容易出两种�
 
 ### 6. 交互式解释
 
-**问题是认知债务。** Agent 写的代码你看不懂 → 变成黑箱 → 挡住下一个想做的事。**解法是**：让 agent 给这个算法做一个交互式可视化。
+**问题是认知债务。** Agent 写的代码你看不懂 → 变成黑箱 → 挡住下一个想做的事。解法是让 agent 给这个算法做一个交互式可视化。
 
 Willison 用 Claude Code 做了个 HTML 页面，把词云布局算法（阿基米德螺线加随机角度偏移）拆成了可暂停、可调速、可逐帧播放的过程。“一个好的编程 agent 可以按需生成这种东西来解释代码，不管是它自己写的还是别人写的。”
 
@@ -198,7 +198,7 @@ Willison 的 Artifacts 自定义指令：永远不用 React，纯 HTML + vanilla
 
 “囤积能跑的例子”这条把我对 Second Brain 的定位整个改了：每个解过的问题都是 agent 能拼起来用的积木。之前我只把它当成自己的记忆，原来它还是 AI 的素材库。
 
-还有两个不太好内化的。一是复杂算法做交互式可视化，不只是教学用的，还是摆脱认知债务的办法。二是写代码便宜，不等于“好代码”也便宜——验证、测试、架构这些一点没变简单。
+还有两个不太好内化的。一是复杂算法做成交互式可视化，是摆脱认知债务的办法，哪怕只有自己看也值得做。二是写代码便宜，不等于“好代码”也便宜——验证、测试、架构这些一点没变简单。
 
 最后，提示词那一段挺反直觉的。不用写长篇大论，给三个准确的锚点就行：文件名 + 测试命令 + 已有示例。这种精确比解释更有用。
 

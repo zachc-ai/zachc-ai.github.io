@@ -51,7 +51,7 @@ And:
 
 > "If you do it while young, even if you fail when you grow old, you won't regret it — absolutely not."
 
-Those two wins in Portugal didn't fall from the sky. It was built up from 20,000 yuan, through countless last-place finishes, retirements, and doubts. Lap by lap.
+Those two wins in Portugal were built up lap by lap, from 20,000 yuan through countless last-place finishes, retirements, and doubts.
 
 ---
 
@@ -83,14 +83,14 @@ Roads aren't planned. They're walked into existence. The first person walking ha
 > "Knowledge is the beginning of action; action is the completion of knowledge."
 > — Wang Yangming
 
-Wang Yangming spent his life arguing one point. You think you "know" something. But if you haven't done it, you know nothing. True knowledge only comes from action. Every step on the journey *is* the scripture.
+Wang Yangming spent his life arguing one point. You think you "know" something. But if you haven't done it, you know nothing. True knowledge only comes from action.
 
 ### Lao Tzu: a thousand miles
 
 > "A journey of a thousand miles begins with a single step."
 > — Lao Tzu, *Tao Te Ching*, Chapter 64
 
-Probably the most quoted line ever written. Most people see "a thousand miles" and miss the key word: "begins." The point is the start, not the distance.
+Probably the most quoted line ever written. Most people see "a thousand miles" and miss the word that matters: "begins."
 
 ### Li Bai: the hard road
 
@@ -99,7 +99,7 @@ Probably the most quoted line ever written. Most people see "a thousand miles" a
 > Yet someday I will ride the long wind and break the heavy waves,
 > and set my cloudy sail straight across the deep, deep sea."
 
-When Li Bai wrote this, his career was blocked and every path seemed closed. But instead of ending in despair, the poem ends with "riding the wind and breaking the waves." Knowing the road is hard and walking it anyway. That IS the answer.
+When Li Bai wrote this, his career was blocked and every path seemed closed. But instead of ending in despair, the poem ends with "riding the wind and breaking the waves." Knowing the road is hard and walking it anyway is Li Bai's answer.
 
 ---
 
@@ -183,7 +183,7 @@ He wasn't cursing them. NVIDIA nearly died in 1997 with one month of payroll lef
 > "Be patient toward all that is unsolved in your heart and try to love the questions themselves. Live the questions now. Perhaps you will then gradually, without noticing it, live along some distant day into the answer."
 > — Rilke, *Letters to a Young Poet* (1903)
 
-Rilke and Wang Yangming said the same thing. You don't find the answer and then set out. You live your way into the answer along the road.
+Rilke and Wang Yangming said the same thing. You live your way into the answer along the road.
 
 ---
 
@@ -199,13 +199,13 @@ Stand still, and your self-image stays intact. "I just haven't started yet; once
 
 Zhang Xue saw that mirror and kept riding. Jiaozi saw it and kept drawing. Feng Ji saw it and kept building.
 
-That's what "personal cultivation" actually means. Not a moral judgment. The ability to face real feedback without running away.
+That's what "personal cultivation" means: the ability to face real feedback without running away. It isn't a moral judgment.
 
 ---
 
 ## The journey *is* the scripture
 
-In *Journey to the West*, Tang Seng and his disciples endure eighty-one trials to reach Vulture Peak and obtain the scriptures. But think about it for a second. What are the scriptures, actually?
+In *Journey to the West*, Tang Seng and his disciples endure eighty-one trials to reach Vulture Peak and obtain the scriptures. But what are the scriptures, actually?
 
 Are they the rolls of paper with words on them?
 
@@ -273,7 +273,7 @@ Every step on that journey *is* the scripture.
 
 > “年轻做了就算到老了，失败了不会后悔，肯定不会。”
 
-葡萄牙的那个冠军，不是天上掉下来的。是从两万块钱、无数次垫底、退赛、被质疑里，一圈一圈跑出来的。
+葡萄牙的那个冠军，是从两万块钱、无数次垫底、退赛、被质疑里，一圈一圈跑出来的。
 
 ---
 
@@ -285,7 +285,7 @@ Every step on that journey *is* the scripture.
 
 > “我命由我不由天。”
 
-这不只是哪吒的台词。这是饺子自己的人生。一个药学毕业生，没受过动画训练，没行业人脉，靠母亲退休金活着，被所有人质疑。他没去证明自己有资格做动画，直接动手先做了出来。
+这句台词是哪吒说的，其实也是饺子自己的人生。一个药学毕业生，没受过动画训练，没行业人脉，靠母亲退休金活着，被所有人质疑。他没去证明自己有资格做动画，直接动手先做了出来。
 
 《哪吒之魔童降世》2019 年票房 50 亿人民币。《哪吒 2》2025 年全球票房 22 亿美元，成为有史以来票房最高的动画电影。但起点是一个人、一台电脑、每月 1000 块钱，以及一个决定：先做。
 
@@ -305,14 +305,14 @@ Every step on that journey *is* the scripture.
 > “知者行之始，行者知之成。”
 > — 王阳明《传习录》
 
-王阳明一辈子在说一件事。你以为自己“知道”了。可要是没做过，其实什么都不知道。真知只能从行中来。取经路上的每一步，本身就是真经。
+王阳明一辈子在说一件事。你以为自己“知道”了。可要是没做过，其实什么都不知道。真知只能从行中来。
 
 ### 老子：千里之行
 
 > “千里之行，始于足下。”
 > — 老子《道德经》第六十四章
 
-这大概是被引用得最多的一句话了。但大部分人只看到“千里”，把“始”漏了。重点在开始，不在距离。
+这大概是被引用得最多的一句话了。但大部分人只看到“千里”，把“始”漏了。
 
 ### 李白：行路难
 

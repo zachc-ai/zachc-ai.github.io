@@ -31,7 +31,7 @@ sources:
 
 ## The seed
 
-I stopped in the middle of organizing my notes today. Not because there was nothing to do. The opposite. Too much to do.
+I stopped in the middle of organizing my notes today. Not because there was nothing to do. There was too much.
 
 I have an Obsidian vault with around 300 files. Claude Code helped me build an automated workflow: morning planning, task dispatch, knowledge digestion, cross-project sync. Before AI, I'd never have attempted any of this — too complex, not worth the time. But now, "not worth it" has quietly become "maybe I could."
 
@@ -39,7 +39,7 @@ Then I noticed a paradox. Everything became "doable," but everything took longer
 
 I assumed it was just me. Maybe I wasn't efficient enough. Maybe I hadn't found the right workflow. Then I saw the data:
 
-> Upwork's 2024 research found that **77% of employees using AI say the tools have added to their workload** — more work, not less.
+> Upwork's 2024 research found that **77% of employees using AI say the tools have added to their workload**.
 
 It's not just me. It's structural.
 
@@ -52,15 +52,15 @@ Zhuangzi said something two thousand years ago that hits differently now:
 > "My life has a limit, but knowledge has none. To pursue the limitless with the limited — that is perilous."
 > — Zhuangzi, *Nourishing Life*
 
-Not a platitude. Cognitive science spent the next two thousand years proving him right.
+Sounds like a platitude, but cognitive science spent the next two thousand years proving him right.
 
-In 1956, George Miller published a now-famous paper: *The Magical Number Seven, Plus or Minus Two*. He found that human working memory holds roughly **7 chunks of information** at once. Not 7 GB. Not 7 TB. Seven chunks. A hardware constraint, not a software issue. You can't upgrade it by "trying harder," any more than you can grow a new heart chamber by running.
+In 1956, George Miller published a now-famous paper: *The Magical Number Seven, Plus or Minus Two*. He found that human working memory holds roughly **7 chunks of information** at once. Seven chunks, not 7 GB. It's a hardware limit, and you can't upgrade it by "trying harder," any more than you can grow a new heart chamber by running.
 
 Then John Sweller's Cognitive Load Theory in the late 1980s added the next layer. Working memory is small. It's also short-lived. Everything has to squeeze through this bottleneck before it gets to long-term memory. Too many options, too complex an interface, too much noise — and learning and decision-making fall apart.
 
 And then **directed attention fatigue**, from Rachel and Stephen Kaplan at Michigan. Your brain burns energy just suppressing distractions, and the fuel tank is finite. When it runs dry: more mistakes, worse planning, shorter temper, dumber impulses.
 
-In other words, your brain is a pipe with a fixed diameter. From Miller to Sweller to the Kaplans, over half a century of research says the same thing. **The pipe doesn't get wider.**
+From Miller to Sweller to the Kaplans, over half a century of research says the same thing: your brain is a pipe, and **the pipe doesn't get wider.**
 
 ---
 
@@ -82,7 +82,7 @@ There's a famous Israeli study on parole judges that shows what this does to peo
 
 David Meyer's research is more direct. Switching between tasks can cost **as much as 40%** of your productive time. The brain spends zero-progress "restart" time every time it switches tasks. And David Strayer at Utah found only **2.5% of people** are true "supertaskers"; everyone else just performs worse when multitasking.
 
-That's the trap. AI lets you open more valves, but the pipe hasn't changed. Each new valve adds no output. It just thins what every valve gets.
+So AI lets you open more valves, but the pipe hasn't changed. Each new valve adds no output. It just thins what every valve gets.
 
 ---
 
@@ -154,15 +154,13 @@ And the sharper one:
 > "Less brings gain; more brings confusion."
 > — *Tao Te Ching*, Chapter 22
 
-Two and a half thousand years before any of that research, same answer. **Do less, not more.**
+Two and a half thousand years before any of that research, same answer: **do less.**
 
 When Steve Jobs came back to Apple in 1997, the first thing he did wasn't ship new products. He killed 70% of the product line. He later said:
 
 > "People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas."
 
-So focus is the hundred noes, not the one yes.
-
-Obama wore the same gray or blue suit every day. Zuckerberg wore the same gray T-shirt. Not because they couldn't afford variety. Because every trivial decision draws from the same pool of limited cognitive resources. Reducing unimportant decisions protects the quality of the important ones.
+Obama wore the same gray or blue suit every day. Zuckerberg wore the same gray T-shirt. They could afford variety. They just knew that every trivial decision draws from the same pool of limited cognitive resources. Reducing unimportant decisions protects the quality of the important ones.
 
 My own recent version of this: Claude Code can help me with dozens of things. Note automation, code refactoring, knowledge curation, data analysis, documentation. But when I try to push every one of those forward at the same time, I'm more exhausted than I was before AI. Every new automated pipeline is one more system to maintain, one more failure point, one more "is this AI output correct?" judgment.
 
@@ -182,7 +180,7 @@ Back to Zhuangzi.
 
 The line I keep coming back to: **the more you CAN do, the less you SHOULD do.**
 
-Not rejecting tools. Using the power of tools to do fewer, deeper things instead of more, shallower ones. The pipe diameter isn't going to change. The water pressure will keep rising. The only thing you control is how many valves you open.
+Keep the tools, and use them to do fewer, deeper things instead of more, shallower ones. The pipe diameter isn't going to change. The water pressure will keep rising. The only thing you control is how many valves you open.
 
 Eric Schmidt once warned that too much information could get in the way of "deep thinking, comprehension, and memory formation." Clay Shirky put it better: the problem isn't information overload, it's filter failure. Our filters can't keep up.
 
@@ -225,7 +223,7 @@ The moments you decide **not** to use AI.
 
 一开始我以为是自己的问题。可能效率不够高，或者还没找到对的工作方式。直到看见一组数据：
 
-> Upwork 2024 年的研究发现，**用 AI 工具的员工里，77% 说这些工具反而加重了工作量**——不是减负，是加码。
+> Upwork 2024 年的研究发现，**用 AI 工具的员工里，77% 说这些工具反而加重了工作量**。
 
 不是我一个人的错觉。是结构性的。
 
@@ -240,13 +238,13 @@ The moments you decide **not** to use AI.
 
 听着像鸡汤？后来的认知科学证明，他说得一点没错。
 
-1956 年，心理学家 George Miller 发了一篇后来成为经典的论文：《神奇的数字 7±2》。他发现人类工作记忆（working memory）一次大约能装下**7 个信息单元**。不是 7 GB，不是 7 TB。7 个 chunks。这是硬件限制，跟软件没关系。靠“更努力”是升级不了的，就像跑步跑得再多，也不会多长出一个心房。
+1956 年，心理学家 George Miller 发了一篇后来成为经典的论文：《神奇的数字 7±2》。他发现人类工作记忆（working memory）一次大约能装下**7 个信息单元**。7 个 chunks，可不是 7 GB。这是硬件限制，靠“更努力”升级不了，就像跑步跑得再多，也不会多长出一个心房。
 
 1980 年代末，John Sweller 的认知负荷理论补了一刀：工作记忆不光小，还短命。所有信息都得先挤过这个瓶颈，才能进长期记忆。选项一多、界面一乱、噪音一大，学习和决策质量直接崩。
 
 还有一个维度：密歇根大学 Kaplan 夫妇的**定向注意力疲劳**。大脑要集中注意力，就得不停压制周围的干扰，这件事本身就在烧能量。能量烧完了，后果就来了：判断失误、规划变差、脾气变大、做事冲动。
 
-说白了，大脑就是一根固定口径的管子。从 Miller 到 Sweller 到 Kaplan，半个多世纪的研究都在重复同一句话：**管道不会变粗。**
+从 Miller 到 Sweller 到 Kaplan，半个多世纪的研究翻来覆去说的都是一件事：大脑是一根管子，**这根管子不会变粗。**
 
 这就好比《天龙八部》里的鸠摩智。他把少林七十二绝艺一门一门学会了，看上去无敌。结果运起小无相功硬撑那些招式，自己内息逆转，走火入魔。问题不出在招式上，出在他那条经脉就那么粗，硬塞了七十二门进去。藏经阁的扫地僧点破过他：“每一项绝技，均须有相应的慈悲佛法为之化解。”鸠摩智没听进去。
 
@@ -272,7 +270,7 @@ Herbert Simon 在 1971 年写过一句话，到了 AI 时代越来越准：
 
 David Meyer 的研究更直接：来回切换任务，最多能吃掉**40%** 的有效时间。大脑每切换一次任务，都得花一段“重启”时间，这段时间里一点进展都没有。犹他大学的 David Strayer 则发现，只有**2.5% 的人**是真正的“超级任务者”，其余的人多任务时表现都会下降。
 
-陷阱就在这。AI 让你能开更多阀门，但管子没变粗。每多开一个，产出没多，每个阀门分到的水反而更少了。
+所以 AI 让你能开更多阀门，但管子没变粗。每多开一个，产出没多，每个阀门分到的水反而更少了。
 
 ---
 
@@ -326,7 +324,7 @@ Erik Brynjolfsson 在 1993 年把这件事量化了。1970–80 年代计算能�
 
 **工具爆发 → 认知过载 → 组织适应滞后 → 生产力停滞**
 
-75% 的人在用 AI，但 59% 的领导说不清楚 AI 到底带来了什么。工具更多了，人更累了。不是 AI 不行。是我们的习惯、组织、脑子还没跟上。
+75% 的人在用 AI，但 59% 的领导说不清楚 AI 到底带来了什么。工具更多了，人更累了。掉队的是我们自己：习惯、组织、脑子，都还没跟上。
 
 ---
 
@@ -344,13 +342,13 @@ Erik Brynjolfsson 在 1993 年把这件事量化了。1970–80 年代计算能�
 > “少则得，多则惑。”
 > — 《道德经》第二十二章
 
-两千五百年前那句，和今天的认知科学说的，是一回事。**不是做更多，是选更少。**
+两千五百年前那句，和今天的认知科学说的，是一回事：**少做一点。**
 
 Steve Jobs 1997 年回 Apple，第一件事没去推新品，先砍掉了 70% 的产品线。他后来说：
 
 > “People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas.”
 
-说白了，专注不是对目标说“是”，是对另外一百个好主意说“不”。
+说白了，专注就是对另外一百个好主意说“不”。
 
 Obama 每天穿同款灰色或蓝色西装。Zuckerberg 每天穿同款灰 T 恤。他们当然买得起衣服。只是明白一件事：日常决策再小，也要从同一个认知资源池里扣，这个池子就那么大。减少不重要的决策，是为了保护重要决策的质量。
 
