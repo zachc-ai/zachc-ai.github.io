@@ -27,7 +27,7 @@ While reading OpenAI's harness engineering post, George (@odysseus0z) spotted th
 2. **Kubernetes.** The engineer moves from restarting services to writing the declarative spec the system reconciles toward.
 3. **AI agent harness.** The engineer moves from writing code to designing the environments, feedback loops, and constraints that let agents write code.
 
-Norbert Wiener named this in 1948: **cybernetics**, from Greek _kubernētēs_, steersman. The structure underneath is always the same — observe actual state, compare with desired state, adjust, loop. Each time, humans shift from rower to steersman. They move up one abstraction layer instead of disappearing.
+Norbert Wiener named this in 1948: cybernetics, from Greek _kubernētēs_, steersman. The structure underneath is always the same — observe actual state, compare with desired state, adjust, loop. Each time, humans shift from rower to steersman. They move up one abstraction layer instead of disappearing.
 
 ## Why it shows up everywhere
 
@@ -67,7 +67,7 @@ George (@odysseus0z) 读 OpenAI 那篇 harness engineering 时，看出同一种
 2. **Kubernetes。** 工程师从重启服务，挪到写一份声明式 spec，让系统自己朝它收敛。
 3. **AI agent harness。** 工程师从写代码，挪到设计让 agent 写代码的环境、反馈环、约束。
 
-Norbert Wiener 在 1948 年给这个东西起了名字：**控制论**（cybernetics），源自希腊语 _kubernētēs_，意思是舵手。底下的结构每次都一样：感知实际状态、跟期望状态比较、调整、循环。每一次，人都从划桨者变成舵手。人没有消失，只是往上挪了一个抽象层。
+Norbert Wiener 在 1948 年给这个东西起了名字：控制论（cybernetics），源自希腊语 _kubernētēs_，意思是舵手。底下的结构每次都一样：感知实际状态、跟期望状态比较、调整、循环。每一次，人都从划桨者变成舵手。人没有消失，只是往上挪了一个抽象层。
 
 ## 为什么哪儿都能见到它
 
@@ -75,7 +75,7 @@ Norbert Wiener 在 1948 年给这个东西起了名字：**控制论**（cyberne
 
 ## 漏掉的一环：Maltz (1960)
 
-Maxwell Maltz 是控制论这条线里大家很少点到的一环。他比 AI harness engineering 早 60 多年，就把 Wiener 那套 1948 年的框架挪到了**人类心理学**上：大脑是一台伺服机构，盯着目标，靠反馈自动修正。
+Maxwell Maltz 是控制论这条线里大家很少点到的一环。他比 AI harness engineering 早 60 多年，就把 Wiener 那套 1948 年的框架挪到了人类心理学上：大脑是一台伺服机构，盯着目标，靠反馈自动修正。
 
 舵手的角色直接套上去：设定目标（自我形象或目标），信任自动过程，别去微管伺服怎么执行。
 

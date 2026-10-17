@@ -229,6 +229,8 @@ They're all saying a version of the same thing:
 
 Every step on that journey *is* the scripture.
 
+That's all there is to it.
+
 ---
 
 *Written April 5, 2026. A week after Zhang Xue's double win in Portugal.*
