@@ -31,7 +31,7 @@ Two interventions sit above everything else:
 
 **Exercise.** 150 min/week of moderate aerobic activity. It raises BDNF, improves cerebral blood flow to the PFC, lowers baseline cortisol, and tunes dopamine and norepinephrine to where they should be. A 6-month aerobic training program measurably grew PFC gray and white matter in older adults (Colcombe et al., 2006).
 
-**Sleep.** 7–9 hours, consistent schedule. During deep sleep the glymphatic system is 10–20× more active and flushes metabolic waste from the PFC. Slow-wave sleep is when PFC–hippocampus memory consolidation actually happens.
+**Sleep.** 7–9 hours, consistent schedule. In mice, sleep widened the space between brain cells by about 60% and cleared injected β-amyloid twice as fast as being awake (Xie et al., 2013). A later mouse study found clearance drops during sleep instead (Miao et al., 2024), so the "sleep rinses the brain" story is still being argued over. Slow-wave sleep is when PFC–hippocampus memory consolidation actually happens.
 
 **Meditation** comes next. 8 weeks of mindfulness practice raised gray matter density in the hippocampus and posterior cingulate, though that study didn't find a change in the PFC itself (Hölzel et al., 2011). The usual explanation: stronger top-down control from the PFC over the amygdala.
 
@@ -69,7 +69,7 @@ Less interactive isn't less effective. It might be the only way to still have a 
 
 ---
 
-*Key references: Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017)*
+*Key references: Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017), Xie et al. (2013), Miao et al. (2024)*
 
 </div>
 
@@ -93,7 +93,7 @@ Less interactive isn't less effective. It might be the only way to still have a 
 
 **运动。** 每周 150 分钟中等强度有氧。能提升 BDNF，改善 PFC 脑血流，降低皮质醇基线，把多巴胺和去甲肾上腺素调到最佳浓度。有项研究让老年人做了 6 个月有氧训练，PFC 的灰质和白质体积都增加了（Colcombe et al., 2006）。
 
-**睡眠。** 7–9 小时，作息规律。深度睡眠时类淋巴系统活跃度提升 10–20 倍，把 PFC 的代谢废物冲掉。慢波睡眠是 PFC 跟海马做记忆巩固的窗口。
+**睡眠。** 7–9 小时，作息规律。小鼠实验里，睡着时脑细胞之间的空隙扩大了约 60%，注射进去的 β-淀粉样蛋白清得比醒着时快一倍（Xie et al., 2013）。可后来另一项小鼠研究测出来的是，睡眠时清除反而变慢（Miao et al., 2024）。“睡觉给大脑冲洗废物”这个说法，学界还在吵。慢波睡眠是 PFC 跟海马做记忆巩固的窗口。
 
 **冥想**排第三。8 周正念练习就能增加海马体和后扣带回的灰质密度，不过这项研究没在 PFC 本身测出变化（Hölzel et al., 2011）。通常的解释是，PFC 对杏仁核的自上而下控制变强了。
 
@@ -104,7 +104,7 @@ Less interactive isn't less effective. It might be the only way to still have a 
 PFC 功能建立在三个基础之上：
 
 1. **神经递质平衡**——多巴胺和去甲肾上腺素走的是倒 U 型曲线。太低 = 注意力涣散，太高 = 焦虑。运动、睡眠和冥想能把它们稳在最佳浓度。
-2. **突触可塑性**——BDNF 是关键驱动因子。运动对 BDNF 的提升效果超过任何其他干预。慢性压力和炎症是可塑性的最大抑制因子。
+2. **突触可塑性**——BDNF 是关键驱动因子。运动对 BDNF 的提升效果超过任何其他干预。慢性压力和炎症则会压低它。
 3. **血管健康**——PFC 血流量与认知功能直接相关。有氧运动、Omega-3 和多酚类能改善它。高血压和糖尿病则在损害它。
 
 好消息是：只要干预，大多数负面变化都能逆转，一般几周到几个月就能看到恢复。
@@ -131,6 +131,6 @@ PFC 功能建立在三个基础之上：
 
 ---
 
-*核心文献：Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017)*
+*核心文献：Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017), Xie et al. (2013), Miao et al. (2024)*
 
 </div>

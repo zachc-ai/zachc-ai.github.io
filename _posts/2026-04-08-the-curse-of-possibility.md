@@ -15,6 +15,14 @@ sources:
     url: https://en.wikipedia.org/wiki/Cognitive_load
   - title: "Directed Attention Fatigue (Kaplan & Kaplan)"
     url: https://en.wikipedia.org/wiki/Attention_restoration_theory
+  - title: "Danziger, Levav & Avnaim-Pesso — Extraneous Factors in Judicial Decisions (PNAS, 2011)"
+    url: https://doi.org/10.1073/pnas.1018033108
+  - title: "Weinshall-Margel & Shapard — Overlooked Factors in the Analysis of Parole Decisions (PNAS, 2011)"
+    url: https://doi.org/10.1073/pnas.1110910108
+  - title: "Danziger, Levav & Avnaim-Pesso — Reply to Weinshall-Margel and Shapard (PNAS, 2011)"
+    url: https://doi.org/10.1073/pnas.1112190108
+  - title: "Glöckner — The Irrational Hungry Judge Effect Revisited (Judgment and Decision Making, 2016)"
+    url: https://doi.org/10.1017/S1930297500004812
   - title: "Upwork 2024 Research: AI and Workforce"
     url: https://www.upwork.com/research/ai-enhanced-work-models
   - title: "Microsoft 2024 Work Trend Index"
@@ -78,7 +86,7 @@ Before AI, my day had maybe 5–10 decision points: what tasks to do, what metho
 
 Every new "possibility" is a new valve. Every valve asks: open or not?
 
-There's a famous Israeli study on parole judges that shows what this does to people. Approval rates start around **65%** at the beginning of a session, then **gradually drop to near 0%** as decisions accumulate. After a break, they reset to 65%. The cases didn't get worse. The judges' brains got tired.
+There's a famous Israeli study on parole judges that gets cited for exactly this. Favorable rulings start around **65%** at the beginning of a session, then **gradually drop to near 0%** as decisions accumulate. After a food break, they reset to 65%. The popular reading is that the judges' brains got tired. The authors leaned that way but never measured fatigue. Critics pointed at case order (prisoners without lawyers were often heard last), and one simulation got a similar curve from judges just not starting long cases right before a break. The cause is still disputed. Either way, I wouldn't want to be the last case before lunch.
 
 David Meyer's research is more direct. Switching between tasks can cost **as much as 40%** of your productive time. The brain spends zero-progress "restart" time every time it switches tasks. And David Strayer at Utah found only **2.5% of people** are true "supertaskers"; everyone else just performs worse when multitasking.
 
@@ -201,6 +209,9 @@ The moments you decide **not** to use AI.
 - [The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) — George A. Miller's landmark 1956 paper on working memory limits
 - [Cognitive Load Theory](https://en.wikipedia.org/wiki/Cognitive_load) — John Sweller's framework on working memory bottlenecks
 - [Attention Restoration Theory](https://en.wikipedia.org/wiki/Attention_restoration_theory) — Kaplan & Kaplan on directed attention fatigue
+- [Extraneous Factors in Judicial Decisions](https://doi.org/10.1073/pnas.1018033108) — Danziger, Levav & Avnaim-Pesso (PNAS, 2011), the parole-board study
+- [Overlooked Factors in the Analysis of Parole Decisions](https://doi.org/10.1073/pnas.1110910108) — Weinshall-Margel & Shapard (PNAS, 2011), the case-order critique, with the authors' [reply](https://doi.org/10.1073/pnas.1112190108)
+- [The Irrational Hungry Judge Effect Revisited](https://doi.org/10.1017/S1930297500004812) — Glöckner (2016), a simulation showing the curve can come from case-length planning
 - [Upwork 2024 Research](https://www.upwork.com/research/ai-enhanced-work-models) — AI and workforce overwhelm
 - [Microsoft 2024 Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/) — AI adoption and productivity metrics
 - [APA 2023 Work in America Survey](https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring) — AI anxiety and workplace mental health
@@ -266,7 +277,7 @@ Herbert Simon 在 1971 年写过一句话，到了 AI 时代越来越准：
 
 每多一个“可能性”就是多一个阀门。每个阀门都在问你一句：开还是不开？
 
-以色列有个挺有名的假释法官研究，结果挺扎心。每轮裁决开始时，批准率大约**65%**。决策数量一多，批准率**就一路降到接近 0%**。休息之后，又回到 65%。案子还是那些案子，累的是法官的脑子。
+以色列有个挺有名的假释法官研究，结果挺扎心。每轮裁决开始时，批准率大约**65%**。决策数量一多，批准率**就一路降到接近 0%**。吃完东西休息一下，又回到 65%。流行的说法是法官的脑子累了。作者自己也往这个方向解释，但从没直接测过疲劳。后来有人指出排案顺序并不随机（没请律师的犯人常常排在最后），也有人算过，法官只要别在休息前接手耗时长的案子，就能模拟出差不多的曲线。到底什么原因，现在还有争议。反正要是我，可不想排在午饭前最后一个。
 
 David Meyer 的研究更直接：来回切换任务，最多能吃掉**40%** 的有效时间。大脑每切换一次任务，都得花一段“重启”时间，这段时间里一点进展都没有。犹他大学的 David Strayer 则发现，只有**2.5% 的人**是真正的“超级任务者”，其余的人多任务时表现都会下降。
 
@@ -393,6 +404,9 @@ Simon 在 1971 年就说清楚了：信息丰富的世界里，匮乏的不是�
 - [The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) — George A. Miller 1956年关于工作记忆限制的经典论文
 - [认知负荷理论](https://en.wikipedia.org/wiki/Cognitive_load) — John Sweller的工作记忆瓶颈框架
 - [注意力恢复理论](https://en.wikipedia.org/wiki/Attention_restoration_theory) — Kaplan & Kaplan关于定向注意力疲劳的研究
+- [Extraneous Factors in Judicial Decisions](https://doi.org/10.1073/pnas.1018033108) — Danziger、Levav、Avnaim-Pesso（PNAS, 2011），假释法官研究原文
+- [Overlooked Factors in the Analysis of Parole Decisions](https://doi.org/10.1073/pnas.1110910108) — Weinshall-Margel & Shapard（PNAS, 2011）对排案顺序的质疑，附原作者[回应](https://doi.org/10.1073/pnas.1112190108)
+- [The Irrational Hungry Judge Effect Revisited](https://doi.org/10.1017/S1930297500004812) — Glöckner（2016）用模拟说明，按案子时长安排进度也能产生这条曲线
 - [Upwork 2024研究](https://www.upwork.com/research/ai-enhanced-work-models) — AI与职场压力
 - [Microsoft 2024工作趋势指数](https://www.microsoft.com/en-us/worklab/work-trend-index/) — AI采用率与生产力指标
 - [APA 2023美国职场调查](https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring) — AI焦虑与职场心理健康

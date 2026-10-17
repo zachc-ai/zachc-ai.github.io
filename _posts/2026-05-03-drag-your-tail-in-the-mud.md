@@ -116,7 +116,7 @@ I'm not FIREd. I'm not planning to FIRE. I have an actual job that I do most day
 
 They're cutting at the same thing. *Alive is not the same as honored, and the difference compounds.* A small grievance compounds into a big one. A small backlog compounds into a life. The people I respect most are quietly running a backlog far in excess of anything their job requires. The people I quietly worry about are maintaining a beautifully decorated relic.
 
-Twenty-four centuries on, Zhuangzi still cuts. The temple is welcoming. The cloth is luxurious. The mud is honest.
+Twenty-four centuries on, Zhuangzi still cuts. The temple is welcoming. The cloth is flattering. The mud is honest.
 
 Drag your tail in the mud.
 
@@ -126,7 +126,7 @@ Drag your tail in the mud.
 
 话说，有一道两千四百年前的题，可以拿来检测自己活得怎么样。
 
-庄子那会儿正在濮水钓鱼。楚王派了两个大夫来，请他做相国。庄子连头都不回。他反问那两位：楚国不是有一只神龟吗？死了三千年，被楚王用绸布包着、装进竹箱，供在庙堂之上，只剩一把骨头还被人敬着。**这只乌龟，是愿意死了被供着，还是愿意活着、在泥里曳尾巴？**
+庄子那会儿正在濮水钓鱼。楚王派了两个大夫来，请他做相国。庄子连头都不回。他反问那两位：楚国不是有一只神龟吗？死了三千年，被楚王用布巾包着、装进竹箱，供在庙堂之上，只剩一把骨头还被人敬着。**这只乌龟，是愿意死了被供着，还是愿意活着、在泥里曳尾巴？**
 
 两位大夫说：宁可活着曳尾。
 
@@ -136,7 +136,7 @@ Drag your tail in the mud.
 
 挺锋利的一个问题。但也说得有点轻巧。嘴上点头容易，真有人把“庙堂”递到你面前的时候，能不能选泥潭，是另外一回事。
 
-这就好比金庸笔下的扫地僧。少林寺藏经阁里那位老人，四十多年没人记得他名字，扫地、烧火、干粗活。可真到萧远山、慕容博内伤发作的时候，整个少林七十二绝艺加在一起也救不了——只有他能。他不在庙堂上，所以他还是他。
+这就好比金庸笔下的扫地僧。少林寺藏经阁里那位老人，一待四十多年，玄字辈的高僧没一个认得他，扫地、烧火、干粗活。可真到萧远山、慕容博内伤发作的时候，整个少林七十二绝技加在一起也救不了——只有他能。他不在庙堂上，所以他还是他。
 
 换个角度：少林寺方丈玄慈，香火不断，地位拉满。然后呢？然后当年犯的戒被翻出来，当众挨了二百棍，自绝经脉。庙堂的位置，从来不保人活着，它只保人被供。
 
@@ -202,7 +202,7 @@ Drag your tail in the mud.
 
 绕回到乌龟。
 
-庙堂上的乌龟是有“地位”的：被尊敬、被记录、被供奉。它也是死的。泥潭里的乌龟什么都没有——没有 Title、没有神龛、没有那块绣花的绸布。它只有一样东西：**它还在做一只乌龟**。
+庙堂上的乌龟是有“地位”的：被尊敬、被记录、被供奉。它也是死的。泥潭里的乌龟什么都没有——没有 Title、没有神龛、没有盖身的布巾。它只有一样东西：**它还在做一只乌龟**。
 
 陷阱在于：我们用庙堂的 KPI 衡量自己。薪资档位、Title、公司名声、不需要解释的 LinkedIn headline——这些都是**关于**你的指标，不是**你**的指标。一个非常漂亮的庙堂指标，可以挂在一具尸体上。
 
@@ -214,7 +214,7 @@ Drag your tail in the mud.
 
 更祭品：Title 更花了，照片多上了几张榜单，日历里塞满了我没法对一个圈外人解释清楚的事。
 
-完全有可能，而且很常见：**祭品维度在前进、乌龟维度在退步**。你可以稳稳地在成功的模板上往前走，同时身上的祭祀绸布越裹越厚。麦肯锡 + 头等舱 + 周一早上崩溃大哭，就是这个状态：祭品速度极高，乌龟速度近乎为零。
+完全有可能，而且很常见：**祭品维度在前进、乌龟维度在退步**。你可以稳稳地在成功的模板上往前走，同时身上的布巾越裹越厚。麦肯锡 + 头等舱 + 周一早上崩溃大哭，就是这个状态：祭品速度极高，乌龟速度近乎为零。
 
 ---
 
@@ -225,7 +225,7 @@ Drag your tail in the mud.
 
 两道题切的是同一块东西：**活着不等于被尊敬，二者的差距会复利。** 一个小怨气会复利成一个大怨气。一个小 backlog 会复利成一种生活。我最佩服的那些人，几乎都在静悄悄地经营一个远超工作要求的 backlog；我隐隐担心的那些人，都在精心维护一具尊贵的祭品。
 
-两千四百年过去了，庄子还是那么锋利。庙堂在招手。绸布很贵。泥巴很诚实。
+两千四百年过去了，庄子还是那么锋利。庙堂在招手。布巾很体面。泥巴很诚实。
 
 就这样吧。**去泥里曳尾巴吧。**
 

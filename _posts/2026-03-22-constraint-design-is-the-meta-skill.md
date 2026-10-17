@@ -8,6 +8,13 @@ date: 2026-03-22
 categories: tech
 tags: [engineering, ai, systems]
 bilingual: true
+sources:
+  - title: "AI-Ghost-Lab on Bilibili"
+    url: https://space.bilibili.com/1731330412
+  - title: "Thariq Shihipar — Lessons from Building Claude Code: How We Use Skills (X, Mar 2026)"
+    url: https://x.com/trq212/status/2033949937936085378
+  - title: "anthropics/skills — frontend-design SKILL.md (version as of Mar 2026)"
+    url: https://github.com/anthropics/skills/blob/00756142ab04c82a447693cf373c4e0c554d1005/skills/frontend-design/SKILL.md
 ---
 
 <div class="lang-en" markdown="1">
@@ -31,14 +38,14 @@ The constraints that actually work:
 - Unified extension points
 - Unified error handling
 
-His metaphor lands it: "AI can make a mess, but only where you allow it. Not in the living room."
+His metaphor lands it. Roughly translated: "AI can make a mess, but only where you allow it. Not in the living room."
 
 ## Constrain agents, don't railroad them
 
-Anthropic's skill-writing advice is constraint design pointed at AI agents. Two principles do most of the work:
+Anthropic's skill-writing advice, as Thariq Shihipar from the Claude Code team wrote it up, is constraint design pointed at AI agents. Two principles do most of the work:
 
 1. **"Don't state the obvious."** Don't constrain what the model already does well. Aim constraints at the places its defaults are wrong.
-2. **"Avoid railroading."** Over-specific instructions kill adaptability.
+2. **"Avoid railroading Claude."** Over-specific instructions kill adaptability.
 
 The art is constraining where the model goes wrong and leaving room where it goes right. The `frontend-design` skill is the clean example. Instead of teaching CSS (Claude knows CSS), it corrects Claude's aesthetic defaults — the Inter-font, purple-gradient instinct.
 
@@ -69,14 +76,14 @@ AI-Ghost-Lab 把这个叫“系统收敛”：约束设计专门对准 AI 时代
 - 统一的扩展入口
 - 统一的错误处理
 
-他那个比喻一句话就说透了：“AI 可以拉屎，但只能在你指定的地方拉。不能拉客厅。”
+他那个比喻一句话就说透了，大意是：AI 可以拉屎，但只能拉在你指定的地方，客厅不行。
 
 ## 约束 agent，不是绑住 agent
 
-Anthropic 写 skill 的那套建议，说白了就是把约束设计用在 AI agent 身上。两条原则干了大部分活：
+Claude Code 团队的 Thariq Shihipar 总结过 Anthropic 内部怎么写 skill，那套建议说白了就是把约束设计用在 AI agent 身上。两条原则干了大部分活：
 
 1. **“不要说显而易见的事。”** 模型本来就做得好的，别约束。约束要放在它默认就跑偏的地方。
-2. **“别把路线写死。”** 指令写得太细，模型就没法随机应变了。
+2. **“别把 Claude 的路线写死。”** 指令写得太细，模型就没法随机应变了。
 
 诀窍是：模型容易出错的地方加约束，做得对的地方放开手。`frontend-design` 这个 skill 就是个很典型的例子。它不教 CSS（Claude 本来就会），专门纠正 Claude 那套审美默认值：动不动就上 Inter 字体加紫色渐变。
 
@@ -85,3 +92,11 @@ Anthropic 写 skill 的那套建议，说白了就是把约束设计用在 AI ag
 最好的设计师不会去穷举自己想要的每一种行为，不管是设计系统、组织还是 AI 工作流。他们挑少数几个约束，让正确的行为自己长出来。元技能，就是知道把墙放在哪里。
 
 </div>
+
+---
+
+### Sources / 来源
+
+- [AI-Ghost-Lab on Bilibili](https://space.bilibili.com/1731330412) — his AI-coding workflow videos, in Chinese
+- [Thariq Shihipar — *Lessons from Building Claude Code: How We Use Skills* (X, Mar 2026)](https://x.com/trq212/status/2033949937936085378) — "Don't State the Obvious", "Avoid Railroading Claude", and the frontend-design example
+- [anthropics/skills — `frontend-design` SKILL.md, as of Mar 2026](https://github.com/anthropics/skills/blob/00756142ab04c82a447693cf373c4e0c554d1005/skills/frontend-design/SKILL.md) — the version that named Inter and purple gradients; the skill has since been rewritten
