@@ -57,6 +57,7 @@ Where humanizer and this skill disagree, this skill wins. Humanizer's own Voice 
 - **Vary paragraph length.** A one-line paragraph after a dense block is allowed and good.
 - **Use first person ("I").** Zach writes from his own POV. Generic "one might consider" is a dead tell.
 - **Cite real names, numbers, dates.** Vague "studies show" / "experts say" is banned. Either name the source or drop the appeal to authority.
+- **Keep quotations and retellings distinct.** Quote the verified original verbatim, or use fully modern Chinese and label it as a paraphrase. Avoid half-classical rewrites such as "宁可活着曳尾" or "曳尾巴".
 - **End sections with forward pull, not summaries.** A question, a half-thought, a transition. Not "in conclusion".
 - **Match voice to topic magnitude** — philosophical post = reflective tone; setup walkthrough = direct, terse, no "planting a flag" framing. (See `references/voice-samples.md`.)
 
@@ -103,7 +104,7 @@ Zach's voice anchors (drawn from his existing posts — see `references/voice-sa
 - **Mid-post:** mixes hard data (named studies, real numbers) with personal aside ("I tried this for two weeks").
 - **Asides:** dry humor, mild self-deprecation. ("免费的事不做白不做." "Annoyingly, it works." "I'll stop.")
 - **Callbacks:** small Easter eggs to previous posts (e.g. ending a 2026-05-06 post with "drag my tail in the mud" referencing the 2026-05-03 post). Worth preserving when they appear naturally.
-- **Closing:** half-step away, not a thesis. "Anyway. Going to go drag my tail in the mud now, I guess." / "行了，我去泥里曳尾巴了。"
+- **Closing:** half-step away, not a thesis. "Anyway. Going to go drag my tail in the mud now, I guess." / "行了，我去泥里拖尾巴了。"
 - **Bilingual symmetry:** EN and ZH carry the same argument, NOT the same sentences. ZH should read as if Zach wrote it natively in Chinese, not as if it was translated from his English.
 
 ## Final checklist before declaring polish complete

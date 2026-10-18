@@ -105,7 +105,7 @@ These survived multiple drafts, fit the "slightly dry" feedback note, and read t
 
 ### Closings — half-step away
 - "Anyway. Going to go drag my tail in the mud now, I guess."
-- "行了，我去泥里曳尾巴了。"
+- "行了，我去泥里拖尾巴了。" (Modernized after Zach's 2026-10-18 feedback against half-classical paraphrases.)
 - A question that makes the reader sit with it (not a thesis recap)
 
 ### Cross-post callbacks

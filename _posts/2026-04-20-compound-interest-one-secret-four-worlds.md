@@ -277,7 +277,7 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 
 > “FOR UNTO EVERYONE THAT HATH SHALL BE GIVEN, AND HE SHALL HAVE ABUNDANCE. BUT FROM HIM THAT HATH NOT SHALL BE TAKEN AWAY EVEN THAT WHICH HE HATH.”
 
-凡有的，还要加倍给他，使他多余。没有的，连他所有的也要夺去。
+“因为凡有的，还要加给他，叫他有余；没有的，连他所有的也要夺过来。”（和合本）
 
 同一章里还有一个更直观的例子。加拿大青少年冰球队的选拔按年龄分组，1 月 1 日为分界线。统计下来，顶级职业球员里 1、2、3 月出生的比例远高于 10、11、12 月。为什么？
 
@@ -313,4 +313,3 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 也就这么回事。
 
 </div>
-
