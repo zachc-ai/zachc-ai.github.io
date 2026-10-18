@@ -161,5 +161,12 @@ Not yet implemented. To add support:
   - `{: .callout}` boxes a figure or finding that isn't a quotation (e.g. a survey number).
   - `{: .attribution}` on a `> — Author, *Work*` line makes it the quote's byline. Leave an empty `>` line above it so it's its own paragraph.
   - `{: .caption}` on the paragraph right after an image makes it the caption (or use `<figure>` + `<figcaption>`).
+- **Narration in Zach's voice.** A post with `narration:` in front matter gets a player under its header, one per language, labeled as AI-generated. The audio is made locally with `~/home-ai/mac-voice` (Qwen3-TTS voice clone from Zach's own reference recording; nothing leaves the Mac):
+  1. `python3 docs/narration/post_to_narration.py _posts/<post>.md "$N"` with `N="$HOME/Library/Application Support/home-ai/mac-voice/narrations/blog-<slug>"` writes `en/` and `zh/` `blocks.json` + `narrated-script.txt` (headings read aloud, markup and sources dropped).
+  2. For each language, run `narrate.py` from `~/home-ai/mac-voice` as its README shows (`--blocks`, `--script`, `--ref-audio`/`--ref-text` from `voices/zach/`, `--output-dir "$N/<lang>/runs"`, `--progress`, `--log-path`). It resumes if interrupted.
+  3. `python3 docs/narration/asr_check.py <runs/…/manifest.json> <en|zh>` transcribes every part with local whisper and flags misread parts; regenerate with `narrate.py … --retry-parts <i>`. Then listen.
+  4. Encode into the repo: `ffmpeg -i final.wav -af loudnorm=I=-16:TP=-1.5:LRA=11 -ar 24000 -ac 1 -c:a libmp3lame -b:a 64k assets/audio/<slug>.<lang>.mp3`.
+  5. Add to front matter: `narration: {en: {src: /assets/audio/<slug>.en.mp3, duration: <seconds>}, zh: {…}}`.
+  Never commit the reference recording, its transcript, or the run folders.
 - **Search.** `/search/` (`search.html` + `assets/search.js`) scans `/search.json`, which Liquid builds from every post's titles, summaries, tags and full text in both languages. `/` jumps to it from any page; `?q=` links work.
 {% endraw %}

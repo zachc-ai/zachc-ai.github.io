@@ -8,6 +8,13 @@ date: 2026-10-17
 categories: life
 tags: [attention, productivity, ai, books]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/attention-is-all-you-need.en.mp3
+    duration: 382
+  zh:
+    src: /assets/audio/attention-is-all-you-need.zh.mp3
+    duration: 370
 sources:
   - title: "Attention Is All You Need"
     url: "https://arxiv.org/abs/1706.03762"

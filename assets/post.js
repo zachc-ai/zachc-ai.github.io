@@ -48,6 +48,17 @@
     heading.appendChild(anchor);
   });
 
+  // Narration: one player at a time, and switching language stops it.
+  var players = [].slice.call(document.querySelectorAll('.post-listen audio'));
+  players.forEach(function (player) {
+    player.addEventListener('play', function () {
+      players.forEach(function (other) { if (other !== player) other.pause(); });
+    });
+  });
+  document.addEventListener('zc:lang', function () {
+    players.forEach(function (player) { player.pause(); });
+  });
+
   if (!toc || !list || (article && article.getAttribute('data-toc') === 'false')) return;
 
   // Only long posts with real sections get a contents list. With few h2s,
