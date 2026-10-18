@@ -1,36 +1,69 @@
 # Display names for post tags, in the order they appear on /tags/.
 # A tag used in a post but missing here still works; it shows its slug.
+# `about` / `about_zh` is the one line shown under the tag on /tags/.
 - slug: ai
   en: AI
   zh: AI
+  about: "Working with AI: agents, harnesses, and what all the new options cost."
+  about_zh: "用 AI 干活：agent、harness，还有选项太多的代价。"
 - slug: engineering
   en: Engineering
   zh: 工程
+  about: "Hands-on notes from building software, mostly with coding agents."
+  about_zh: "写软件的实操笔记，多半跟 coding agent 有关。"
 - slug: systems
   en: Systems
   zh: 系统思维
+  about: "Feedback loops and constraints, in code and in people."
+  about_zh: "反馈环和约束，代码里有，人身上也有。"
 - slug: mind
   en: Mind
   zh: 心智
+  about: "How attention, habits, and self-image work."
+  about_zh: "注意力、习惯和自我认知是怎么运作的。"
 - slug: productivity
   en: Productivity
   zh: 效率
+  about: "Getting the right things done without burning out."
+  about_zh: "把该做的事做完，又不把自己耗干。"
+- slug: attention
+  en: Attention
+  zh: 注意力
+  about: "Where attention goes, and how to protect it."
+  about_zh: "注意力花在哪，怎么护住它。"
 - slug: learning
   en: Learning
   zh: 学习
+  about: "Staying a beginner, and what compounds over years."
+  about_zh: "一直当初学者，以及哪些东西会年复一年地复利。"
+- slug: books
+  en: Books
+  zh: 读书
+  about: "Posts built around a book or two."
+  about_zh: "围绕一两本书写的文章。"
 - slug: philosophy
   en: Philosophy
   zh: 哲学
+  about: "Old ideas, from Zhuangzi to Marcus Aurelius, applied to now."
+  about_zh: "从庄子到马可·奥勒留，老想法放到今天用。"
 - slug: career
   en: Career
   zh: 职业
+  about: "Work choices: when to stay, when to leave, how to show up."
+  about_zh: "工作上的选择：留下还是离开，怎么上场。"
 - slug: money
   en: Money
   zh: 理财
+  about: "Compounding, FIRE, and what money is for."
+  about_zh: "复利、FIRE，以及钱到底拿来干嘛。"
 - slug: life
   en: Life
   zh: 生活
+  about: "Birthdays, new starts, and the rest of it."
+  about_zh: "生日、重新开始，还有其他日子。"
 # Kept on the birthday post on purpose: a later post says it keeps this tag.
 - slug: placeholder
   en: Placeholder
   zh: 占位
+  about: "A one-line birthday post, left that way on purpose."
+  about_zh: "那篇一句话的生日博客，故意先这么留着。"

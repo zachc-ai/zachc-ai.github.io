@@ -275,6 +275,14 @@ html[data-lang="zh"] .archive-desc {
   scroll-margin-top: 1.5rem;
 }
 
+.tag-about {
+  margin: -0.1rem 0 0.25rem;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
 .tag-section:target .section-label {
   color: var(--accent);
 }
