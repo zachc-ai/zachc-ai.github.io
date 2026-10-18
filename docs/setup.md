@@ -157,5 +157,9 @@ Not yet implemented. To add support:
 - **Section links.** The same script adds a `#` to every `##`/`###`; clicking copies the section URL.
 - **Related posts.** `_layouts/post.html` lists up to 3 posts that share the most tags, newest first within a tie. Posts tagged `placeholder` are skipped.
 - **Sources.** Write them only in front matter: `sources:` items with `title`, `url` (optional for a book with no link), and `title_zh` when the Chinese title differs. Titles may use Markdown. `_layouts/post.html` renders the "Sources / 来源" list after the post body.
+- **Long-form components** (`_sass/zc/_components.scss`). Add a kramdown class on the line after the paragraph:
+  - `{: .callout}` boxes a figure or finding that isn't a quotation (e.g. a survey number).
+  - `{: .attribution}` on a `> — Author, *Work*` line makes it the quote's byline. Leave an empty `>` line above it so it's its own paragraph.
+  - `{: .caption}` on the paragraph right after an image makes it the caption (or use `<figure>` + `<figcaption>`).
 - **Search.** `/search/` (`search.html` + `assets/search.js`) scans `/search.json`, which Liquid builds from every post's titles, summaries, tags and full text in both languages. `/` jumps to it from any page; `?q=` links work.
 {% endraw %}

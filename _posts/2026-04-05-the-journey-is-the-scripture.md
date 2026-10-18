@@ -74,21 +74,27 @@ Ne Zha says that line, but it's also Jiaozi's own life. A pharmacy graduate with
 ### Lu Xun: there were no roads
 
 > "There were no roads to begin with. But when enough people walk the same way, a road appears."
+>
 > — Lu Xun, *My Old Home*
+> {: .attribution}
 
 Roads aren't planned. They're walked into existence. The first person walking had no road. The road appeared *because* she walked.
 
 ### Wang Yangming: unity of knowledge and action
 
 > "Knowledge is the beginning of action; action is the completion of knowledge."
+>
 > — Wang Yangming
+> {: .attribution}
 
 Wang Yangming spent his life arguing one point. You think you "know" something. But if you haven't done it, you know nothing. True knowledge only comes from action.
 
 ### Lao Tzu: a thousand miles
 
 > "A journey of a thousand miles begins with a single step."
+>
 > — Lao Tzu, *Tao Te Ching*, Chapter 64
+> {: .attribution}
 
 Probably the most quoted line ever written. Most people see "a thousand miles" and miss the word that matters: "begins."
 
@@ -108,7 +114,9 @@ When Li Bai wrote this, his career was blocked and every path seemed closed. But
 ### Theodore Roosevelt: the man in the arena
 
 > "The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood… who at best knows, in the end, the triumph of high achievement, and who, at the worst, if he fails, at least fails while daring greatly."
+>
 > — "Citizenship in a Republic," 1910
+> {: .attribution}
 
 Roosevelt and Zeng Guofan said the same thing. The spectator is never wrong. But the spectator never wins either.
 
@@ -159,6 +167,7 @@ Jobs said this when Apple was nowhere near a trillion-dollar company. The point:
 > you will have understood by then what these Ithacas mean.
 >
 > — C.P. Cavafy, *Ithaca* (1911)
+> {: .attribution}
 
 The poem says it all. Ithaca's greatest value is that it made you set out. Everything you encounter along the way — storms, harbors, strangers — that's what you actually receive. And if the destination turns out to be less than you imagined, it hasn't fooled you. By then, you'll have understood what Ithaca really meant.
 
@@ -181,7 +190,9 @@ He wasn't cursing them. NVIDIA nearly died in 1997 with one month of payroll lef
 ### Rilke
 
 > "Be patient toward all that is unsolved in your heart and try to love the questions themselves. Live the questions now. Perhaps you will then gradually, without noticing it, live along some distant day into the answer."
+>
 > — Rilke, *Letters to a Young Poet* (1903)
+> {: .attribution}
 
 Rilke and Wang Yangming said the same thing. You live your way into the answer along the road.
 
@@ -298,21 +309,27 @@ That's all there is to it.
 ### 鲁迅：世上本没有路
 
 > “其实地上本没有路，走的人多了，也便成了路。”
+>
 > — 鲁迅《故乡》
+> {: .attribution}
 
 路不是规划出来的，是走出来的。第一个走的人脚下没有路。人走过去了，路才出现。
 
 ### 王阳明：知行合一
 
 > “知者行之始，行者知之成。”
+>
 > — 王阳明《传习录》
+> {: .attribution}
 
 王阳明一辈子在说一件事。你以为自己“知道”了。可要是没做过，其实什么都不知道。真知只能从行中来。
 
 ### 老子：千里之行
 
 > “千里之行，始于足下。”
+>
 > — 老子《道德经》第六十四章
+> {: .attribution}
 
 这大概是被引用得最多的一句话了。但大部分人只看到“千里”，把“始”漏了。
 
@@ -320,7 +337,9 @@ That's all there is to it.
 
 > “欲渡黄河冰塞川，将登太行雪满山。”
 > “长风破浪会有时，直挂云帆济沧海。”
+>
 > — 李白《行路难》
+> {: .attribution}
 
 李白写这首诗的时候，仕途受阻，前路茫茫。黄河冰封，太行雪满，每条路都走不通。但这首诗最后没落在绝望上，落在了“长风破浪”。明知道路难还要走，这本身就是李白的答案。
 
@@ -331,7 +350,9 @@ That's all there is to it.
 ### Theodore Roosevelt：竞技场上的人
 
 > “荣耀属于那个真正站在竞技场上的人，他的脸上沾满灰尘、汗水和鲜血……即使失败了，至少他在大胆尝试。”
+>
 > — “Citizenship in a Republic,” 1910
+> {: .attribution}
 
 Roosevelt 这话和曾国藩的“躬身入局”是一回事。站在场外评论的人永远不会错。但也永远不会赢。
 
@@ -384,6 +405,7 @@ Jobs 说这话的时候，Apple 还不是万亿市值。他在说的是：不要
 > 你那时就已经明白了，这些伊萨卡意味着什么。
 >
 > — C.P. Cavafy,《伊萨卡》(1911)
+> {: .attribution}
 
 这首诗已经说尽了。伊萨卡最大的价值，是它让你出发了。旅途中遇到的风暴、港口、陌生人，这些才是你真正得到的东西。即使终点不如想象中辉煌，它也没有骗你。因为到那时，你已经明白了伊萨卡的真正含义。
 
@@ -406,7 +428,9 @@ Jobs 说这话的时候，Apple 还不是万亿市值。他在说的是：不要
 ### Rilke
 
 > “对你心中一切未解之事保持耐心，试着去爱问题本身。活在问题之中。也许你会不知不觉地，在某个遥远的日子里，活进答案之中。”
+>
 > — Rilke,《给青年诗人的信》(1903)
+> {: .attribution}
 
 里尔克和王阳明说的是同一件事。先找到答案再出发？没这回事。你是在路上活成了答案。
 

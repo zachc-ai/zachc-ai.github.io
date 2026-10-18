@@ -54,7 +54,8 @@ Then I noticed a paradox. Everything became "doable," but everything took longer
 
 I assumed it was just me. Maybe I wasn't efficient enough. Maybe I hadn't found the right workflow. Then I saw the data:
 
-> Upwork's 2024 research found that 77% of employees using AI say the tools have added to their workload.
+Upwork's 2024 research found that 77% of employees using AI say the tools have added to their workload.
+{: .callout}
 
 It's not just me. It's structural.
 
@@ -65,7 +66,9 @@ It's not just me. It's structural.
 Zhuangzi said something two thousand years ago that hits differently now:
 
 > "My life has a limit, but knowledge has none. To pursue the limitless with the limited — that is perilous."
+>
 > — Zhuangzi, *Nourishing Life*
+> {: .attribution}
 
 Sounds like a platitude, but cognitive science spent the next two thousand years proving him right.
 
@@ -162,12 +165,16 @@ So what do you do? Reject AI? Obviously unrealistic. Use AI harder? The data alr
 Lao Tzu:
 
 > "He who knows when to stop does not find himself in danger."
+>
 > — *Tao Te Ching*, Chapter 44
+> {: .attribution}
 
 And the sharper one:
 
 > "Less brings gain; more brings confusion."
+>
 > — *Tao Te Ching*, Chapter 22
+> {: .attribution}
 
 Two and a half thousand years before any of that research, same answer: do less.
 
@@ -227,7 +234,8 @@ The moments you decide **not** to use AI.
 
 一开始我以为是自己的问题。可能效率不够高，或者还没找到对的工作方式。直到看见一组数据：
 
-> Upwork 2024 年的研究发现，用 AI 工具的员工里，77% 说这些工具反而加重了工作量。
+Upwork 2024 年的研究发现，用 AI 工具的员工里，77% 说这些工具反而加重了工作量。
+{: .callout}
 
 不是我一个人的错觉。是结构性的。
 
@@ -238,7 +246,9 @@ The moments you decide **not** to use AI.
 庄子两千多年前说过一句话，现在读起来后背发凉：
 
 > “吾生也有涯，而知也无涯。以有涯随无涯，殆已。”
+>
 > — 庄子《养生主》
+> {: .attribution}
 
 听着像鸡汤？后来的认知科学证明，他说得一点没错。
 
@@ -339,12 +349,16 @@ Erik Brynjolfsson 在 1993 年把这件事量化了。1970–80 年代计算能�
 老子：
 
 > “知止不殆。”
+>
 > — 《道德经》第四十四章
+> {: .attribution}
 
 还有一句更狠的：
 
 > “少则得，多则惑。”
+>
 > — 《道德经》第二十二章
+> {: .attribution}
 
 两千五百年前那句，和今天的认知科学说的，是一回事：少做一点。
 
