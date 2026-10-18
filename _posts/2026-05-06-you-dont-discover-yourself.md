@@ -9,10 +9,10 @@ categories: life
 tags: [mind, philosophy, systems, ai]
 bilingual: true
 sources:
-  - title: "Maxwell Maltz — Psycho-Cybernetics"
-    url: https://en.wikipedia.org/wiki/Psycho-Cybernetics
+  - title: "Maxwell Maltz — *Psycho-Cybernetics*"
+    url: "https://en.wikipedia.org/wiki/Psycho-Cybernetics"
   - title: "Naval Ravikant — How to Get Rich"
-    url: https://nav.al/rich
+    url: "https://nav.al/rich"
 ---
 
 <div class="lang-en" markdown="1">
@@ -303,9 +303,3 @@ Maltz 最出名的一个发现是：**神经系统分不清真实经验和生动
 
 </div>
 
----
-
-### Sources / 来源
-
-- [Maxwell Maltz — *Psycho-Cybernetics*](https://en.wikipedia.org/wiki/Psycho-Cybernetics)
-- [Naval Ravikant — How to Get Rich](https://nav.al/rich)

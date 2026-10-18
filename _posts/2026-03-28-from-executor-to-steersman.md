@@ -49,10 +49,6 @@ Maltz predates Kubernetes by 54 years and AI harness engineering by 66.
 
 The steersman role isn't new. We keep rediscovering it. When the shift shows up in your field, will you recognize it?
 
-**Sources:**
-- [George (@odysseus0z) on X](https://x.com/odysseus0z/status/2030416758138634583)
-- [OpenAI: Harness Engineering](https://openai.com/index/harness-engineering/)
-
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
@@ -89,9 +85,5 @@ Maltz 比 Kubernetes 早 54 年，比 AI harness engineering 早 66 年。
 - AI harness（2026）— agent 工程
 
 舵手这个角色早就不是新东西了。我们换个领域，就重新发现它一次。等它轮到你这行的时候，你认得出来吗？
-
-**来源：**
-- [George (@odysseus0z) on X](https://x.com/odysseus0z/status/2030416758138634583)
-- [OpenAI: Harness Engineering](https://openai.com/index/harness-engineering/)
 
 </div>

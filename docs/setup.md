@@ -156,5 +156,6 @@ Not yet implemented. To add support:
 - **Contents list.** `assets/post.js` builds it for the language being read, when that block has 3+ `##` headings and is long (≈4000 EN chars / 1600 ZH chars). With fewer than 4 `##`, the `###` are listed too. It is a side rail at ≥78rem and a fold-out list below that. Turn it off with `toc: false`.
 - **Section links.** The same script adds a `#` to every `##`/`###`; clicking copies the section URL.
 - **Related posts.** `_layouts/post.html` lists up to 3 posts that share the most tags, newest first within a tie. Posts tagged `placeholder` are skipped.
+- **Sources.** Write them only in front matter: `sources:` items with `title`, `url` (optional for a book with no link), and `title_zh` when the Chinese title differs. Titles may use Markdown. `_layouts/post.html` renders the "Sources / 来源" list after the post body.
 - **Search.** `/search/` (`search.html` + `assets/search.js`) scans `/search.json`, which Liquid builds from every post's titles, summaries, tags and full text in both languages. `/` jumps to it from any page; `?q=` links work.
 {% endraw %}

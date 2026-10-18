@@ -29,6 +29,23 @@ layout: default
     {{ content }}
   </div>
 
+  {%- comment -%}
+    Sources come only from front matter `sources` (title, url, optional title_zh;
+    titles may use Markdown). Posts don't hand-write this section.
+  {%- endcomment -%}
+  {%- if page.sources.size > 0 %}
+  <section class="post-sources" aria-labelledby="sources-heading">
+    <h2 class="section-label" id="sources-heading"><span class="lang-en">Sources</span><span class="lang-zh">来源</span></h2>
+    <ul class="source-list">
+      {%- for s in page.sources %}
+      {%- assign zc_src_en = s.title | markdownify | remove: "<p>" | remove: "</p>" | strip -%}
+      {%- assign zc_src_zh = s.title_zh | default: s.title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+      <li>{% if s.url %}<a href="{{ s.url }}" rel="noopener">{% endif %}{% if zc_src_zh != zc_src_en %}<span class="lang-en">{{ zc_src_en }}</span><span class="lang-zh">{{ zc_src_zh }}</span>{% else %}{{ zc_src_en }}{% endif %}{% if s.url %}</a>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
   <footer class="post-footer">
     {%- if page.tags.size > 0 %}
     <ul class="tag-list" aria-label="Tags">

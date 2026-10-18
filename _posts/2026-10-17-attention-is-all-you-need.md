@@ -10,17 +10,19 @@ tags: [attention, productivity, ai, books]
 bilingual: true
 sources:
   - title: "Attention Is All You Need"
-    url: https://arxiv.org/abs/1706.03762
-  - title: "Getting Things Done (David Allen)"
-    url: https://gettingthingsdone.com/what-is-gtd/
-  - title: "Timeboxing (Marc Zao-Sanders)"
-    url: https://us.macmillan.com/books/9781250340153/timeboxing/
-  - title: "Time-Blocking (Luke Seavers)"
-    url: https://books.google.com/books/about/Time_Blocking.html?id=JcUnzgEACAAJ
-  - title: "Personal Kanban (Jim Benson and Tonianne DeMaria Barry)"
-    url: https://personalkanban.com/learn/personal-kanban/
+    url: "https://arxiv.org/abs/1706.03762"
+  - title: "Getting Things Done — David Allen"
+    url: "https://gettingthingsdone.com/what-is-gtd/"
+  - title: "Timeboxing — Marc Zao-Sanders"
+    url: "https://us.macmillan.com/books/9781250340153/timeboxing/"
+  - title: "Time-Blocking — Luke Seavers"
+    url: "https://books.google.com/books/about/Time_Blocking.html?id=JcUnzgEACAAJ"
+  - title: "Personal Kanban — Jim Benson and Tonianne DeMaria Barry"
+    title_zh: "Personal Kanban — Jim Benson、Tonianne DeMaria Barry"
+    url: "https://personalkanban.com/learn/personal-kanban/"
   - title: "Nir Eyal on timeboxing"
-    url: https://x.com/nireyal/status/1924451967398539489
+    title_zh: "Nir Eyal 谈时间盒"
+    url: "https://x.com/nireyal/status/1924451967398539489"
 ---
 
 <div class="lang-en" markdown="1">
@@ -95,15 +97,6 @@ I also want room for attention that produces nothing I need to report. I would l
 
 For the walk, I'll leave the productivity podcast at home.
 
-## Sources
-
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-- [Getting Things Done — David Allen](https://gettingthingsdone.com/what-is-gtd/)
-- [Timeboxing — Marc Zao-Sanders](https://us.macmillan.com/books/9781250340153/timeboxing/)
-- [Time-Blocking — Luke Seavers](https://books.google.com/books/about/Time_Blocking.html?id=JcUnzgEACAAJ)
-- [Personal Kanban — Jim Benson and Tonianne DeMaria Barry](https://personalkanban.com/learn/personal-kanban/)
-- [Nir Eyal on timeboxing](https://x.com/nireyal/status/1924451967398539489)
-
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
@@ -177,14 +170,5 @@ Jim Benson 和 Tonianne DeMaria Barry 的 [《Personal Kanban》](https://person
 还有些注意力，我想留给不需要交代产出的事。吃饭时听人把话说完，别惦记着看屏幕。出去走走，也不一定顺手补点什么知识。
 
 散步那会儿，就先不听效率播客了。
-
-## 来源
-
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-- [Getting Things Done — David Allen](https://gettingthingsdone.com/what-is-gtd/)
-- [Timeboxing — Marc Zao-Sanders](https://us.macmillan.com/books/9781250340153/timeboxing/)
-- [Time-Blocking — Luke Seavers](https://books.google.com/books/about/Time_Blocking.html?id=JcUnzgEACAAJ)
-- [Personal Kanban — Jim Benson、Tonianne DeMaria Barry](https://personalkanban.com/learn/personal-kanban/)
-- [Nir Eyal 谈时间盒](https://x.com/nireyal/status/1924451967398539489)
 
 </div>

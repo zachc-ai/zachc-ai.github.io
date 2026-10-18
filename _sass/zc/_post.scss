@@ -86,6 +86,54 @@ html[data-lang="zh"] .page-title {
 
 // After the article
 
+.post-sources {
+  margin-top: 3rem;
+}
+
+.post-sources .section-label {
+  margin: 0 0 0.6rem;
+}
+
+.source-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--ink-2);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.source-list li {
+  position: relative;
+  padding: 0.3rem 0 0.3rem 1rem;
+}
+
+.source-list li::before {
+  content: "\00B7";
+  position: absolute;
+  left: 0.2rem;
+  color: var(--faint);
+}
+
+.source-list a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--link-line);
+  text-underline-offset: 0.2em;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.source-list a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+.source-list code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+
 .post-footer {
   margin-top: 3.25rem;
   padding-top: 1.75rem;

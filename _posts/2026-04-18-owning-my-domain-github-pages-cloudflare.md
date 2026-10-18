@@ -10,13 +10,17 @@ tags: [engineering]
 bilingual: true
 sources:
   - title: "GitHub Pages — Managing a custom domain"
-    url: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
+    title_zh: "GitHub Pages — 管理自定义域名"
+    url: "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site"
   - title: "Cloudflare — SSL/TLS encryption modes"
-    url: https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/
+    title_zh: "Cloudflare — SSL/TLS 加密模式"
+    url: "https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/"
   - title: "Let's Encrypt — How it works"
-    url: https://letsencrypt.org/how-it-works/
-  - title: "Newly Registered Domains as a threat indicator (Cisco Talos)"
-    url: https://blog.talosintelligence.com/newly-registered-domains/
+    title_zh: "Let's Encrypt — 工作原理"
+    url: "https://letsencrypt.org/how-it-works/"
+  - title: "Cisco Talos on Newly Registered Domains"
+    title_zh: "Cisco Talos 关于新注册域名"
+    url: "https://blog.talosintelligence.com/newly-registered-domains/"
 ---
 
 <div class="lang-en" markdown="1">
@@ -167,13 +171,6 @@ Useful general-purpose VPN workaround, not specific to GitHub Pages.
 
 If you're about to do this yourself: keep Cloudflare on DNS-only until the cert issues, and file the corporate allowlist ticket the same day you register. Everything else you can back out of.
 
-### Sources
-
-- [GitHub Pages — Managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-- [Cloudflare — SSL/TLS encryption modes](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/)
-- [Let's Encrypt — How it works](https://letsencrypt.org/how-it-works/)
-- [Cisco Talos on Newly Registered Domains](https://blog.talosintelligence.com/newly-registered-domains/)
-
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
@@ -323,12 +320,5 @@ curl -sH 'accept: application/dns-json' \
 ---
 
 如果你要做同样的事：证书签出来之前 Cloudflare 保持 DNS-only，注册域名当天就去提公司的白名单工单。其他的坑踩了都能爬出来。
-
-### 来源
-
-- [GitHub Pages — 管理自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-- [Cloudflare — SSL/TLS 加密模式](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/)
-- [Let's Encrypt — 工作原理](https://letsencrypt.org/how-it-works/)
-- [Cisco Talos 关于新注册域名](https://blog.talosintelligence.com/newly-registered-domains/)
 
 </div>

@@ -10,11 +10,11 @@ tags: [engineering, ai, systems]
 bilingual: true
 sources:
   - title: "AI-Ghost-Lab on Bilibili"
-    url: https://space.bilibili.com/1731330412
-  - title: "Thariq Shihipar — Lessons from Building Claude Code: How We Use Skills (X, Mar 2026)"
-    url: https://x.com/trq212/status/2033949937936085378
-  - title: "anthropics/skills — frontend-design SKILL.md (version as of Mar 2026)"
-    url: https://github.com/anthropics/skills/blob/00756142ab04c82a447693cf373c4e0c554d1005/skills/frontend-design/SKILL.md
+    url: "https://space.bilibili.com/1731330412"
+  - title: "Thariq Shihipar — *Lessons from Building Claude Code: How We Use Skills*"
+    url: "https://x.com/trq212/status/2033949937936085378"
+  - title: "anthropics/skills — `frontend-design` SKILL.md, as of Mar 2026"
+    url: "https://github.com/anthropics/skills/blob/00756142ab04c82a447693cf373c4e0c554d1005/skills/frontend-design/SKILL.md"
 ---
 
 <div class="lang-en" markdown="1">
@@ -93,10 +93,3 @@ Claude Code 团队的 Thariq Shihipar 总结过 Anthropic 内部怎么写 skill�
 
 </div>
 
----
-
-### Sources / 来源
-
-- [AI-Ghost-Lab on Bilibili](https://space.bilibili.com/1731330412) — his AI-coding workflow videos, in Chinese
-- [Thariq Shihipar — *Lessons from Building Claude Code: How We Use Skills* (X, Mar 2026)](https://x.com/trq212/status/2033949937936085378) — "Don't State the Obvious", "Avoid Railroading Claude", and the frontend-design example
-- [anthropics/skills — `frontend-design` SKILL.md, as of Mar 2026](https://github.com/anthropics/skills/blob/00756142ab04c82a447693cf373c4e0c554d1005/skills/frontend-design/SKILL.md) — the version that named Inter and purple gradients; the skill has since been rewritten

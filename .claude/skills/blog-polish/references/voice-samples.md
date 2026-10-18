@@ -67,6 +67,8 @@ Examples from this skill's first test post:
 
 ### Sources block calibration
 
+The block is rendered by the post layout from front matter `sources`; calibrate that list, never a hand-written body section.
+
 - **Skip entirely** if the post has only 1-2 references and they're already inline-linked.
 - **Keep** if there are real research articles or external pieces a reader might want to follow up on.
 - **No taglines.** "[Title](url) — short note" reads like a syllabus. Just title + URL.

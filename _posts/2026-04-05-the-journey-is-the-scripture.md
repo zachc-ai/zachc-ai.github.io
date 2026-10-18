@@ -10,9 +10,9 @@ tags: [philosophy, life]
 bilingual: true
 sources:
   - title: "Jensen Huang — Keynote at the 2024 SIEPR Economic Summit, Stanford"
-    url: https://www.youtube.com/watch?v=cEg8cOx7UZk
+    url: "https://www.youtube.com/watch?v=cEg8cOx7UZk"
   - title: "新华社《扬声》专访冯骥（腾讯新闻转载）"
-    url: https://news.qq.com/rain/a/20240820A01LOJ00
+    url: "https://news.qq.com/rain/a/20240820A01LOJ00"
 ---
 
 <div class="lang-en" markdown="1">
@@ -462,9 +462,3 @@ Jobs 说这话的时候，Apple 还不是万亿市值。他在说的是：不要
 
 </div>
 
----
-
-### Sources / 来源
-
-- [Jensen Huang — Keynote at the 2024 SIEPR Economic Summit, Stanford](https://www.youtube.com/watch?v=cEg8cOx7UZk) — "I hope suffering happens to you"
-- [新华社《扬声》专访冯骥（腾讯新闻转载）](https://news.qq.com/rain/a/20240820A01LOJ00) — “踏上取经路比抵达灵山更重要”

@@ -9,22 +9,24 @@ categories: life
 tags: [philosophy, career, ai]
 bilingual: true
 sources:
-  - title: "TechCrunch — A quarter of startups in YC's current cohort have codebases that are almost entirely AI-generated (Mar 2025)"
-    url: https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated/
-  - title: "CodeRabbit — State of AI vs Human Code Generation Report (Dec 2025)"
-    url: https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report
-  - title: "The Register — AI-authored code needs more attention, contains worse bugs (Dec 2025)"
-    url: https://www.theregister.com/software/2025/12/17/ai-authored-code-needs-more-attention-contains-worse-bugs/2576263
-  - title: "METR — Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity (Jul 2025)"
-    url: https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
-  - title: "Andrej Karpathy — the original \"vibe coding\" post on X (Feb 2025)"
-    url: https://x.com/karpathy/status/1886192184808149383
-  - title: "SEC press release 2024-36 — \"AI washing\" charges against two investment advisers (Mar 2024)"
-    url: https://www.sec.gov/newsroom/press-releases/2024-36
+  - title: "TechCrunch — *A quarter of startups in YC's current cohort have codebases that are almost entirely AI-generated*"
+    url: "https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated/"
+  - title: "CodeRabbit — *State of AI vs Human Code Generation Report*"
+    url: "https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report"
+  - title: "The Register — *AI-authored code needs more attention, contains worse bugs*"
+    url: "https://www.theregister.com/software/2025/12/17/ai-authored-code-needs-more-attention-contains-worse-bugs/2576263"
+  - title: "METR — *Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity*"
+    url: "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+  - title: "METR — Feb 2026 update"
+    url: "https://metr.org/blog/2026-02-24-uplift-update/"
+  - title: "Andrej Karpathy on X"
+    url: "https://x.com/karpathy/status/1886192184808149383"
+  - title: "SEC press release 2024-36"
+    url: "https://www.sec.gov/newsroom/press-releases/2024-36"
   - title: "Warren Buffett — 1996 Berkshire Hathaway shareholder letter"
-    url: https://www.berkshirehathaway.com/letters/1996.html
-  - title: "Naval Ravikant — How to Get Rich"
-    url: https://nav.al/rich
+    url: "https://www.berkshirehathaway.com/letters/1996.html"
+  - title: "Naval Ravikant — *How to Get Rich*"
+    url: "https://nav.al/rich"
 ---
 
 <div class="lang-en" markdown="1">
@@ -315,15 +317,3 @@ Naval：“Desire is a contract that you make with yourself to be unhappy until 
 
 </div>
 
----
-
-### Sources / 来源
-
-- [TechCrunch — *A quarter of startups in YC's current cohort have codebases that are almost entirely AI-generated* (Mar 2025)](https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated/) — Jared Friedman's 95% figure for YC W25
-- [CodeRabbit — *State of AI vs Human Code Generation Report* (Dec 2025)](https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report) — 470 open-source PRs, 320 AI-co-authored vs 150 human-only
-- [The Register — *AI-authored code needs more attention, contains worse bugs* (Dec 2025)](https://www.theregister.com/software/2025/12/17/ai-authored-code-needs-more-attention-contains-worse-bugs/2576263) — the report's per-category numbers: 1.57× security findings, 2.74× XSS
-- [METR — *Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity* (Jul 2025)](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) — the 19% slowdown; METR's [Feb 2026 update](https://metr.org/blog/2026-02-24-uplift-update/) calls these early-2025 numbers out of date
-- [Andrej Karpathy on X (Feb 2025)](https://x.com/karpathy/status/1886192184808149383) — the original "vibe coding" post
-- [SEC press release 2024-36 (Mar 2024)](https://www.sec.gov/newsroom/press-releases/2024-36) — "AI washing" charges against Delphia and Global Predictions
-- [Warren Buffett — 1996 Berkshire Hathaway shareholder letter](https://www.berkshirehathaway.com/letters/1996.html) — the circle-of-competence line
-- [Naval Ravikant — *How to Get Rich*](https://nav.al/rich) — "Escape competition through authenticity"

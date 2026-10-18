@@ -9,32 +9,33 @@ categories: life
 tags: [philosophy, learning, money, mind]
 bilingual: true
 sources:
-  - title: "Berkshire Hathaway 2018 Chairman's Letter (Buffett)"
-    url: https://www.berkshirehathaway.com/letters/2018ltr.pdf
-  - title: "Berkshire Hathaway 1989 Chairman's Letter — 'Time is the friend of the wonderful business'"
-    url: https://www.berkshirehathaway.com/letters/1989.html
-  - title: "Berkshire Hathaway 1996 Chairman's Letter — Circle of competence"
-    url: https://www.berkshirehathaway.com/letters/1996.html
-  - title: "Berkshire Hathaway 2008 Chairman's Letter — 'Price is what you pay; value is what you get'"
-    url: https://www.berkshirehathaway.com/letters/2008ltr.pdf
+  - title: "Berkshire Hathaway 2018 Chairman's Letter"
+    url: "https://www.berkshirehathaway.com/letters/2018ltr.pdf"
+  - title: "Berkshire Hathaway 1989 Chairman's Letter"
+    url: "https://www.berkshirehathaway.com/letters/1989.html"
+  - title: "Berkshire Hathaway 1996 Chairman's Letter"
+    url: "https://www.berkshirehathaway.com/letters/1996.html"
+  - title: "Berkshire Hathaway 2008 Chairman's Letter"
+    url: "https://www.berkshirehathaway.com/letters/2008ltr.pdf"
   - title: "Naval Ravikant — How to Get Rich (without getting lucky)"
-    url: https://nav.al/rich
+    url: "https://nav.al/rich"
   - title: "Naval Ravikant — Specific Knowledge"
-    url: https://nav.al/specific-knowledge
+    url: "https://nav.al/specific-knowledge"
   - title: "Charlie Munger — A Lesson on Elementary, Worldly Wisdom (USC 1994)"
-    url: https://fs.blog/a-lesson-on-worldly-wisdom/
-  - title: "Stanovich — Matthew Effects in Reading (1986)"
-    url: https://doi.org/10.1598/RRQ.21.4.1
-  - title: "Malcolm Gladwell — Outliers"
-    url: https://www.hachettebookgroup.com/titles/malcolm-gladwell/outliers/9780316017930/
-  - title: "Ericsson & Pool — Peak (2016) — refuting the 10,000-hour rule"
-    url: https://www.salon.com/2016/04/10/malcolm_gladwell_got_us_wrong_our_research_was_key_to_the_10000_hour_rule_but_heres_what_got_oversimplified/
-  - title: "James Clear — Continuous Improvement (Atomic Habits)"
-    url: https://jamesclear.com/continuous-improvement
-  - title: "Daniel Coyle — The Talent Code"
-    url: https://danielcoyle.com/the-talent-code/
-  - title: "McKenzie et al. — Motor Skill Learning Requires Active Central Myelination (Science, 2014)"
-    url: https://doi.org/10.1126/science.1254960
+    url: "https://fs.blog/a-lesson-on-worldly-wisdom/"
+  - title: "Stanovich — Matthew Effects in Reading"
+    url: "https://doi.org/10.1598/RRQ.21.4.1"
+  - title: "Malcolm Gladwell — *Outliers*"
+    url: "https://www.hachettebookgroup.com/titles/malcolm-gladwell/outliers/9780316017930/"
+  - title: "Ericsson & Pool — *Peak* (2016) refutation of the 10,000-hour rule, via Salon excerpt"
+    url: "https://www.salon.com/2016/04/10/malcolm_gladwell_got_us_wrong_our_research_was_key_to_the_10000_hour_rule_but_heres_what_got_oversimplified/"
+  - title: "James Clear — Continuous Improvement"
+    url: "https://jamesclear.com/continuous-improvement"
+  - title: "Daniel Coyle — *The Talent Code*"
+    url: "https://danielcoyle.com/the-talent-code/"
+  - title: "McKenzie et al. — Motor Skill Learning Requires Active Central Myelination"
+    url: "https://doi.org/10.1126/science.1254960"
+  - title: "Carol S. Dweck — *Mindset: The New Psychology of Success*"
 ---
 
 <div class="lang-en" markdown="1">
@@ -313,21 +314,3 @@ Naval 把“学习”和“财富”并排放在复利那句话里。他另一�
 
 </div>
 
----
-
-### Sources / 来源
-
-- [Berkshire Hathaway 2018 Chairman's Letter](https://www.berkshirehathaway.com/letters/2018ltr.pdf) — "compound interest to work its magic"
-- [Berkshire Hathaway 1989 Chairman's Letter](https://www.berkshirehathaway.com/letters/1989.html) — "Time is the friend of the wonderful business"
-- [Berkshire Hathaway 1996 Chairman's Letter](https://www.berkshirehathaway.com/letters/1996.html) — Circle of competence
-- [Berkshire Hathaway 2008 Chairman's Letter](https://www.berkshirehathaway.com/letters/2008ltr.pdf) — "Price is what you pay; value is what you get" (quoting Graham)
-- [Naval Ravikant — How to Get Rich (without getting lucky)](https://nav.al/rich)
-- [Naval Ravikant — Specific Knowledge](https://nav.al/specific-knowledge)
-- [Charlie Munger — A Lesson on Elementary, Worldly Wisdom (USC 1994)](https://fs.blog/a-lesson-on-worldly-wisdom/)
-- [Stanovich — Matthew Effects in Reading (1986)](https://doi.org/10.1598/RRQ.21.4.1)
-- [Malcolm Gladwell — *Outliers*](https://www.hachettebookgroup.com/titles/malcolm-gladwell/outliers/9780316017930/) — Ch. 1, "The Matthew Effect"
-- [Ericsson & Pool — *Peak* (2016) refutation of the 10,000-hour rule, via Salon excerpt](https://www.salon.com/2016/04/10/malcolm_gladwell_got_us_wrong_our_research_was_key_to_the_10000_hour_rule_but_heres_what_got_oversimplified/)
-- Carol S. Dweck — *Mindset: The New Psychology of Success* (Random House, 2006)
-- [James Clear — Continuous Improvement](https://jamesclear.com/continuous-improvement) — "1% better each day"
-- [Daniel Coyle — *The Talent Code*](https://danielcoyle.com/the-talent-code/)
-- [McKenzie et al. — Motor Skill Learning Requires Active Central Myelination (*Science*, 2014)](https://doi.org/10.1126/science.1254960) — mice that couldn't make new myelin failed to master a new motor skill

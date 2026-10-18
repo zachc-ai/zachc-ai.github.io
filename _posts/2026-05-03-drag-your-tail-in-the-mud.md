@@ -9,12 +9,12 @@ categories: life
 tags: [philosophy, career, money, ai]
 bilingual: true
 sources:
-  - title: "Fire一期一会 — EP7 对话大狮姐：Fire是包装成成功学的失败学"
-    url: https://podcasts.apple.com/us/podcast/fire%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A/id1877746180?i=1000762967732
-  - title: "庄子《秋水》— Wikisource"
-    url: https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90/%E7%A7%8B%E6%B0%B4
-  - title: "Yotaro Hatamura — An Invitation to Failure Studies (失敗学のすすめ, 2000)"
-    url: https://en.wikipedia.org/wiki/Yotaro_Hatamura
+  - title: "Fire一期一会 — *EP7 对话大狮姐：Fire是包装成成功学的失败学*"
+    url: "https://podcasts.apple.com/us/podcast/fire%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A/id1877746180?i=1000762967732"
+  - title: "《庄子·秋水》— Wikisource"
+    url: "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90/%E7%A7%8B%E6%B0%B4"
+  - title: "Yotaro Hatamura — *An Invitation to Failure Studies* (失敗学のすすめ, 2000)"
+    url: "https://en.wikipedia.org/wiki/Yotaro_Hatamura"
 ---
 
 <div class="lang-en" markdown="1">
@@ -231,10 +231,3 @@ Drag your tail in the mud.
 
 </div>
 
----
-
-### Sources / 来源
-
-- [Fire一期一会 — *EP7 对话大狮姐：Fire是包装成成功学的失败学*](https://podcasts.apple.com/us/podcast/fire%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A/id1877746180?i=1000762967732) — guest 大狮姐 (host of *提前退休那些事儿*)
-- [《庄子·秋水》— Wikisource](https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90/%E7%A7%8B%E6%B0%B4) — the turtle parable in original
-- [Yotaro Hatamura — *An Invitation to Failure Studies* (失敗学のすすめ, 2000)](https://en.wikipedia.org/wiki/Yotaro_Hatamura) — failure studies as a discipline

@@ -10,29 +10,36 @@ tags: [mind, productivity, ai, philosophy]
 bilingual: true
 sources:
   - title: "The Magical Number Seven, Plus or Minus Two"
-    url: https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two
-  - title: "Cognitive Load Theory (John Sweller)"
-    url: https://en.wikipedia.org/wiki/Cognitive_load
-  - title: "Directed Attention Fatigue (Kaplan & Kaplan)"
-    url: https://en.wikipedia.org/wiki/Attention_restoration_theory
-  - title: "Danziger, Levav & Avnaim-Pesso — Extraneous Factors in Judicial Decisions (PNAS, 2011)"
-    url: https://doi.org/10.1073/pnas.1018033108
-  - title: "Weinshall-Margel & Shapard — Overlooked Factors in the Analysis of Parole Decisions (PNAS, 2011)"
-    url: https://doi.org/10.1073/pnas.1110910108
-  - title: "Danziger, Levav & Avnaim-Pesso — Reply to Weinshall-Margel and Shapard (PNAS, 2011)"
-    url: https://doi.org/10.1073/pnas.1112190108
-  - title: "Glöckner — The Irrational Hungry Judge Effect Revisited (Judgment and Decision Making, 2016)"
-    url: https://doi.org/10.1017/S1930297500004812
-  - title: "Upwork 2024 Research: AI and Workforce"
-    url: https://www.upwork.com/research/ai-enhanced-work-models
+    url: "https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two"
+  - title: "Cognitive Load Theory"
+    title_zh: "认知负荷理论"
+    url: "https://en.wikipedia.org/wiki/Cognitive_load"
+  - title: "Attention Restoration Theory"
+    title_zh: "注意力恢复理论"
+    url: "https://en.wikipedia.org/wiki/Attention_restoration_theory"
+  - title: "Danziger, Levav & Avnaim-Pesso — Extraneous Factors in Judicial Decisions"
+    url: "https://doi.org/10.1073/pnas.1018033108"
+  - title: "Weinshall-Margel & Shapard — Overlooked Factors in the Analysis of Parole Decisions"
+    url: "https://doi.org/10.1073/pnas.1110910108"
+  - title: "Danziger, Levav & Avnaim-Pesso — Reply to Weinshall-Margel and Shapard"
+    url: "https://doi.org/10.1073/pnas.1112190108"
+  - title: "Glöckner — The Irrational Hungry Judge Effect Revisited"
+    url: "https://doi.org/10.1017/S1930297500004812"
+  - title: "Upwork 2024 Research"
+    title_zh: "Upwork 2024研究"
+    url: "https://www.upwork.com/research/ai-enhanced-work-models"
   - title: "Microsoft 2024 Work Trend Index"
-    url: https://www.microsoft.com/en-us/worklab/work-trend-index/
+    title_zh: "Microsoft 2024工作趋势指数"
+    url: "https://www.microsoft.com/en-us/worklab/work-trend-index/"
   - title: "APA 2023 Work in America Survey"
-    url: https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring
-  - title: "The Paradox of Choice (Barry Schwartz)"
-    url: https://en.wikipedia.org/wiki/The_Paradox_of_Choice
+    title_zh: "APA 2023美国职场调查"
+    url: "https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring"
+  - title: "The Paradox of Choice"
+    title_zh: "选择的悖论"
+    url: "https://en.wikipedia.org/wiki/The_Paradox_of_Choice"
   - title: "Solow Paradox"
-    url: https://en.wikipedia.org/wiki/Productivity_paradox
+    title_zh: "Solow悖论"
+    url: "https://en.wikipedia.org/wiki/Productivity_paradox"
 ---
 
 <div class="lang-en" markdown="1">
@@ -203,20 +210,6 @@ The moments you decide **not** to use AI.
 ---
 
 *Written April 8, 2026. An evening when I used AI to organize 300 note files and found myself more exhausted than before I started.*
-
-### Sources
-
-- [The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) — George A. Miller's landmark 1956 paper on working memory limits
-- [Cognitive Load Theory](https://en.wikipedia.org/wiki/Cognitive_load) — John Sweller's framework on working memory bottlenecks
-- [Attention Restoration Theory](https://en.wikipedia.org/wiki/Attention_restoration_theory) — Kaplan & Kaplan on directed attention fatigue
-- [Extraneous Factors in Judicial Decisions](https://doi.org/10.1073/pnas.1018033108) — Danziger, Levav & Avnaim-Pesso (PNAS, 2011), the parole-board study
-- [Overlooked Factors in the Analysis of Parole Decisions](https://doi.org/10.1073/pnas.1110910108) — Weinshall-Margel & Shapard (PNAS, 2011), the case-order critique, with the authors' [reply](https://doi.org/10.1073/pnas.1112190108)
-- [The Irrational Hungry Judge Effect Revisited](https://doi.org/10.1017/S1930297500004812) — Glöckner (2016), a simulation showing the curve can come from case-length planning
-- [Upwork 2024 Research](https://www.upwork.com/research/ai-enhanced-work-models) — AI and workforce overwhelm
-- [Microsoft 2024 Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/) — AI adoption and productivity metrics
-- [APA 2023 Work in America Survey](https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring) — AI anxiety and workplace mental health
-- [The Paradox of Choice](https://en.wikipedia.org/wiki/The_Paradox_of_Choice) — Barry Schwartz on choice overload
-- [Solow Paradox](https://en.wikipedia.org/wiki/Productivity_paradox) — The productivity paradox of new technology
 
 </div>
 
@@ -398,19 +391,5 @@ Simon 在 1971 年就说清楚了：信息丰富的世界里，匮乏的不是�
 ---
 
 *写于 2026 年 4 月 8 日。一个用 AI 帮自己整理了 300 个笔记文件、然后发现自己比整理之前更累的晚上。*
-
-### 来源
-
-- [The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) — George A. Miller 1956年关于工作记忆限制的经典论文
-- [认知负荷理论](https://en.wikipedia.org/wiki/Cognitive_load) — John Sweller的工作记忆瓶颈框架
-- [注意力恢复理论](https://en.wikipedia.org/wiki/Attention_restoration_theory) — Kaplan & Kaplan关于定向注意力疲劳的研究
-- [Extraneous Factors in Judicial Decisions](https://doi.org/10.1073/pnas.1018033108) — Danziger、Levav、Avnaim-Pesso（PNAS, 2011），假释法官研究原文
-- [Overlooked Factors in the Analysis of Parole Decisions](https://doi.org/10.1073/pnas.1110910108) — Weinshall-Margel & Shapard（PNAS, 2011）对排案顺序的质疑，附原作者[回应](https://doi.org/10.1073/pnas.1112190108)
-- [The Irrational Hungry Judge Effect Revisited](https://doi.org/10.1017/S1930297500004812) — Glöckner（2016）用模拟说明，按案子时长安排进度也能产生这条曲线
-- [Upwork 2024研究](https://www.upwork.com/research/ai-enhanced-work-models) — AI与职场压力
-- [Microsoft 2024工作趋势指数](https://www.microsoft.com/en-us/worklab/work-trend-index/) — AI采用率与生产力指标
-- [APA 2023美国职场调查](https://www.apa.org/pubs/reports/work-in-america/2023-work-america-ai-monitoring) — AI焦虑与职场心理健康
-- [选择的悖论](https://en.wikipedia.org/wiki/The_Paradox_of_Choice) — Barry Schwartz关于选择过载
-- [Solow悖论](https://en.wikipedia.org/wiki/Productivity_paradox) — 新技术的生产力悖论
 
 </div>

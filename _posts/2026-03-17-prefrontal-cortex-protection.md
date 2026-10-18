@@ -9,6 +9,25 @@ categories: digest
 tags: [mind, productivity, ai]
 source: "https://en.wikipedia.org/wiki/Prefrontal_cortex"
 bilingual: true
+sources:
+  - title: "Arnsten — Stress signalling pathways that impair prefrontal cortex structure and function"
+    url: "https://doi.org/10.1038/nrn2648"
+  - title: "Colcombe et al. — Aerobic exercise training increases brain volume in aging humans"
+    url: "https://doi.org/10.1093/gerona/61.11.1166"
+  - title: "Hölzel et al. — Mindfulness practice leads to increases in regional brain gray matter density"
+    url: "https://doi.org/10.1016/j.pscychresns.2010.08.006"
+  - title: "Mattson et al. — Intermittent metabolic switching, neuroplasticity and brain health"
+    url: "https://doi.org/10.1038/nrn.2017.156"
+  - title: "Erickson et al. — Exercise training increases size of hippocampus and improves memory"
+    url: "https://doi.org/10.1073/pnas.1015950108"
+  - title: "Lim & Dinges — A meta-analysis of the impact of short-term sleep deprivation on cognitive variables"
+    url: "https://doi.org/10.1037/a0018883"
+  - title: "Jacka et al. — A randomised controlled trial of dietary improvement for adults with major depression (the SMILES trial)"
+    url: "https://doi.org/10.1186/s12916-017-0791-y"
+  - title: "Xie et al. — Sleep drives metabolite clearance from the adult brain"
+    url: "https://doi.org/10.1126/science.1241224"
+  - title: "Miao et al. — Brain clearance is reduced during sleep and anesthesia"
+    url: "https://doi.org/10.1038/s41593-024-01638-y"
 ---
 
 <div class="lang-en" markdown="1">
@@ -67,10 +86,6 @@ I've been trying the opposite: treat AI like a message queue. Batch the intent, 
 
 Less interactive isn't less effective. It might be the only way to still have a working PFC by 6pm.
 
----
-
-*Key references: Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017), Xie et al. (2013), Miao et al. (2024)*
-
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
@@ -128,9 +143,5 @@ PFC 功能建立在三个基础之上：
 我最近反过来做：把 AI 当成消息队列。意图打包，丢出去，走开。让它异步去跑，别每个按键都陪着。你保持自己的心流，它保持它的。回来 review 的时候，你用的是一个还活着的 PFC，不是一个已经来回蹦了一小时的。
 
 少互动，不等于低效。也许是到了晚上 6 点你还能正常思考的唯一办法。
-
----
-
-*核心文献：Arnsten (2009), Colcombe et al. (2006), Hölzel et al. (2011), Mattson et al. (2018), Erickson et al. (2011), Lim & Dinges (2010), Jacka et al. (2017), Xie et al. (2013), Miao et al. (2024)*
 
 </div>

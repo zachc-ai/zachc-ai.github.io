@@ -43,10 +43,6 @@ This is the most literal version of "give agents libraries": the library *is* th
 
 Any time you catch yourself writing the same kind of instructions to an agent twice, extract a callable library instead. Instructions are consumed once and forgotten. Libraries persist across sessions and compose with each other.
 
-**Sources:**
-- [Thariq on X — How We Use Skills](https://x.com/trq212/status/2033949937936085378)
-- [CLI-Anything (GitHub)](https://github.com/HKUDS/CLI-Anything)
-
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
@@ -76,9 +72,5 @@ Agent 不用学软件本身的 API 或者 GUI。它调一个预先构建好的 C
 ## 原则
 
 只要你发现自己在反复给 agent 写同一类指令，就该把它抽出来，做成一个能调用的库。指令用一次就没了。库跨会话留着，还能互相组合。
-
-**来源：**
-- [Thariq on X — How We Use Skills](https://x.com/trq212/status/2033949937936085378)
-- [CLI-Anything (GitHub)](https://github.com/HKUDS/CLI-Anything)
 
 </div>
