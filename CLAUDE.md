@@ -6,6 +6,10 @@ Personal GitHub Pages blog (Jekyll).
 
 - Push directly to `main` — no PRs needed. This is a personal repo.
 
+## Privacy
+
+The repo and its full git history are public. Refer to Zach by first name only. Never name his employer, team, internal tools, or colleagues, and never include his last name, Chinese name, personal emails, home hostnames/IPs, or family details, in posts, pages, docs, or commit messages. Commit as `zachc-ai <zachc-ai@users.noreply.github.com>`. History was scrubbed once (2026-10-18); keeping it clean is cheaper than another rewrite.
+
 ## Blog Post Guidelines
 
 - Whenever you draft or rewrite post prose (`_posts/`, `about.md`, other pages), run the `blog-polish` skill before calling it done or pushing. It runs the vendored `humanizer` skill (`.claude/skills/humanizer/`) as its structural pass, with Zach's voice rules taking precedence. Typo-, link-, and front-matter-only fixes don't need it.
