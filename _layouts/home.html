@@ -13,7 +13,11 @@ layout: default
       {%- for post in site.posts -%}
         {%- if zc_shown >= 6 -%}{%- break -%}{%- endif -%}
         {%- unless post.categories contains "digest" -%}
-          {%- include post-item.html post=post -%}
+          {%- if zc_shown == 0 -%}
+            {%- include post-item.html post=post lead=true -%}
+          {%- else -%}
+            {%- include post-item.html post=post compact=true -%}
+          {%- endif -%}
           {%- assign zc_shown = zc_shown | plus: 1 -%}
         {%- endunless -%}
       {%- endfor -%}
@@ -27,7 +31,7 @@ layout: default
     <h2 class="section-label" id="home-notes"><span class="lang-en">Digests</span><span class="lang-zh">阅读笔记</span></h2>
     <ol class="post-feed">
       {%- for post in zc_digests limit: 3 -%}
-        {%- include post-item.html post=post -%}
+        {%- include post-item.html post=post compact=true -%}
       {%- endfor -%}
     </ol>
     {%- if zc_digests.size > 3 %}

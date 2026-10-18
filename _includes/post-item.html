@@ -1,8 +1,11 @@
-{%- comment -%} Homepage entry: title, one-line summary, date and reading time. Param: post. {%- endcomment -%}
+{%- comment -%}
+  Homepage entry. Params: post; lead=true for the newest essay (bigger, with
+  its summary); compact=true for a one-line row (title, date, reading time).
+{%- endcomment -%}
 {%- assign pi = include.post -%}
-<li class="post-item">
+<li class="post-item{% if include.lead %} is-lead{% elsif include.compact %} is-compact{% endif %}">
   <h3 class="post-item-title"><a class="post-item-link" href="{{ pi.url | relative_url }}"><span class="lang-en">{{ pi.title | escape }}</span><span class="lang-zh">{{ pi.title_zh | default: pi.title | escape }}</span></a></h3>
-  {%- if pi.description %}
+  {%- if pi.description and include.compact != true %}
   <p class="post-item-desc"><span class="lang-en">{{ pi.description | escape }}</span><span class="lang-zh">{{ pi.description_zh | default: pi.description | escape }}</span></p>
   {%- endif %}
   <p class="post-item-meta">{% include date.html date=pi.date %}<span class="dot" aria-hidden="true">·</span>{% include reading-time.html content=pi.content %}</p>
