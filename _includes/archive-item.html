@@ -1,12 +1,15 @@
 {%- comment -%}
   Archive row: date column, title, optional summary or source.
   Params: post; en / zh date formats; source="yes" shows the source domain;
-  desc="no" hides the summary.
+  desc="no" hides the summary; kind="yes" labels digests.
 {%- endcomment -%}
 {%- assign ai = include.post -%}
 <li class="archive-item">
   <span class="archive-date">{% include date.html date=ai.date en=include.en zh=include.zh %}</span>
   <div class="archive-body">
+    {%- if include.kind and ai.categories contains "digest" %}
+    <p class="archive-kicker"><span class="lang-en">Digest</span><span class="lang-zh">阅读笔记</span></p>
+    {%- endif %}
     <h3 class="archive-title"><a class="archive-link" href="{{ ai.url | relative_url }}"><span class="lang-en">{{ ai.title | escape }}</span><span class="lang-zh">{{ ai.title_zh | default: ai.title | escape }}</span></a></h3>
     {%- if ai.description and include.desc != "no" %}
     <p class="archive-desc"><span class="lang-en">{{ ai.description | escape }}</span><span class="lang-zh">{{ ai.description_zh | default: ai.description | escape }}</span></p>

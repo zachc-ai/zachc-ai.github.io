@@ -112,10 +112,11 @@ Add `tags: [tag1, tag2]` to any post's front matter. Tags auto-appear on `/tags/
 
 Order controlled by `header_pages` in `_config.yml`:
 
-1. Blog (`blog.md`)
-2. Digests (`digests.md`)
-3. Tags (`tags.md`)
-4. About (`about.md`)
+1. Blog (`blog.html`): every post, digests included and labeled; the nav marks Blog on any post and on `/digests/`
+2. Tags (`tags.html`)
+3. About (`about.md`)
+
+`/digests/` (`digests.html`) is a filtered view of the reading notes, linked from the Blog intro and the homepage. A search icon sits next to the language switch.
 
 ## How To
 

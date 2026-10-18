@@ -29,7 +29,7 @@ intro_zh: "反复写到的几个主题。"
   <h2 class="section-label"><span class="lang-en">{{ t.en }}</span><span class="lang-zh">{{ t.zh }}</span></h2>
   <ol class="archive-list">
     {%- for post in zc_posts %}
-    {% include archive-item.html post=post en="%b %-d, %Y" zh="%Y年%-m月%-d日" desc="no" %}
+    {% include archive-item.html post=post en="%b %-d, %Y" zh="%Y年%-m月%-d日" desc="no" kind="yes" %}
     {%- endfor %}
   </ol>
 </section>
@@ -41,7 +41,7 @@ intro_zh: "反复写到的几个主题。"
   <h2 class="section-label">{{ pair[0] }}</h2>
   <ol class="archive-list">
     {%- for post in pair[1] %}
-    {% include archive-item.html post=post en="%b %-d, %Y" zh="%Y年%-m月%-d日" desc="no" %}
+    {% include archive-item.html post=post en="%b %-d, %Y" zh="%Y年%-m月%-d日" desc="no" kind="yes" %}
     {%- endfor %}
   </ol>
 </section>

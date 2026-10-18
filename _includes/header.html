@@ -1,8 +1,6 @@
-{%- comment -%} Which nav item is "current": the page itself, or the section a post belongs to. {%- endcomment -%}
+{%- comment -%} Which nav item is "current": the page itself, or Blog for any post and for the digests view. {%- endcomment -%}
 {%- assign zc_section = page.url -%}
-{%- if page.layout == "post" -%}
-  {%- if page.categories contains "digest" -%}{%- assign zc_section = "/digests/" -%}{%- else -%}{%- assign zc_section = "/blog/" -%}{%- endif -%}
-{%- endif -%}
+{%- if page.layout == "post" or page.url == "/digests/" -%}{%- assign zc_section = "/blog/" -%}{%- endif -%}
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="{{ '/' | relative_url }}" rel="home">

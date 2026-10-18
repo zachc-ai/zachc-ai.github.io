@@ -73,6 +73,17 @@ html[data-lang="zh"] .page-title {
   line-height: 1.6;
 }
 
+.page-intro a {
+  color: var(--ink-2);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.2em;
+}
+
+.page-intro a:hover {
+  text-decoration-color: currentColor;
+}
+
 // After the article
 
 .post-footer {

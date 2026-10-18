@@ -129,6 +129,7 @@
       return '<li class="archive-item">' +
         '<span class="archive-date">' + dateOf(p.dt) + '</span>' +
         '<div class="archive-body">' +
+        (p.k === 'digest' ? '<p class="archive-kicker">' + both('Digest', '阅读笔记') + '</p>' : '') +
         '<h3 class="archive-title"><a class="archive-link" href="' + esc(p.u) + '">' + both(mark(p.t, terms), mark(p.tz, terms)) + '</a></h3>' +
         '<p class="search-snippet">' + both(excerpt(p.e, p.d, p.z, terms), excerpt(p.z, p.dz, p.e, terms)) + '</p>' +
         '</div></li>';

@@ -191,6 +191,22 @@ html[data-lang="zh"] .archive-title {
   line-height: 1.55;
 }
 
+.archive-kicker {
+  margin: 0 0 0.2rem;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+html[data-lang="zh"] .archive-kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+
 .archive-desc,
 .archive-source {
   margin: 0.3rem 0 0;

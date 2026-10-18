@@ -4,12 +4,11 @@ title: Blog
 title_zh: 博客
 permalink: /blog/
 prose: false
-intro: "Every essay, newest first. Digests are on their own page."
-intro_zh: "全部文章，新的在前。阅读笔记另有一页。"
+intro: "Every post, newest first. Reading notes are marked Digest; <a href=\"/digests/\">see just those</a>."
+intro_zh: "全部文章，新的在前。阅读笔记标了出来，也可以<a href=\"/digests/\">只看阅读笔记</a>。"
 ---
 {%- assign zc_year = "" -%}
 {%- for post in site.posts -%}
-  {%- if post.categories contains "digest" -%}{%- continue -%}{%- endif -%}
   {%- assign zc_y = post.date | date: "%Y" -%}
   {%- if zc_y != zc_year -%}
     {%- unless zc_year == "" %}
@@ -21,7 +20,7 @@ intro_zh: "全部文章，新的在前。阅读笔记另有一页。"
 <ol class="archive-list">
     {%- assign zc_year = zc_y -%}
   {%- endif %}
-{% include archive-item.html post=post en="%b %-d" zh="%-m月%-d日" %}
+{% include archive-item.html post=post en="%b %-d" zh="%-m月%-d日" kind="yes" %}
 {%- endfor %}
 {%- unless zc_year == "" %}
 </ol>

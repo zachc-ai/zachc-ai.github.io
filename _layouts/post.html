@@ -61,7 +61,7 @@ layout: default
       <ol class="archive-list">
         {%- for u in zc_related limit: 3 -%}
         {%- assign zc_rp = site.posts | where: "url", u | first -%}
-        {% include archive-item.html post=zc_rp %}
+        {% include archive-item.html post=zc_rp kind="yes" %}
         {%- endfor %}
       </ol>
     </section>

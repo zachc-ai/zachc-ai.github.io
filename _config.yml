@@ -10,7 +10,6 @@ permalink: /blog/:title/
 
 header_pages:
   - blog.html
-  - digests.html
   - tags.html
   - about.md
 

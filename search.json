@@ -26,6 +26,7 @@ permalink: /search.json
 "d": {{ p.description | default: "" | jsonify }},
 "dz": {{ p.description_zh | default: p.description | default: "" | jsonify }},
 "dt": {{ p.date | date: "%Y-%m-%d" | jsonify }},
+"k": {% if p.categories contains "digest" %}"digest"{% else %}"essay"{% endif %},
 "g": {{ p.tags | jsonify }},
 "e": {{ zc_en | jsonify }},
 "z": {{ zc_zh | jsonify }}
