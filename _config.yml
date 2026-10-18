@@ -35,6 +35,10 @@ exclude:
   - node_modules
   - vendor
 
+
+# Default link-preview image. feed.xml leaves it out of the RSS feed.
+social_card: &social_card /assets/social-card.png
+
 defaults:
   - scope:
       path: ""
@@ -47,7 +51,7 @@ defaults:
       layout: "default"
       # Share card for links on X, LinkedIn, Slack, iMessage. A post can set its own `image:`.
       image:
-        path: /assets/social-card.png
+        path: *social_card
         width: 1200
         height: 630
         alt: "Zach's Compass: notes on building, learning, and figuring things out"
