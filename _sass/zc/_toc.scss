@@ -1,0 +1,182 @@
+// Long posts: the table of contents and the "#" links on section headings.
+
+.post-toc {
+  margin: -0.75rem 0 2.25rem;
+  font-family: var(--font-sans);
+}
+
+.post-toc-box {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.post-toc-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.post-toc-title::-webkit-details-marker {
+  display: none;
+}
+
+.post-toc-title::after {
+  content: "+";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.post-toc-box[open] .post-toc-title::after {
+  content: "\2212";
+}
+
+html[data-lang="zh"] .post-toc-title {
+  font-size: 0.8125rem;
+  letter-spacing: 0.15em;
+}
+
+.post-toc-list,
+.post-toc-list ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-toc-list {
+  margin-top: 0.6rem;
+}
+
+.post-toc-list ol a {
+  padding-left: 1.6rem;
+  font-size: 0.8125rem;
+}
+
+.post-toc-list a {
+  display: block;
+  padding: 0.32rem 0 0.32rem 0.85rem;
+  border-left: 2px solid transparent;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.post-toc-list a:hover {
+  color: var(--ink);
+}
+
+.post-toc-list a.is-current {
+  color: var(--ink);
+  border-left-color: var(--accent);
+}
+
+// Wide screens: a quiet rail in the right margin, always open.
+@media (min-width: 78rem) {
+  .post-toc {
+    position: fixed;
+    top: 7.5rem;
+    left: unquote("calc(50% + var(--measure) / 2 + 3rem)");
+    width: 13.5rem;
+    max-height: unquote("calc(100vh - 10rem)");
+    margin: 0;
+    overflow-y: auto;
+    transition: opacity 0.2s;
+  }
+
+  .post-toc.is-past {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .post-toc-box {
+    padding: 0;
+    border: 0;
+  }
+
+  .post-toc-title {
+    cursor: default;
+  }
+
+  .post-toc-title::after {
+    display: none;
+  }
+
+  .post-toc-list {
+    border-left: 1px solid var(--line);
+  }
+
+  .post-toc-list a {
+    margin-left: -1px;
+  }
+}
+
+// Section links
+
+.prose h2,
+.prose h3 {
+  scroll-margin-top: 1.5rem;
+}
+
+.prose .heading-anchor {
+  position: relative;
+  margin-left: 0.4em;
+  color: var(--faint);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.prose h2:hover .heading-anchor,
+.prose h3:hover .heading-anchor,
+.prose .heading-anchor:focus-visible,
+.prose .heading-anchor.is-copied {
+  opacity: 1;
+}
+
+.prose .heading-anchor:hover,
+.prose .heading-anchor.is-copied {
+  color: var(--accent);
+}
+
+.prose .heading-anchor.is-copied::after {
+  content: attr(data-copied);
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-left: 0.5em;
+  padding: 0.2em 0.55em;
+  border-radius: 4px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  white-space: nowrap;
+  transform: translateY(-50%);
+}
+
+// Touch screens have no hover, so the "#" stays faintly visible.
+@media (hover: none) {
+  .prose .heading-anchor {
+    opacity: 0.6;
+  }
+}
+
+@media print {
+  .post-toc,
+  .heading-anchor {
+    display: none !important;
+  }
+}

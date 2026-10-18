@@ -88,6 +88,14 @@ html[data-lang="zh"] .page-title {
   margin-top: 1.75rem;
 }
 
+.post-related .section-label {
+  margin: 2.25rem 0 0.25rem;
+}
+
+.post-footer > .post-related:first-child .section-label {
+  margin-top: 0;
+}
+
 .post-nav-link {
   display: block;
   padding: 1rem 1.15rem 1.1rem;

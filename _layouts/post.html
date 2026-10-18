@@ -3,7 +3,7 @@ layout: default
 ---
 {%- assign zc_is_digest = false -%}
 {%- if page.categories contains "digest" -%}{%- assign zc_is_digest = true -%}{%- endif -%}
-<article class="container post">
+<article class="container post"{% if page.toc == false %} data-toc="false"{% endif %}>
   <header class="post-header">
     {%- if zc_is_digest %}
     <p class="post-kicker"><span class="lang-en">Digest</span><span class="lang-zh">阅读笔记</span></p>
@@ -17,6 +17,14 @@ layout: default
     </p>
   </header>
 
+  {%- comment -%} Filled by assets/post.js for long posts; a side rail on wide screens, a fold-out list otherwise. {%- endcomment %}
+  <nav class="post-toc" aria-label="Contents / 目录" hidden>
+    <details class="post-toc-box">
+      <summary class="post-toc-title"><span class="lang-en">On this page</span><span class="lang-zh">本文目录</span></summary>
+      <ol class="post-toc-list"></ol>
+    </details>
+  </nav>
+
   <div class="post-body prose">
     {{ content }}
   </div>
@@ -28,6 +36,35 @@ layout: default
       <li><a class="tag" href="{{ '/tags/' | relative_url }}#{{ t | slugify }}">{% include tag-name.html tag=t %}</a></li>
       {%- endfor %}
     </ul>
+    {%- endif %}
+
+    {%- comment -%}
+      Related: other posts ranked by how many tags they share with this one,
+      newest first within a rank. The birthday placeholder never shows up here.
+    {%- endcomment -%}
+    {%- assign zc_rel3 = "" -%}{%- assign zc_rel2 = "" -%}{%- assign zc_rel1 = "" -%}
+    {%- if page.tags.size > 0 -%}
+      {%- for p in site.posts -%}
+        {%- if p.url == page.url or p.tags contains "placeholder" -%}{%- continue -%}{%- endif -%}
+        {%- assign zc_shared = 0 -%}
+        {%- for t in p.tags -%}{%- if page.tags contains t -%}{%- assign zc_shared = zc_shared | plus: 1 -%}{%- endif -%}{%- endfor -%}
+        {%- if zc_shared >= 3 -%}{%- assign zc_rel3 = zc_rel3 | append: p.url | append: " " -%}
+        {%- elsif zc_shared == 2 -%}{%- assign zc_rel2 = zc_rel2 | append: p.url | append: " " -%}
+        {%- elsif zc_shared == 1 -%}{%- assign zc_rel1 = zc_rel1 | append: p.url | append: " " -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {%- assign zc_related = zc_rel3 | append: zc_rel2 | append: zc_rel1 | split: " " -%}
+    {%- if zc_related.size > 0 %}
+    <section class="post-related" aria-labelledby="related-heading">
+      <h2 class="section-label" id="related-heading"><span class="lang-en">Related</span><span class="lang-zh">相关文章</span></h2>
+      <ol class="archive-list">
+        {%- for u in zc_related limit: 3 -%}
+        {%- assign zc_rp = site.posts | where: "url", u | first -%}
+        {% include archive-item.html post=zc_rp %}
+        {%- endfor %}
+      </ol>
+    </section>
     {%- endif %}
 
     {%- if page.previous or page.next %}

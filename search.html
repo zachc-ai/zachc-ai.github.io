@@ -1,0 +1,19 @@
+---
+layout: page
+title: Search
+title_zh: 搜索
+permalink: /search/
+prose: false
+intro: "Titles, summaries, and full text of every post, in English and Chinese."
+intro_zh: "搜索每篇文章的标题、摘要和正文，中英文都能搜。"
+---
+<form class="search-form" role="search" action="{{ '/search/' | relative_url }}" method="get">
+  <label class="visually-hidden" for="search-q"><span class="lang-en">Search posts</span><span class="lang-zh">搜索文章</span></label>
+  <input class="search-input" id="search-q" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="Search posts…" data-placeholder-en="Search posts…" data-placeholder-zh="搜索文章…">
+</form>
+<p class="search-status" aria-live="polite"></p>
+<ol class="archive-list search-results"></ol>
+<noscript>
+  <p class="search-status"><span class="lang-en">Search needs JavaScript. The <a href="{{ '/tags/' | relative_url }}">tags page</a> works without it.</span><span class="lang-zh">搜索需要 JavaScript。不开的话，可以用<a href="{{ '/tags/' | relative_url }}">标签页</a>找文章。</span></p>
+</noscript>
+<script src="{{ '/assets/search.js' | relative_url }}" data-index="{{ '/search.json' | relative_url }}" defer></script>

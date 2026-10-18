@@ -18,6 +18,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 markdown: kramdown
 highlighter: rouge
@@ -44,6 +45,12 @@ defaults:
       path: ""
     values:
       layout: "default"
+      # Share card for links on X, LinkedIn, Slack, iMessage. A post can set its own `image:`.
+      image:
+        path: /assets/social-card.png
+        width: 1200
+        height: 630
+        alt: "Zach's Compass: notes on building, learning, and figuring things out"
 
 author: ZachC
 

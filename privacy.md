@@ -5,7 +5,7 @@ title_zh: 隐私政策
 permalink: /privacy/
 ---
 
-_Last updated: October 15, 2026_
+_Last updated: October 17, 2026_
 
 ## Hermes Agent
 
@@ -24,4 +24,4 @@ zachc.ai counts page views with [GoatCounter](https://www.goatcounter.com/), whi
 
 ## Contact
 
-[z•••••@gmail.com](mailto:z•••••@gmail.com)
+Email: z•••••@gmail.com (address withheld for now)

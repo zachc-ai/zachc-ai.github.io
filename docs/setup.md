@@ -147,4 +147,13 @@ Not yet implemented. To add support:
    {%- endunless -%}
    ```
 2. Then set `comments: false` in the post's front matter.
+
+### Reader features (added 2026-10-17)
+
+- **Share card.** Every page defaults to `assets/social-card.png` (1200×630) through `defaults` in `_config.yml`, so links unfurl with a large image. A post can set its own `image:`. The card and the icons (`favicon.ico`, `apple-touch-icon.png`) are rendered from HTML in `docs/brand/`; edit the HTML, then run `docs/brand/render.sh` (uses the local Chrome, nothing to install).
+- **Sitemap and robots.** `jekyll-sitemap` (bundled with `github-pages`) writes `/sitemap.xml`; `robots.txt` points to it. Set `sitemap: false` to leave a page out.
+- **Contents list.** `assets/post.js` builds it for the language being read, when that block has 3+ `##` headings and is long (≈4000 EN chars / 1600 ZH chars). With fewer than 4 `##`, the `###` are listed too. It is a side rail at ≥78rem and a fold-out list below that. Turn it off with `toc: false`.
+- **Section links.** The same script adds a `#` to every `##`/`###`; clicking copies the section URL.
+- **Related posts.** `_layouts/post.html` lists up to 3 posts that share the most tags, newest first within a tie. Posts tagged `placeholder` are skipped.
+- **Search.** `/search/` (`search.html` + `assets/search.js`) scans `/search.json`, which Liquid builds from every post's titles, summaries, tags and full text in both languages. `/` jumps to it from any page; `?q=` links work.
 {% endraw %}

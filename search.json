@@ -1,0 +1,35 @@
+---
+layout: null
+sitemap: false
+permalink: /search.json
+---
+{%- comment -%}
+  Index for /search/: every post's titles, summaries, tags and full text, split
+  by language. Rendered post HTML is cut at the Chinese block, then stripped.
+{%- endcomment -%}
+{
+"tags": {
+{%- for t in site.data.tags -%}
+{{ t.slug | jsonify }}: {{ t.en | append: " " | append: t.zh | jsonify }}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+},
+"posts": [
+{%- for p in site.posts -%}
+{%- assign zc_parts = p.content | split: '<div class="lang-zh' -%}
+{%- assign zc_en = zc_parts | first | strip_html | normalize_whitespace -%}
+{%- assign zc_zh = "" -%}
+{%- if zc_parts.size > 1 -%}{%- assign zc_zh = zc_parts | last | prepend: '<div class="lang-zh' | strip_html | normalize_whitespace -%}{%- endif -%}
+{
+"u": {{ p.url | relative_url | jsonify }},
+"t": {{ p.title | jsonify }},
+"tz": {{ p.title_zh | default: p.title | jsonify }},
+"d": {{ p.description | default: "" | jsonify }},
+"dz": {{ p.description_zh | default: p.description | default: "" | jsonify }},
+"dt": {{ p.date | date: "%Y-%m-%d" | jsonify }},
+"g": {{ p.tags | jsonify }},
+"e": {{ zc_en | jsonify }},
+"z": {{ zc_zh | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]
+}

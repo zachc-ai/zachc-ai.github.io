@@ -30,6 +30,8 @@
     root.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
     applyTitle(lang);
     tellGiscus({ lang: lang === 'zh' ? 'zh-CN' : 'en' });
+    // The table of contents and search results rebuild for the new language.
+    document.dispatchEvent(new CustomEvent('zc:lang', { detail: lang }));
   }
 
   function setTheme(theme) {
@@ -66,4 +68,15 @@
     if (media.addEventListener) media.addEventListener('change', follow);
     else if (media.addListener) media.addListener(follow);
   }
+
+  // "/" jumps to search from anywhere, unless the reader is typing.
+  document.addEventListener('keydown', function (event) {
+    if (event.key !== '/' || event.metaKey || event.ctrlKey || event.altKey) return;
+    var el = document.activeElement;
+    if (el && (el.isContentEditable || /^(input|textarea|select)$/i.test(el.tagName))) return;
+    var box = document.getElementById('search-q');
+    event.preventDefault();
+    if (box) box.focus();
+    else window.location.href = body.getAttribute('data-search-url') || '/search/';
+  });
 })();
