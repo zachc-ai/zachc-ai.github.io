@@ -134,6 +134,17 @@ html[data-lang="zh"] .post-item-desc {
   padding: 1.6rem 0 1.75rem;
 }
 
+// A short accent rule marks the lead, the way a paper marks its top story.
+.post-item.is-lead::before {
+  content: "";
+  display: block;
+  width: 2.25rem;
+  height: 3px;
+  margin-bottom: 1.1rem;
+  border-radius: 2px;
+  background: var(--accent);
+}
+
 .post-item.is-lead .post-item-title {
   margin-bottom: 0.6rem;
   font-size: unquote("clamp(1.6rem, 1.25rem + 1.4vw, 2rem)");
@@ -246,7 +257,7 @@ html[data-lang="zh"] .archive-title {
 
 .archive-kicker {
   margin: 0 0 0.2rem;
-  color: var(--muted);
+  color: var(--accent);
   font-family: var(--font-sans);
   font-size: 0.6875rem;
   font-weight: 600;
