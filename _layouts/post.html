@@ -9,12 +9,22 @@ layout: default
     <p class="post-kicker"><span class="lang-en">Digest</span><span class="lang-zh">阅读笔记</span></p>
     {%- endif %}
     <h1 class="post-title"><span class="lang-en">{{ page.title | escape }}</span><span class="lang-zh">{{ page.title_zh | default: page.title | escape }}</span></h1>
+    {%- if page.description %}
+    <p class="post-dek"><span class="lang-en">{{ page.description | escape }}</span><span class="lang-zh">{{ page.description_zh | default: page.description | escape }}</span></p>
+    {%- endif %}
     <p class="post-meta">
       {% include date.html date=page.date %}<span class="dot" aria-hidden="true">·</span>{% include reading-time.html %}
       {%- if zc_is_digest and page.source -%}
       <span class="dot" aria-hidden="true">·</span><a href="{{ page.source }}" rel="noopener"><span class="lang-en">Original</span><span class="lang-zh">原文</span> <span aria-hidden="true">↗</span></a>
       {%- endif %}
     </p>
+    {%- if page.tags.size > 0 %}
+    <ul class="tag-list post-tags" aria-label="Tags">
+      {%- for t in page.tags %}
+      <li><a class="tag" href="{{ '/tags/' | relative_url }}#{{ t | slugify }}">{% include tag-name.html tag=t %}</a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
   </header>
 
   {%- comment -%} Filled by assets/post.js for long posts; a side rail on wide screens, a fold-out list otherwise. {%- endcomment %}
@@ -47,13 +57,6 @@ layout: default
   {%- endif %}
 
   <footer class="post-footer">
-    {%- if page.tags.size > 0 %}
-    <ul class="tag-list" aria-label="Tags">
-      {%- for t in page.tags %}
-      <li><a class="tag" href="{{ '/tags/' | relative_url }}#{{ t | slugify }}">{% include tag-name.html tag=t %}</a></li>
-      {%- endfor %}
-    </ul>
-    {%- endif %}
 
     {%- comment -%}
       Related: other posts ranked by how many tags they share with this one,

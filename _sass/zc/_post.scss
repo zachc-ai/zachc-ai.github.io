@@ -43,6 +43,30 @@ html[data-lang="zh"] .page-title {
   font-size: unquote("clamp(1.9rem, 1.4rem + 2vw, 2.5rem)");
 }
 
+.post-dek {
+  max-width: 36rem;
+  margin: 0 0 1.1rem;
+  color: var(--ink-2);
+  font-family: var(--font-body);
+  font-size: unquote("clamp(1.125rem, 1.05rem + 0.35vw, 1.25rem)");
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+html[data-lang="zh"] .post-dek {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.post-tags {
+  margin-top: 0.9rem;
+}
+
+.post-tags .tag {
+  padding: 0.28rem 0.65rem;
+  font-size: 0.8125rem;
+}
+
 .post-meta {
   margin: 0;
   color: var(--muted);
