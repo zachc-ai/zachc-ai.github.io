@@ -27,7 +27,8 @@
   --heading-weight: 700;
   --heading-tracking: -0.015em;
 
-  --measure: 40rem;
+  --measure: 47.5rem;
+  --site-width: 85rem;
   --gutter: 1.5rem;
   --radius: 10px;
 }
@@ -53,6 +54,12 @@ html[data-theme="dark"] {
   --accent-soft: rgba(226, 115, 90, 0.18);
   --link-line: rgba(226, 115, 90, 0.55);
   color-scheme: dark;
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --gutter: 2rem;
+  }
 }
 
 @media (max-width: 36rem) {

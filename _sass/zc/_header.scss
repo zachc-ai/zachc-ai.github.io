@@ -161,6 +161,21 @@ html[data-theme="dark"] .icon-sun {
   display: block;
 }
 
+@media (min-width: 64rem) {
+  .header-inner {
+    min-height: 5rem;
+    column-gap: 2.5rem;
+  }
+
+  .brand {
+    font-size: 1.25rem;
+  }
+
+  .site-nav {
+    gap: 1.75rem;
+  }
+}
+
 @media (max-width: 36rem) {
   .header-inner {
     padding-top: 0.85rem;

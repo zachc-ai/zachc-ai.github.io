@@ -8,7 +8,7 @@
   var toc = article && article.querySelector('.post-toc');
   var box = toc && toc.querySelector('.post-toc-box');
   var list = toc && toc.querySelector('.post-toc-list');
-  var wide = window.matchMedia ? window.matchMedia('(min-width: 78rem)') : null;
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 72rem)') : null;
   var links = [];
 
   function lang() {

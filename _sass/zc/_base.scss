@@ -35,7 +35,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: calc(var(--measure) + 2 * var(--gutter));
+  max-width: var(--site-width);
   margin: 0 auto;
   padding: 0 var(--gutter);
 }

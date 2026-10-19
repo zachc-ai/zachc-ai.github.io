@@ -11,9 +11,9 @@ Operational reference for [Zach's Compass](https://zachc.ai) (`zachc-ai/zachc-ai
 
 - **Engine**: Jekyll + minima theme (`skin: auto`), deployed on GitHub Pages
 - **Config**: `_config.yml`
-- **Theme overrides**:
-  - `_sass/minima/custom-variables.scss` — color/font variable overrides
-  - `_sass/minima/custom-styles.scss` — typography, spacing, dark mode tweaks
+- **Local runtime**: use Ruby 3.x for the locked bundle; its `commonmarker` dependency does not support Ruby 4
+- **Styles**: `assets/main.scss` imports the self-contained `_sass/zc/` styles; minima's CSS is not imported
+- **Design tokens**: `_sass/zc/_tokens.scss` — color, font, reading width, and site width
 - **Custom layout**: `_layouts/post.html` — reading time, bilingual title toggle, giscus comments
 - **Custom includes**:
   - `_includes/bilingual.html` — language toggle + bilingual title rendering
@@ -118,6 +118,12 @@ Order controlled by `header_pages` in `_config.yml`:
 
 `/digests/` (`digests.html`) is a filtered view of the reading notes, linked from the Blog intro and the homepage. A search icon sits next to the language switch.
 
+### Responsive layout
+
+- Site chrome and browsing pages use `--site-width` (85rem / 1360px at the default root font size). Reading columns use `--measure` (47.5rem / 760px), independently of that outer width.
+- At 64rem, the homepage and pages with `prose: false` use an editorial two-column layout: a 15rem introduction/navigation rail and the content area. `_includes/browse-nav.html` supplies the shared navigation and counts. Below that breakpoint, the rail's navigation is hidden and the pages remain single-column.
+- At 72rem, articles with a visible contents list use a 14rem sticky rail alongside the reading column. Articles without a contents list stay centered. Keep this breakpoint synchronized between `_sass/zc/_toc.scss` and `assets/post.js`.
+
 ## How To
 
 ### Create a new post
@@ -153,7 +159,7 @@ Not yet implemented. To add support:
 
 - **Share card.** Every page defaults to `assets/social-card.png` (1200×630) through `defaults` in `_config.yml`, so links unfurl with a large image. A post can set its own `image:`. The card and the icons (`favicon.ico`, `apple-touch-icon.png`) are rendered from HTML in `docs/brand/`; edit the HTML, then run `docs/brand/render.sh` (uses the local Chrome, nothing to install).
 - **Sitemap and robots.** `jekyll-sitemap` (bundled with `github-pages`) writes `/sitemap.xml`; `robots.txt` points to it. Set `sitemap: false` to leave a page out.
-- **Contents list.** `assets/post.js` builds it for the language being read, when that block has 3+ `##` headings and is long (≈4000 EN chars / 1600 ZH chars). With fewer than 4 `##`, the `###` are listed too. It is a side rail at ≥78rem and a fold-out list below that. Turn it off with `toc: false`.
+- **Contents list.** `assets/post.js` builds it for the language being read, when that block has 3+ `##` headings and is long (≈4000 EN chars / 1600 ZH chars). With fewer than 4 `##`, the `###` are listed too. It is a side rail at ≥72rem and a fold-out list below that. Turn it off with `toc: false`.
 - **Section links.** The same script adds a `#` to every `##`/`###`; clicking copies the section URL.
 - **Related posts.** `_layouts/post.html` lists up to 3 posts that share the most tags, newest first within a tie. Posts tagged `placeholder` are skipped.
 - **Sources.** Write them only in front matter: `sources:` items with `title`, `url` (optional for a book with no link), and `title_zh` when the Chinese title differs. Titles may use Markdown. `_layouts/post.html` renders the "Sources / 来源" list after the post body.

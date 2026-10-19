@@ -2,10 +2,14 @@
 layout: default
 ---
 <div class="container home">
-  <section class="home-intro">
-    {{ content }}
-  </section>
+  <aside class="home-sidebar">
+    <section class="home-intro">
+      {{ content }}
+    </section>
+    {%- include browse-nav.html -%}
+  </aside>
 
+  <div class="home-content">
   <section class="home-section" aria-labelledby="home-latest">
     <h2 class="section-label" id="home-latest"><span class="lang-en">Latest essays</span><span class="lang-zh">最新文章</span></h2>
     <ol class="post-feed">
@@ -39,4 +43,5 @@ layout: default
     {%- endif %}
   </section>
   {%- endif %}
+  </div>
 </div>

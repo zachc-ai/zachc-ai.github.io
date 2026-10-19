@@ -34,3 +34,12 @@
 .site-footer a:hover {
   color: var(--accent);
 }
+
+@media (min-width: 64rem) {
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,16 @@
+{%- assign zc_browse_digests = site.posts | where_exp: "p", "p.categories contains 'digest'" -%}
+<nav class="browse-nav" aria-label="Browse / 浏览">
+  <p class="section-label"><span class="lang-en">Browse</span><span class="lang-zh">浏览</span></p>
+  <a class="browse-link" href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>
+    <span><span class="lang-en">All posts</span><span class="lang-zh">全部文章</span></span>
+    <span class="browse-count">{{ site.posts.size }}</span>
+  </a>
+  <a class="browse-link" href="{{ '/digests/' | relative_url }}"{% if page.url == '/digests/' %} aria-current="page"{% endif %}>
+    <span><span class="lang-en">Reading notes</span><span class="lang-zh">阅读笔记</span></span>
+    <span class="browse-count">{{ zc_browse_digests.size }}</span>
+  </a>
+  <a class="browse-link" href="{{ '/tags/' | relative_url }}"{% if page.url == '/tags/' %} aria-current="page"{% endif %}>
+    <span><span class="lang-en">Topics</span><span class="lang-zh">主题</span></span>
+    <span class="browse-count">{{ site.tags.size }}</span>
+  </a>
+</nav>

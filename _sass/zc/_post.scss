@@ -1,8 +1,23 @@
 // Post and page chrome: titles, meta, tags, older/newer, comments, 404.
 
 .post,
+.page:not(.page-index) {
+  max-width: calc(var(--measure) + 2 * var(--gutter));
+}
+
+.post,
 .page {
   padding-top: 3.5rem;
+}
+
+.post-body {
+  min-width: 0;
+}
+
+.post-body > :first-child,
+.post-body > .lang-en > :first-child,
+.post-body > .lang-zh > :first-child {
+  margin-top: 0;
 }
 
 .post-header,
@@ -44,7 +59,7 @@ html[data-lang="zh"] .page-title {
 }
 
 .post-dek {
-  max-width: 36rem;
+  max-width: var(--measure);
   margin: 0 0 1.1rem;
   color: var(--ink-2);
   font-family: var(--font-body);

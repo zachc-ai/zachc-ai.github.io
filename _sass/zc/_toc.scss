@@ -81,14 +81,52 @@ html[data-lang="zh"] .post-toc-title {
   border-left-color: var(--accent);
 }
 
-// Wide screens: a quiet rail in the right margin, always open.
-@media (min-width: 78rem) {
+// The rail belongs to the article grid, not to the viewport margins.
+@media screen and (min-width: 72rem) {
+  .post:has(> .post-toc:not([hidden])) {
+    display: grid;
+    grid-template-columns: minmax(0, var(--measure)) 14rem;
+    grid-template-areas:
+      "header header"
+      "listen toc"
+      "body toc"
+      "sources toc"
+      "footer toc"
+      "comments toc";
+    column-gap: 4rem;
+    max-width: calc(var(--measure) + 18rem + 2 * var(--gutter));
+  }
+
+  .post-header {
+    grid-area: header;
+  }
+
+  .post-listen {
+    grid-area: listen;
+  }
+
+  .post-body {
+    grid-area: body;
+  }
+
+  .post-sources {
+    grid-area: sources;
+  }
+
+  .post-footer {
+    grid-area: footer;
+  }
+
+  .post-comments {
+    grid-area: comments;
+  }
+
   .post-toc {
-    position: fixed;
-    top: 7.5rem;
-    left: unquote("calc(50% + var(--measure) / 2 + 3rem)");
-    width: 13.5rem;
-    max-height: unquote("calc(100vh - 10rem)");
+    grid-area: toc;
+    position: sticky;
+    top: 2.5rem;
+    align-self: start;
+    max-height: unquote("calc(100vh - 5rem)");
     margin: 0;
     overflow-y: auto;
     transition: opacity 0.2s;

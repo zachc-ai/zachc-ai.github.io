@@ -350,3 +350,112 @@ html[data-lang="zh"] .archive-desc {
 .tag-section:target .section-label {
   color: var(--accent);
 }
+
+.browse-nav {
+  display: none;
+  font-family: var(--font-sans);
+}
+
+.browse-nav .section-label {
+  margin: 2.5rem 0 0.6rem;
+}
+
+.browse-link {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.browse-link:last-child {
+  border-bottom: 0;
+}
+
+.browse-link:hover,
+.browse-link[aria-current="page"] {
+  color: var(--accent);
+}
+
+.browse-count {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (min-width: 64rem) {
+  .home,
+  .page.page-index {
+    display: grid;
+    grid-template-columns: 15rem minmax(0, 1fr);
+    column-gap: 4rem;
+    padding-top: 4.5rem;
+  }
+
+  .home-intro {
+    padding: 0;
+  }
+
+  .home-sidebar,
+  .page-index > .page-header {
+    position: sticky;
+    top: 2.5rem;
+    align-self: start;
+    margin-bottom: 0;
+  }
+
+  .home-content,
+  .page-index > .page-body {
+    min-width: 0;
+  }
+
+  .browse-nav {
+    display: block;
+  }
+
+  .home-content > .home-section:first-child > .section-label {
+    margin-top: 0;
+  }
+
+  .home-content .post-feed {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.5rem;
+  }
+
+  .home-content .post-item.is-lead {
+    grid-column: 1 / -1;
+    padding-top: 1.75rem;
+    padding-bottom: 2rem;
+  }
+
+  .home-content .post-item.is-lead .post-item-title {
+    font-size: unquote("clamp(2rem, 2.25vw, 3rem)");
+    line-height: 1.15;
+  }
+
+  html[data-lang="zh"] .home-content .post-item.is-lead .post-item-title {
+    font-size: unquote("clamp(1.75rem, 2vw, 2.5rem)");
+    line-height: 1.35;
+  }
+
+  .home-content .post-item-desc {
+    max-width: 55ch;
+  }
+
+  .home-content .post-item.is-compact {
+    grid-template-columns: 1fr;
+    align-content: start;
+    row-gap: 0.5rem;
+    padding: 1.25rem 0;
+  }
+
+  .home-content .post-item.is-compact:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+}
