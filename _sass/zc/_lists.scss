@@ -278,10 +278,17 @@ html[data-lang="zh"] .post-item.is-compact .post-item-title {
   margin-top: 0.5rem;
 }
 
+.archive-list {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 1.25rem;
+}
+
 .archive-item {
   position: relative;
   display: grid;
-  grid-template-columns: 5rem 1fr;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
   column-gap: 1.25rem;
   padding: 0.95rem 0;
   border-bottom: 1px solid var(--line);
@@ -351,6 +358,10 @@ html[data-lang="zh"] .archive-desc {
 }
 
 @media (max-width: 36rem) {
+  .archive-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .archive-item {
     grid-template-columns: 1fr;
     row-gap: 0.15rem;
