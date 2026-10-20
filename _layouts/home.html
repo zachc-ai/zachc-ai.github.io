@@ -1,6 +1,38 @@
 ---
 layout: default
 ---
+{%- assign zc_featured_slugs = page.featured_posts | map: "slug" -%}
+{%- capture zc_featured_items -%}
+  {%- for pick in page.featured_posts -%}
+    {%- assign zc_pick = site.posts | where: "slug", pick.slug | first -%}
+    {%- if zc_pick -%}
+      {%- unless zc_pick.categories contains "digest" -%}
+        {%- include post-item.html post=zc_pick recommendation=pick -%}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- capture zc_latest_items -%}
+  {%- assign zc_shown = 0 -%}
+  {%- for post in site.posts -%}
+    {%- if zc_shown >= 6 -%}{%- break -%}{%- endif -%}
+    {%- unless post.categories contains "digest" or zc_featured_slugs contains post.slug -%}
+      {%- if zc_shown == 0 -%}
+        {%- include post-item.html post=post lead=true -%}
+      {%- else -%}
+        {%- include post-item.html post=post compact=true -%}
+      {%- endif -%}
+      {%- assign zc_shown = zc_shown | plus: 1 -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- capture zc_topic_links -%}
+  {%- for slug in page.home_topics -%}
+    {%- if site.tags[slug].size > 0 -%}
+      <a href="{{ '/tags/' | relative_url }}#{{ slug | slugify }}">{% include tag-name.html tag=slug %}</a>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
 <div class="container home">
   <aside class="home-sidebar">
     <section class="home-intro">
@@ -10,38 +42,51 @@ layout: default
   </aside>
 
   <div class="home-content">
+  {%- if zc_featured_items != empty %}
+  <section class="home-section home-featured" aria-labelledby="home-start">
+    <h2 class="section-label" id="home-start"><span class="lang-en">Start here</span><span class="lang-zh">从这里开始</span></h2>
+    <p class="home-section-note"><span class="lang-en">A sample of what I write about.</span><span class="lang-zh">先读这几篇，看看这里常写什么。</span></p>
+    <ul class="post-feed">{{ zc_featured_items }}</ul>
+  </section>
+  {%- endif %}
+
+  {%- if zc_latest_items != empty %}
   <section class="home-section" aria-labelledby="home-latest">
     <h2 class="section-label" id="home-latest"><span class="lang-en">Latest essays</span><span class="lang-zh">最新文章</span></h2>
-    <ol class="post-feed">
-      {%- assign zc_shown = 0 -%}
-      {%- for post in site.posts -%}
-        {%- if zc_shown >= 6 -%}{%- break -%}{%- endif -%}
-        {%- unless post.categories contains "digest" -%}
-          {%- if zc_shown == 0 -%}
-            {%- include post-item.html post=post lead=true -%}
-          {%- else -%}
-            {%- include post-item.html post=post compact=true -%}
-          {%- endif -%}
-          {%- assign zc_shown = zc_shown | plus: 1 -%}
-        {%- endunless -%}
-      {%- endfor -%}
-    </ol>
+    <ol class="post-feed">{{ zc_latest_items }}</ol>
     <p class="more"><a class="more-link" href="{{ '/blog/' | relative_url }}"><span class="lang-en">All essays</span><span class="lang-zh">全部文章</span> <span aria-hidden="true">→</span></a></p>
   </section>
+  {%- endif %}
 
   {%- assign zc_digests = site.posts | where_exp: "p", "p.categories contains 'digest'" -%}
   {%- if zc_digests.size > 0 %}
   <section class="home-section" aria-labelledby="home-notes">
-    <h2 class="section-label" id="home-notes"><span class="lang-en">Digests</span><span class="lang-zh">阅读笔记</span></h2>
+    <h2 class="section-label" id="home-notes"><span class="lang-en">Reading notes</span><span class="lang-zh">阅读笔记</span></h2>
+    <p class="home-section-note"><span class="lang-en">What I kept from long articles and guides.</span><span class="lang-zh">长文章和指南里，值得留下的部分。</span></p>
     <ol class="post-feed">
       {%- for post in zc_digests limit: 3 -%}
         {%- include post-item.html post=post compact=true -%}
       {%- endfor -%}
     </ol>
     {%- if zc_digests.size > 3 %}
-    <p class="more"><a class="more-link" href="{{ '/digests/' | relative_url }}"><span class="lang-en">All digests</span><span class="lang-zh">全部阅读笔记</span> <span aria-hidden="true">→</span></a></p>
+    <p class="more"><a class="more-link" href="{{ '/digests/' | relative_url }}"><span class="lang-en">All reading notes</span><span class="lang-zh">全部阅读笔记</span> <span aria-hidden="true">→</span></a></p>
     {%- endif %}
   </section>
   {%- endif %}
+
+  <div class="home-footer">
+    {%- if zc_topic_links != empty %}
+    <nav class="home-section" aria-labelledby="home-topics">
+      <h2 class="section-label" id="home-topics"><span class="lang-en">Explore by topic</span><span class="lang-zh">按主题读</span></h2>
+      <div class="home-topic-links">{{ zc_topic_links }}</div>
+      <p class="more"><a class="more-link" href="{{ '/tags/' | relative_url }}"><span class="lang-en">All topics</span><span class="lang-zh">全部主题</span> <span aria-hidden="true">→</span></a></p>
+    </nav>
+    {%- endif %}
+    <section class="home-section" aria-labelledby="home-subscribe">
+      <h2 class="section-label" id="home-subscribe"><span class="lang-en">Subscribe</span><span class="lang-zh">订阅</span></h2>
+      <p class="home-section-note"><span class="lang-en">New essays and reading notes in your RSS reader.</span><span class="lang-zh">用 RSS 订阅，新文章和阅读笔记更新了就能看到。</span></p>
+      <p class="more"><a class="more-link" href="{{ '/feed.xml' | relative_url }}"><span class="lang-en">RSS feed</span><span class="lang-zh">RSS 订阅</span> <span aria-hidden="true">→</span></a></p>
+    </section>
+  </div>
   </div>
 </div>

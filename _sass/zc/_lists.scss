@@ -1,7 +1,68 @@
 // Homepage intro, section labels, post feed, archive rows, tag pills.
 
 .home-intro {
-  padding: 3.75rem 0 0.5rem;
+  padding: 2.25rem 0 0.5rem;
+}
+
+.home-profile {
+  margin: 1rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.home-profile a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.home-profile a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.home-section-note {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.home-content > .home-section:first-child > .section-label {
+  margin-top: 2rem;
+}
+
+.home-featured .post-item-desc {
+  margin-bottom: 0;
+}
+
+.home-topic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.home-topic-links a {
+  color: var(--ink-2);
+  text-decoration-color: var(--link-line);
+  text-underline-offset: 0.25em;
+}
+
+.home-topic-links a:hover {
+  color: var(--accent);
+}
+
+@media (min-width: 48rem) {
+  .home-footer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.5rem;
+  }
 }
 
 .lede {
@@ -426,6 +487,10 @@ html[data-lang="zh"] .archive-desc {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 2.5rem;
+  }
+
+  .home-content .home-featured .post-feed {
+    display: block;
   }
 
   .home-content .post-item.is-lead {

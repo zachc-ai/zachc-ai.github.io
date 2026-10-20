@@ -118,6 +118,23 @@ Order controlled by `header_pages` in `_config.yml`:
 
 `/digests/` (`digests.html`) is a filtered view of the reading notes, linked from the Blog intro and the homepage. A search icon sits next to the language switch.
 
+### Homepage
+
+`index.md` holds the short bilingual introduction; the full bio lives in `about.md`. The `featured_posts` list in `index.md` is manually selected and ordered; it is not populated from recent posts.
+
+```yaml
+featured_posts:
+  - slug: give-agents-libraries-not-instructions
+    note: "A short reason to read this essay."
+    note_zh: "一句推荐理由。"
+home_topics: [ai, engineering, attention, philosophy]
+```
+
+- Use an existing essay's filename slug, without its date or extension. Reading notes (`digest`) stay in their own section. `note_zh` falls back to `note`; without a `note`, the essay's own description is shown.
+- `_layouts/home.html` shows the selected essays first, then up to six other recent essays and three reading notes. Selected essays are excluded from the latest list, but remain in the full archive.
+- `home_topics` links to existing tag sections. Topics without posts and empty content sections are hidden. Removing `featured_posts` removes "Start here"; it does not automatically select replacements.
+- Subscription uses the existing `/feed.xml`; no separate newsletter service is required.
+
 ### Responsive layout
 
 - Site chrome and browsing pages use `--site-width` (85rem / 1360px at the default root font size). Reading columns use `--measure` (47.5rem / 760px), independently of that outer width.
