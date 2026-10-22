@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Hawk and dove</title>
+  <desc id="description">An angular dark hawk and a softly rounded dove face a small red resource between them, standing on separate branches.</desc>
+  <rect width="1200" height="630" fill="#faf9f6"/>
+  <circle cx="600" cy="300" r="235" fill="#f2f0eb"/>
+
+  <path d="M168 495H425M775 495H1032" fill="none" stroke="#e6e2da" stroke-width="2"/>
+  <path d="M186 500L285 485L383 488L445 467M285 485L262 468" fill="none" stroke="#6f6a62" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M755 468L817 488L915 485L1014 500M915 485L938 468" fill="none" stroke="#6f6a62" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M355 437L354 483M389 429L392 483M341 487L355 481L368 488M379 488L392 481L405 486" fill="none" stroke="#3b3934" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M281 395L213 476L301 455L337 404Z" fill="#1c1b19"/>
+  <path d="M250 443C273 406 279 366 289 321L305 261C311 225 342 203 379 205C413 206 438 223 456 245L502 264L485 295L448 286C440 331 428 372 405 409L364 458Z" fill="#1c1b19"/>
+  <path d="M320 252C329 220 357 205 386 211C410 215 432 232 445 251L479 266L445 275C430 294 410 305 388 302C356 298 333 279 320 252Z" fill="#aaa49a"/>
+  <path d="M445 251L502 264L485 295L479 277L446 273Z" fill="#3b3934"/>
+  <path d="M409 235L439 243" fill="none" stroke="#1c1b19" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="425" cy="250" r="4" fill="#1c1b19"/>
+  <path d="M299 300C335 287 374 301 397 331C380 376 341 418 279 455L247 458C274 415 287 359 299 300Z" fill="#3b3934"/>
+  <path d="M310 321C315 360 301 402 279 433M338 322C345 355 329 392 307 416M365 333C365 356 353 378 337 395" fill="none" stroke="#6f6a62" stroke-width="2" stroke-linecap="round"/>
+  <path d="M329 281L351 304L333 294Z" fill="#faf9f6"/>
+
+  <path d="M810 437L809 483M844 445L846 483M796 488L809 481L822 487M833 486L846 481L860 488" fill="none" stroke="#6f6a62" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M864 405L960 475L889 457L848 431Z" fill="#aaa49a"/>
+  <path d="M712 284C699 274 694 255 701 236C708 215 731 209 749 219C768 229 778 253 775 276C813 289 842 313 860 342C880 374 884 413 908 449L853 461C811 459 771 441 744 415C719 390 705 354 709 320Z" fill="#aaa49a"/>
+  <path d="M703 261L672 275L706 280Z" fill="#6f6a62"/>
+  <circle cx="732" cy="245" r="4" fill="#3b3934"/>
+  <path d="M767 310C802 309 842 337 858 372C863 383 866 395 867 407C836 419 808 414 785 395C764 377 756 341 767 310Z" fill="#faf9f6"/>
+  <path d="M780 330C787 360 807 386 839 396M773 350C781 377 795 392 816 402" fill="none" stroke="#e6e2da" stroke-width="2" stroke-linecap="round"/>
+  <path d="M713 291C720 308 732 321 750 329" fill="none" stroke="#6f6a62" stroke-width="2" stroke-linecap="round"/>
+
+  <circle cx="590" cy="269" r="24" fill="#b8432f"/>
+  <path d="M573 306C582 313 598 313 607 306" fill="none" stroke="#e6e2da" stroke-width="2" stroke-linecap="round"/>
+</svg>

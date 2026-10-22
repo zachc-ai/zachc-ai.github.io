@@ -16,6 +16,11 @@
   zh: 系统思维
   about: "Feedback loops and constraints, in code and in people."
   about_zh: "反馈环和约束，代码里有，人身上也有。"
+- slug: game-theory
+  en: Game Theory
+  zh: 博弈论
+  about: "Decisions that depend on what other people choose."
+  about_zh: "别人怎么选，会改变自己的得失。"
 - slug: mind
   en: Mind
   zh: 心智
