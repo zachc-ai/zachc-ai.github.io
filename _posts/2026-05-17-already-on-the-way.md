@@ -10,12 +10,12 @@ bilingual: true
 
 <div class="lang-en" markdown="1">
 
-Turned 35. Pretty calm about it.
+I'm 35. Pretty calm about it.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-35岁生日，波澜不惊。
+35 岁，波澜不惊。
 
 </div>

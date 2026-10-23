@@ -64,11 +64,11 @@
 - slug: life
   en: Life
   zh: 生活
-  about: "Birthdays, new starts, and the rest of it."
-  about_zh: "生日、重新开始，还有其他日子。"
-# Kept on the birthday post on purpose: a later post says it keeps this tag.
+  about: "Age, new starts, and the rest of it."
+  about_zh: "年纪、重新开始，还有其他日常。"
+# Kept on the one-line post about being 35 on purpose: a later post says it keeps this tag.
 - slug: placeholder
   en: Placeholder
   zh: 占位
-  about: "A one-line birthday post, left that way on purpose."
-  about_zh: "那篇一句话的生日博客，故意先这么留着。"
+  about: "A one-line post about being 35, left that way on purpose."
+  about_zh: "那篇一句话的 35 岁博客，故意先这么留着。"

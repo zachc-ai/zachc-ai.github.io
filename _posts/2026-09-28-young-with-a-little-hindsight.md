@@ -12,7 +12,7 @@ bilingual: true
 
 <div class="lang-en" markdown="1">
 
-In May I turned 35. The blog post about it was [one line long](/blog/already-on-the-way): "Turned 35. Pretty calm about it." I gave it a placeholder tag.
+Earlier this year I wrote a blog post about being 35. It was [one line long](/blog/already-on-the-way): "I'm 35. Pretty calm about it." I gave it a placeholder tag.
 
 This came across my feed and stuck with me:
 
@@ -42,13 +42,13 @@ I didn't get those years back. But I was new at something, with plenty I didn't 
 
 That's the closest I've come to having both.
 
-Anyway. The birthday post is still one line. I'm keeping the placeholder tag.
+Anyway. The post about being 35 is still one line. I'm keeping the placeholder tag.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-五月过了 35 岁生日，当时写的博客[只有一句话](/blog/already-on-the-way)：“35岁生日，波澜不惊。”还顺手打了个 placeholder 标签。
+今年为 35 岁这事写过一篇博客，[只有一句话](/blog/already-on-the-way)：“35 岁，波澜不惊。”还顺手打了个 placeholder 标签。
 
 在社交平台上刷到这么一句话，一直没忘：
 
@@ -78,6 +78,6 @@ Anyway. The birthday post is still one line. I'm keeping the placeholder tag.
 
 这大概是我离“两样都有”最近的一次了。
 
-行了。那篇生日博客还是一句话，placeholder 标签我先留着。
+行了。那篇 35 岁的博客还是一句话，placeholder 标签我先留着。
 
 </div>
