@@ -2,166 +2,126 @@
 layout: post
 title: "The hour I don't want to give up"
 title_zh: "舍不得的那一小时"
-description: "The last hour or two after work often feels unusually productive. I am trying to understand how much of that comes from progress, how much from quiet, and why it feels so difficult to stop."
-description_zh: "下班后那一两个小时，常常让我觉得一天终于有了进展。我想弄清楚，舍不得停下来的，到底是事情快做完了，还是终于有一段时间，能按自己的意思往下走。"
+description: "Some of my most productive time comes after the workday is supposed to end. I think the real reason is the short loop of working alone with AI, and I want to know whether I can have it earlier."
+description_zh: "一天里效率最高的时候，常常是下班后那一两个小时。我想真正的原因，是一个人跟 AI 做事时那个很短的回路。那它能不能挪到白天？"
 date: 2026-10-24
 categories: life
-tags: [attention, mind, productivity]
+tags: [ai, attention, mind, productivity]
 bilingual: true
 ---
 
 <div class="lang-en" markdown="1">
 
-The last hour or two after work often feels strangely productive to me.
+A lot of my best work seems to happen in the hour or two after I'm supposed to have stopped.
 
-A problem that occupied much of the day finally starts making sense. Looking back, it can feel as though that last stretch contains most of what I actually accomplished.
+The feeling got specific enough that I checked. Over the past year, counted by commits, the busiest hour of my workday was the last one: five to six in the evening. About one in eight weekday commits landed there, more than in any other hour. Roughly another sixth came after six.
 
-One more hour.
+I know what that number is worth. A commit marks the moment something got finished. The thinking happened earlier, off the record, and some of those commits were written by an agent anyway. Still, it matched the feeling closely enough that I stopped treating the feeling as imaginary.
 
-I like making progress, so my first instinct is to take the offer. If a little extra effort produces so much, why not do it more often?
+One more hour, then. It's a tempting offer, and I usually take it.
 
-But I want to understand what I am getting attached to before I turn it into a rule for every evening.
+## What's left when the day goes quiet
 
-## A quieter kind of work
+The obvious explanation is quiet. Fewer messages, no meetings, nobody waiting on a quick answer.
 
-I suspect some of the appeal is how little choosing remains.
+I think the bigger thing is what the quiet leaves behind.
 
-During the day, even when I am doing useful things, I may keep having to decide which useful thing deserves attention next. A question arrives and needs a response. When I return to the original problem, I have to remember where I was in it.
+During the day, most of what I do runs through other people. In a big organization even a small change means explaining the background, finding out who has to agree, waiting for replies, and explaining it again to whoever missed the first round. Nobody is doing anything wrong. That's what it costs to keep a lot of people pointed the same way. It's still slow, and a surprising share of my effort goes into the pointing.
 
-By the evening, I often have a better idea of the next step. There are fewer new things arriving, and I can stay with the question long enough to see where it goes.
+In the evening it's me, the problem, and an AI agent. I say what I want, see something within minutes, notice what's off, and try again. A bad idea dies before I get attached to it. A good one I can build on right away, without scheduling a meeting about it.
 
-That feels good in a way that "high productivity" does not quite describe.
+For the work I do, that loop is simply more efficient. The feedback is stronger too, in a way I can feel: each small thing that works makes the next step easier to start, and an hour of that can cover more ground than a day of waiting.
 
-There is something satisfying about holding a thought without having to put it down again. I can follow an idea that seems worth exploring, including a direction I cannot yet justify beyond wanting to find out.
+Conversations with people still matter. Some of them decide whether a thing should exist at all, and no agent is going to make that call for me. But they run at the speed of everyone's calendar. The agent runs at the speed of my attention.
 
-I wonder how much of what I call evening efficiency is the relief of finally being allowed to work like that.
+## The last hour takes credit for the day
 
-And that raises an awkward question: why do I feel I need to wait until the day is nearly over?
+There's a catch, and the commit chart shows it.
 
-## The ending may be getting too much credit
+When a problem finally clicks at seven, it's easy to forget the afternoon I spent ruling out the wrong approach. That felt like going in circles; the evening felt like progress. But the evening moved that fast because the afternoon had already cleared the way. The context was loaded and the next step was obvious.
 
-I also distrust my recollection a little.
+So I've been comparing the wrong things. The extra hour is often the only unbroken block of my day, and I'm measuring it against a daytime average that's been chopped into pieces. Of course it wins. It isn't really competing with other hours. It's competing with interruptions.
 
-Suppose a problem comes together in the evening. Earlier, I may have spent a long time ruling out an approach that would not work. That part feels slow. The moment when the answer becomes clear feels productive.
+That changes the question. Maybe I haven't found a magic time of day. Maybe I've found a set of conditions that only happen to line up after work.
 
-If I only remember when I finished, I can make the earlier effort look rather useless.
+## Wanting to, and not being able to stop
 
-I do not want to dismiss the last stretch. Getting something finished has its own satisfaction. But perhaps it can move so quickly because the day has already supplied much of what it needs.
+I still like that hour, and I'm not going to apologize for it. Staying with a problem because I want to see how it ends is one of the better feelings I know.
 
-An extra hour that starts with a clear next step is hardly the same thing as an hour spent figuring out where to begin.
+What gives me pause is that two different things can keep me at the same desk. One is "I want to see what happens next." The other is "today doesn't count until I have something to show for it." From the outside they look identical. From the inside they make for very different evenings, and I often can't tell which one I'm in until later.
 
-That makes me less certain about the conclusion I should draw. Maybe I have found a particularly good time to work. Maybe I have found a good set of conditions and attached them to a time on the clock.
+Calling it "high ROI" doesn't help. The return is easy to see: something that didn't work now does. The cost is whatever else that hour might have been, and things that didn't happen are hard to count.
 
-I would like to tell those apart before deciding that the answer is to keep staying later.
+I like the idea that a little extra each day adds up. I'd just like it to stay an offer, and not harden into a rule that every free hour should be filled.
 
-## Wanting to continue, and not letting myself stop
+## Moving the hour
 
-I still want room for that extra hour.
+If the evening works because of the short loop, the clock shouldn't matter much, and I should be able to move some of it.
 
-I enjoy the feeling that something is coming together. Staying with a problem out of curiosity has a pleasure of its own.
+Could I get one block in the middle of the day that's just me, the problem, and the agent? That probably means knowing where to start before I sit down, and asking other people my questions the day before, so I'm not waiting on anyone once the block begins.
 
-What gives me pause is how similar it can look to refusing to leave something unfinished.
+The smallest piece I can do tonight: before I stop, leave a note for tomorrow. Where I am, what I was about to try. Then I don't have to finish everything now just to avoid losing the thread.
 
-"I want to see what happens next" and "I cannot stop until I have something to show for today" might both keep me at the same screen. I would feel differently about the evening depending on which one was keeping me there.
+Some evenings I'll still want to keep going, and that's fine. I mostly want to know whether the hour is still this hard to give up once it isn't the only good one I get.
 
-I am not sure I can always tell immediately.
-
-Calling the time "high ROI" makes it harder to ask. The return is easy to point to: a problem solved, something finally working. The cost is whatever else I might have done with that hour. Since I did not do it, there is less to count.
-
-I like the idea that a little more effort can keep adding up. It makes the next small step feel worthwhile. I also want to notice when that thought turns every available gap into something I ought to use.
-
-If this is my own time, I want that to include the freedom to leave some of it unclaimed.
-
-## Could I move some of it earlier?
-
-I do not have a settled answer about how much after-hours work is right for me. I am more interested, for now, in whether I can make some of the rest of the day feel like that hour.
-
-What would happen if I arrived at a quiet block already knowing where I wanted to start? Could I let a question keep my attention without continually checking whether something else needed me?
-
-The practical part may be quite small. Before stopping, I could leave myself enough of a note to find my way back. Then I would not have to finish the whole thing merely to avoid losing the thread.
-
-I want to try that without turning it into another plan I can fail at. Some questions will still take longer than I hoped. Some evenings I will genuinely want to continue.
-
-But if I had the same uninterrupted hour tomorrow morning, would tonight still be quite so hard to give up?
-
-I'd like to make room for that tomorrow and see how it goes.
+Monday morning, then. Notifications off, and a note from the night before waiting for me.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-我发现，下班以后再做一两个小时，常常比白天更容易有“今天真做了点什么”的感觉。
+我总觉得，一天里做得最好的那部分，常常发生在本该收工之后的一两个小时。
 
-一个白天都在想的问题，到那时候终于往前走了。回头看，甚至会觉得，一天里真正做成的东西，好像都留在了最后这一小段。
+这个感觉越来越具体，我就去数了一下。过去一年，按 commit 算，工作日里最忙的一个小时，就是最后那一个：下午五点到六点。大约每八个 commit 里就有一个落在这儿，比其他任何一个小时都多。六点以后，还有差不多六分之一。
 
-那就再做一会儿吧。
+我知道这个数字值多少。commit 记的是事情做完的那一刻，想事情的时间，它记不到；何况其中还有一些，本来就是 agent 写的。不过它跟那个感觉对得上，我也就不再假装那只是错觉了。
 
-这个念头挺有吸引力的。我本来就喜欢看到进展，多投入一点，就能多做成一点，很难不觉得划算。
+那就再做一个小时吧。这个提议挺诱人的，我一般都会接。
 
-可在把它变成每天的固定安排之前，我想先弄明白，自己舍不得的，到底是哪一部分。
+## 安静下来以后，剩下的是什么
 
-## 事情终于能连起来
+最容易想到的解释是：安静了。消息少了，没有会，也没人等着你马上回一句。
 
-我猜，有一部分舒服，来自终于不用一直选了。
+但我觉得更要紧的，是安静之后剩下的那个状态。
 
-白天即使都在做有用的事，也可能一会儿得想这个，一会儿又得回应那个。每件事各有各的道理，可回到原来那个问题时，还得把思路捡回来：刚才想到哪儿了？
+白天，我手上的大部分事都要经过别人。在一个大组织里，哪怕一个小改动，也得先讲清来龙去脉，弄明白要谁点头，等回复，再给错过上一轮的人重讲一遍。谁都没做错什么，要让很多人朝一个方向走，本来就是这个成本。可它确实慢，我有相当一部分力气，都花在了“对齐”上。
 
-到了晚一点的时候，新的事情少了，下一步也比早些时候清楚。一个念头可以顺着往下想，不用刚有点眉目，就先放下。
+到了晚上，就剩我、问题，和一个 AI agent。说清楚想要什么，几分钟就能看到结果，哪里不对，马上再试。坏主意，在我舍不得它之前就死掉了；好主意，马上就能接着往上搭，不用先约个会来讨论。
 
-这份舒服，好像不是“效率高”三个字就能说完的。
+对我做的这类事来说，这个回路本身就更高效。正反馈也更强，是实实在在能感觉到的那种：每跑通一个小东西，下一步就更容易开始。这样的一小时，走得比干等一整天还远。
 
-能一直跟着一个问题走，其实挺过瘾的。中间冒出一个有意思的方向，也可以顺手看看，不必马上交代清楚，往这里走到底能换来什么。
+跟人沟通当然有它的用处。有些讨论决定的是一件事该不该存在，这个 agent 替我做不了。只是这些讨论跟着所有人的日历走，agent 跟着我的注意力走。
 
-也许我喜欢的，就是这种做事的状态。事情仍然在做，只是终于能按自己的意思往下走了。
+## 最后一小时，领走了一整天的功劳
 
-想到这里，又有点别扭：为什么非得等到一天快结束，才觉得可以这样呢？
+不过这里有个陷阱，那张 commit 分布图里就有。
 
-## 最后那一小时，可能分走了太多功劳
+一个问题晚上七点终于想通了，很容易忘了下午花了多久，去排除一个走不通的方向。那时候感觉像在原地打转，晚上才感觉到进展。可晚上能走这么快，正是因为下午已经把路铺好了：上下文都在脑子里，下一步也看得很清楚。
 
-我对自己的记忆，也有一点怀疑。
+所以我一直在拿错的东西比。多出来的那一小时，往往是我一天里唯一完整的一块时间，我却拿它跟一个被切得七零八落的白天平均值比。它当然赢。说到底，它赢的是打断，不是别的钟点。
 
-假如一个问题晚上终于想通了，白天可能已经排除了一个走不通的方向。排除的时候没什么成就感，还容易觉得自己绕了弯。等答案清楚了，才觉得“这下有效率了”。
+这么一想，问题就变了。也许我没找到什么神奇的时段，只是找到了一组条件，而它们碰巧总在下班以后才凑齐。
 
-要是只记得最后什么时候做完，前面的那些时间，看起来就太亏了。
+## 想继续，和停不下来
 
-我当然还是喜欢收尾的感觉。事情落了地，心里会踏实一些。只是，最后这一段能走得快，会不会也因为白天已经替它铺了不少路？
+我还是喜欢那一小时，也不打算为它道歉。因为想知道结果，就跟一个问题耗下去，这是我知道的最好的感觉之一。
 
-知道下一步是什么以后再多做一小时，跟花一小时找方向，本来就不太一样。
+让我停一停的是：能把我留在同一张桌子前的，其实有两种念头。一种是“我想看看接下来会怎样”，另一种是“今天还没做出点东西，不算数”。从外面看一模一样，过起来却是两种很不一样的晚上。我常常要等过后，才分得清自己是哪一种。
 
-所以，我暂时不想太快认定，自己就是晚上干活更厉害。也有可能，碰巧是那时候，做事的条件终于凑齐了。
+把它叫作“高 ROI”也没什么帮助。回报是看得见的：一个跑不通的东西，现在跑通了。成本看不见，因为成本是这一小时本来可以拿去做的别的事，没发生的事，很难算。
 
-要不要以后都多留这一小时，我想等想清楚一点再说。
+我喜欢“每天多一点点，会慢慢攒起来”这个想法。只希望它一直是个提议，别慢慢变成一条规矩：只要还有空，就该填上。
 
-## 想继续，和不肯停下来
+## 把那一小时挪一挪
 
-说归说，我还是喜欢这段时间。
+如果晚上好用，靠的是回路短，跟钟点关系不大，那应该能挪一部分到白天。
 
-事情慢慢有了样子，本来就让人高兴。一个问题还想再弄明白一点，带着好奇继续做，确实有乐趣啊。
+白天能不能也有一段，只有我、问题和 agent？大概得坐下之前就知道从哪里开始，要问别人的问题，前一天就问好，这样开始以后就不用等谁。
 
-让我犹豫的是，另一种状态看起来也很像。
+最小的一步，今晚就能做：停下之前，给明天的自己留几句话，写清楚我在哪儿、下一步打算试什么。这样就不用为了怕思路断掉，非得今晚一口气做完。
 
-“我想知道接下来会怎样”，和“今天还没做出点东西，现在不能停”，都可能让我继续坐在同一块屏幕前。可如果是后面那个念头在留人，这个晚上过得就不太一样了。
+有些晚上我肯定还是会想继续，那也没关系。我只是想知道，当它不再是一天里唯一好用的那一小时，我还会不会这么舍不得。
 
-我也未必每次都能立刻分清。
-
-一旦把它叫作“高 ROI”，这个问题就更容易被略过去。做成了什么，看得见；这一小时原本还能拿来做什么，因为没有发生，也就不太好算。
-
-我挺喜欢“每天多一点点”这个想法。它让眼前很小的一步也值得认真去做。可我也想留意，什么时候，它开始变成了“只要还有空，就应该再做一点”。
-
-既然是自己的时间，我希望这里面也包括：有些空，可以先不填。
-
-## 能不能把这份安静往前挪一点
-
-我还没有想清楚，自己到底适合留多少下班后的时间来做事。眼下更想知道的，是白天能不能也有一小段，像那一小时一样。
-
-坐下来的时候，已经知道从哪里开始。遇到一个值得想的问题，可以暂时跟它待在一起，不用总是回头看看，是不是又有别的事情在等。
-
-也许可以先试一件很小的事：停下来之前，给下次的自己留几句话，记清楚想到了哪儿。这样就不用为了怕思路断掉，非得今晚一口气做完。
-
-我不想再把这件事做成一份必须执行好的计划。有的问题就是会比预想的慢，有的晚上也确实还想继续。
-
-只是，如果明天上午也能有同样一段不被打断的时间，今晚还会这么舍不得停吗？
-
-明天先留一小块，看看吧。
+那就周一上午试试吧。通知关掉，前一晚的便条在等着。
 
 </div>

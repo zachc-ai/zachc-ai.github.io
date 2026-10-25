@@ -2,8 +2,8 @@
 layout: post
 title: "Meditations: Still Practicing"
 title_zh: "读《沉思录》：还得接着练"
-description: "Marcus Aurelius has to talk himself out of bed. What draws me to Stoicism is the practice that follows: taking responsibility for my choices without claiming ownership of every outcome."
-description_zh: "马可·奥勒留也得劝自己起床。我认同斯多葛主义，是因为它让我认真对待自己的选择，又不用把所有结果都揽到身上。可道理懂了，遇到事情还得接着练。"
+description: "Marcus Aurelius had to talk himself out of bed, more than once. What I like about Stoicism is that it treats wisdom as something you practice, forget, and come back to."
+description_zh: "马可·奥勒留也得劝自己起床，还不止一次。我喜欢斯多葛主义，是因为它把道理当成要反复练的东西：会忘，忘了就回来。"
 date: 2026-10-24
 categories: life
 tags: [philosophy, books, mind]
@@ -32,81 +32,87 @@ sources:
 
 <img src="{{ '/assets/images/meditations-cover.png' | relative_url }}" width="1200" height="630" alt="An open notebook and a pen rest on a stone table beneath an arch.">
 
-Marcus Aurelius begins Book Five of *Meditations* by arguing himself out of bed.
+Book Five of *Meditations* opens with a Roman emperor arguing with his blankets.
 
-The blankets are pleasant. He would rather stay there. His answer to himself, in George Long's translation, is:
+> In the morning when thou risest unwillingly, let this thought be present—I am rising to the work of a human being.
 
-> I am rising to the work of a human being.
+Marcus Aurelius, *Meditations* 5.1, translated by George Long.
+{: .attribution}
 
-He goes on to ask whether he exists only to keep warm, and points to the other living things getting on with their work. Eventually the argument comes around to what he owes other people.
+One reminder clearly isn't enough, so he keeps going. Was he made to lie under the covers and keep warm? The ants and the bees are all at work. Rest is necessary, he concedes, but he overdoes the eating and drinking and stops short of what he could do with his work.
 
-A Roman emperor, negotiating with the blankets.
+Three books later he's at it again: "When thou risest from sleep with reluctance, remember..."
 
-I like this way into philosophy. I can agree with a principle and still need help putting it into practice. That is a large part of what draws me to Stoicism.
+I find this very reassuring. The man running the Roman Empire kept a private notebook, and more than once the note was about getting out of bed.
 
-## What I can answer for
+That's probably the first reason I like Stoicism. *Meditations* reads like the notes of someone who has to keep reminding himself, because he keeps forgetting. Most of what I believe works the same way.
 
-Epictetus opens the *Enchiridion* with a distinction between what is up to us and what is not. Our judgments and choices are on one side; things such as reputation and property are on the other.
+## The part that's mine
 
-The distinction gets harder once I try to use it. I can influence plenty of things I cannot guarantee.
+Epictetus, whose teaching shaped Marcus, opens his *Enchiridion* bluntly: "Some things are in our control and others not." Opinion, pursuit, desire, aversion: ours. Body, property, reputation, command: not.
 
-Suppose I send someone a proposal. I can check the reasoning, explain what I mean, and ask whether I have missed something. Their response also depends on their priorities and information I may not have. Checking the inbox again will not supply their answer.
+It sounds tidy. Then I try to use it, and most of what I care about lands somewhere in between. I can influence it. I can't guarantee it.
 
-And I still want the proposal to work. A disappointing result can tell me something worth learning. If I prepared badly, calling the result "outside my control" would be a convenient way to avoid admitting it.
+Say I send someone a proposal. I can make the case as clearly as I can, check my assumptions, and ask what I've missed. Whether they say yes depends on their priorities and on things I'll never see. Refreshing the inbox doesn't move any of that.
 
-But once I have looked honestly at my part, there is a point where more worrying stops helping. Wanting the outcome badly does not give me another decision to make.
+That doesn't make the outcome none of my business. I want it to work. If it doesn't, the reasons might be worth knowing, and if I prepared badly, "it was out of my control" is a very comfortable sentence to hide behind.
 
-What I find useful is being able to care about the work without treating every result as a verdict on whether I am any good. A review can give me a different approach to try next time.
+But once I've honestly done my part, there's a point where more worrying stops producing anything. Wanting it harder doesn't give me another move.
 
-## Leave room between the event and the story
+This is the piece of Stoicism I find most practical. I get to care a lot about the work without treating each result as a verdict on me. Look at what I chose, change it next time, and leave the rest where it lives.
 
-In Book Eight, section 49, Marcus asks himself to stick to what has actually been reported. Someone has spoken badly of him. That is what he knows. The further conclusion that he has been harmed is something he has added.
+## What was actually reported
 
-I can use that question without being certain I would accept every answer he gives.
+Book Eight has the rule I like best:
 
-Take the unanswered proposal. "I have not received a reply" describes what has happened. "They think the idea is stupid" needs evidence. "I always get this wrong" needs considerably more.
+> Say nothing more to thyself than what the first appearances report. Suppose that it has been reported to thee that a certain person speaks ill of thee. This has been reported; but that thou hast been injured, that has not been reported.
 
-The latter thoughts can feel as immediate as the first. Before arguing with them, I would like to notice that I have made an interpretation at all. Perhaps a follow-up is needed. Perhaps the proposal needs work. Neither requires me to settle the question of my entire worth.
+*Meditations* 8.49.
+{: .attribution}
 
-Marcus puts the claim much more strongly in section 47: he locates disturbance about an external event in our judgment of it, and says we can remove that judgment.
+Back to the proposal. "I haven't heard back" is what was reported. "They think it's a bad idea" is a guess. "I always get this wrong" is a whole story, starring me.
 
-I would use that as a question to ask myself, with care. Pain and loss have consequences that no change of wording makes disappear. Someone who is suffering may need practical help, not a lecture about their interpretation.
+The guesses arrive as fast as the facts and feel just as solid. I don't have to argue with them. Noticing that I've added something is usually enough to get me back to the practical question: follow up, or fix the proposal? Neither one requires deciding what kind of person I am first.
 
-Even a small annoyance does not always settle as soon as I understand it. I do not want being upset to become another thing I must punish myself for. Recognizing the story gives me something to examine; it does not oblige me to feel better on command.
+In the same passage he uses a harder example: "I see that my child is sick. I do see; but that he is in danger, I do not see." I follow the logic. I'd also forgive any parent who worried anyway.
 
-## Composure is not the whole test
+Two sections earlier he goes further: "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgement about it. And it is in thy power to wipe out this judgement now."
 
-Stoic ethics asks more than whether I can remain calm. Its virtues include wisdom, courage, moderation, and justice. It also makes the demanding claim that virtue alone is sufficient for a good life.
+I treat that as a question to ask myself, carefully. Some things hurt because they're actually bad. Loss, illness, being treated unfairly: describing them differently doesn't make them smaller, and telling someone in pain to reframe it is a reliable way to be useless. Even with small annoyances, understanding the story doesn't always make the feeling leave on schedule. I'd rather not add "still upset" to my list of failures.
 
-The Stoics class health and wealth as "indifferents," though both are generally to be preferred. The claim goes further than saying success is overrated: these things do not, in their account, determine whether a life is good.
+## Calm is a small part of it
 
-I find the separation between circumstances and character useful. Someone who loses their health or money has not thereby become a worse person. Still, I would hesitate to turn that thought into advice about how little their loss ought to matter to them.
+It's easy to read Stoicism as a technique for staying calm. That leaves out most of it.
 
-The virtues give me a more concrete test for my own behavior. If I stay perfectly composed while shifting the cost of my decisions onto someone else, the composure is not much to be proud of. Justice still has a claim on me.
+The Stoics named four virtues: wisdom, courage, justice, and moderation. They also claimed that virtue alone is enough for a good life. Health and money are "indifferents" in their vocabulary. Some indifferents are preferred, health among them, but none of them decides whether a life goes well.
 
-In Book Five, section 6, Marcus describes someone who does a good turn as a vine produces grapes, without keeping an account of the gratitude owed. Then they get on with the next act.
+I find that most useful pointed at myself. Losing money or health doesn't make anyone a worse person. I'd be careful handing that to someone else as advice, though. "Your loss doesn't really matter" isn't kind, whatever the theory says.
 
-I like the generosity in that image. I also want to keep enough judgment to know when a request is unreasonable. Helping someone and allowing an arrangement to become unfair are different decisions.
+Pointed at myself, the virtues also make a better test than calm. If I stay perfectly composed while quietly pushing the cost of my choices onto someone else, the composure isn't worth much. Justice still gets a vote.
 
-## Acceptance still leaves things to do
+In Book Five, Marcus describes someone who does a good turn the way a vine produces grapes, then moves on to the next one without keeping score. I love that image. I'd add one footnote of my own: being generous doesn't mean agreeing to an arrangement that's unfair.
 
-A decision may be beyond me acting alone and still be something people can change together. I might need to raise an objection, ask for help, or leave an arrangement that keeps doing harm. None of those choices comes with a guarantee.
+## Accepting, and then doing something
 
-If I treat the lack of a guarantee as a reason to do nothing, I have made the distinction between choice and outcome much too convenient.
+"Accept what you can't control" can turn into a very convenient excuse.
 
-In [the post about order and freedom](/blog/order-and-freedom/), I wrote about taking part in ordinary life while keeping enough distance to decide what deserves my effort. Stoicism gives me a way to continue that thought. I can take a problem seriously, work on the part available to me, and stop short of believing that everything depends on my getting it right.
+Plenty of things are beyond me alone and within reach of a few people together. Sometimes the right move is to object, to ask for help, or to leave an arrangement that keeps doing harm. None of those come with a guarantee. If I treat the missing guarantee as permission to do nothing, I've turned a philosophy about responsibility into a way out of it.
 
-I would like to make decisions I can stand behind even when I do not get the result I hoped for.
+Marcus seems to agree. A couple of sentences after telling himself he can wipe out a painful judgment, he takes up the case where what bothers him is something he thinks he should be doing, and asks: "why dost thou not rather act than complain?"
 
-## Coming back after getting it wrong
+In [an earlier post about order and freedom](/blog/order-and-freedom/), I wrote about taking part in ordinary life while keeping enough distance to choose what deserves my effort. Stoicism gives that thought somewhere to go. Take the problem seriously, do my share, and drop the idea that everything depends on me getting it right.
 
-The passage I want to keep beside the morning argument is Book Five, section 9. Marcus tells himself not to become disgusted or discouraged when he fails to act by his principles. He should return to them.
+## Coming back
 
-He also says not to return to philosophy as though to a schoolmaster. I like that detail. It makes room for a correction without requiring a performance of shame first.
+The passage I'd put next to the blankets is Book Five, section nine. When he fails to live by his principles, Marcus tells himself not to be disgusted or discouraged. Just come back.
 
-Agreeing with Stoicism is easier than remembering it in an irritating conversation. I can understand the difference between a fact and a judgment, then forget it as soon as a judgment feels convincing. Knowing the reminder does not finish the work.
+Then comes the detail I love most. Don't return to philosophy "as if she were a master," he says, but like someone with sore eyes reaching for "a bit of sponge and egg." Philosophy as the remedy you go back to because it helps, with no lecture first.
 
-For now, that is enough reason to keep practicing. If I am about to send a sharp reply, I can read it once more and decide whether I still want to send it.
+Somewhere in Book Eight he puts the problem more bluntly: "thou choosest rather to become good to-morrow than to be good to-day."
+
+That one stings a little. Agreeing with Stoicism takes about five minutes. Remembering it in the middle of an irritating conversation is the actual work, and I'm mostly not there. I understand the difference between a fact and a judgment perfectly well, right up until a judgment feels true.
+
+So, more practice, today if possible. The next time I've typed out a sharp reply, I'll read it once more before sending it and see whether I still mean it.
 
 </div>
 
@@ -114,85 +120,96 @@ For now, that is enough reason to keep practicing. If I am about to send a sharp
 
 <img src="{{ '/assets/images/meditations-cover.png' | relative_url }}" width="1200" height="630" alt="拱门下的石桌上，摊着一本笔记，旁边放着一支笔。">
 
-《沉思录》第五卷一开头，马可·奥勒留就在劝自己起床。
+《沉思录》第五卷，是从一个罗马皇帝跟被窝较劲开始的。
 
-被窝挺舒服，不想起。他给自己的理由是：
-
-> 我起身，是要去做人该做的事。
+> 早上不情愿起床的时候，就想一想：我起来，是去做一个人该做的事。
 
 第五卷第一节，自译。
 {: .attribution}
 
-后面还有一番拉扯：人活着，难道就是为了躺着暖和吗？看看别的生物，都在做各自的事。说着说着，他又提醒自己，人还有对他人的责任。
+一句好像还不够，他接着劝自己：难道生来就是为了躺在被子里取暖？你看蚂蚁、蜜蜂，都在忙自己的事。休息当然要，他也承认，可吃吃喝喝常常过了头，该做的事反倒没做满。
 
-一个罗马皇帝，跟被窝讲道理。一下就觉得没那么远了。
+过了三卷，到第八卷，他又写了一遍：不情愿从睡梦里起来的时候，要记住……
 
-我挺喜欢从这里走进哲学。一个道理，认同归认同，真碰到事的时候，未必就做得到。斯多葛主义吸引我的，很大一部分也在这里。
+我看到这儿，挺安心的。管着整个罗马帝国的人，私下的笔记里，不止一次写的是怎么起床。
 
-## 哪一部分，是我能负责的
+这大概是我喜欢斯多葛的第一个原因。《沉思录》读起来，像一个人在一遍遍提醒自己，因为他一遍遍地忘。我信的大多数道理，也是这样。
 
-爱比克泰德的《手册》开篇就区分了两类事：取决于我们的，和不取决于我们的。自己的判断和选择在前一边，名声、财产这些在后一边。
+## 哪些是我的
 
-看着挺清楚，真用起来，边界却没那么好画。很多事能影响，保证不了。
+爱比克泰德的思想对马可影响很深。他的《手册》第一句就很干脆：有些事由我们掌控，有些不由我们。看法、追求、欲望、厌恶，是自己的；身体、财产、名声、权位，不是。
 
-比如，我拿出一个方案，希望别人接受。能做的包括把理由想清楚，把意思讲明白，也问问有没有漏掉什么。可对方最后怎么决定，还取决于他的处境，以及一些我不知道的信息。多刷一遍消息，也刷不出一个答复啊。
+听着很清楚。可一用起来，我在乎的事大多卡在中间：能影响，保证不了。
 
-当然还是希望方案能成。结果不好，也可能有值得吸取的教训。准备根本没做好，就搬出一句“结果不受控制”，那也太方便了。
+比如给别人递一个方案。道理我能讲清楚，假设能查一遍，也能问问自己漏了什么。对方同不同意，取决于他的处境，还有很多我看不到的东西。消息刷多少遍，都刷不出一个答复啊。
 
-可认真看过自己那一部分以后，有些担心就不会再带来新的办法了。再想要那个结果，也没有多出一件能做的事。
+这不等于结果跟我没关系。我当然希望它能成；没成，原因也值得弄明白。准备得马虎，回头说一句“这不在我控制范围内”，那也太舒服了。
 
-我认同的是这份分寸：可以很在乎一件事，但不用拿每一次结果，来判自己到底行不行。复盘过后，下一次可以换个做法。
+可自己那份认真做完以后，再担心下去，就不会多出什么了。想要得再厉害，也不会多一步棋。
 
-## 事情发生以后，先别急着往下编
+这是斯多葛里我觉得最实用的一块：可以很在乎一件事，又不用把每次结果都当成对自己的判决。自己选的，回头看看，下次改；剩下的，放回它该在的地方。
 
-第八卷第四十九节，马可提醒自己，只说最初的信息告诉了自己什么。听说有人说自己的坏话，这是一回事；进一步认定自己受到了伤害，是后来加上的判断。
+## 别人到底告诉了你什么
 
-这个问题我觉得很好用，至于他给出的每个答案，可以再慢慢想。
+第八卷里，我最喜欢的一条是这样的：
 
-还是拿刚才的方案举例。“还没收到回复”，说的是眼前发生的事。“他肯定觉得这想法很蠢”，就已经需要证据了。再走到“我怎么总是做不好”，需要的证据还得多得多。
+> 除了最初的印象告诉你的，别对自己多说什么。有人告诉你，某某在说你坏话。告诉你的就是这个；至于你因此受了伤害，并没有人这么告诉你。
 
-麻烦的是，后面那些念头冒出来的时候，跟第一句一样像事实。我希望先注意到：刚才那几句话，已经掺进了自己的猜测。可能该追问一下，也可能方案确实要改。两件事都不用顺便把“我这个人到底怎么样”给结案了。
+第八卷第四十九节，自译。
+{: .attribution}
 
-到了第四十七节，他说得更强：外部事件造成的扰乱，来自自己的判断，而这个判断可以撤掉。
+还拿那个方案说。“还没收到回复”，是我知道的。“他肯定觉得这主意不行”，是我猜的。“我怎么老是搞砸”，已经是一整个故事了，主角还是我自己。
 
-我愿意拿这句话来问自己，但用的时候得留点分寸。疼痛和失去有真实的后果，换一种说法不会让这些后果消失。一个正在难受的人，可能更需要有人搭把手，不需要旁边再来一堂“你应该改变认知”的课。
+麻烦的是，猜测跟事实来得一样快，看着也一样结实。我不一定要马上跟它们辩。发现自己多加了一层，往往就够了，然后回到实际的问题：要不要追问一下？方案要不要改？这两件事，都不用先给“我这个人怎么样”下结论。
 
-就算是很小的烦恼，也未必想明白就能立刻平静。我不想因为自己还在难受，又多责怪自己一遍。发现这是个判断，至少有地方可以看看；情绪什么时候缓下来，还得给它一点时间。
+同一段里，他还举了个更难的例子：我看到孩子病了，这我看到了；可他有危险，这我没看到。道理我懂。要是哪个父母还是忍不住担心，我也完全能理解。
 
-## 平静以后，还是要看自己怎么做
+往前两节，他说得更狠：
 
-斯多葛主义对人的要求，远不止遇事平静。它讲的德性，包括智慧、勇气、节制和正义，还提出了一个很强的主张：德性本身就足以让人过得好。
+> 要是外面什么事让你痛苦，扰乱你的不是那件事，是你对它的判断。而这个判断，你现在就能抹掉。
 
-健康、财富这些，在它的术语里被归为“无差别之物”，但其中一些通常仍值得优先选择。这个主张比“别太看重成功”走得更远：它认为，这些外在条件并不决定一段人生的好坏。
+第八卷第四十七节，自译。
+{: .attribution}
 
-把处境和品格分开，我觉得很有道理。一个人失去健康或者财产，不会因此变成更差的人。可如果接下来就去告诉他，这些损失不应该让他那么难过，我会犹豫。
+这句话我拿来问自己，用的时候也小心。有些事让人痛，是因为它真的不好：失去，生病，被不公平地对待。换个说法，它们不会变小。对一个正难受的人说“你换个角度想想”，基本等于什么忙都没帮。就算是小小的烦心事，想明白了，情绪也未必准时离开。我可不想再给自己的失败清单添一条“居然还在烦”。
 
-拿来要求自己时，德性反而给了一个更具体的检查办法。假如我一直很冷静，却把自己决定的代价推给别人，这份冷静好像也没什么值得得意的。正义这件事，还没交代呢。
+## 平静只是一小部分
 
-第五卷第六节里，马可写到一种人：做了对别人有益的事，像葡萄藤结出葡萄，不急着记下别人欠了自己多少感谢，接着去做下一件事。
+斯多葛很容易被读成一套保持冷静的技巧，这么读，就漏掉了大半。
 
-我喜欢这个比喻里的善意。同时也想保留判断：一个请求合不合理，仍然可以问。帮人一把，跟放任一种不公平的安排继续下去，是两道题。
+它讲四种德性：智慧、勇气、正义、节制，还认为德性本身就足以让人过得好。健康、钱这些，在它的说法里是“无差别之物”。其中有些值得优先选，比如健康，但都不决定一段人生过得好不好。
 
-## 接受现实以后，还有事可以做
+这个区分，我觉得拿来要求自己最合适。一个人丢了健康或者钱，并不会因此变成更差的人。可要拿这个去劝别人，我就犹豫了：“你的损失其实不重要”，理论再对，说出口也不像好话。
 
-有些事，只靠我一个人确实改不了，可几个人一起商量，也许就有办法。可能需要提出异议，找人帮忙，或者离开一种反复造成伤害的处境。这些选择，都没有成功保证。
+对自己，德性也比平静更像一道真正的检查。要是我一直心平气和，却悄悄把自己选择的代价推给了别人，这份平静也没什么好得意的。正义那一关，还没过呢。
 
-要是因为没有保证，就把它们统统划进“不受控制，所以算了”，这套道理就被用得太省事了。
+第五卷里，马可写到一种人：帮了别人，就像葡萄藤结了葡萄，结完接着结下一季，不记账。这个比喻我很喜欢。只想自己补一句：大方，不等于默认一个不公平的安排。
 
-前几天那篇[《秩序不是枷锁，而是通往自由的通票》](/blog/order-and-freedom/)里，我想的是：人还在现实里做事，心里也能留一点距离，判断什么值得投入。斯多葛主义让我能沿着这件事继续想。问题可以认真对待，能做的部分也去做，不用顺带认定，最后一切都得靠自己弄对才行。
+## 接受了，然后呢
 
-我希望自己做出的选择，即使没有换来想要的结果，回头看时仍然能认可。
+“接受你控制不了的”，很容易变成一个特别好用的借口。
 
-## 做不到的时候，再回来
+很多事，我一个人改不了，几个人一起也许就能。有时候该做的，是提出反对，找人帮忙，或者离开一个反复造成伤害的处境。这些都没有成功保证。要是把“没保证”当成什么都不做的理由，一套讲责任的哲学，就被我用成了躲开责任的办法。
 
-我想跟起床那一段放在一起的，是第五卷第九节。
+马可大概也会同意。还是第四十七节，他说完判断可以抹掉，没过两句又问自己：要是让你难受的，是一件你觉得该做却没做的事，那为什么不去做，反倒在这里抱怨？
 
-马可提醒自己，没能按原则做好所有事，不必因此厌弃自己，也别泄气，再回来就好。他还说，回到哲学，不要像回到一个严厉的老师那里。
+前几天在[《秩序不是枷锁，而是通往自由的通票》](/blog/order-and-freedom/)里，我写过：人还在现实里做事，心里也能留一点距离，去选什么值得投入。斯多葛让这个念头有了往下走的路：问题认真对待，自己那份做好，然后放下“一切都得靠我弄对”。
 
-这个细节我很喜欢。发现做错了，可以改，不用先把自己狠狠训一遍，才算态度端正。
+## 回来就好
 
-认同斯多葛主义，比在一句不顺耳的话面前想起它，容易多了。事实和判断的区别，看文字的时候很清楚；等一个判断特别像真的，还是会跟着跑。知道了那个提醒，事情还没做完呢。
+我想跟被窝那段放在一起的，是第五卷第九节。没能照着原则做的时候，马可告诉自己：别厌烦，别泄气，回来就好。
 
-那就接着练吧。下次一段不太客气的话已经打好了，发出去之前，先多读一遍，看看还想不想这么说。
+后面有个细节我特别喜欢。他说，回到哲学，别像回到管教自己的老师那里，要像眼睛疼的人去敷药，拿一点海绵，一点鸡蛋。哲学是因为它管用，你才回去找的东西，不用先挨一顿训。
+
+第八卷里还有一句，说得更直接：
+
+> 你宁愿明天变好，也不愿今天就好。
+
+第八卷，自译。
+{: .attribution}
+
+这句有点扎人。认同斯多葛主义，五分钟就够了；在一句刺耳的话面前还记得它，才是真正要练的，而我大多数时候还没练到。事实和判断的区别，我明明很清楚，直到某个判断看起来特别像真的。
+
+那就接着练，最好从今天开始。下次一段不太客气的回复已经打好了，发出去之前，再读一遍，看看自己是不是真的这么想。
 
 </div>
