@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>An open notebook beneath an arch</title>
+  <desc>An original illustration of a notebook and pen on a stone table, with morning light through an arch.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ddd9ce"/>
+      <stop offset="1" stop-color="#f5eee0"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfdad0"/>
+      <stop offset="1" stop-color="#b9b3a7"/>
+    </linearGradient>
+    <clipPath id="opening">
+      <path d="M392 433V229a208 208 0 0 1 416 0v204Z"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#f4f1e9"/>
+  <path d="M333 443V229a267 267 0 0 1 534 0v214Z" fill="url(#stone)"/>
+  <path d="M392 443V229a208 208 0 0 1 416 0v214Z" fill="url(#sky)"/>
+  <g clip-path="url(#opening)">
+    <circle cx="680" cy="242" r="83" fill="#bf4a32"/>
+    <path d="M358 353c112-43 205-8 297 4s154-8 190-30v141H358Z" fill="#c9c8bc"/>
+    <path d="M359 399c132-29 227-20 342 2s136 15 157 10v60H359Z" fill="#b7baad"/>
+  </g>
+  <path d="M341 229h43m432 0h43M354 145l39 17m414 0 39-17M404 73l31 32m330 0 31-32M477 23l18 43m210 0 18-43" stroke="#aaa497" stroke-width="2"/>
+  <path d="M360 431V235m480 196V235" stroke="#f1ece2" stroke-width="3" opacity=".7"/>
+  <path d="M136 444h929l74 125H61Z" fill="#c9c2b5"/>
+  <path d="M61 569h1078v27H61Z" fill="#a9a194"/>
+  <path d="m136 444-75 125h1078l-74-125" fill="none" stroke="#b5ad9f" stroke-width="2"/>
+  <path d="M319 523c73-17 165-17 269 5 99-22 188-23 274-7l-26 33c-76-13-157-10-248 6-91-17-177-20-256-5Z" fill="#aea697" opacity=".38"/>
+  <path d="m305 450 20 86c83-12 171-6 263 13 89-19 178-25 263-13l23-86c-103-14-199-7-286 16-88-22-182-29-283-16Z" fill="#3d413b"/>
+  <path d="m315 445 18 81c78-10 165-3 255 16V458c-87-21-179-26-273-13Z" fill="#faf7ef"/>
+  <path d="m588 458 1 84c89-19 173-25 253-16l20-81c-96-13-187-8-274 13Z" fill="#eee9dd"/>
+  <path d="M588 458v84" stroke="#c8c0b0" stroke-width="3"/>
+  <path d="M341 466c71-3 141 3 211 17m-207-4c71-1 138 5 205 18m-201-5c61 0 120 5 177 16" fill="none" stroke="#ccc5b6" stroke-width="2"/>
+  <path d="M624 481c61-12 125-18 191-15m-190 29c61-12 124-16 187-13m-186 27c42-8 81-12 120-13" fill="none" stroke="#c1b8a7" stroke-width="2"/>
+  <path d="m603 458 6 79 16-3-9-78Z" fill="#bb4c35"/>
+  <g transform="rotate(-15 919 494)">
+    <rect x="877" y="489" width="116" height="9" rx="4" fill="#353c36"/>
+    <path d="m877 489-19 4 19 5Z" fill="#d8b68a"/>
+    <path d="m864 492-6 1 6 2Z" fill="#353c36"/>
+    <path d="M970 490h14v7h-14" fill="#9b8665"/>
+  </g>
+  <path d="M165 596h870" stroke="#ede8de" stroke-width="2"/>
+</svg>
