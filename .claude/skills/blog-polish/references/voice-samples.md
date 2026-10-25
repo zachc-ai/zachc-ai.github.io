@@ -16,6 +16,17 @@ These are verbatim from Zach's feedback memory or live conversation. They are vo
 
 **Implication:** default to direct, terse, no performative depth. Cut grand framings on small tasks.
 
+### Spoken, sincere, plain
+> "我希望我的文章更加口语化 / 更加 真诚纯粹"
+> — after comparing two rewrites of the 2026-10-24 posts, 2026-10-25
+
+**Implication:** write the way Zach would say it to a friend. This applies to every post, philosophical ones included.
+- Use short, everyday sentences. ZH uses 口语 words (干活、挺、搞、聊) and 语气词 where they fall naturally. EN uses contractions and plain verbs.
+- Don't craft quotable lines. Parallel aphorisms ("跟着所有人的日历走，agent 跟着我的注意力走", "它赢的是打断，不是别的钟点") read as performed; say the point plainly.
+- Cite casually and inline ("第八卷里有一段", "roughly:"). Don't put a "第X卷第Y节，自译" line under every quote. One note per post about translations is enough. Keep the source list in front matter.
+- Say what he actually thinks. Keep real doubt, and cut both defensive hedges and performed confidence. Don't add theory vocabulary ("无差别之物") unless the argument needs it.
+- Sincere means nothing invented. Don't claim habits, origin stories, or feelings he hasn't stated; phrase them as things he's trying or wants.
+
 ### Translation quality
 > "中文翻译 太像机器翻译了 / 把中文版重新 用人话 写一遍"
 > — pushback on `2026-05-06-you-dont-discover-yourself.md`, 2026-05-06
