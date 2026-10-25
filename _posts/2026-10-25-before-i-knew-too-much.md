@@ -1,136 +1,160 @@
 ---
 layout: post
-title: "Before I Knew Too Much"
-title_zh: "知道太多以后"
-description: "A viral Snoopy line about missing the world before you knew too much turns out not to be Schulz's. Knowing that costs a little magic, but the fix isn't knowing less."
-description_zh: "一张史努比的图火了：怀念知道太多之前看世界的样子。可这张图不是舒尔茨画的。知道真相确实少了点魔力，但办法不是少知道一点。"
+title: "The world opened up again"
+title_zh: "世界又打开了一次"
+description: "A Snoopy picture asks what you miss. For me it's the dial-up years, when the internet opened a whole new world. AI feels like that again, and this time I want to make the most of it while it's happening."
+description_zh: "一张史努比的图问：你怀念什么？我怀念的是拨号上网那几年，世界一下子打开了。现在 AI 又打开了一次，这回我想趁它还在发生，好好用上。"
 date: 2026-10-25
 categories: life
-tags: [philosophy, learning, mind]
+tags: [ai, learning, life]
 bilingual: true
-sources:
-  - title: "Zhuangzi — Fit for Emperors and Kings"
-    title_zh: "《庄子·应帝王》"
-    url: "https://zh.wikisource.org/zh-hans/莊子/應帝王"
-  - title: "Snoopy — Wikipedia"
-    title_zh: "史努比（维基百科）"
-    url: "https://en.wikipedia.org/wiki/Snoopy"
-  - title: "r/GenerationJones — Sitting on the bench"
-    url: "https://www.reddit.com/r/GenerationJones/comments/1m8lbba/sitting_on_the_bench/"
+image:
+  path: /assets/images/world-opened-again-cover.png
+  width: 1200
+  height: 630
+  alt: "An old CRT monitor on a desk, its screen glowing like an open door."
 ---
 
 <div class="lang-en" markdown="1">
 
-I keep running into the same picture. Charlie Brown and Snoopy sit on a bench under a tree, the sky going orange behind them, everything in soft colored-pencil light.
+<img src="{{ '/assets/images/world-opened-again-cover.png' | relative_url }}" width="1200" height="630" alt="An old CRT monitor, keyboard and dial-up modem on a desk. The screen glows like an open door.">
+
+I came across a picture of Charlie Brown and Snoopy on a bench under a tree, with the sun going down behind them.
 
 > "What do you miss?"
 >
 > "I miss the way I viewed the world before I knew too much about it."
 
-It took off on Instagram and LinkedIn in July 2025 and hasn't really stopped. The comments are mostly grown adults agreeing with a dog.
+My first reaction was to nod along. Then I thought about it a bit longer and realized I'm close to the opposite. The happiest years I've had were the years I was learning the most, the fastest.
 
-[In September](/blog/young-with-a-little-hindsight) I quoted a line about youth and admitted I hadn't done the homework on who said it. This time I did. As far as I can tell, Schulz never drew this. I couldn't find it in any strip, and it doesn't look like his work. The sunset is too soft, and Snoopy is talking in a speech balloon. Schulz's Snoopy thinks. His words go in thought balloons, apart from a few early slips that Schulz dropped quickly. Someone made this picture much later, quite possibly with an image model.
+## The dial-up years
 
-Under one of the Reddit reposts, someone said they missed Snoopy having thought bubbles.
+When I was a kid, we had a computer at home with a Celeron processor and a big, boxy CRT monitor, and we got online by dial-up.
 
-Which is the whole post, really. They knew a bit too much about Peanuts, and it cost them the moment.
+The internet was just taking off, and it felt like a door had swung open onto a whole new world. Everything online was free. Pirated stuff was everywhere. Pretty much any game, movie or TV show I wanted, I could download.
 
-## The cost is real
+For me personally, it was also when my picture of the world exploded. I was finding out something new almost every day, and the world kept getting bigger. And all of that landed right in the middle of my teenage years.
 
-I'm not going to pretend knowing is free. Before I looked it up, the picture felt like a small gift from Schulz. After, it's a well-made fake. The line didn't change by a single word. My feeling about it did.
+Looking back, those were the happiest years of my life so far.
 
-That's the trade the line is describing, and it shows up everywhere. Once you know how a magic trick works, you watch the hands. Once you know how a feed picks what to show you, the feed gets less charming. I write code for a living, so I know this one well: after you've seen how a thing is built, it's hard to just see the thing.
+After that, things got less fun.
 
-Zhuangzi has a story that seems to take Snoopy's side. Hundun, the emperor of the center, has no openings in his face. Two other emperors visit him often, and he treats them well. They want to repay him. Everyone has seven openings for seeing, hearing, eating and breathing, they say, and he has none, so let's make him some. They bore one hole a day. On the seventh day Hundun dies.
+## What happened after
 
-It's easy to read that as: knowledge kills the thing. Leave it alone.
+I honestly can't say exactly why.
 
-## But Hundun couldn't see
+Maybe the novelty wore off. The internet went from "everything's here" to "too much of everything," from a door to something closer to running water.
 
-My problem with that reading is that Hundun didn't see the world in some fresher way. He didn't see it at all. And the people missing the time before they knew too much aren't really asking for ignorance either. Nobody wants to forget how to read, or which mushrooms are poisonous.
+Or maybe it had little to do with the internet, and I just stopped being a teenager. School, then work, more to worry about every year, and curiosity got squeezed into a corner by getting things done. In [Rediscovering Curiosity](/blog/rediscovering-curiosity/) I wrote that I went about a decade without it.
 
-What they miss is the feeling that the world was still open. That it could still surprise them.
+So, back to Snoopy. What I miss isn't the time before I knew too much. It's the years when I was finding out, when the world kept opening and nothing had settled into "that's just how it is" yet.
 
-I think that feeling goes missing when knowledge gets stored the wrong way. If what I know sits in my head as conclusions, every new thing just gets checked against them. Seen it. Fake. Next. A head full of conclusions does feel heavy, because each one has closed a door.
+## Then AI happened
 
-The same knowledge can be stored as questions. "This isn't Schulz" can be a full stop. Or it can open the next door. Who made it? Why did a line nobody famous wrote land with so many people? Why did the fake give itself away with a speech balloon, of all things? Those are better questions than anything I was asking back when I thought it was real.
+These past couple of years, AI has given me that feeling back.
 
-The same chapter has a line I like more than the Hundun story. Roughly: the perfect person uses the mind like a mirror, not seeing things off and not going out to meet them, answering whatever comes and keeping none of it. A mirror isn't blank. It shows everything. It just doesn't keep yesterday's reflection laid over today's.
+It feels like my mind got let out again. Things that used to sit behind a pile of prerequisites, I can now just ask about. If I get an idea, I can build something that evening and see. There's suddenly so much more I can learn, and the joy of it feels a lot like the first time I realized the internet had everything.
 
-## Beginner on purpose
+But I can't help wondering. Last time, after the explosion, I got less happy. Will this one go the same way?
 
-Near the start of *Zen Mind, Beginner's Mind*, Shunryu Suzuki says: "In the beginner's mind there are many possibilities, but in the expert's there are few." I used to read that as a dig at experts. Now it reads to me more like a note about storage. The expert has the same world in front of them. They've just filed most of it away.
+## A pessimistic optimist
 
-[In March](/blog/rediscovering-curiosity) I wrote that AI made me a beginner again. I didn't get there by knowing less. Most of what I knew about software stayed true. What changed was that the field moved fast enough to turn my answers back into questions. For a while I honestly didn't know what was possible, so I had to go and look.
+I'm a pessimistic optimist.
 
-That was luck, though. You can't count on the world reshuffling itself every few years. The version you can practice is smaller. When you learn something, notice the question it opens and keep that too. Not just "it's fake." More like "it's fake, so why did so many people want it to be real?"
+The pessimist in me says: probably. Novelty always wears off. AI will become running water too, and there'll be new things to worry about.
 
-In [the turtle post](/blog/drag-your-tail-in-the-mud) I wrote that knowing things isn't much of a moat anymore. I'd add that it isn't much of a weight, either, as long as it doesn't set into conclusions.
+The optimist in me says that's fine.
 
-## So what do I miss?
+Those years really were happy, and the fact that it faded doesn't undo that.
 
-If Charlie Brown asked me, I don't think I'd say the world before I knew too much. I'd say the short stretch right before an answer, when I knew something was there and didn't know what yet. I can still have that. I just have to keep asking.
+[In September](/blog/young-with-a-little-hindsight/) I quoted a line that stuck with me: "You can't have youth and an understanding of it at the same time." As a teenager I had no idea I was in the good part. This time I know while it's happening, so I can pay attention.
 
-The picture is still lovely, for what it's worth. Good line. Whoever wrote it should sign it.
+And last time, part of the fading was on me. I let the curiosity go. That part I can do something about.
 
-Snoopy, for the record, would only have thought it.
+I should also admit my filter has gotten thicker with age. How slow dial-up was, how easily it dropped: I hardly think about any of that now. Memory touches those years up on its own. Part of why Snoopy's line hits so hard is probably that same filter.
+
+## Looking back to move forward
+
+That said, I'm not someone who sits around missing the past.
+
+When I look back at those years, I'm mostly looking for clues. What actually made me that happy? The answer seems pretty clear. The world was opening up, and I was trying to see as much of it as I could. The Celeron and the CRT had little to do with it.
+
+Which makes this round easier. I don't need to wait until these become "those years" to appreciate them. While it's still happening, I want to learn more, try more, and build more. And when the novelty does wear off, I'd like to keep the curiosity anyway.
+
+If Charlie Brown ever asks me what I miss, I hope I can say the years when AI first showed up, and that I didn't waste them.
+
+Anyway. Back to tinkering.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-最近老刷到同一张图。查理·布朗和史努比坐在树下的长椅上，背后是橘红色的夕阳，彩铅那种软软的光。
+<img src="{{ '/assets/images/world-opened-again-cover.png' | relative_url }}" width="1200" height="630" alt="桌上一台老式 CRT 显示器，旁边是键盘和拨号调制解调器，屏幕像一扇打开的门在发光。">
+
+看到一张图：查理·布朗和史努比坐在树下的长椅上，太阳快落山了，天是橘红色的。
 
 > “你怀念什么？”
 >
 > “怀念我知道太多之前，看世界的样子。”
 
-这张图 2025 年 7 月在 Instagram 和 LinkedIn 上火起来，到现在还有人在转。评论区基本是一群大人在点头赞同一只狗。
+我第一反应是跟着点头。可多想了一会儿，发现自己好像正好反过来：我最快乐的那几年，恰恰是知道新东西最多、最快的时候。
 
-九月那篇[《还年轻，也懂一点了》](/blog/young-with-a-little-hindsight)里，我引了一句讲青春的话，老实交代没考证是谁说的。这回我查了。就我能查到的，舒尔茨没画过这一幅，哪条连载里都找不到。画风也不对：夕阳太柔了，而且史努比在用对话框说话。舒尔茨笔下的史努比是不开口的，想什么都写在思考泡泡里。早年有过几次例外，他很快就不这么画了。这张图应该是后来有人做的，很可能是 AI 生成的。
+## 拨号上网那几年
 
-Reddit 上有条评论挺逗，说自己怀念史努比还用思考泡泡的时候。
+小时候家里有一台电脑，赛扬处理器，接着一台大屁股 CRT 显示器，上网靠拨号。
 
-整篇其实就是这么回事嘛。这位对《花生》知道得多了一点，那一下的感动就没了。
+那时候互联网刚爆发，感觉一下子推开了一扇门，门后面是一整个新世界。网上什么都是免费的，盗版资源满天飞，想玩什么游戏，想看什么电影、电视剧，基本都能下到。
 
-## 代价是真的
+对我自己来说，那几年也是认知大爆发的时候。几乎每天都在知道新东西，世界一下子变大了好多倍。刚好又赶上青春期，两件事撞到了一起。
 
-知道不是免费的，这个我不装。查之前，这张图像是舒尔茨留下的一个小礼物。查完了，它就是一张做得挺好的仿品。那句话一个字没变，变的是我看它的心情。
+现在回头看，那是我最快乐的一段日子。
 
-这种交换到处都是。知道了魔术怎么变的，就只顾盯着手看了。知道了推荐算法怎么挑内容，刷手机也没那么香了。我是写代码吃饭的，这种感觉太熟：看过一个东西是怎么搭起来的，就很难再单纯地看它本身。
+可那之后，反而没那么快乐了。
 
-庄子有个故事，乍一看是站在史努比这边的。中央之帝叫浑沌，脸上没有七窍。南海之帝儵和北海之帝忽常去他那儿做客，浑沌待他们很好。两人商量着报答，说人人都有七窍，用来看、听、吃饭、喘气，就他没有，干脆给他凿几个吧。原文是：“日凿一窍，七日而浑沌死。”
+## 后来怎么了
 
-很容易读成：知道多了，东西就死了，别去碰它。
+为什么，我也说不太清。
 
-## 可浑沌看不见啊
+可能是新鲜劲过去了。互联网从“什么都有”，慢慢变成了“什么都太多”，从一扇门，变成了跟水电煤差不多的东西。
 
-这么读我有点不服。浑沌并没有用什么更新鲜的眼光看世界，他压根就看不见。那些怀念“知道太多之前”的人，其实也不是真想回到无知。没人想把认的字忘了，也没人想忘掉哪种蘑菇有毒吧。
+也可能跟互联网没什么关系，就是青春期结束了。上学、工作，要操心的事一年比一年多，好奇心慢慢被效率挤到了角落。三月那篇[《重拾好奇心》](/blog/rediscovering-curiosity/)里写过，这股劲我丢了差不多十年。
 
-大家怀念的，是世界还敞开着的那种感觉。还会被吓一跳，还会被惊喜到。
+所以回到史努比那句话，我怀念的其实不是“知道太多之前”，是“正在知道”的那几年：世界一直在打开，每天都有新东西，还没来得及变成理所当然。
 
-我觉得这种感觉会丢，是因为知识存错了方式。要是我知道的东西都存成结论，看到新东西就只是拿去比对：见过。假的。下一个。脑子里塞满结论，当然会觉得沉，每个结论都关上了一扇门嘛。
+## AI 又来了一次
 
-同样的知识，也可以存成问题。“这不是舒尔茨画的”可以是个句号，也可以推开下一扇门。谁做的？一句没有名人背书的台词，怎么就打动了这么多人？露馅的地方怎么偏偏是一个对话框？这些问题，比我以为它是真的那会儿能问出来的，都有意思多了。
+这两年 AI 爆发，我又找回了那种感觉。
 
-《应帝王》里还有一句，我比浑沌的故事更喜欢：“至人之用心若镜，不将不迎，应而不藏。”大白话说就是：高人的心像一面镜子，东西走了不送，来了不迎，来什么照什么，照完不留。镜子可不是空的，什么都照得出来。它只是不把昨天的影子叠在今天上面。
+认知像是又被解放了一次。以前隔着一堆门槛的东西，现在直接问就行；想到一个点子，当晚就能做出来看看。能了解的东西一下子多了好多。那种快乐，跟当年第一次发现网上什么都有的时候，真的很像。
 
-## 故意当新手
+可我也忍不住会想：上一次认知爆发之后，我没那么快乐了。这一次，会不会也一样？
 
-铃木俊隆在《禅者的初心》开头没多远有一句话，意思是：初学者心里有很多可能，专家心里就没几个了。我以前把它当成在挖苦专家。现在读着更像是在讲存储方式。专家眼前是同一个世界，只是大部分已经归档了。
+## 悲观的乐观主义者
 
-三月那篇[《重拾好奇心》](/blog/rediscovering-curiosity)里我写过，AI 让我重新当回了新手。我并不是靠知道得更少才回去的，以前懂的软件知识，大部分现在还成立。变的是这个领域跑得太快，把我手里的答案又变回了问题。有一阵子我是真不知道什么能做，只好自己去看。
+我算是个悲观的乐观主义者。
 
-不过那是运气。总不能指望世界每隔几年替你洗一次牌吧。能练的是件小事：学到一样东西，顺手看看它打开了哪个新问题，把问题也一起存下来。别只记“是假的”，要记“是假的，那为什么这么多人希望它是真的？”
+悲观的那一半说：大概率会的。新鲜劲总会过去，AI 早晚也会变成水电煤，到时候又会有新的烦恼。
 
-在[《做一只泥里的乌龟》](/blog/drag-your-tail-in-the-mud)里我写过，知识已经不怎么算护城河了。现在想补一句：只要别让它凝固成结论，它其实也没那么沉。
+乐观的那一半说：那也没关系。
 
-## 那我怀念什么呢
+那几年的快乐是真的。后来淡了，也不会让它变得不算数。
 
-要是查理·布朗来问我，我大概不会说“知道太多之前的世界”。我会说，是答案揭晓前的那一小段：知道那儿有点什么，又还不知道是什么。这个我现在还能有，接着问就行了。
+九月那篇[《还年轻，也懂一点了》](/blog/young-with-a-little-hindsight/)里引过一句话：人无法同时拥有青春和对青春的感悟。十几岁的时候，我可不知道自己正处在最好的那一段。这一次不一样，我知道它正在发生，所以会多看两眼。
 
-对了，那张图还是挺好看的，台词也是好台词。谁写的，该署个名。
+还有，上一次淡下去，有一部分是我自己让好奇心淡了。这一部分，这次我能管。
 
-顺便一提，换成真的史努比，这句话他只会在心里想想。
+也得老实说，年纪大了，回头看的滤镜也厚了。拨号有多慢、多容易断线，我现在都很少想起来。记忆会自己把那几年修得很好看。史努比那句话这么戳人，大概也有这层滤镜的功劳吧。
+
+## 回头看，是为了往前走
+
+不过我不是那种停在原地、光顾着怀旧的人。
+
+回头看那几年，对我来说更像是在找线索：当时到底是什么让我那么开心？答案好像挺清楚的：世界在打开，我在拼命往里看。跟用的是赛扬还是 CRT，关系不大。
+
+那这一次就好办了。不用等它变成“那几年”，再回头怀念。趁它还在发生，多学一点，多试一点，多做点东西出来。等新鲜劲真过去了，也别让好奇心跟着一起走。
+
+要是哪天查理·布朗也来问我怀念什么，我希望那时候能说：怀念 AI 刚来的那几年，而且那几年我没浪费。
+
+行了，我接着折腾去了。
 
 </div>
