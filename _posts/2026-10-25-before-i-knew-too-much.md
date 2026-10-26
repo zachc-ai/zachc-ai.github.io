@@ -1,29 +1,28 @@
 ---
 layout: post
-title: "The world opened up again"
-title_zh: "世界又打开了一次"
-description: "A Snoopy picture asks what you miss. For me it's the dial-up years, when the internet opened a whole new world. AI feels like that again, and this time I want to make the most of it while it's happening."
-description_zh: "一张史努比的图问：你怀念什么？我怀念的是拨号上网那几年，世界一下子打开了。现在 AI 又打开了一次，这回我想趁它还在发生，好好用上。"
+title: "What do I miss?"
+title_zh: "我怀念什么"
+description: "A Snoopy picture asks what you miss. For me it's the dial-up years, when the internet opened up a whole new world. AI feels a lot like that again, and this time I want to make the most of it while it's happening."
+description_zh: "一张史努比的图问：你怀念什么？我怀念的是拨号上网那几年，世界一下子打开了。现在 AI 给我的感觉很像，这回我想趁它还在发生，好好用上。"
 date: 2026-10-25
 categories: life
 tags: [ai, learning, life]
 bilingual: true
 image:
-  path: /assets/images/world-opened-again-cover.png
-  width: 1200
-  height: 630
-  alt: "An old CRT monitor on a desk, its screen glowing like an open door."
+  path: /assets/images/what-do-you-miss.jpg
+  width: 1080
+  height: 1564
+  alt: "Charlie Brown and Snoopy on a bench at sunset. Charlie Brown asks, What do you miss? Snoopy says, I miss the way I viewed the world before I knew too much about it."
 ---
 
 <div class="lang-en" markdown="1">
 
-<img src="{{ '/assets/images/world-opened-again-cover.png' | relative_url }}" width="1200" height="630" alt="An old CRT monitor, keyboard and dial-up modem on a desk. The screen glows like an open door.">
+I came across this picture.
 
-I came across a picture of Charlie Brown and Snoopy on a bench under a tree, with the sun going down behind them.
-
-> "What do you miss?"
->
-> "I miss the way I viewed the world before I knew too much about it."
+<figure>
+  <img src="{{ '/assets/images/what-do-you-miss.jpg' | relative_url }}" width="480" height="695" alt="Charlie Brown and Snoopy sit on a bench under a tree at sunset. Charlie Brown asks, &quot;What do you miss?&quot; Snoopy answers, &quot;I miss the way I viewed the world before I knew too much about it.&quot;">
+  <figcaption>It's been going around online. I don't know who made it.</figcaption>
+</figure>
 
 My first reaction was to nod along. Then I thought about it a bit longer and realized I'm close to the opposite. The happiest years I've had were the years I was learning the most, the fastest.
 
@@ -89,13 +88,14 @@ Anyway. Back to tinkering.
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-<img src="{{ '/assets/images/world-opened-again-cover.png' | relative_url }}" width="1200" height="630" alt="桌上一台老式 CRT 显示器，旁边是键盘和拨号调制解调器，屏幕像一扇打开的门在发光。">
+看到这么一张图。
 
-看到一张图：查理·布朗和史努比坐在树下的长椅上，太阳快落山了，天是橘红色的。
+<figure>
+  <img src="{{ '/assets/images/what-do-you-miss.jpg' | relative_url }}" width="480" height="695" alt="夕阳下，查理·布朗和史努比坐在树下的长椅上。查理·布朗问：“你怀念什么？”史努比说：“怀念我知道太多之前，看世界的样子。”">
+  <figcaption>网上流传的一张图，不知道作者是谁。</figcaption>
+</figure>
 
-> “你怀念什么？”
->
-> “怀念我知道太多之前，看世界的样子。”
+查理·布朗问：“你怀念什么？”史努比说：“怀念我知道太多之前，看世界的样子。”
 
 我第一反应是跟着点头。可多想了一会儿，发现自己好像正好反过来：我最快乐的那几年，恰恰是知道新东西最多、最快的时候。
 
