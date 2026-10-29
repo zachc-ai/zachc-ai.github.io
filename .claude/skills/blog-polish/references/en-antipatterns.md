@@ -2,6 +2,8 @@
 
 Adapted from [ContractorKeith/ai-writing-skill](https://github.com/ContractorKeith/ai-writing-skill) with Zach-specific overrides.
 
+Use these patterns to find passages worth reading closely, not to manufacture a house style. Zach's voice sample and the original meaning take precedence. No sentence, fragment, list length, or conjunction quota requires an edit.
+
 ## Banned figurative vocabulary
 
 These words are statistically over-represented in AI output. Replace unless quoting or using literally.
@@ -45,9 +47,9 @@ These words are statistically over-represented in AI output. Replace unless quot
 - **No "Despite its X, Y faces challenges..."** formula.
 - **No preamble definitions** — never open by defining the topic.
 - **No "Not just X, but also Y"** parallelisms unless genuinely contrasting.
-- **No rule-of-three lists.** Vary list lengths to 2, 4, or 5.
+- **No padded triads.** Keep a list of three real items; do not add or drop information to change its length.
 - **No elegant variation.** Repeat the actual term — don't rotate "this discipline / the craft / this practice".
-- **No trailing -ing phrases.** "...highlighting the importance of X" / "...underscoring the need for Y" — give the point its own sentence.
+- **No empty -ing riders.** "...highlighting the importance of X" / "...underscoring the need for Y" can add fake significance. Keep a supported relationship when it carries meaning; do not ban the grammatical form.
 - **No vague attributions.** Name sources or skip the appeal.
 
 ## Formatting anti-patterns
@@ -58,15 +60,15 @@ These words are statistically over-represented in AI output. Replace unless quot
 - **Straight quotes**, not curly/smart quotes.
 - **Bold sparingly** — only for genuine emphasis, not key-term highlighting.
 
-## Positive principles (require, don't just permit)
+## Positive principles
 
-- **Mandatory rhythm:** at least one sentence under 8 words AND at least one over 25 words per post.
-- **At least one sentence fragment per post.** "Worth it." "Not even close."
-- **At least 2 sentences starting with And/But/So/Because.**
+- **Rhythm follows the thought.** Split a sentence when it is hard to follow, not because it exceeds a word count. Keep clear longer sentences and natural changes in pace.
+- **Fragments are optional.** Keep "Worth it." or "Not even close." when they sound like Zach; never add one to satisfy a minimum.
+- **Conjunction openers are optional.** And/But/So/Because can connect real thoughts; no minimum count.
 - **Lead with the specific.** First sentence: a name, number, date, place, or scene. Not an abstraction.
-- **Only-I-would-know-this detail per section.** Personal anecdote, specific tool, real number. Hard to hallucinate.
+- **Preserve supplied specifics.** Keep the user's anecdotes, tools, and numbers. Do not invent a detail or experience because a section lacks one; ask only when missing material blocks the point.
 - **Let the reader draw conclusions.** Don't append "this demonstrates the importance of...".
-- **Forward-pull endings.** Section ends with a question, transition, or half-thought. Never a summary.
+- **Stop when the point is made.** Keep transitions that help the next section; do not force a question, half-thought, or recap.
 - **Hedge calibrated.** "I think," "in my experience," "from what I've seen" — when actually uncertain.
 
 ## Title rules
@@ -74,26 +76,26 @@ These words are statistically over-represented in AI output. Replace unless quot
 - No "[Number] [Plural Noun] That Will [Verb] Your [Noun]" listicles.
 - Lowercase except proper nouns when possible.
 - Statements / questions over promises. ("I stopped using X" beats "Why You Should Stop Using X".)
-- Under 10 words.
+- Keep titles concise without cutting a qualification or changing the point to hit a word count.
 - Never "The Ultimate Guide to" or "Everything You Need to Know About".
 
 ## Opening hooks
 
 - First sentence must earn the second. No context-setting, no definitions.
-- Name something specific in first 2 sentences (dollar amount, date, place, person).
+- Prefer an existing specific detail near the opening; do not invent a name, amount, date, or scene to create a hook.
 - Cut throat-clearing: "In today's...", "When it comes to...", "If you've ever wondered..."
 
 ## Self-check (run before reporting done)
 
-- [ ] Banned figurative vocab: zero?
-- [ ] Copulas: plenty of "is/are/was/has", not all replaced?
+- [ ] Empty figurative vocabulary removed, with quotations and necessary literal or technical uses preserved?
+- [ ] Plain "is/are/was/has" used where they fit, without forced substitution?
 - [ ] Em-dashes: ≤1 per paragraph average?
-- [ ] Trailing -ing phrases: zero?
-- [ ] Rule-of-three: at most one per section?
+- [ ] Empty -ing riders removed without dropping supported claims?
+- [ ] Lists contain the actual material, without padding or deletions to change item counts?
 - [ ] Opening: hook, not definition?
 - [ ] Legacy/significance bloat: zero?
 - [ ] Headings: consistent case (sentence-case preferred but Title-case allowed if Zach used it)?
-- [ ] Specificity: every section has at least one specific name/number/date/place?
+- [ ] Supplied specifics preserved, with no invented detail or experience?
 - [ ] Conclusion: not "Challenges and Future Outlook" / "In conclusion..."?
-- [ ] At least one fragment, one <8-word sentence, one >25-word sentence?
-- [ ] At least 2 conjunction-opener sentences?
+- [ ] Rhythm follows the thought and sample, without imposed fragments, sentence lengths, or conjunction counts?
+- [ ] Before/after meaning, attribution, and qualifications preserved per `preservation-checks.md`?

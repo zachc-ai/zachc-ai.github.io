@@ -22,19 +22,17 @@ The word stuck, though.
 
 It comes from the *Doctrine of the Mean*: "莫见乎隐，莫显乎微，故君子慎其独也。" Roughly: nothing shows more than what you hide, nothing gives you away like the small stuff, so a decent person is most careful when alone.
 
-Simple enough. Doing it was another story.
-
 ## Why I didn't do it
 
-Looking back, the standard then was other people's. Teachers checked the homework. Exams had proctors, and someone else did the grading.
+Looking back, other people set the standard then. Teachers checked the homework. There were proctors during exams, and someone else did the grading.
 
 So when somebody was watching, I did the work, and when nobody was, the TV went on. I think what I really cared about was whether I'd get caught.
 
 ## Now
 
-These days I answer to myself. I set my own bar and push hard to clear it, without anyone telling me to. That bar is already higher than anything anyone else asks of me, so I can just focus on my own.
+These days I answer to myself. I set my own bar and work hard to meet it, without anyone telling me to. That bar is already higher than anything anyone else asks of me, so that's the one I focus on.
 
-Some nights I'll keep working until 3 or 4 a.m., because there's a goal I set for myself and I want to get it done. Nobody's watching at that hour, same as when I was a kid. But when the bar is mine, whether anyone's watching matters a lot less.
+Some nights I'll keep working until 3 or 4 a.m. because I want to finish something I set out to do. There's nobody watching then either, but it matters a lot less now that I'm setting the standard.
 
 It took me years to get what my principal was talking about that Monday. Some of it, anyway.
 
@@ -56,21 +54,19 @@ That's it for now.
 
 用大白话说，差不多是：越是藏着的东西，越容易露出来；越是小事，越能看出一个人。所以一个人待着的时候，反而要更小心。
 
-道理是不复杂嘛，做起来就是另一回事了。
-
 ## 那时候为什么没做到
 
-回头看，那时候的标准是别人的。作业有老师查，考试有人监考，成绩也是别人打的。
+回头看，那时候的标准是别人定的。作业有老师查，考试有人监考，分数也是别人给的。
 
 有人看着，我就好好做；没人看着，电视就开了。我那会儿在意的，其实是会不会被查到吧。
 
 ## 现在呢
 
-现在得对自己负责了。我给自己定了一个 bar，要求自己一定做到。这股劲儿是自己的，不用谁催。而且这个 bar 已经比别人对我的要求都高了，所以只管自己的就行。
+现在得对自己负责了。我给自己定了个 bar，要求自己一定做到，也不用谁催。这个 bar 已经比别人对我的要求都高了，我就照着自己定的来。
 
-有时候大半夜的，我会一直干到三四点，就为了把自己定的目标做完。跟小时候一样，这时候也没人看着。可标准成了自己的，有没有人看，好像也就没那么要紧了。
+有时候我会一直干到凌晨三四点，就为了把自己定的目标做完。这时候也没人看着。不过标准是自己定的，有没有人看，好像也就没那么要紧了。
 
-校长那天讲的，我是隔了这么多年才懂了一点。
+校长那天讲的话，隔了这么多年，我才懂了一点。
 
 先写到这儿。
 
