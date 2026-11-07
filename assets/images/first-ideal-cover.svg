@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>A path beneath rain clouds</title>
+  <desc>An original illustration of a winding path continuing through a dark landscape toward an opening in the clouds.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#182b3b"/>
+      <stop offset=".58" stop-color="#607987"/>
+      <stop offset="1" stop-color="#d8d5c2"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4e8c7" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#f4e8c7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#b6ad93"/>
+      <stop offset="1" stop-color="#e8dec0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <path d="M0 0h1200v123c-78 36-144 32-207 13-46 59-159 65-222 33-50 62-154 72-221 29-87 39-202 33-264-15-72 29-189 10-286-20Z" fill="#203746"/>
+  <path d="M0 81c94-19 177 10 246 50 97-30 178-10 230 31 93-19 168-4 206 24-103 13-206 3-265 27-126-39-272 8-417-24Z" fill="#314b5b"/>
+  <path d="m943 157 239-14 18 260-586 65Z" fill="url(#light)"/>
+  <path d="M0 360c150-94 281-60 411-22 136-91 231-49 326-2 163-83 283-64 463-22v316H0Z" fill="#53696c"/>
+  <path d="M0 438c198-97 328-88 475-29 134-87 253-34 339 10 114-50 231-27 386 13v198H0Z" fill="#354b4d"/>
+  <path d="M0 536c215-65 401-42 523-21 178-60 362-34 677 30v85H0Z" fill="#233a3d"/>
+  <path d="M452 630c9-71 116-112 182-142 54-25 67-50 13-77-48-24-41-45 15-64 35-12 72-21 101-31-17 14-43 26-66 40-28 17-18 30 28 48 100 39 79 90 20 125-49 29-87 61-90 101Z" fill="url(#path)"/>
+  <path d="M484 630c9-58 103-104 168-139 57-31 62-56 6-82" fill="none" stroke="#e8dcc1" stroke-width="3" opacity=".35"/>
+  <g fill="none" stroke="#a7bac0" stroke-width="2" opacity=".27">
+    <path d="m91 224-14 43m58-35-12 37m73-34-13 42m70-30-14 43m73-38-10 33m71-30-13 42"/>
+    <path d="m68 310-12 37m79-31-14 43m75-32-11 35m78-31-13 42m77-34-11 37"/>
+    <path d="m473 231-11 35m63-42-13 41m70-43-12 36"/>
+  </g>
+  <g fill="#1b3035">
+    <path d="m336 538 43-14 36 23-11 16-61-2Z"/>
+    <path d="m837 500 25-8 20 14-7 11-36-1Z"/>
+    <path d="m408 444 18-7 24 12-10 13-29-4Z"/>
+  </g>
+  <path d="M126 594c30-22 50-23 78-16m-54 24c20-11 30-12 44-9M948 569c36-10 61-6 81 5" fill="none" stroke="#78908b" stroke-width="3" opacity=".55"/>
+</svg>
