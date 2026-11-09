@@ -1,6 +1,6 @@
 ---
 name: blog-polish
-description: Polish a bilingual (EN + ZH) blog draft for Zach's Compass so it reads like Zach wrote it, not like AI generated it. Use after drafting a post in `_posts/`, before pushing. Also use when user says "polish this", "check for AI tells", "the Chinese sounds translated", or asks to refine a draft. Adapted from ContractorKeith/ai-writing-skill with Zach-specific voice rules and Chinese anti-translation rules. Runs the vendored `humanizer` skill as its structural pass.
+description: Polish a bilingual (EN + ZH) blog draft for Zach's Compass so it reads like Zach wrote it, not like AI generated it. Use after drafting a post in `_posts/`, before pushing. Also use when user says "polish this", "check for AI tells", "the Chinese sounds translated", or asks to refine a draft. Adapted from ContractorKeith/ai-writing-skill with Zach-specific voice rules and Chinese anti-translation rules. Runs the locally adapted `humanizer` skill as its structural pass.
 user_invocable: true
 ---
 
@@ -12,7 +12,7 @@ This skill runs a structured polish pass on a draft. It is **NOT** a content gen
 
 The workflow is model-independent: define the editing goals and checks, not a required model, vendor, version, or reasoning preset. Model choice can change with the task and available capabilities.
 
-Make the smallest useful edit. Zach's instructions and voice samples take precedence over generic style heuristics. Leave natural passages alone; do not manufacture fragments, modal particles, anecdotes, or uneven paragraphs to meet a quota.
+Make the smallest useful edit. That can mean reconstructing an awkward sentence or paragraph, not preserving its frame and changing a few words. Zach's instructions and voice samples take precedence over generic style heuristics. Leave natural passages alone; do not manufacture fragments, modal particles, anecdotes, or uneven paragraphs to meet a quota.
 
 ## When to use
 
@@ -30,13 +30,13 @@ Make the smallest useful edit. Zach's instructions and voice samples take preced
    Voice does not matter on a post that asserts something untrue. **Stop and fix if it fails.**
 4. **Load the remaining references in order:**
    - `references/preservation-checks.md` — protect the original meaning and check bilingual equivalence
-   - `../humanizer/SKILL.md` — general AI-tell catalog, 26 patterns (see "Humanizer pass" below)
+   - `../humanizer/SKILL.md` — general AI-tell catalog and editing workflow; for Chinese also read `../humanizer/references/zh-editing.md` (see "Humanizer pass" below)
    - `references/en-antipatterns.md` — English AI tells (adapted from ContractorKeith)
    - `references/zh-antipatterns.md` — Chinese machine-translation tells (custom to this skill)
    - `references/voice-samples.md` — Zach's voice anchors from existing posts
 5. **Run the humanizer pass** on both language blocks, following its "How to work" steps and the overrides in "Humanizer pass" below.
 6. **Run the EN pass** — flag every violation, propose specific edits.
-7. **Run the ZH pass** — flag translation-stiff phrasing, propose native-Chinese rewrites.
+7. **Run the ZH pass** — read the Chinese independently for meaning, syntax, and flow. Reconstruct awkward sentences or paragraphs where necessary, then check their meaning against the source. Do not use English sentence order as the Chinese template.
 8. **Run the voice pass** — check that opening, closing, and section transitions sound like Zach.
 9. **Apply targeted edits.** Use the platform's file-editing tool for an in-place edit; keep a requested preview separate from the published post. Do not rewrite clean passages merely for consistency.
 10. **Compare before and after** using `references/preservation-checks.md`. Check both protected content and EN/ZH meaning. Repair only material issues, then stop; an audit finding is not automatically a reason to rewrite.
@@ -44,7 +44,7 @@ Make the smallest useful edit. Zach's instructions and voice samples take preced
 
 ## Humanizer pass (runs on every post)
 
-`.claude/skills/humanizer/` is an unmodified copy of [blader/humanizer](https://github.com/blader/humanizer) (MIT, v3.1.0, upstream commit `8c307f3`). Don't edit it; put Zach-specific overrides here. To update, re-download upstream `SKILL.md`, review the diff, and bump the commit above.
+`.claude/skills/humanizer/` is a local adaptation of [blader/humanizer](https://github.com/blader/humanizer) (MIT, base v3.1.0, upstream commit `8c307f3`, local version `3.1.0-local.1`). It retains the 26-pattern catalog and original license, with a Chinese reference and separate accuracy/native-flow reviews informed by Humanizer-zh and Baoyu's refined workflow. General language editing belongs there; Zach-specific voice overrides stay here. Review upstream changes against the recorded base rather than overwriting the adaptation.
 
 Where humanizer and this skill disagree, this skill wins. Humanizer's own Voice rule says a writer's sample overrides its patterns, and `references/voice-samples.md` is that sample.
 
@@ -53,6 +53,7 @@ Where humanizer and this skill disagree, this skill wins. Humanizer's own Voice 
 - **Not X but Y (§1):** apply humanizer's test (keep a contrast only when the negative half corrects a belief the reader actually holds) on top of the "once or twice per post" cap below.
 - **Language scope:** §10, §12, §16, §18, and §21 are English word and typography rules, so apply them to `lang-en` only. Chinese “” quotes are correct in `lang-zh`. Every other pattern applies to both blocks.
 - **Output:** targeted edits, not humanizer's whole-file rewrite.
+- **Chinese flow:** follow `../humanizer/references/zh-editing.md`; targeted can mean rewriting the affected paragraph. Read the resulting Chinese on its own before checking EN/ZH equivalence; preserving all the English clauses is not a fluency test.
 - **No new facts or semantic drift:** do not invent or silently drop facts, experiences, motives, feelings, attribution, or qualifications. See `references/preservation-checks.md`; ask for missing material rather than filling it in.
 
 ## Hard rules (apply to both languages unless noted)
@@ -93,12 +94,12 @@ See `references/en-antipatterns.md` for the full banned-word list and structural
 See `references/zh-antipatterns.md`. The job here is different from English: the failure mode is **translation stiffness**, not AI-generic-blandness. Quick scan items:
 
 - **Pronoun overuse:** Chinese drops pronouns more than English. "你向你大脑宣告" → "你其实是在告诉自己". Flag every chain of "你的 / 他的 / 它的" and ask if it's actually needed.
-- **Direct copula translation:** "这不是 X，是 Y" used 3+ times → break the pattern. Use "说白了不是 X" / "其实它是 Y" / split into two sentences.
+- **Repeated contrasts:** inspect each "这不是 X，是 Y". Keep a real distinction; state the point directly when the negative half only adds emphasis. Do not swap in "说白了" or "并非" and preserve the same empty contrast.
 - **语气词:** keep 吧/啊/嘛/呢/了/吗 where they carry the writer's tone or meaning. Their absence is not evidence of translation stiffness; do not add them per paragraph.
 - **Em-dash overuse:** Chinese uses 破折号（——）more sparingly than English em-dashes. Replace many with 冒号(：), 换行, or 中文括号（）.
 - **Long nested sentences:** simplify when modifiers obscure the main thought. The number of 的 or clauses is a prompt to inspect, not a rewrite trigger; preserve scope and qualifications when splitting.
 - **Translated connectors:** check whether "事实上" / "实际上" / "换句话说" / "因此" express a real relationship. Use a more spoken alternative only where it fits, not as a mechanical substitution.
-- **Direct "It's not X. It's Y." translation:** "这不是 X，这是 Y" → 中文 nuance is better as "X？不是。是 Y。" or "说白了，X 只是表象，Y 才是底色".
+- **Direct "It's not X. It's Y." translation:** repair the relationship between the ideas, not just the connecting words. Preserve necessary negation and conditions while removing an empty rhetorical shell.
 - **Terms to keep in English:** technical vocab Zach uses naturally — `servo`, `backlog`, `prompt`, `LLM`, `harness`, `Slack`, `i 人`. Don't over-translate.
 - **Title check:** Chinese title should be plain modern Chinese, NOT classical 4-character idioms unless the post itself is about that idiom. (See feedback memory: prior `曳尾涂中` was rejected as too 文言.)
 
@@ -135,6 +136,7 @@ Run mentally before reporting done:
 13. **Bilingual equivalence:** do both versions preserve the facts, argument, qualifications, and ownership of experiences without sentence-by-sentence translation?
 14. **Humanizer re-scan:** after edits, any §1 contrasts, §2 closers, §6 triads, §8 dash clusters, or §19 bold labels left in either block? Did any edit add or drop a fact?
 15. **Preservation gate:** did the before/after comparison pass for protected content and meaning? State any unresolved issue rather than declaring polish complete.
+16. **ZH independent read:** can the complete Chinese be read naturally without mentally reconstructing the English? Repair any remaining awkward subject, word order, nested negation, or transition, then recheck its meaning.
 
 If all checks pass, report polish complete with a 2-3 sentence summary of what changed. Do not keep editing just to remove every possible style-pattern match.
 
