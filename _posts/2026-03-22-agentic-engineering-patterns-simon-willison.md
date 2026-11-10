@@ -109,7 +109,7 @@ The prompt advice surprised me: no long essays, just filename + test command + e
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-Simon Willison（Django 联合创始人、datasette 作者）整理了他用 Claude Code、OpenAI Codex 这类 AI 编程代理的实战套路。全文五个板块：原则、测试与质量、理解代码、带注释的提示词、附录。也可以看：[HN 讨论](https://news.ycombinator.com/item?id=47243272)。
+Simon Willison（Django 的共同创建者、datasette 作者）整理了他用 Claude Code、OpenAI Codex 这类 AI 编程代理的实战套路。全文五个板块：原则、测试与质量、理解代码、带注释的提示词、附录。也可以看：[HN 讨论](https://news.ycombinator.com/item?id=47243272)。
 
 ---
 
@@ -127,7 +127,7 @@ Simon Willison（Django 联合创始人、datasette 作者）整理了他用 Cla
 
 “知道某件事理论上可行”和“亲眼看它跑起来”是两码事。攒一份能跑的例子库吧：博客记录、GitHub 仓库（Willison 自己有 1000+ 个）、工具站点、研究仓库。每个都是一块能复用的积木。
 
-最强的用法是让 agent 把这些可运行代码重新拼起来。他的 OCR 工具就是把 Tesseract.js 和 PDF.js 缝成一个东西。例子文档化一次，agent 反复部署。
+最强的用法是让 agent 把这些可运行代码重新拼起来。他的 OCR 工具就是把 Tesseract.js（做 OCR）和 PDF.js（渲染 PDF）缝在了一起。例子记录下来一次，以后就能一直拿来用。
 
 ---
 
@@ -137,18 +137,18 @@ Simon Willison（Django 联合创始人、datasette 作者）整理了他用 Cla
 
 TDD 在用 agent 的时候比平时更重要。原因是 agent 容易出两种问题：写出来的代码根本跑不了，或者顺手加了你没要的功能。TDD 两个都能挡。
 
-- **红：** 先写测试，确认它**失败**。证明这个测试真的在检验新功能。
+- **红：** 先写测试，确认它**失败**。这一步能证明测试真的在检验新功能。
 - **绿：** 写代码让它过。
 
-跳过红那一步，你可能盯着一个一开始就通过的测试——废的。一句话就能让 agent 走完流程：`"Build a Python function to extract headers from a markdown string. Use red/green TDD."`
+跳过红那一步，你盯着的可能是一个本来就能通过的测试，等于白写。一句话就能让 agent 走完流程：`"Build a Python function to extract headers from a markdown string. Use red/green TDD."`
 
 ### 4. 先跑测试
 
-一句四个词的开场白：`"First run the tests"`。或者 `"Run 'uv run pytest'"`。这句话会触发一连串好事：
+会话一开场就说四个词：`"First run the tests"`，或者 `"Run 'uv run pytest'"`。这样开场能带出一连串好处：
 
 1. agent 得先找到测试套件、跑一遍。测试意识默认开启。
 2. 测试数量能让 agent 大致知道这项目多大、多复杂。
-3. 整个会话的基调就定成了围绕测试转。
+3. 整个会话从一开始就围着测试转。
 4. 模型其实自带质量纪律，这句话能把它叫醒。
 
 “代码要是从来没跑过，它在生产里能工作就是运气。”
@@ -159,11 +159,11 @@ TDD 在用 agent 的时候比平时更重要。原因是 agent 容易出两种�
 
 ### 5. 线性走读
 
-你 vibe code 了一个东西。或者拿到一个不熟的代码库。让 agent 读源码，写一份逐文件的走读文档。40 分钟 vibe code 出来的小玩具，走读完也能变成学新东西的入口。AI 让代码写得更**快**，不代表你可以跳过**理解**那一步。
+你 vibe code 了一个东西，或者接手了一个不熟的代码库，就让 agent 读源码，写一份逐文件的走读文档。40 分钟 vibe code 出来的小玩具，走读完也能变成学新东西的入口。AI 让代码写得更**快**，不代表你可以跳过**理解**那一步。
 
 ### 6. 交互式解释
 
-**问题是认知债务。** Agent 写的代码你看不懂 → 变成黑箱 → 挡住下一个想做的事。解法是让 agent 给这个算法做一个交互式可视化。
+**问题是认知债务。** Agent 写的代码你看不懂，它就成了黑箱，挡着你做下一件事。解法是让 agent 把算法做成交互式可视化。
 
 Willison 用 Claude Code 做了个 HTML 页面，把词云布局算法（阿基米德螺线加随机角度偏移）拆成了可暂停、可调速、可逐帧播放的过程。“一个好的编程 agent 可以按需生成这种东西来解释代码，不管是它自己写的还是别人写的。”
 
@@ -198,8 +198,8 @@ Willison 的 Artifacts 自定义指令：永远不用 React，纯 HTML + vanilla
 
 “囤积能跑的例子”这条把我对 Second Brain 的定位整个改了：每个解过的问题都是 agent 能拼起来用的积木。之前我只把它当成自己的记忆，原来它还是 AI 的素材库。
 
-还有两个不太好内化的。一是复杂算法做成交互式可视化，是摆脱认知债务的办法，哪怕只有自己看也值得做。二是写代码便宜，不等于“好代码”也便宜——验证、测试、架构这些一点没变简单。
+还有两条，道理好懂，真要变成习惯不容易。一是复杂算法做成交互式可视化，是摆脱认知债务的办法，哪怕只有自己看也值得做。二是写代码便宜了，不等于“好代码”也便宜：验证和架构并没有因为打字变快而变简单。
 
-最后，提示词那一段挺反直觉的。不用写长篇大论，给三个准确的锚点就行：文件名 + 测试命令 + 已有示例。这种精确比解释更有用。
+最后，提示词那一段挺反直觉的。不用写长篇大论，给三个准确的锚点就行：文件名 + 测试命令 + 已有示例。精确的锚点比指令管用。
 
 </div>

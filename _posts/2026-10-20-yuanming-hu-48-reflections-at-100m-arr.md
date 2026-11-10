@@ -80,7 +80,7 @@ Vision is what moves a team. People building a ship should long for the sea, or 
 
 Managers shouldn't manipulate anyone either, whether reports, bosses, or peers, for instance by negging them. Be fair, work out what each person wants, and fit their role, rewards, and growth to it. He recommends Robin Stern's book on gaslighting. An early-stage company has to be an extension of its founder, or the founder ends up working against themselves. He quotes Jensen Huang's advice that you're building an F1 car you'll drive yourself, so build one you can drive.
 
-Leave the team room, and don't kill ideas unless the logic is broken. He uses Andy Grove's task-relevant maturity, from *High Output Management*, to decide when restraint works and when to get closer. Because AI companies tend to be led by young technical people, he teaches an internal course called "Management for Good Students." He has found that strong individual performers often struggle most with managing.
+Leave the team room, and don't kill ideas unless the logic is broken. He uses Andy Grove's task-relevant maturity, from *High Output Management*, to decide when restraint works and when to get closer. Because AI companies tend to be led by young technical people, he teaches an internal course called "Management for Good Students." He has found that good students and strong individual performers sometimes struggle more with managing.
 
 He wants founder mode to be how the whole team works, with leaders able to see two or three levels down and get their hands dirty. The best people want to learn from their leader. Leaders can't judge work they've never done. Technical leaders who don't know the details turn insecure and start meddling. And real tradeoffs across talent, money, brand, product, and market need the details.
 
@@ -118,7 +118,7 @@ The essay closes with a dinner from his childhood. His father was eating with a 
 
 ## 一、温度与原则
 
-他“先人后己”的习惯，来自一路上遇到的好老师：中学搞 OI 时一直给他打气的教练，在 MSRA 耐心帮他改 paper 的 Steve Lin，还有 MIT 的两位 co-advisor Fredo 和 Bill。两位导师让他放手做 Taichi，写 grant proposal 这种苦差事也没推给学生。再加上父母常说的“吃亏是福”。他觉得先考虑别人，表面上吃亏，换来的却是很深的信任。Meshy 一成立就把“同理心”写进文化守则，原因就在这儿。
+他“先人后己”的习惯，来自一路上遇到的好老师：中学搞 OI 时一直给他打气的教练，在 MSRA 耐心帮他改 paper 的 Steve Lin，还有 MIT 的两位 co-advisor Fredo 和 Bill。两位导师让他放手做 Taichi，写 grant proposal 这种苦差事也没推给学生。再加上父母常说的“吃亏是福”。他觉得先考虑别人，表面上吃亏，其实能换来很深的信任，也能让身边的人充分发挥。Meshy 一成立就把“同理心”写进文化守则，原因就在这儿。
 
 可公司跟学校不一样，得打胜仗才能活下去。善良少了原则，人就成了讨好型的滥好人：管不住团队，跟有原则的人合作不来，还会把优秀的人逼走。所以他说，善要放到整个团队、更长的时间里去看。
 
@@ -144,7 +144,7 @@ Founder 必须有 ego，但出发点得是团队和愿景，不是证明自己�
 
 Founder 也很孤独，很多话没法说，能聊到一个层面的大概只有别的 founder。危险在于想从下属那里找情绪价值。一旦需要下属认可，就会不自觉地奖励奉承，大家开始向上管理，founder 最后被包进信息茧房，甚至被下属 PUA。他自己的情绪价值来自别处：答应过自己 B 轮 close 了就买台哈苏，文中的照片就是用它拍的（他也说这很幸运，大多数创业的回报是零）；和更厉害的人共事，能学到东西；还有看到一起打拼的同事成长、过上好日子。
 
-他还区分了“快乐”和“幸福”：快乐的反面是痛苦，幸福的反面是无聊，两者是正交的。这两年他有过快乐的幸福，也有过痛苦的幸福（他说是“酸爽”），但只要还在成长，就不会无聊。
+他还区分了“快乐”和“幸福”：快乐的反面是痛苦，而对他来说，幸福的反面大概是无聊。在他看来，这两者是正交的。这两年他有过快乐的幸福，也有过痛苦的幸福（他说是“酸爽”），但只要还在成长，就不会无聊。
 
 ## 三、AI 与人
 
@@ -176,7 +176,7 @@ Meshy 愿意给市场最高位的薪资。一是与人为善，二是业务毛�
 
 愿景得创始人自己想透、讲准。造船的团队要先向往大海，不然每天只是在砸钉子。借来的愿景经不起团队追问，甚至过不了自己那关。
 
-前面说 founder 要防着被下属 PUA，反过来，管理者也别去 PUA 别人，比如用贬低（negging）去打压对方。对人公正，同时弄清每个人想要什么，放到合适的位置，给他需要的回报和成长。他推荐了 Robin Stern 讲煤气灯效应的书。创业公司本来就是创始人的延伸，他引用黄仁勋的比喻：你在造一辆自己要开的 F1 赛车，那就造一辆你开得了的。
+前面说 founder 要防着被下属 PUA，反过来，管理者也别去 PUA 下属、上级或平级的同事，比如用贬低（negging）去打压对方。对人公正，同时弄清每个人想要什么，放到合适的位置，给他需要的回报和成长。他推荐了 Robin Stern 讲煤气灯效应的书。创业阶段的公司得是创始人的延伸，不然创始人自己会很拧巴。他引用黄仁勋的比喻：你在造一辆自己要开的 F1 赛车，那就造一辆你开得了的。
 
 给团队留空间，除非逻辑明显有问题，别一上来就否定。什么时候克制、什么时候抓细，他用 Andy Grove 在《High Output Management》里讲的 task-relevant maturity 来判断。AI 公司多由年轻的技术型人才带队，他们普遍缺管理经验，所以他在公司里亲自讲了一套《给好学生的管理课》。他发现，个人战斗力越强的人，做管理时心理障碍有时反而越大。
 

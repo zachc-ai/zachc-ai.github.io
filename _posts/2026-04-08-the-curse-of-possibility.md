@@ -111,23 +111,23 @@ If it were just me, fine. Maybe I'm doing it wrong. But the numbers say otherwis
 **APA's 2023 Work in America Survey (n=2,515):**
 
 - 38% of employees worry AI will make their jobs obsolete
-- Among those worried: 51% say work hurts their mental health, 64% feel tense or stressed daily, 37% report emotional exhaustion
+- Among those worried: 51% say work hurts their mental health, 64% typically feel tense or stressed during the workday, 37% report emotional exhaustion
 - Surveillance adds its own load: 56% of workers monitored by tech feel tense or stressed during the workday, vs. 40% of those who aren't
 
 **Microsoft's 2024 Work Trend Index:**
 
 - 75% of knowledge workers now use AI at work
 - 78% bring their own AI tools (BYOAI)
-- Yet 59% of leaders admit they can't quantify AI's productivity gains
-- 60% of companies lack an AI vision or plan
-- 46% of global workers are considering quitting within the year, an all-time high
+- Yet 59% of leaders worry about quantifying AI's productivity gains
+- 60% of leaders worry their leadership lacks a plan and vision for AI
+- 46% of respondents are considering quitting in the year ahead, up from 40% in 2021
 
 **Upwork's 2024 Research (the most damning):**
 
 - 77% of AI-using employees say the tools have added to their workload
 - 71% of full-time employees are burned out; 38% feel overwhelmed about having to use AI at work
 
-**Gallup 2021 Global Emotions Report:**
+**Gallup Global Emotions data for 2021:**
 
 - 41% of adults worldwide report stress, an all-time high
 - 42% report worry, also an all-time high
@@ -154,7 +154,7 @@ AI is running the same cycle:
 
 Tool explosion → cognitive overload → organizational adaptation lag → productivity stagnation
 
-75% are using AI. 59% of leaders can't tell you what it's actually doing for them. More tools, more exhaustion. What's lagging is us: our habits, our orgs, our brains.
+75% are using AI. 59% of leaders worry about quantifying what it's actually doing for them. More tools, more exhaustion. What's lagging is us: our habits, our orgs, our brains.
 
 ---
 
@@ -226,18 +226,18 @@ The moments you decide **not** to use AI.
 
 今天下午整理笔记的时候，我突然停了下来。
 
-倒不是没事做。恰恰相反，事情太多了。
+倒不是没事做，是事情太多了。
 
-面前是一个 Obsidian vault，300 多个文件。Claude Code 帮我搭了一套自动化工作流：晨间规划、任务调度、知识摘要、跨项目同步。以前这些事我根本不会去做：太复杂，不值得投入时间。但有了 AI，“不值得”悄悄变成了“好像可以”。
+面前是一个 Obsidian vault，300 多个文件。Claude Code 帮我搭了一套自动化工作流：晨间规划、任务调度、知识摘要、跨项目同步。以前这些事我根本不会去做，太复杂，不值得花时间。但有了 AI，“不值得”悄悄变成了“好像可以”。
 
-然后我发现一个悖论。每件事都变得“可以做了”，但每件事做起来都比预想的要久。工具更强了，我更累了。
+然后我发现了一个悖论：每件事都变得“可以做了”，但每件事做起来都比预想的要久。工具更强了，我更累了。
 
 一开始我以为是自己的问题。可能效率不够高，或者还没找到对的工作方式。直到看见一组数据：
 
 Upwork 2024 年的研究发现，用 AI 工具的员工里，77% 说这些工具反而加重了工作量。
 {: .callout}
 
-不是我一个人的错觉。是结构性的。
+原来不只是我一个人这样，这是结构性的。
 
 ---
 
@@ -256,13 +256,13 @@ Upwork 2024 年的研究发现，用 AI 工具的员工里，77% 说这些工具
 
 1980 年代末，John Sweller 的认知负荷理论补了一刀：工作记忆不光小，还短命。所有信息都得先挤过这个瓶颈，才能进长期记忆。选项一多、界面一乱、噪音一大，学习和决策质量直接崩。
 
-还有一个维度：密歇根大学 Kaplan 夫妇的定向注意力疲劳。大脑要集中注意力，就得不停压制周围的干扰，这件事本身就在烧能量。能量烧完了，后果就来了：判断失误、规划变差、脾气变大、做事冲动。
+再往下是密歇根大学 Kaplan 夫妇提出的“定向注意力疲劳”。大脑要集中注意力，就得不停压制周围的干扰，这件事本身就在烧能量。能量烧完了，后果就来了：判断失误、规划变差、脾气变大、做事冲动。
 
 从 Miller 到 Sweller 到 Kaplan，半个多世纪的研究翻来覆去说的都是一件事：大脑是一根管子，这根管子不会变粗。
 
-这就好比《天龙八部》里的鸠摩智。他把少林七十二绝艺一门一门学会了，看上去无敌。结果运起小无相功硬撑那些招式，自己内息逆转，走火入魔。问题不出在招式上，出在他那条经脉就那么粗，硬塞了七十二门进去。藏经阁的扫地僧点破过他：“每一项绝技，均须有相应的慈悲佛法为之化解。”鸠摩智没听进去。
+这就好比《天龙八部》里的鸠摩智。少林七十二绝技，他一门一门都学会了，看上去无敌。可他是运起小无相功硬撑着使那些招式，最后内息逆转，走火入魔。毛病不出在招式上，出在他那条经脉就那么粗，却硬塞进了七十二门。藏经阁里的扫地僧点破过他：“每一项绝技，均须有相应的慈悲佛法为之化解。”鸠摩智没听进去。
 
-AI 工具就是这种“少林七十二绝艺”——一上手都能开，可你的内息（注意力、决策力）还是那么多。开得越多，每一门用得越浅。
+AI 工具就像这“少林七十二绝技”，哪一门都能上手，可你的内息（注意力、决策力）还是那么多。同时开的门越多，每一门就用得越浅。
 
 ---
 
@@ -272,15 +272,15 @@ Herbert Simon 在 1971 年写过一句话，到了 AI 时代越来越准：
 
 > “在信息丰富的世界里，信息的富裕意味着其他东西的匮乏——即信息所消耗的东西的匮乏：接收者的注意力。”
 
-1971 年。没互联网，没智能手机，没 AI。Simon 看到的只是电视和报纸在变多。但他已经看透了。注意力是零和的。给了 A，B 就少了。
+那是 1971 年，没有互联网，没有智能手机，更没有 AI。Simon 看到的只是电视和报纸在变多，但他已经看透了：注意力是零和的，给了 A，B 就少了。
 
-现在把这逻辑放到 AI 时代。
+现在把这个逻辑放到 AI 时代。
 
-以前一天大概有 5–10 个决策点：今天做什么任务、用什么方法、优先级怎么排。现在用 Claude Code，决策点可能有 50 个：要不要让 AI 帮我重构这段？它出的结果对不对？要不要再迭代一次？这条自动化流程值不值得搭？搭了之后出 bug 谁来修？AI 建议的这个方案，我理解吗？不理解的话，理解它要多久？
+以前我一天大概有 5–10 个决策点：今天做什么任务、用什么方法、优先级怎么排。现在用 Claude Code，决策点可能有 50 个：要不要让 AI 帮我重构这段？它出的结果对不对？要不要再迭代一次？这条自动化流程值不值得搭？搭了之后出 bug 谁来修？AI 建议的这个方案，我理解吗？不理解的话，理解它要多久？
 
 每多一个“可能性”就是多一个阀门。每个阀门都在问你一句：开还是不开？
 
-以色列有个挺有名的假释法官研究，结果挺扎心。每轮裁决开始时，批准率大约 65%。决策数量一多，批准率就一路降到接近 0%。吃完东西休息一下，又回到 65%。流行的说法是法官的脑子累了。作者自己也往这个方向解释，但从没直接测过疲劳。后来有人指出排案顺序并不随机（没请律师的犯人常常排在最后），也有人算过，法官只要别在休息前接手耗时长的案子，就能模拟出差不多的曲线。到底什么原因，现在还有争议。反正要是我，可不想排在午饭前最后一个。
+以色列有个挺有名的假释法官研究，常被拿来说明这件事。每轮裁决开始时，批准率大约 65%。案子一个接一个审下去，批准率一路降到接近 0%。吃完东西休息一下，又回到 65%。流行的说法是法官的脑子累了。作者自己也往这个方向解释，但从没直接测过疲劳。后来有人指出排案顺序并不随机（没请律师的犯人常常排在最后），也有人算过，法官只要别在休息前接手耗时长的案子，就能模拟出差不多的曲线。到底什么原因，现在还有争议。反正要是我，可不想排在午饭前最后一个。
 
 David Meyer 的研究更直接：来回切换任务，最多能吃掉 40% 的有效时间。大脑每切换一次任务，都得花一段“重启”时间，这段时间里一点进展都没有。犹他大学的 David Strayer 则发现，只有 2.5% 的人是真正的“超级任务者”，其余的人多任务时表现都会下降。
 
@@ -302,16 +302,16 @@ David Meyer 的研究更直接：来回切换任务，最多能吃掉 40% 的有
 
 - 75% 的知识工作者已经在工作中用上了 AI
 - 78% 自带 AI 工具上班（BYOAI）
-- 但 59% 的领导承认，没法量化 AI 带来的生产力提升
-- 60% 的公司承认，在 AI 上缺乏愿景和计划
-- 46% 的全球职场人考虑在一年内辞职，历史最高
+- 但 59% 的领导担心，没法量化 AI 带来的生产力提升
+- 60% 的领导担心，自家管理层在 AI 上缺乏愿景和计划
+- 46% 的受访者考虑在一年内辞职，比 2021 年的 40% 还高
 
 **Upwork 2024 年研究（最扎心的一组）：**
 
 - 用 AI 的员工里，77% 说这些工具反而加重了工作量
 - 71% 的全职员工已经倦怠（burnout），38% 因为工作中必须用 AI 而不堪重负
 
-**Gallup 2021 全球情绪报告：**
+**Gallup 全球情绪调查（2021 年数据）：**
 
 - 全球 41% 的成年人感到压力，历史新高
 - 全球 42% 的成年人感到担忧，也是历史新高
@@ -332,13 +332,13 @@ David Meyer 的研究更直接：来回切换任务，最多能吃掉 40% 的有
 
 Erik Brynjolfsson 在 1993 年把这件事量化了。1970–80 年代计算能力翻了 100 倍，但劳动生产率的增速却从 1960 年代的 3% 以上掉到大约 1%。更多计算机没带来更高生产力，至少短期内没有。
 
-蒸汽机和电力也是同一个故事。生产力红利花了几十年才兑现。1890 年代的工厂装上电动机，车间布局还是蒸汽机时代那套。直到有人想明白要重新设计整个流程，电力的好处才真正出现。
+蒸汽机和电力也是同一个故事，生产力红利花了几十年才兑现。1890 年代的工厂装上了电动机，车间布局却还是蒸汽机时代那一套，大家还纳闷怎么什么都没变。直到有人想明白，要把整个工厂的布局重新设计，电力的好处才真正出来。
 
-今天的 AI 时代在跑同一个循环：
+AI 现在也在跑同一个循环：
 
 工具爆发 → 认知过载 → 组织适应滞后 → 生产力停滞
 
-75% 的人在用 AI，但 59% 的领导说不清楚 AI 到底带来了什么。工具更多了，人更累了。掉队的是我们自己：习惯、组织、脑子，都还没跟上。
+75% 的人在用 AI，但 59% 的领导担心没法量化它到底带来了什么。工具更多了，人更累了。掉队的是我们自己：习惯、组织、脑子，都还没跟上。
 
 ---
 
@@ -360,7 +360,7 @@ Erik Brynjolfsson 在 1993 年把这件事量化了。1970–80 年代计算能�
 > — 《道德经》第二十二章
 > {: .attribution}
 
-两千五百年前那句，和今天的认知科学说的，是一回事：少做一点。
+比这些研究早两千五百年，老子给的就是同一个答案：少做一点。
 
 Steve Jobs 1997 年回 Apple，第一件事没去推新品，先砍掉了 70% 的产品线。他后来说：
 
@@ -368,11 +368,11 @@ Steve Jobs 1997 年回 Apple，第一件事没去推新品，先砍掉了 70% �
 
 说白了，专注就是对另外一百个好主意说“不”。
 
-Obama 每天穿同款灰色或蓝色西装。Zuckerberg 每天穿同款灰 T 恤。他们当然买得起衣服。只是明白一件事：日常决策再小，也要从同一个认知资源池里扣，这个池子就那么大。减少不重要的决策，是为了保护重要决策的质量。
+Obama 每天穿同款灰色或蓝色西装。Zuckerberg 每天穿同款灰 T 恤。他们当然买得起各种衣服，只是明白一件事：日常决策再小，也要从同一个认知资源池里扣，这个池子就那么大。减少不重要的决策，是为了保护重要决策的质量。
 
-我自己最近的一个体会。Claude Code 能帮我做的事有几十种：自动化笔记、代码重构、知识整理、数据分析、写文档。可真要同时推进这么多事，我比不用 AI 的时候还累。每多一条自动化流程，就多一个要维护的系统、多一个可能出错的环节、多一次“这个 AI 输出对不对”的判断。
+我最近自己也有体会。Claude Code 能帮我做的事有几十种：自动化笔记、代码重构、知识整理、数据分析、写文档。可真要同时推进这么多事，我比不用 AI 的时候还累。每多一条自动化流程，就多一个要维护的系统、多一个可能出错的环节、多一次“这个 AI 输出对不对”的判断。
 
-真正管用的，是我决定不做某件事的时候。不是因为做不到。恰恰因为做得到，“不做”才成了一件得我主动拍板的事。
+真正管用的，反而是我决定不做某件事的时候。我不是做不到；正因为做得到，“不做”才成了一件得我主动拍板的事。
 
 Jacoby 的实验也说了同一件事：给消费者的品牌信息越多，决策反而越差。Barry Schwartz 管这叫“选择的悖论”。选项多过某个点，多出来的就只是焦虑和后悔了。
 
@@ -388,7 +388,7 @@ AI 给了我们空前多的选项。但选的能力呢？还是老样子。
 
 我反复想到的一句话：**能做的事越多，该做的事就越少。**
 
-工具照用，只是拿它去做更少、更深的事，别去做更多、更浅的事。管道口径不会变。水压还会继续涨。唯一能控制的，是你主动打开多少个阀门。
+工具照用，只是拿它去做更少、更深的事，别去做更多、更浅的事。管道口径不会变，水压还会继续涨，唯一能控制的，是你主动打开多少个阀门。
 
 Eric Schmidt 说过，信息太多会妨碍“深度思考、理解和记忆形成”。Clay Shirky 说得更到位：问题不是信息太多，是过滤失败。我们的过滤能力跟不上信息的增长速度。
 
