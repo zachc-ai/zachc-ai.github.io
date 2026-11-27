@@ -8,6 +8,13 @@ date: 2026-10-29
 categories: life
 tags: [philosophy, life, mind]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/helping-others-and-yourself.en.mp3
+    duration: 207
+  zh:
+    src: /assets/audio/helping-others-and-yourself.zh.mp3
+    duration: 193
 sources:
   - title: "Old Book of Tang: Wei Zheng"
     title_zh: "《旧唐书·魏征传》"
