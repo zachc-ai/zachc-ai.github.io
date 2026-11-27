@@ -11,10 +11,10 @@ bilingual: true
 narration:
   en:
     src: /assets/audio/attention-is-all-you-need.en.mp3
-    duration: 382
+    duration: 362
   zh:
     src: /assets/audio/attention-is-all-you-need.zh.mp3
-    duration: 370
+    duration: 374
 sources:
   - title: "Attention Is All You Need"
     url: "https://arxiv.org/abs/1706.03762"
