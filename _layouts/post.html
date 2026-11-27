@@ -37,6 +37,7 @@ layout: default
   <section class="post-listen" aria-label="Listen / 收听">
     {%- if page.narration.en %}
     {%- assign zc_min = page.narration.en.duration | divided_by: 60.0 | round %}
+    {%- if zc_min < 1 -%}{%- assign zc_min = 1 -%}{%- endif -%}
     <div class="listen lang-en">
       <p class="listen-label">Listen<span class="dot" aria-hidden="true">·</span>{{ zc_min }} min<span class="dot" aria-hidden="true">·</span><span class="listen-note">my voice, AI-generated</span></p>
       <audio controls preload="metadata" src="{{ page.narration.en.src | relative_url }}"></audio>
@@ -44,6 +45,7 @@ layout: default
     {%- endif %}
     {%- if page.narration.zh %}
     {%- assign zc_min = page.narration.zh.duration | divided_by: 60.0 | round %}
+    {%- if zc_min < 1 -%}{%- assign zc_min = 1 -%}{%- endif -%}
     <div class="listen lang-zh">
       <p class="listen-label">收听<span class="dot" aria-hidden="true">·</span>{{ zc_min }} 分钟<span class="dot" aria-hidden="true">·</span><span class="listen-note">AI 合成</span></p>
       <audio controls preload="metadata" src="{{ page.narration.zh.src | relative_url }}"></audio>
