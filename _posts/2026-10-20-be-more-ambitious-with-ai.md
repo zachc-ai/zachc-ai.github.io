@@ -9,6 +9,13 @@ categories: digest
 tags: [ai, engineering, systems, learning]
 source: "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/"
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/be-more-ambitious-with-ai.en.mp3
+    duration: 277
+  zh:
+    src: /assets/audio/be-more-ambitious-with-ai.zh.mp3
+    duration: 262
 sources:
   - title: "Felix Rieseberg — How to be more ambitious: A tutorial for humans with models"
     url: "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/"
