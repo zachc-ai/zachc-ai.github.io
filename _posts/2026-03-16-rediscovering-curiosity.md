@@ -8,6 +8,13 @@ date: 2026-03-16
 categories: life
 tags: [learning, ai, life]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/rediscovering-curiosity.en.mp3
+    duration: 123
+  zh:
+    src: /assets/audio/rediscovering-curiosity.zh.mp3
+    duration: 126
 ---
 
 <div class="lang-en" markdown="1">
