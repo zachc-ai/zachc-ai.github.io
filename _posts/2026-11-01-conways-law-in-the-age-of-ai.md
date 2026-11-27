@@ -32,160 +32,132 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-Anthropic describes an agent migration that reduced latency and broke a previously passing workflow. The main agent answered an order question without asking the shipping specialist for the delivery date. The failure appeared in only one of two runs.
+Anthropic wrote up an agent refactor that cut latency and broke a workflow that used to pass. After folding a shipping subagent into the main loop, the main agent started answering order questions without checking delivery dates. Worse, the bug only showed up in one of two runs.
 
-Removing the handoff had also removed a check. A shorter process wasn't enough to establish that the work was still being done.
+Cutting the handoff had quietly cut a check. A shorter pipeline didn't mean the job was still getting done.
 
-I've been thinking about whether a small team with AI could finish work that used to cross several teams. It's an appealing possibility. But Conway's law doesn't give us a productivity ranking by team size. It helps explain how communication shapes a system. To decide whether a team should own more, we still have to examine the work and its costs.
+That's the tension I've been chewing on lately: can a small team armed with AI finish work that used to bounce across four teams? It's tempting to say yes. Conway's law doesn't tell you small teams beat big ones; it just says your system will mirror how your people actually talk and decide. Before handing a small team more surface area, you still have to look at what the old boundaries were protecting.
 
 <img src="{{ '/assets/images/conways-law-cover.png' | relative_url }}" width="1200" height="630" alt="An illustrative change passes through UI, service, data, and release owners. A second arrangement puts those activities inside one bounded team with authorized agents, required checks, and a feedback loop.">
 
 ## Conway's law shows up in agent architectures too
 
-In his 1968 paper, Melvin Conway argued that organizations designing systems produce designs that copy their communication structures.
+Melvin Conway's 1968 observation is simple: organizations build systems that copy their own communication structures. Modules need shared assumptions to fit together. When the people behind them rarely talk or can't make a call together, any design that requires tight coordination starts to rot. That reflects real working channels and decision power, not just the org chart.
 
-Modules need shared assumptions to work together. If the people responsible for them can't reach those agreements easily, a design requiring frequent collaboration becomes difficult to sustain. The relevant structure includes who actually talks to whom and who can make a decision, beyond the reporting chart.
+Anthropic sees the exact same thing in enterprise agents. Each product team spins up its own specialist agent, then a central team glues an orchestrator on top. Org boundaries turn into separate context windows, prompts, and handoffs, and any customer request that spans products has to hop across all of them.
 
-Anthropic describes the same pattern in enterprise agents: each product team builds its own specialist agent, then a central team adds an orchestrator. Organizational boundaries become separate context windows, prompts, and handoffs. A customer task spanning products then has to cross those boundaries.
+A Reddit post by u/AlexFromUplevel puts it bluntly: a service with no clear owner leaves an agent working on it with no clear owner either. It's a practitioner's observation, not a controlled study, yet the point lands. If nobody owns the whole workflow today, dropping agents into it won't magically create ownership.
 
-In a Reddit post, u/AlexFromUplevel makes a related point: a service without a clear owner also leaves an agent working on that service without a clear owner. It's a practitioner argument, not a measured result, but it raises a useful question. If nobody owns the full workflow today, why would adding agents establish that ownership?
+## More PRs isn't the same as more shipped work
 
-## More changes and more completed work are different measures
+In a November 1 working paper, Fiona Chen and James Stratton looked at Jellyfish data from 655 companies. A year after adopting coding agents, teams opened about 36% more PRs and closed roughly 14% more Jira issues (with noisier statistical support on the issues), while time from PR open to merge jumped about 56%.
 
-Fiona Chen and James Stratton's November 1 working-paper version uses Jellyfish records from 655 firms. One year after coding-agent adoption, it estimates about 36% more PRs opened and about 14% more Jira issues resolved, with weaker statistical evidence for the latter. Elapsed time from PR submission to merge increased by about 56%.
+Like any observational study, it leans on adoption timing rather than random assignment, and merge time includes queue wait, not just reviewer hours. Even with those caveats, the shape makes sense: if code arrives faster than a team can verify and integrate it, the hours saved typing just pile up in the review queue downstream.
 
-The study uses differences in adoption timing, rather than randomly assigning tools, and depends on assumptions about comparable trends without adoption. A resolved issue is also a proxy for completed work, not a direct measure of customer value. Submission-to-merge time includes waiting; it isn't a measure of a reviewer's working hours. I'd use these estimates to investigate what happens after implementation, rather than predict how every team will perform.
+There are brighter reports too. FurtherAI's engineering write-up on X talks about spending months hardening tests, CI, and risk-tiered merges before handing engineers broader planning and review ownership. That upfront investment interests me more than any one startup's headline speedup. Cheap coding makes it easy to try ideas; getting them safely into production still takes its own machinery.
 
-If changes arrive faster than they can be checked and integrated, some of the saved coding time can become a longer queue downstream.
+## Group work by what has to be understood together
 
-There are favorable accounts too. FurtherAI's engineering retrospective on X describes months spent improving tests, CI, and risk-based merging before shifting more planning and review responsibility to engineers. I find the investment behind that account more useful than the headline productivity numbers. It's one startup's self-report, not a recipe we can assume will work everywhere.
+AI lets one team touch more of the stack. How much of that stack the team can genuinely understand and own is a harder question.
 
-Cheap implementation can make it easier to try an idea. Getting that idea safely into use still needs its own capacity.
+Anthropic's rule of thumb for agents translates nicely to teams: fold specialists together when they constantly rely on each other's output or share the same context; keep them apart when fresh context, parallel work, or conflicting tools make separation pay off.
 
-## Divide work by what needs to be understood together
+A UI and backend service that always change in lockstep probably belong under one roof. A shared payment core serving ten products doesn't; shoving it into one product team just trades one bottleneck for a worse one.
 
-AI could let a team implement changes across a wider range of technologies. How much of that work the team can understand and take responsibility for is a separate question.
+Microservices already pushed for autonomous teams around business capabilities, and Martin Fowler's "inverse Conway maneuver" is about reshaping teams to get the architecture you want. Start with what a team should actually be accountable for, then figure out headcount and service boundaries. Any boundary that forces two teams to negotiate on every routine change is worth questioning, as long as you check what expertise or safety rail it was holding up before you tear it down.
 
-Anthropic's agent guidance gives a concrete test for boundaries: consider combining specialists that repeatedly use each other's output or need the same context. Keep separate agents when fresh context, independent parallel work, or incompatible tools and instructions make separation useful.
+## Autonomy doesn't mean everyone turns into a generalist
 
-I'd ask a similar question about teams. A UI and service that must change together may benefit from being owned together. A shared payment system has obligations to many products; folding it into one product team could create a different dependency.
+Block recently floated an org design that keeps deep specialists while giving a single DRI 90-day authority to pull from multiple teams on a cross-cutting problem. It's a proposal, not proven history yet, but I like the direction: you keep deep craft while giving one person a concrete goal, a deadline, and real coordination power.
 
-Microservices already aimed for autonomous teams organized around business capabilities. Fowler describes the inverse Conway maneuver as changing the organization to encourage a desired architecture. I'd start by defining a team's responsibility, then consider headcount and service count.
+Anthropic suggests a matching split for agents. Domain teams own their skills and tools; a small central team owns the system prompt and end-to-end quality. Multiple teams contribute without each spinning up a rival agent that hijacks the conversation.
 
-I'd reconsider boundaries around changes that repeatedly require joint decisions, while checking what knowledge or protection each boundary provides. Some separation makes coordination possible at scale. Removing it can move too much context and risk onto a small group.
+Neither setup gets you out of priority calls. When two products want the same specialist or platform at the same time, someone still has to choose. Giving everyone new titles or personal coding agents doesn't settle who holds that tiebreaker. What actually helps is letting a team move freely inside clear boundaries and pull in specialist help without renegotiating every routine step from scratch.
 
-## Autonomy can keep the specialists
+## Know what a handoff does before deleting it
 
-Block has proposed an arrangement that keeps deep specialists while giving a DRI responsibility for a cross-cutting problem. Its example is a 90-day assignment with authority to draw on several teams.
+That missing delivery date at the start is a classic example of hidden work inside a handoff. Process diagrams rarely show the informal checks people carry in their heads.
 
-That is a proposed organization design, not evidence that it has already succeeded. But it offers an alternative to turning everyone into a generalist: retain specialist capabilities and give someone a defined outcome, a limited duration, and authority to coordinate the work.
+Some approvals just enforce a predictable rule that belongs in a test or an automated guardrail. Others are real judgment calls: is this migration safe, should we build this at all, does it break a promise we made to customers? Separate those two before deleting the step. Automate the repeatable checks; keep a named human on the hook for judgment.
 
-Anthropic proposes a related division for agent systems. Domain teams can own skills and tools; a small central team owns the system prompt and end-to-end quality. Several teams can contribute without each having a separate agent that takes over the conversation.
+Tests, permissions, and clean rollbacks aren't bureaucracy; they're what let a team ship low-risk changes without asking permission up the chain. Speed up code generation without matching verification, and you're mostly generating cleanup work for whoever holds the pager. And measure the whole loop: green unit evals can hide a broken customer workflow, just like a record PR count can hide a jammed review queue.
 
-These arrangements still need decisions about priorities. Someone has to settle a conflict between two products needing the same specialist or platform. Renaming roles or providing personal agents won't assign that authority. What interests me is whether a team can act inside a clear scope and get help without negotiating every routine step from scratch.
+## Test it on one workflow first
 
-## Replace the handoff only after identifying its job
+I haven't worked at a startup, so my picture of their speed still has some guesswork in it. A greenfield team and a team running a ten-year-old system with shared databases and unwritten rules aren't playing the same game. Generating replacement code is easy; untangling those rules isn't.
 
-The shipping-date failure at the beginning is a small example of what a handoff can carry. It may hold information or a check that isn't obvious from the process diagram.
+If I were trying this, I'd pick one bounded workflow with clear decision rights and risk limits, then measure end-to-end delivery at comparable quality: waiting, rework, and post-release bugs included. I'd also check whether the speedup secretly leaned on another team's extra effort or months of verification tooling built ahead of time.
 
-For a routine change, an approval may be applying a stable rule that could be enforced by a test or an authorized tool. For another change, the reviewer may be deciding whether a migration is safe, whether the feature should exist, or whether it conflicts with a promise to a customer.
+Incentives matter just as much. Reward PR volume and visible AI usage, and you'll get plenty of both. I'd rather reward cutting a dependency, shrinking maintenance, or preventing an incident. Conway himself argued for rewarding managers who keep organizations lean and adaptable.
 
-I would separate those cases before removing the approval. Make repeatable checks cheap and automatic where appropriate; keep a named person responsible for judgment that the checks don't cover.
+A good pilot earns wider ownership. A messy one might tell you to fix the tests, tighten requirements, or keep a specialist boundary right where it is. Headcount alone won't tell you which.
 
-Tests, permissions, and rollback options need design work too. They give a team room to act without passing every low-risk decision upward. A faster coding loop with inadequate verification can instead send more work to the people who have to recover from its mistakes.
-
-And I'd measure the whole workflow. Locally passing evals can hide a failed customer task, just as an impressive PR count can hide a growing review queue. Someone needs to own that end-to-end test.
-
-## Start with a comparison that can teach us something
-
-I haven't worked at a startup, so my ideas about their flexibility still include guesswork. A small greenfield team and a team maintaining a mature system also face different work. Shared databases and unwritten business rules don't disappear because the replacement code is easy to generate.
-
-I'd try one bounded workflow, with explicit decision rights and risk limits. Measure delivery time at comparable quality, including waiting, rework, and failures after release. Check whether the gains depended on extra effort from another team or on verification infrastructure built beforehand.
-
-The evaluation system matters as well. If it rewards code volume or visible AI activity, people have a reason to produce more of both. I'd also want it to recognize a dependency removed, less recurring maintenance, or fewer failures. Conway himself called for rewarding managers who keep design organizations lean and flexible.
-
-A successful experiment might justify wider ownership. A failure might show that the team needs better tests, clearer requirements, or a specialist boundary we should keep. I wouldn't decide between those explanations from headcount alone.
-
-I'd start with one handoff and find out what it is actually doing.
+I'd start by picking one handoff and finding out what it's actually doing.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-Anthropic 记录过一次 agent 改造：合并一个 subagent 以后，响应更快了，原来能通过的一项流程却出了错。主 agent 自己回答了订单问题，没有再向配送 specialist 确认交付日期。这个问题跑两次，只出现了一次。
+Anthropic 写过一次 agent 改造：把配送 subagent 合并进主循环之后，响应确实变快了，但一条原本能跑通的流程悄悄坏了。主 agent 直接回答了订单问题，忘了去查交付日期。更麻烦的是，这问题跑两次才出现一次。
 
-少了一次交接，也漏掉了一项检查。流程变短了，原来该做的事却未必还做得好。
+砍掉一次交接，顺带砍掉了一项检查。链路变短，不代表活还干对了。
 
-我最近在想，一个小团队加上 AI，能不能独立做完原来要跨几个团队的工作。这个设想挺有吸引力。但康威定律不会按团队人数给生产力排高低。它解释的是沟通怎样影响系统设计。至于一个团队该多承担多少，还得把工作和成本摊开看。
+这正好撞上我最近一直在琢磨的事：一个小团队配上 AI，能不能自己啃完过去要跨好几个团队的活？听起来挺诱人。但康威定律没说过人少就一定快，它只是提醒你，做出来的系统早晚会长成你们平时沟通和拍板的样子。真想让小团队多扛一块地盘，先得看清旧边界原本在拦什么。
 
 <img src="{{ '/assets/images/conways-law-cover.png' | relative_url }}" width="1200" height="630" alt="一种示意安排把同一个改动交给界面、服务、数据和发布的不同负责人；另一种把这些工作放进一个有明确边界的小团队，由获授权的 agent 协助，保留必要检查，并接收结果反馈。">
 
-## 康威定律也会出现在 agent 架构里
+## 康威定律一样长在 agent 架构里
 
-Melvin Conway 在 1968 年的文章里提出，一个组织设计出来的系统，会复制这个组织的沟通结构。
+Melvin Conway 1968 年的判断很直白：组织做出来的系统，会复制它自己的沟通结构。模块之间要配合，背后的人就得把假设对齐；要是这几拨人平时不怎么说话、也没法一起拍板，需要频繁配合的设计迟早散架。这里说的结构，看的是谁真在跟谁协作、谁能拍板，不只是组织架构图。
 
-模块要配合，背后的人就得对接口有共同理解。如果这件事很难达成，需要频繁协作的设计就很难维持。这里说的结构，包括谁平时和谁交流、谁能做决定，光看汇报线还不够。
+Anthropic 在企业级 agent 里看到的是同一套翻版：每个产品团队各搭一个 specialist agent，中央团队再在上面套一层 orchestrator。组织边界原封不动变成了各自的 context window、prompt 和交接。一个跨产品的客户请求进来，照样得过五关斩六将。
 
-Anthropic 描述了一类企业 agent 的做法：每个产品团队各造一个 specialist agent，再由中央团队加一层 orchestrator。组织边界变成了各自的 context window、prompt 和交接。一件跨产品的客户任务，也就得穿过这些边界。
+Reddit 上 u/AlexFromUplevel 说得很直接：一个服务平时就没人真正负责，跑在上面的 agent 照样没人负责。虽然是一线吐槽不是论文，但话挺扎心。今天都没人端到端兜底的事，多塞几个 agent 进去，负责人也不会自己长出来。
 
-Reddit 上，u/AlexFromUplevel 提了一个相关的观点：一个服务如果没有明确的 owner，在这个服务上干活的 agent 也就没有明确的 owner。这是实践者的判断，不是测量结果。但它让我想到一个问题：今天都没有人对完整流程负责，加几个 agent，怎么就会自动产生这个负责人？
+## 改得多，不等于交付得多
 
-## 改动多了，交付未必同比增加
+Fiona Chen 和 James Stratton 11 月 1 日更新的工作论文，翻了 Jellyfish 上 655 家公司的记录。用上 coding agent 一年后，打开的 PR 多了约 36%，解决的 Jira issue 多了约 14%（统计噪声偏大），但 PR 从提交到合并的耗时涨了约 56%。
 
-Fiona Chen 和 James Stratton 的工作论文，在 11 月 1 日更新的版本里，使用了 Jellyfish 上 655 家企业的记录。采用 coding agent 一年后，研究估计发起的 PR 增加了约 36%，解决的 Jira issue 增加了约 14%，后者的统计证据较弱。PR 从提交到合并的耗时增加了约 56%。
+当然，这类研究靠的是上线时间差而不是随机分组，合并耗时里也混着排队等 review 的时间。可趋势很符合直觉：如果代码冒出来的速度远远超过检查和集成的速度，写代码省下来的功夫，多半全堵在下游的 review 队列里了。
 
-这项研究比较了不同时间采用工具的企业，没有随机分配工具。它依赖一个重要前提：假如没有采用工具，这些企业原本会沿着相近的趋势发展。解决 issue 只是衡量工作完成情况的一个间接指标，不能直接当成用户价值。PR 从提交到合并的时间还包括等待，不等于 reviewer 实际干活的时间。我会拿这些估计去检查代码写完之后的环节，不会据此预测每个团队的表现。
+正面案例也有。FurtherAI 在 X 上复盘工程团队改造时，先花了几个月补测试、改 CI、做按风险分级的合并机制，之后才把更多规划和审查权交给一线工程师。比起单个创业公司晒出来的提速数字，我更看重前面那段铺路。写代码变便宜了，试错门槛确实低了；可要把改动安稳交到用户手里，后面那套兜底能力还得自己长出来。
 
-如果改动来得比检查和集成更快，省下来的写代码时间，就可能变成下游更长的队列。
+## 按“哪些活必须放一起理解”来划界
 
-也有正面的经验。FurtherAI 在 X 上的工程团队回顾里，描述了几个月的测试、CI 和按风险分级合并的投入，然后再把更多规划和审查责任交给工程师。相比醒目的生产力数字，我更在意这段投入。不过，这仍然是一家 startup 的自述，不能直接拿来当通用配方。
+AI 能让一个团队多碰好几层技术栈，但团队真能吃透多少、扛得住多少责任，是另一笔账。
 
-实现便宜了，试一个想法会更容易。把它安全地交到用户手里，仍然需要相应的能力。
+Anthropic 给 agent 划边界的经验，搬到团队上也管用：经常互相拿对方输出、吃同一份上下文的专家，可以考虑合在一起；需要干净上下文、并行推进，或者工具和指令互相打架的，还是分开省事。
 
-## 哪些工作需要一起理解？
+前后端如果每次改需求都得绑在一起动，归一个团队管往往更顺。可像共享支付系统这种给十几个产品兜底的核心，硬塞进某一个产品团队，只会制造更难缠的新依赖。
 
-AI 可能让一个团队能在更多技术领域里改代码。但它能理解多少、又能对多少工作负责，是另外一个问题。
+微服务本来就想按业务能力建自治团队，Martin Fowler 说的“逆康威操作”也是先动组织、再带出想要的架构。划边界时，先定清楚团队到底对什么结果负责，再去算人数和服务怎么切。凡是每次常规改动都得跨团队反复扯皮的边界，都值得重新看一眼；只是动手拆之前，先确认它背后护着哪些专业积累和风控。
 
-Anthropic 给了一个划分 agent 边界的具体办法：几个 specialist 如果经常用到彼此的输出，或者需要同一份上下文，可以考虑合并。要各自使用独立 context、并行做互不依赖的工作，或者工具和指令互相冲突时，分开仍然有用。
+## 自治不等于人人都变通才
 
-我觉得团队也可以这么问。界面和服务如果总要一起改，放在一起负责可能更顺。一个共享支付系统，却对很多产品都有责任；把它塞进某个产品团队，可能制造另一种依赖。
+Block 最近提过一种方案：继续保留深度专家，同时指定一个 DRI，给 90 天授权去调动多个团队啃一个跨边界问题。虽然只是提案、还没跑出定论，但这思路挺顺眼：留住真专家，同时给一个人明确的目标、期限和协调权。
 
-微服务原本就想要围绕业务能力组织能自主交付的团队。Fowler 讲的 inverse Conway maneuver，也是先调整组织，去促成想要的架构。划团队时，我更想先定责任，再考虑人数和服务数量。
+Anthropic 对 agent 系统也给了类似切法：领域团队维护各自的 skills 和 tools，一个精干的中央团队守住 system prompt 和端到端质量。大家都能往里添砖加瓦，不用每个团队各起一个 agent 抢对话控制权。
 
-有些边界一碰到改动，就得两边共同拍板，我会先重新看看这些边界。但也得弄清楚，原来的分工保留了什么专业知识、提供了哪些保护。有些分工让大规模协作成为可能，删掉以后，需要理解的上下文和要承担的风险，反而可能都压到一小群人身上。
+不管怎么切，优先级冲突都躲不掉。两个产品同时抢一位专家或者同一个平台，总得有人拍板。改个岗位头衔，或者人手发一个私人 agent，替不了这个拍板的人。我更在意的是，团队能不能在清楚的边界里放手干活，需要外援时也不用每次从零谈起。
 
-## 自治，也可以保留深度专家
+## 删交接之前，先搞清它在干嘛
 
-Block 提出过一种安排：保留深度专家，同时给一个 DRI 跨团队问题的责任。文中的例子，是一项为期 90 天的任务，负责人有权调动几个团队的资源。
+开头漏掉交付日期那个坑，正好说明一次交接背后藏着什么：流程框图上看不见的信息，或者一道靠人记着的检查。
 
-这是一个组织设计提案，还不能证明已经成功。不过，要让团队独立做完一件事，也可以保留深度专家，不必让“人人都变成通才”。给一个人明确要完成的结果、有限的时间，以及协调这件事的权力，是另一种做法。
+有些审批其实只是在守一条死规矩，完全可以变成自动测试或受控工具；另一些审批则是真要人做判断，比如这次数据迁移稳不稳、这个功能该不该上、有没有违背对客户的承诺。删步骤之前，先把这两类拆开：能重复验的尽量自动化，机器兜不住的判断还是明确落到人头上。
 
-Anthropic 对 agent 系统也提出了类似分工。领域团队可以维护 skills 和 tools，一个小的中央团队负责 system prompt 和端到端质量。几个团队都能贡献，不必每个团队各造一个接管对话的 agent。
+测试、权限和回滚不是繁文缛节，它们才是让团队敢自己发低风险改动的底气。写代码快了、验证跟不上，最后只是把更多收拾烂摊子的活儿推给了值班的人。盯指标也得盯全链路：局部 eval 全绿，用户任务照样可能翻车；PR 数量刷得再高，也盖不住越排越长的 review 队列。
 
-这些安排照样得处理优先级。两个产品都需要同一位专家、同一个平台时，仍然得有人拍板。换个岗位名称，或者人人配一个私人 agent，不会自动分好这个权力。我关心的是，团队能不能在职责范围内做事、得到帮助，而不用每个常规步骤都从头谈一遍。
+## 先拿一条小流程试一试
 
-## 先弄清交接在做什么，再考虑删
+我没在创业公司待过，对它们有多灵活，多少带着点想象。从零起新盘的小团队，跟维护十年老系统、满地共享数据库和隐性业务规则的团队，本来就不是同一场仗。替换代码容易生成，那些没写进文档的老规则可不会跟着消失。
 
-开头漏掉交付日期的例子，说明一次交接可能带着什么：信息，或者一项光看流程图不容易发现的检查。
+真要试，我会挑一条边界清楚的流程，把拍板权和风险红线先定好，然后在同等质量下量完整交付耗时，把排队、返工和上线后的故障全算进来。顺便看清这份提速有没有悄悄靠别的团队兜底，或者全靠提前搭好的验证基础设施。
 
-有些常规改动，审批只是在执行一条稳定的规则，可以考虑交给测试或获授权的工具。有些改动却需要 reviewer 判断：数据迁移安不安全，这个功能该不该做，有没有违背对用户的承诺。
+考核标准也得跟着动。如果只奖励代码量和可见的 AI 使用率，大家自然会拼命刷这两样。我更希望干掉一条依赖、少一段重复维护、少出几次线上事故也能算功劳。Conway 自己当年就提过，应该奖励那些让组织保持精简灵活的管理者。
 
-删审批以前，我会先把这些情况分开。适合重复执行的检查，尽量做得便宜、自动；检查没有覆盖的判断，仍然明确由谁负责。
+试点跑通了，再把责任范围放大；要是跑崩了，也许说明该补测试、理清需求，或者某条专家边界本来就不该拆。光盯着团队人数，看不出答案。
 
-测试、权限和回滚，也需要花功夫设计。它们让一个团队能自主处理更多低风险的事。写代码的循环变快了，验证却跟不上，也可能把更多工作送给负责收拾问题的人。
-
-而且得看完整流程。局部 eval 都通过，也可能有一个客户任务失败；PR 数量挺漂亮，也可能有一条越排越长的 review 队列。需要有人负责端到端验收。
-
-## 从一个能学到东西的小实验开始
-
-我没在 startup 工作过，所以对它们灵活性的想象，还是带着一些猜测。小团队做新项目，和一个团队维护成熟系统，面对的工作也不同。替换代码容易生成了，共享数据库和没写下来的业务规则也不会跟着消失。
-
-真要试，我会先选一个范围明确的流程，讲清谁能拍板、能承担多大的风险。在质量相当的前提下，测完整的交付时间，把等待、返工和上线后的问题都算进去。还要看这些收益，有没有靠别的团队额外干活，或者靠提前建好的验证设施。
-
-评价体系也得一起看。如果奖励代码量、可见的 AI 活动，人就有理由把这两样做得更多。我希望消掉一项依赖、减少重复维护、少出几次故障，也能算成绩。Conway 自己就提出过，应该奖励那些让设计组织保持精简、灵活的管理者。
-
-实验成功，可能说明责任范围可以放大。实验失败，也可能说明测试不够、需求不清，或者有一条专业边界值得保留。单看人头数，分不出是哪一种。
-
-我会先挑一次交接，看看它究竟负责了什么。
+真要动手，我会先挑一次交接，弄明白它到底在拦什么。
 
 </div>

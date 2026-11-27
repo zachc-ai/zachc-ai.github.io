@@ -33,134 +33,108 @@ sources:
 
 <img src="{{ '/assets/images/hawk-dove-cover.png' | relative_url }}" width="1200" height="630" alt="An angular hawk and a rounded dove face a small red resource between them.">
 
-Imagine a Friday afternoon. Someone asks for a new feature by the end of the day. Finishing it means dropping something already promised, or having someone work through the evening.
+Picture a Friday afternoon. Someone drops a new feature request and wants it by end of day. Getting it done means dropping something you already promised, or giving up your evening.
 
-The person making the request gets the feature. Someone else loses the evening.
+They get the feature. You lose the night.
 
-What interests me about the hawk-dove game is how a situation makes a particular way of behaving pay. In this imagined workday, insisting on the request costs less when someone else supplies the extra hours.
+What draws me to the hawk-dove game is how cleanly a setup can reward pushing hard. When someone else supplies the extra hours, insisting on "today" gets pretty cheap.
 
-## A resource, two strategies
+## A resource, two moves
 
-The game describes a contest over a resource worth `V`. There are two available strategies:
+In the textbook version, two players contest a resource worth `V` with two moves:
 
-- A hawk escalates and keeps contesting the resource.
-- A dove avoids a damaging fight, backing down when the other player escalates.
+- Hawk: escalate and keep pushing, willing to take a costly fight.
+- Dove: avoid an expensive clash and back down if the other player escalates.
 
-These are moves in a model, not personality types. A firm, polite refusal is not necessarily a hawk move; the model's hawk accepts the possibility of a costly fight.
+These are moves, not personality types. Saying no politely and firmly doesn't make you a hawk; a hawk is willing to risk real damage to win.
 
-In the common simplified version, two doves divide the resource. A hawk facing a dove takes it all. Two hawks fight, with an expected injury cost. Let `C` be the cost of losing that fight, and assume each has an equal chance of winning.
-
-The payoff to the player choosing the row is:
+Two doves split the resource. A hawk facing a dove walks away with all of it. Two hawks fight, each with an even shot at winning and an injury cost `C` if they lose. Here's the payoff for the row player:
 
 | My strategy | Against a hawk | Against a dove |
 |---|---:|---:|
 | Hawk | `(V - C) / 2` | `V` |
 | Dove | `0` | `V / 2` |
 
-The interesting case is `C > V > 0`: losing a fight costs more than the resource is worth. A population of doves is vulnerable to a hawk taking the whole prize. But a population of hawks is vulnerable to a dove avoiding those expensive fights.
+The interesting regime is `C > V > 0`, where losing a fight hurts more than the prize is worth. In a room full of doves, one hawk cleans up. In a room full of hawks, a dove saves itself from wrecking its own week. Unlike the prisoner's dilemma, neither move always wins: against a dove, hawk pays better; against a hawk, dove does.
 
-Unlike the standard prisoner's dilemma, there is no strategy here that pays better against both possible opponents. Against a dove, hawk pays more. Against a hawk, dove pays more.
+John Maynard Smith and George Price introduced this evolutionary-stability framework in 1973 (*The Logic of Animal Conflict*). Evolutionary stability asks which strategies resist invasion in a population. Useful lens, not a manual for how to live.
 
-The evolutionary-stability framework was introduced by John Maynard Smith and George Price in their 1973 paper, *The Logic of Animal Conflict*. The table above is a simplified textbook model. Evolutionary stability concerns which strategies can resist invasion by rare alternatives under specified conditions. That is a narrower question than how a person ought to live.
+## 25% isn't a life formula
 
-## The 25% is not a life prescription
-
-Let `p` be the share of hawks in a large, randomly matched population. The expected payoffs are:
+Suppose a large population matches up at random, with hawks making up share `p`. Expected payoffs are:
 
 ```text
 Hawk: p(V - C)/2 + (1 - p)V
 Dove: (1 - p)V/2
 ```
 
-Setting them equal gives:
+Set them equal and you get:
 
 ```text
 p* = V / C
 ```
 
-For `V = 10` and `C = 40`, the equilibrium share of hawks is 25%. Both strategies earn an expected payoff of 3.75.
+Plug in `V = 10` and `C = 40`, and the equilibrium lands at 25% hawks, with both strategies averaging `3.75`. (If `C <= V`, fights are cheap enough that all-hawk takes over.)
 
-That number belongs to this model. The encounters are symmetric, the two strategies are the only options, and matching is random. A randomly mixing individual can use the same probability in the corresponding symmetric mixed equilibrium.
+That clean 25% only holds when the matchup is symmetric, the matching is random, and you only have two buttons to press. I saw a post on X recommending a 70% dove, 30% hawk mix for life. I'd rather look at what's at stake and what a fight costs than carry a fixed quota around. Even our `25%` doesn't mean I should be difficult in one out of every four meetings.
 
-One X post recommends a 70% dove, 30% hawk split. I would rather ask what is at stake and what a fight would cost than give myself a fixed ratio. Even the 25% in our example does not tell me to be difficult in one quarter of my meetings.
+Even in a single two-player game with `C > V`, both hawk-dove and dove-hawk are Nash equilibria: once one person pushes and the other folds, neither gains by switching alone. Notice that doesn't mean the same person has to fold every time. Notice too that stability can be lousy for everyone: if both sides played dove in our example, each would earn `5` instead of `3.75`, except a lone hawk could defect and grab `10`.
 
-And if `C <= V`, this interior coexistence result no longer applies; all-hawk is evolutionarily stable in this simple game.
+A lab study by Henwood, Friedman, and Oprea shows how much the matching setup matters. When students paired up from one shared pool, play drifted toward the mixed equilibrium; when they matched across two separate groups, outcomes turned sharply lopsided. One lab setup isn't a universal rule for relationships, but it's a sharp reminder to watch how roles and matchups get assigned.
 
-There is also a different question hiding nearby. In a single two-player game with `C > V`, hawk-dove and dove-hawk are both pure-strategy Nash equilibria: neither player gains by changing their own move alone. That does not require the same person to back down in every future encounter.
+## Who actually pays?
 
-A stable outcome can leave both players worse off. If everyone used dove in our numerical example, each would get 5 rather than 3.75. The problem is that a unilateral hawk move would then pay 10.
+In the textbook table, both sides face the same `V` and `C`. Real conflicts rarely look that neat.
 
-Henwood, Friedman, and Oprea studied a related distinction in student laboratory experiments. Play in a single matching pool approached the mixed equilibrium; matching players across two groups instead produced sharply unequal outcomes. This is evidence from a particular experimental setup, not a diagnosis of every relationship. It gives me another reason to look at how people are assigned roles and opponents.
+The person pushing for a Friday change gets the credit and visibility; someone else loses their weekend. An argument might cost one person five mildly annoying minutes and leave the other person stewing for hours. The prize itself can matter very differently to the two sides.
 
-## Whose cost is in the calculation?
+So the person who pushes hardest isn't necessarily tougher. Sometimes their seat just lets them pocket the upside and hand the bill to someone else. Once costs and payoffs go asymmetric, a single `V/C` ratio stops telling you much.
 
-The simple model makes the contest symmetric. Real conflicts often are not.
+That also makes me skeptical of generic advice to "raise the cost of conflict." Making avoidable last-minute churn visible to the person causing it can help. Piling on extra approval meetings usually just taxes everyone, including the people already absorbing the mess. Before adding a rule, I want to know where the bill actually lands.
 
-A person insisting on an urgent change may gain visibility while someone else loses a weekend. An argument may cost one person a few unpleasant minutes and another person hours of worry. The same outcome can also matter very differently to the two people involved.
+## At work, put the trade-off on the table
 
-I would be careful about describing the first person as naturally stronger. Perhaps their position lets them collect more of the benefit and pass on more of the cost.
+Back to Friday afternoon. I'd start by asking why it has to be today. Real emergencies happen, and plans should bend for them. Calling everything urgent doesn't manufacture extra hours.
 
-This is my application of the model, not something the payoff table proves. Once the costs and rewards differ between players, a single shared `V/C` is no longer an adequate description.
+Then I'd put the trade-off in plain sight:
 
-It also makes me wary of the advice to "raise the cost of conflict." Clear accountability for an avoidable disruption could help. Adding more approval meetings could instead make everyone pay, including the people already absorbing the disruption.
+> I can ship this today if we push A to Monday. If both deadlines have to hold, we either cut scope or find someone else with bandwidth. Which commitment are we changing?
 
-I want to ask where the cost lands before deciding whether a new rule changes anyone's incentive.
+No drama, no power play. There's a priority call to make, and putting the displaced work right beside the new request forces it into the open.
 
-## At work, make the displaced commitment visible
+If I own the priorities, I state what's moving. If I don't, I put the choice in front of whoever does. Otherwise, a priority call quietly turns into an unspoken assumption about somebody's free evening.
 
-In the Friday example, I would start by asking what makes the request urgent. A real emergency may justify changing the plan. Calling everything urgent does not create more hours.
+When the same clash keeps coming back, it's better to settle the rules before the next fire drill: who owns the call, whose input is required, what evidence reopens it, and when an exception escalates. In asymmetric hawk-dove models, players can use a simple cue like owner vs. intruder to avoid pointless fights. Agreeing on a decision owner works a bit like that, with one obvious limit: owning a decision doesn't make you infallible. If a call creates a safety or legal risk, there still needs to be a real way to challenge it.
 
-Then I would make the choice explicit:
+## At home, separate preference from boundaries
 
-> I can deliver this today if we move A to Monday. If both deadlines have to hold, we need to reduce the scope or find someone with available capacity. Which commitment should change?
+Say two people disagree about how to spend a free afternoon. One cares a lot about the destination; the other mostly just wants time together. Pretending both preferences carry the same weight misses the easiest solution.
 
-No showdown required. There is a decision to make, and I am putting its consequences next to it.
+Saying how much something matters to you, taking turns on ties, and checking that the easygoing person still gets what they care about goes a long way. The trap is letting "whoever cares more wins" turn into "whoever looks most upset gets their way."
 
-If I can choose my own priorities, I should say what I will move. If I cannot, I need the person authorized to make that trade-off. Otherwise, a decision about priorities can turn into an assumption about someone's unpaid availability.
+And some things aren't prizes to negotiate over at all. Consent, privacy, and physical safety don't wait for your preference to outscore someone else's.
 
-For recurring disagreements, I would rather settle the decision process before the next deadline: who decides, whose input is required, what evidence could reopen the decision, and when an exception needs escalation.
+For everyday favors and friction, a clear line beats a vague grudge:
 
-Models of asymmetric contests can distinguish an owner from an intruder and allow strategies to depend on those roles. I see an analogy with agreeing on who decides before a dispute begins. That does not prove that whoever currently owns a decision deserves to keep it.
-
-A technical objection still needs a route to be heard. If a choice could create a safety or legal problem, an agreed decision owner does not make that problem disappear. Roles need a way to challenge mistakes as well as a way to end routine disagreements.
-
-## At home, separate preference from permission
-
-Suppose two people disagree about where to spend a free afternoon. One cares about the destination; the other mostly wants time together. Treating both preferences as equally intense would miss something useful.
-
-I like the idea of saying how much a choice matters, taking turns when it matters equally, and checking whether the person who usually yields still gets choices they care about.
-
-But "whoever cares more wins" has an obvious weakness. Someone can make every disagreement seem intolerable. I would not want visible distress to become the rule for deciding who gets their way.
-
-And some boundaries are not prizes to divide. Consent, privacy, and bodily safety do not need a sufficiently large competing preference to justify them. A model describing strategic stability cannot supply that moral judgment.
-
-For ordinary favors, I would prefer a limit that another person can understand:
-
-> I can help for half an hour. I cannot take over the whole task.
+> I can help for half an hour, not take over the whole thing.
 
 Or:
 
-> I do not want to continue while we are shouting. I can return to this tomorrow.
+> I'm not keeping this going while we're yelling. Let's pick it up tomorrow.
 
-These are proposed ways of communicating, not guarantees that the other person will respond well. Dependence and unequal power can make a refusal expensive. Where there is coercion or a threat to safety, the priority is support and protection, not a more skillful bargaining move.
+Saying it cleanly doesn't guarantee a clean response, of course. When there's real dependence, lopsided power, or a threat to safety, this stops being a bargaining problem; support and safety come first.
 
-## I prefer predictable boundaries
+## I'd rather be predictable
 
-I do not want to make myself harder to read just to keep another person guessing.
+In the toy game, staying unpredictable has a mathematical point. In real life, I don't want people close to me guessing how hard they can push before I snap.
 
-Randomization has a precise function in the simplified game. In an ongoing relationship, people can remember what happened, explain a mistake, make a commitment, or repair damage. Those possibilities need a richer model.
+With people I expect to keep working or living alongside, I'd rather be predictable about what I can give and where I stop. That lets them plan without running pressure tests on me every week. It also leaves room for repair: one clumsy request is a mistake, not a verdict on someone's character, and you can separate a one-off slip from a habit without pretending nothing happened.
 
-For someone I hope to keep working or living alongside, I would prefer to be predictable about what I can offer and what I cannot. Then they can make plans without testing how much pressure I will tolerate that day.
+The toy model also freezes the prize and gives you only two moves. Real life usually has a third option: a smaller version of the feature, a different afternoon plan, rotating the unpleasant duty, splitting decision rights, or logging what an exception actually displaced. If a deadline only survives on unpaid overtime, the problem is the schedule, not your tone in the meeting.
 
-There should be room for repair too. A single mistaken request need not define someone forever. I can distinguish a misunderstanding from a pattern without pretending either one did not happen.
+Walking away is an option too, though not everyone has the same exits. While you're still building alternatives, holding one modest boundary may be the smartest move you have.
 
-The model also fixes the prize and limits the available moves. An afternoon together need not have just two possible plans; a request may be useful at a smaller scope. Looking for those options changes the game we are discussing.
-
-I can sometimes change the arrangement too: rotate an unpleasant duty, agree on a budget, divide decision rights, document the cost of an exception, or seek another option. A deadline that repeatedly requires unpaid overtime needs a different plan, not just a calmer discussion about it.
-
-Leaving can be one option, though it is not equally available to everyone. While someone is building alternatives, keeping a boundary modest may be the safest workable choice.
-
-In the Friday conversation, I would start with the request itself: "What changes if this waits until Monday?" Then I would open the existing plan and work out what would have to move.
+So on that Friday afternoon, I'd start with one plain question: "What breaks if this waits until Monday?" Then I'd open the schedule and look at what actually has to move.
 
 </div>
 
@@ -168,131 +142,107 @@ In the Friday conversation, I would start with the request itself: "What changes
 
 <img src="{{ '/assets/images/hawk-dove-cover.png' | relative_url }}" width="1200" height="630" alt="线条锐利的鹰与轮廓圆润的鸽相对而立，中间是一份红色的资源。">
 
-设想一个周五下午，有人临时提了个需求，要求今天做完。要赶出来，就得推掉已经答应的事，或者有人晚上继续干。
+设想一个周五下午。有人临时塞进来一个需求，要求今天上线。想赶出来，要么推掉原本答应好的事，要么有人晚上接着加班。
 
-提需求的人拿到了结果，另一个人交出了晚上。
+提需求的人拿到了功能，另一个人交出了晚上。
 
-我读鹰鸽博弈时，更想弄清楚的是：什么样的处境，会让一种做法占便宜？就拿这个假设场景来说，加班的工时由别人出，坚持今天做完，对提需求的人来说就没那么贵了。
+我翻鹰鸽博弈的时候，最在意的其实是这件事：什么样的局面，会让硬推变得划算？就像这个周五，如果加班的时间由别人出，坚持“今天必须做完”，对提需求的人来说成本就低得很。
 
-## 一份资源，两种策略
+## 一份资源，两种打法
 
-两个人争一份价值为 `V` 的资源，各有两种选择：
+教科书里的简化版很简单。两个人争一份价值为 `V` 的资源，各有两种打法：
 
-- 鹰：升级冲突，继续争，接受打起来的风险。
-- 鸽：避免有损失的争斗，碰到对方升级就退出。
+- 鹰：往上顶、继续争，真打起来也认。
+- 鸽：躲开两败俱伤，对方一升级就退。
 
-这里讲的是策略，先别急着给人贴标签。礼貌而明确地拒绝，不一定就是模型里的“鹰”。鹰的定义里，包括愿意承担争斗的代价。
+鹰和鸽说的是打法，不是性格。客气但干脆地拒绝，不算当“鹰”。模型里的鹰，是真准备掀桌子、扛损失的。
 
-在常见的简化版本里，两只鸽平分资源；鹰遇到鸽，鹰拿走全部；两只鹰相遇就争斗，双方获胜概率各半。把输掉争斗的损失记为 `C`。下表是按行选策略的那一方（也就是“我”）的收益：
+两只鸽相遇，平分资源；鹰碰上鸽，鹰全拿走；两只鹰硬撞，胜负各半，输了要吃一笔代价 `C`。按行选策略的这一方，期望收益如下：
 
 | 我的选择 | 对方是鹰 | 对方是鸽 |
 |---|---:|---:|
 | 鹰 | `(V - C) / 2` | `V` |
 | 鸽 | `0` | `V / 2` |
 
-最值得讨论的情形是 `C > V > 0`：输一场的损失，比赢一场的好处还大。一个全是鸽的群体里，鹰能占便宜；可要是全是鹰，争斗太贵，避开冲突的鸽又有了优势。
+最有意思的是 `C > V > 0`：打输一架的代价，比争到的东西还贵。满屋子都是鸽的时候，冒出一只鹰就能通吃；反过来，满屋子都是鹰，一只肯退的鸽反而省掉了连场硬仗。这跟囚徒困境不一样，没有哪种打法碰到谁都占优：对方退，你硬推更赚；对方硬推，你退更划算。
 
-这跟标准的囚徒困境不一样。这里没有一种策略，碰到谁都更划算。对方退，争更赚；对方争，退更划算。
+这套演化稳定性的框架，是 John Maynard Smith 和 George Price 在 1973 年的《The Logic of Animal Conflict》里提出来的。它回答的是，在群体演化里哪种策略扛得住外来入侵。拿来照照现实很好用，但别把它当人生指南。
 
-John Maynard Smith 和 George Price 在 1973 年的论文《The Logic of Animal Conflict》里提出了演化稳定性的框架。上面的表格是教科书里的简化模型。演化稳定性讨论的是，在特定条件下，一种策略能不能抵御少量其他策略的入侵。至于人该怎么生活，还得另想。
+## 25% 不是配比公式
 
-## 25% 不是人生配方
-
-假设一个足够大的群体随机配对，鹰的比例为 `p`，两种策略的期望收益分别是：
+假设一个大群体随机配对，鹰占的比例是 `p`，两种打法的期望收益是：
 
 ```text
 鹰：p(V - C)/2 + (1 - p)V
 鸽：(1 - p)V/2
 ```
 
-令两者相等，可以得到：
+让两边相等，就能解出平衡点：
 
 ```text
 p* = V / C
 ```
 
-比如，`V = 10`，`C = 40`，平衡时鹰占 25%，两种策略的期望收益都是 3.75。
+代个具体数：`V = 10`，`C = 40`，平衡时鹰占 25%，两种打法的期望收益都是 3.75。（如果 `C <= V`，打架太便宜，最后所有人都会变成鹰。）
 
-数字很干净，条件也很具体：双方处境对称，随机相遇，而且只有鹰、鸽两种选择。在对应的对称混合均衡里，也可以把这个比例理解成每个个体随机选鹰的概率。
+这个干净的 25% 依赖一堆前提：双方处境对称、随机配对、而且手里只有鹰和鸽两个按钮。我在 X 上刷到过一条帖子，建议大家做人“七成鸽、三成鹰”。与其给自己定个死比例，我更愿意看眼下争的到底值多少、闹僵了代价有多大。就算按上面算出来是 25%，也不意味着四次开会里，我非得挑一次不好说话。
 
-X 上有一条帖子，建议七成鸽、三成鹰。我更想先问，这次争的东西值多少，争起来又会损失多少，而不是给自己定个配比。就算是刚才算出的 25%，也不等于四次开会就该有一次不好说话。
+即使只看单次两人博弈（`C > V`），“一鹰一鸽”和“一鸽一鹰”也都是纳什均衡：只要对方不改，自己单方面变招占不到便宜。这既没规定每次都得同一个人让，也没保证大家过得好：上面那个例子里，如果人人当鸽，每人本来能拿 5，比 3.75 高一截，架不住只要别人都退，冒出一只鹰就能独吞 10。
 
-而且，如果 `C <= V`，上面鹰鸽按比例共存的结论就不适用了：在这个简化博弈里，全是鹰的群体是演化稳定的。
+Henwood、Friedman 和 Oprea 的学生实验也说明，怎么配对影响极大。大家在同一个池子里随机匹配时，结果接近混合均衡；改成跨两组配对后，结果立刻拉出很大的不平等。一场实验室结果当然套不住所有关系，但它提醒了一件很实在的事：别光盯着人，得看看角色和对手是怎么分出来的。
 
-还得分清另一个层次：当 `C > V` 时，单次两人博弈中的“一鹰一鸽”和“一鸽一鹰”，都是纯策略纳什均衡。意思是，别人不变，自己单独换策略也占不到便宜。它并没有规定，以后每一次都得同一个人让。
+## 冲突的账，最后谁在买单
 
-均衡未必让大家过得更好。刚才的例子里，要是全选鸽，每人能拿 5，比 3.75 高。麻烦是，只要别人都退让，自己改选鹰就能拿 10。
+模型里双方的 `V` 和 `C` 一模一样，现实里很少这么对称。
 
-Henwood、Friedman 和 Oprea 做过一组学生实验。所有人放在同一个池子里配对时，结果接近混合均衡；改成两组之间配对后，却出现了很不平等的结果。这只是特定实验设置下的证据，不能拿来诊断所有关系。不过，它让我更想留意：人们按什么方式相遇，又被分到了什么角色？
+有人坚持周五临时改需求，拿到的是曝光和功劳，别人赔进去的是周末。一场争吵，对一个人只是几分钟不痛快，对另一个人可能半天缓不过来。同一件事，两边在乎的分量往往也差一大截。
 
-## 冲突的代价，到底记在谁账上
+所以，最会硬推的那个人，未必天生更强硬。很多时候，只是他的位置刚好让他拿走好处、把账单甩给别人。一旦双方的收益和代价不对等，单看一个 `V/C` 就解释不了什么了。
 
-简单模型里，双方的得失是对称的。现实里常常没这么整齐。
+这也是我对“提高冲突成本”这种建议有点警惕的原因。让制造无谓打断的人承担后果，多半管用；可要是多加几层审批会，往往是把所有人一起罚了，连本来就在兜底的人也跟着多开几场会。加规矩之前，先看看账单最后落到谁头上。
 
-有人坚持临时改需求，拿到的是曝光和成果，别人失去的是周末。一次争吵，对一个人只是几分钟不愉快，对另一个人却可能是半天缓不过来的消耗。同一件事，在双方心里的分量也可能差很多。
+## 工作里，把被挤掉的事摊在明面上
 
-这时，先别急着说前者“天生强势”。也许只是他的位置，让他更容易拿到收益，把代价留给别人。
+回到周五下午。我会先问一句：为什么非得今天？真出了急事，计划当然该让路。可要是每件事都贴个“紧急”，一天也不会多出几个小时。
 
-这是我借模型看现实的一个角度，收益表本身证明不了这些。一旦双方的收益和代价不同，就不能再拿同一个 `V/C` 解释整个局面了。
+接着，把取舍直接摆出来：
 
-所以，“提高冲突成本”也得问清楚提高的是谁的成本。对无谓打断设置合理的问责，可能有用；多加几层审批，也可能只是让所有人多开几次会，连原本承担损失的人也一起罚了。
+> 这个需求今天能做完，但 A 得挪到周一。如果两个时间都不能动，那就得砍范围，或者找确实有空的人接。我们改哪一个？
 
-一条规则有没有用，我想先看最后是谁在付账。
+不用拍桌子，也不用演强硬。本来就是一道优先级选择题，把被挤掉的工作摆在旁边，代价就藏不住了。
 
-## 工作里，把被挤掉的事摆出来
+优先级归我定，我就直接说挪什么；不归我定，就把这道题交回给能拍板的人。不然，本该讨论的优先级取舍，很容易悄悄滑成“那你晚上顺手补一下吧”。
 
-回到周五的假设场景，我会先问，为什么一定要今天做。真有紧急情况，调整计划当然有必要。可每件事都叫紧急，也不会多出几个小时。
+同类拉扯要是反复出现，最好别等下次救火再吵，提前把规矩定清楚：谁拍板、要听谁的意见、什么新信息可以推翻重议、例外情况找谁升级。非对称博弈模型里，靠“占有者”和“进入者”这种角色就能少打很多无谓的架；工作里提前约定负责人，道理差不多。当然，定负责人不是让他一言堂：真涉及安全或合规风险，反对意见照样得有通路。
 
-接下来，把取舍说清楚：
+## 生活里，分清偏好和底线
 
-> 今天做这个可以，但 A 就要挪到周一。如果两个时间都不能动，就得减范围，或者找确实有空的人。我们改哪一个承诺？
+换成生活场景：两个人商量一个空闲下午怎么过，一个很在意去哪，另一个主要想一起待着。这时候假装两边在乎程度一样，反倒错过最省心的解法。
 
-不用威胁，也不用表演强硬。既然要改计划，就把后果跟决定放在一起说。
+把在乎的程度直说出来，差不多的时候轮着来，再留意那个老让步的人有没有选到过自己真正想做的事，多数分歧其实好商量。要防的是另一件事：“谁更在乎听谁的”一旦跑偏，会变成谁表现得更崩溃、谁就能说了算。
 
-如果我有权调整优先级，就说明准备挪掉什么；如果没有，就找有权做这个取舍的人。否则，一次本该讨论优先级的决定，很容易悄悄变成“那你晚上补一下吧”。
+至于身体安全、隐私、同意与否，这些本来就不在商量范围里，没法拿收益表来算。
 
-如果同类争执反复发生，我更希望在下一次 deadline 之前，先讲好谁拍板、需要听谁的意见、什么证据足以重开讨论，以及例外情况怎么升级。
+日常帮忙或者拌嘴，把线划清楚比憋着气强：
 
-非对称争斗的模型，还会区分“占有者”和“进入者”，允许双方按各自角色行动。我觉得这跟提前约定谁拍板有点像。但“目前归谁管”，并不能证明“就应该永远归谁管”。
-
-技术上的反对意见仍然要有入口。涉及安全或法律风险时，也不能拿一句“他是负责人”就算了。规则得能结束一般分歧，也得留出纠错的办法。
-
-## 生活里，分清偏好和边界
-
-比如，两个人商量一个空闲下午怎么过。一个特别在乎去哪，另一个主要想一起待着。这时，假装双方对地点同样在乎，反而漏掉了有用的信息。
-
-我愿意把偏好说清楚：这次谁更在乎，差不多在乎时怎么轮流，以及那个经常让步的人，有没有真的选到过自己想做的事。
-
-但“谁更在乎就听谁的”，也很容易出问题。一个人可以把每次分歧都表现得无法承受。我不想把谁表现得更痛苦，当成谁说了算的规则。
-
-而且，有些边界根本不该当成奖品分配。身体安全、隐私、同意与否，不需要等到自己的偏好比对方更强烈，才值得被尊重。描述策略怎么稳定下来的模型，替不了这个价值判断。
-
-日常帮忙时，我更想把能给多少讲明白：
-
-> 我可以帮半小时，但不能把整件事接下来。
+> 我可以帮半小时，但整件事我接不下来。
 
 或者：
 
-> 现在这样吵，我不想继续了。明天可以再谈。
+> 现在这样吵没法聊，明天再说吧。
 
-这些只是沟通方式的例子，不能保证对方会好好回应。双方有依赖关系、权力差距时，拒绝本来就可能很贵。如果已经有胁迫或安全威胁，先要考虑的是支持和保护，别把它当成一次可以靠话术赢下来的谈判。
+当然，话这么说，不代表对方就会买账。真碰上权力不对等、彼此深度依赖，甚至涉及人身安全的处境，那就不是讲策略的事了：先保安全，找帮手。
 
-## 我更愿意把边界说清楚
+## 我宁可做个好猜的人
 
-我不太想靠“让别人猜不透”来保护自己。
+简化模型里，让人猜不透有数学上的好处。可真放进长期关系里，我不想让身边的人每天试探，才能摸清我今天能忍到哪一步。
 
-随机化在那个简化博弈里有明确作用。长期相处却多了很多可能：记得上次发生了什么，解释误会，作出承诺，或者把造成的损失补回来。想讨论这些，就得用更丰富的模型了。
+真想长期一起共事、一起过日子，我宁可把话摊在明面上：什么能商量，什么我接不了。这样对方好安排，我也省心。同时留一点修复的余地：提错一次请求是一次失误，不必给人定性；把偶发误会和反复出现的老毛病分开看，也不必装作没发生过。
 
-如果还希望继续一起做事、一起生活，我更愿意让对方知道，哪些事能商量，哪些事我做不到。这样，安排事情就不必靠每天试探我能忍到哪一步。
+模型还把奖品和动作都锁死了。现实里常常有第三条路：需求能不能先做一个精简版？下午能不能换个折中方案？麻烦事轮着干、提前说好预算、把例外挤掉的工作记在账上。一个总要靠无偿加班才能守住的 deadline，毛病出在排期上，光靠开会语气更温和解决不了。
 
-也得留一点修复的余地。一次提错了请求，不必就给一个人定性；误会和反复出现的模式，可以分开看，发生过的事也不用装作没发生。
+离开当然也是选项，只是每个人手里能走的路不一样多。还在给自己攒后路的时候，先守住一两条不大的边界，往往已经是眼下最稳妥的办法。
 
-模型里的奖品固定，可选动作也只有两种。现实里，一个下午怎么过，未必只有两套方案；一个需求减一点范围，也可能仍然有用。能找到这些选择，讨论的就已经是另一个博弈了。
-
-还可以试着改改安排：轮流承担麻烦事，提前说好预算，分清决策权限，把一次例外挤掉了什么记下来，或者找找别的选择。一个总要靠无偿加班才能守住的 deadline，得重新排计划，光是讨论时语气更温和，还不够。
-
-离开也可能是一种选择，只是每个人能走的路不一样多。在慢慢积累其他选择的时候，先守住一个不大的边界，也可能已经是当下最安全、最可行的做法。
-
-要是回到那个周五下午，我会先问：“这件事等到周一，会有什么后果？”然后打开原来的计划，看看真要做的话，得挪掉哪一项。
+要是回到那个周五下午，我会先问一句：“这件事等到周一，到底会耽误什么？”然后打开排期表，看看真要硬塞进来，得把哪一项挪掉。
 
 </div>

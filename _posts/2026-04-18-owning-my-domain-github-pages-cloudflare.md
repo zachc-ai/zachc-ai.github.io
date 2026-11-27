@@ -132,13 +132,13 @@ Most "my site redirects forever" posts come from someone stuck on Flexible.
 
 GitHub won't enforce HTTPS until the cert is actually on their edge. Two API calls: cname first, then the enforcement flag.
 
-### 4. The cert queue stalls — the UI knows something the API doesn't
+### 4. The cert queue stalls, and the UI knows something the API doesn't
 
-**Symptom:** DNS is correct, `is_https_eligible: true`, but `peer_failed_verification` won't clear. Re-PUT via API, nothing. Wait ten more minutes, nothing.
+**Symptom:** DNS is correct, `is_https_eligible: true`, yet `peer_failed_verification` won't clear. Re-PUT via API, nothing. Wait ten more minutes, nothing.
 
 **Fix:** Open Settings → Pages. Click **Remove** next to the domain. Wait ten seconds. Type it back in. Click **Save**. Sixty seconds later my cert was approved.
 
-Something in the UI path triggers a more aggressive re-queue than the REST endpoint. I don't know why. I do know that if you're past ten minutes of `peer_failed_verification`, stop staring and do the UI kick.
+Something in the UI path triggers a more aggressive re-queue than the REST endpoint. I don't know why. I do know that if you've stared at `peer_failed_verification` for more than ten minutes, stop waiting and do the UI kick.
 
 ### 5. Corporate VPNs often hijack DNS
 
@@ -157,17 +157,15 @@ Useful general-purpose VPN workaround, not specific to GitHub Pages.
 
 ### 6. Enterprise gateways block newly registered domains
 
-**Symptom:** From the office network, `https://zachc.ai` shows a corporate "Page Blocked — newly registered website" page.
+**Symptom:** From the office network, `https://zachc.ai` shows a corporate "Page Blocked: newly registered website" page.
 
-**Cause:** Enterprise Secure Web Gateways (Zscaler, Palo Alto Prisma, Netskope, etc.) auto-block **Newly Registered Domains** for 14–30 days. NRDs are a top phishing/malware indicator, so the whole category is blocked until reputation accumulates. The block is at the HTTP proxy layer. The origin is fine and unaware.
+**Cause:** Enterprise Secure Web Gateways (Zscaler, Palo Alto Prisma, Netskope, etc.) auto-block **Newly Registered Domains** for 14 to 30 days. NRDs are a top phishing/malware indicator, so the whole category stays blocked until reputation accumulates. The block sits at the HTTP proxy layer; the origin is fine and unaware.
 
 **Fix (in parallel):**
 
-1. **File an allowlist ticket** with your internal security team (1–3 business days). "Personal domain, registered YYYY-MM-DD, blog on GitHub Pages" is enough.
-2. **Verify off-network** — phone on cellular, or tether + disconnect VPN. Confirms the block is local policy.
-3. **Wait it out** — typically clears in a few weeks as threat-intel feeds age the domain.
-
----
+1. **File an allowlist ticket** with your internal security team (1 to 3 business days). "Personal domain, registered YYYY-MM-DD, blog on GitHub Pages" is enough.
+2. **Verify off-network:** check on cellular, or tether with VPN off, to confirm the block is local policy.
+3. **Wait it out:** typically clears in a few weeks once threat-intel feeds age the domain.
 
 If you're about to do this yourself: keep Cloudflare on DNS-only until the cert issues, and file the corporate allowlist ticket the same day you register. Everything else you can back out of.
 
@@ -282,43 +280,41 @@ gh api repos/<owner>/<repo>/pages \
 
 证书真正部署到边缘之前，GitHub 不让你强制 HTTPS。拆成两次 API 调用：先设 cname，再开强制 HTTPS。
 
-### 4. 证书队列会卡住，UI 比 API 有用
+### 4. 证书队列会卡住，UI 比 API 管用
 
-**症状：** DNS 正确，`is_https_eligible: true`，但 `peer_failed_verification` 就是不消失。API 重新 PUT，没反应。再等十分钟，还是没反应。
+**症状：** DNS 正确，`is_https_eligible: true`，但 `peer_failed_verification` 就是不消失。用 API 重新 PUT，没反应；再等十分钟，还是没反应。
 
-**解决：** 打开 Settings → Pages，点域名旁边的 **Remove**，等十秒，把域名输回去，点 **Save**。六十秒后，证书就批下来了。
+**解决：** 打开 Settings → Pages，点域名旁边的 **Remove**，等十秒，把域名输回去点 **Save**。六十秒后，证书就批下来了。
 
-UI 那条路径里有个什么东西，会触发比 REST 接口更“激进”的重新排队。我不知道为什么。我只知道，如果你盯着 `peer_failed_verification` 超过十分钟，别盯了，去做 UI 那一下。
+UI 这条路径显然会触发比 REST 接口更彻底的重新排队。具体原因我不清楚，但我知道如果你盯着 `peer_failed_verification` 超过十分钟，别等了，直接去页面里踢一脚。
 
 ### 5. 公司 VPN 经常劫持 DNS
 
-**症状：** `dig zachc.ai` 返回内部跳转页的 IP。`dig @1.1.1.1` 直接超时。
+**症状：** `dig zachc.ai` 返回内部跳转页的 IP，`dig @1.1.1.1` 直接超时。
 
-**原因：** 很多公司 VPN 拦截 53 端口流量，改写外部域名的查询结果。
+**原因：** 很多公司 VPN 拦截 53 端口流量，把外部域名解析改写掉了。
 
-**解决：** 用 DNS-over-HTTPS。443 端口通常不会在 DNS 层被检查。
+**解决：** 用 DNS-over-HTTPS，443 端口通常不会被 DNS 层拦截。
 
 ```bash
 curl -sH 'accept: application/dns-json' \
   'https://1.1.1.1/dns-query?name=zachc.ai&type=A' | jq
 ```
 
-通用的 VPN 绕行方法，不只适用于 GitHub Pages。
+这是通用的 VPN 绕行办法，不限于 GitHub Pages。
 
 ### 6. 企业安全网关会屏蔽新注册域名
 
-**症状：** 在公司网络下打开 `https://zachc.ai`，看到的是公司的“页面被屏蔽——新注册网站”拦截页。
+**症状：** 在公司网络下打开 `https://zachc.ai`，直接跳出“页面被屏蔽：新注册网站”的拦截页。
 
-**原因：** 企业 Secure Web Gateway（Zscaler、Palo Alto Prisma、Netskope 等）会自动屏蔽**新注册域名** 14~30 天。NRD 是钓鱼和恶意软件最常见的指标之一，所以这一整类默认全屏蔽，等域名攒出信誉才放行。屏蔽发生在 HTTP 代理层。源站完全没事，也完全不知道这次请求发生过。
+**原因：** 企业 Secure Web Gateway（Zscaler、Palo Alto Prisma、Netskope 等）会自动拦截**新注册域名（NRD）** 14 到 30 天。新域名是钓鱼和恶意软件的高发区，所以整类默认封掉，等域名攒够信誉再放行。拦截发生在 HTTP 代理层，源站本身完全正常，也根本不知道这次请求被挡了。
 
 **解决（并行做）：**
 
-1. **提内部白名单工单**（一般 1~3 个工作日）。理由写“个人域名，注册时间 YYYY-MM-DD，GitHub Pages 博客”就够了。
-2. **在公司网络外验证**——手机切蜂窝数据，或者开热点断 VPN。确认是本地策略在拦。
-3. **等。** 通常过几周，威胁情报源里这个域名的“年头”够了，就会自动解除。
+1. **提内部白名单工单**（一般 1 到 3 个工作日）。理由写“个人域名，注册时间 YYYY-MM-DD，GitHub Pages 博客”就够了。
+2. **在公司网外验证**：手机切蜂窝数据，或者开热点断 VPN，确认只是本地策略在拦。
+3. **等**：通常过几周，域名在威胁情报库里过了新注册观察期，就会自动放行。
 
----
-
-如果你要做同样的事：证书签出来之前 Cloudflare 保持 DNS-only，注册域名当天就去提公司的白名单工单。其他的坑踩了都能爬出来。
+如果你也准备这么配：证书签出来之前 Cloudflare 保持 DNS-only，注册域名当天顺手提好公司的白名单工单。别的坑踩了都能爬出来。
 
 </div>

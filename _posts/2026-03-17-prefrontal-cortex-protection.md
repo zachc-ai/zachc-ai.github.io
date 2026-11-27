@@ -32,116 +32,108 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-Your prefrontal cortex (PFC) does the executive work: planning, decisions, focus, impulse control, emotional regulation. It's the last region of the brain to finish maturing (around age 25), and one of the most fragile. So what damages it, and what keeps it healthy?
+The prefrontal cortex (PFC) handles the executive work: planning, judgment, focus, impulse control, and keeping your cool. It's the last part of the brain to finish maturing (around age 25), and one of the easiest to wear down. Looking through the literature, a surprisingly small set of habits does most of the damage and most of the repair.
 
-## What Damages It
+## What wears it down
 
-**Chronic stress** is the biggest threat. Sustained cortisol exposure literally shrinks the dendritic spines in your PFC. Connections weaken, and control shifts from your rational brain to your emotional brain (Arnsten, 2009, *Nature Reviews Neuroscience*).
+Chronic stress is the biggest hit. As Amy Arnsten's work on stress pathways shows, sustained cortisol actually shrinks dendritic spines in the PFC, weakening connections and handing the wheel from your rational brain to your emotional one.
 
-**Sleep deprivation** hits hard. Even one night without sleep drags down attention and working memory (Lim & Dinges, 2010). Long-term, poor sleep accelerates the buildup of beta-amyloid, the protein linked to neurodegeneration.
+Short sleep hits fast too. Even a single missed night noticeably drags down attention and working memory, and long-term sleep loss speeds up beta-amyloid buildup, the protein linked to neurodegeneration.
 
-**A sedentary lifestyle** starves the PFC. Without exercise, your brain produces less BDNF (brain-derived neurotrophic factor), the molecule that drives neuroplasticity and keeps neurons healthy.
+Sitting still all day starves it from another angle. Without regular movement, your brain produces less BDNF, the molecule behind neuroplasticity and neuron maintenance. On top of those three sit the usual suspects: ultra-processed diets (inflammation and oxidative stress), constant multitasking, social isolation (social circuits rust when unused), and substance abuse.
 
-Other risk factors: ultra-processed diets (inflammation + oxidative stress), chronic multitasking (depletes the PFC's finite cognitive resources), social isolation (the PFC's social cognition circuits atrophy without use), and substance abuse.
+## What protects it
 
-## What Protects It
+Two levers stand well above the rest: exercise and sleep.
 
-Two interventions sit above everything else:
+Around 150 minutes a week of moderate aerobic exercise raises BDNF, boosts blood flow to the PFC, lowers baseline cortisol, and steadies dopamine and norepinephrine. In one six-month training trial, older adults who stuck with aerobic exercise measurably grew PFC gray and white matter.
 
-**Exercise.** 150 min/week of moderate aerobic activity. It raises BDNF, improves cerebral blood flow to the PFC, lowers baseline cortisol, and tunes dopamine and norepinephrine to where they should be. A 6-month aerobic training program measurably grew PFC gray and white matter in older adults (Colcombe et al., 2006).
+Sleep (7 to 9 hours on a steady schedule) is when slow-wave memory consolidation between the PFC and hippocampus happens. One famous 2013 mouse study by Xie and colleagues found that sleep widened spaces between brain cells by about 60% and cleared injected beta-amyloid twice as fast as being awake. A 2024 mouse study by Miao and colleagues found the opposite, with clearance dropping during sleep, so the popular "sleep rinses the brain" headline is still contested. The cognitive hit from skipping sleep isn't.
 
-**Sleep.** 7–9 hours, consistent schedule. In mice, sleep widened the space between brain cells by about 60% and cleared injected β-amyloid twice as fast as being awake (Xie et al., 2013). A later mouse study found clearance drops during sleep instead (Miao et al., 2024), so the "sleep rinses the brain" story is still being argued over. Slow-wave sleep is when PFC–hippocampus memory consolidation actually happens.
+Meditation comes next. Eight weeks of mindfulness practice increased gray matter density in the hippocampus and posterior cingulate in Britta Hölzel's study, though not in the PFC itself; the usual reading is tighter top-down control from the PFC over the amygdala.
 
-**Meditation** comes next. 8 weeks of mindfulness practice raised gray matter density in the hippocampus and posterior cingulate, though that study didn't find a change in the PFC itself (Hölzel et al., 2011). The usual explanation: stronger top-down control from the PFC over the amygdala.
+Beyond the big three, the evidence points to familiar habits: a Mediterranean-style anti-inflammatory diet (omega-3s, polyphenols, magnesium), real social connection, and learning genuinely new skills like an instrument, a language, or strategy games. Intermittent fasting and cold exposure look promising in early work, though human data is still thin.
 
-Other evidence-backed strategies: a Mediterranean-style anti-inflammatory diet (omega-3, polyphenols, magnesium), meaningful social interaction, and learning new skills (instruments, languages, strategy games). Emerging evidence supports intermittent fasting and cold exposure, though human data is still limited.
+## What's actually underneath
 
-## The Three Pillars
+Most of these interventions push on the same three knobs:
 
-PFC function rests on three foundations:
+1. Neurotransmitter balance. Dopamine and norepinephrine follow an inverted-U curve: too little leaves you scattered, too much leaves you wired and anxious. Exercise, sleep, and meditation help keep them in the middle.
+2. Synaptic plasticity. BDNF drives it. Aerobic exercise pushes BDNF harder than anything else, while chronic stress and inflammation push it down.
+3. Blood flow. PFC blood flow tracks cognitive performance directly. Cardio, omega-3s, and polyphenols help; hypertension and diabetes quietly erode it.
 
-1. **Neurotransmitter balance** — Dopamine and norepinephrine follow an inverted-U curve. Too little = unfocused. Too much = anxious. Exercise, sleep, and meditation keep them in the sweet spot.
-2. **Synaptic plasticity** — BDNF is the main driver. Exercise boosts it more than any other intervention. Chronic stress and inflammation suppress it.
-3. **Vascular health** — PFC blood flow correlates directly with cognitive function. Aerobic fitness, omega-3, and polyphenols improve it. Hypertension and diabetes damage it.
+The encouraging part is that most of this damage is reversible, often within weeks or months once the habits change.
 
-The good news: most negative changes are reversible with intervention, typically within weeks to months.
+## The short daily version
 
-## Daily Checklist
+If I compress all of it into what's actually worth tracking day to day:
 
-**Non-negotiable:** Sleep 7+ hours. Move 30+ minutes. Avoid junk food.
-
-**High-impact additions:** 10–20 min meditation. Omega-3 intake. Stress buffer (nature walk, journaling, deep breathing).
-
-**Optimize further:** Learn something new. Single-task instead of multitask. Try intermittent fasting if it suits you.
-
-**Avoid at all costs:** Chronic sleep debt (<6h/night for a week+). Frequent heavy drinking. Sustained high stress with no recovery. Prolonged sedentary lifestyle.
+- Non-negotiables: 7+ hours of sleep, 30+ minutes of movement, skip the junk food.
+- Worth adding: 10 to 20 minutes of meditation, omega-3s, and a real stress buffer (a walk outside, journaling, slow breathing), plus single-tasking and learning something unfamiliar.
+- Hard lines: a week or more of under 6 hours a night, frequent heavy drinking, nonstop high stress with zero recovery, and sitting all day.
 
 ## A personal take: AI and context switching
 
-One thing from this literature sticks with me. Context switching is among the most expensive things the PFC does. Every focus jump (tab to tab, task to task, thought to notification) costs energy. Ophir et al. (2009) found that heavy multitaskers actually filter *worse*, not better.
+One finding in the attention literature won't leave my head. Context switching is one of the priciest things the PFC does. Every jump (tab to tab, task to task, thought to Slack ping) taxes the same finite budget, and Clifford Nass and Eyal Ophir's research showed that heavy multitaskers actually filter distractions *worse*, not better.
 
-The way most people work with AI is basically high-frequency context switching dressed up as productivity. You fire off a prompt, make a micro-decision about what to ask next, and ping-pong between your own thinking and the model's output, over and over. It feels efficient, and the whole time it's draining the part of your brain that's supposed to be steering.
+The way most people work with AI right now is high-frequency context switching disguised as speed. You send a prompt, wait ten seconds, make a micro-decision, tweak the prompt, and ping-pong between your own thinking and the model's output all afternoon. It feels productive while quietly draining the exact part of your brain meant to steer.
 
-I've been trying the opposite: treat AI like a message queue. Batch the intent, hand it off, walk away. Let it run asynchronously instead of co-piloting every keystroke. You stay in your flow. It stays in its. When you come back, you review with a fresh PFC instead of one that's been bouncing for an hour.
+Lately I've been trying the opposite: treat AI like a message queue. Pack the intent cleanly, hand it off, and walk away. Let it run asynchronously instead of backseat-driving every token. You stay in your flow, it runs in its lane, and when you come back to review, you're using a fresh PFC instead of one that's been pinballing for an hour.
 
-Less interactive isn't less effective. It might be the only way to still have a working PFC by 6pm.
+Less chatting doesn't mean less output. It might be the only way to still have a working brain at 6 p.m.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-前额叶皮层（PFC）干的是 CEO 的活：计划、决策、专注、冲动控制、情绪调节。这块脑区也是最晚成熟的，大概要到 25 岁，而且很脆弱。那到底什么在伤它，什么在养它？
+前额叶皮层（PFC）干的是大脑里 CEO 的活：规划、判断、专注、管住冲动、稳住情绪。这块脑区最晚成熟（大概要到 25 岁），也最容易被耗损。顺着相关文献翻下来，真正伤它和真正养它的，绕来绕去其实就那几件日常事。
 
-## 什么在损害它
+## 什么在消耗它
 
-**慢性压力**是头号威胁。皮质醇长期偏高会让 PFC 的树突棘萎缩，神经连接变弱，大脑的方向盘就从理性脑滑到情绪脑那边去了（Arnsten, 2009, *Nature Reviews Neuroscience*）。
+头号杀手是慢性压力。Amy Arnsten 关于压力通路的研究显示，皮质醇长期偏高会直接让前额叶的树突棘萎缩、神经连接变弱，方向盘就从理性脑滑到了情绪脑手里。
 
-**睡眠不足**伤得也快。一整晚不睡，注意力和工作记忆就会明显下滑（Lim & Dinges, 2010）。长期睡不够还会加速 β-淀粉样蛋白堆积，这种蛋白跟神经退行性疾病有关。
+缺觉伤得也快。哪怕只熬一个通宵，注意力和工作记忆就会明显掉线；长期睡不够，还会加速跟神经退行性疾病相关的 β-淀粉样蛋白堆积。
 
-**久坐**则是在慢慢饿死它。不运动，BDNF（脑源性神经营养因子）的分泌就上不去，而 BDNF 正是推动神经可塑性、让神经元保持健康的分子。
+久坐则是另一种慢性消耗。不运动，大脑分泌的 BDNF（脑源性神经营养因子）就上不去，而它正是维持神经可塑性和神经元健康的主力。在这三样之外，超加工饮食（炎症和氧化应激）、长期多任务切换、社交孤立和物质滥用，都在往同一口井里抽水。
 
-其他风险因素：超加工饮食（引发炎症和氧化应激）、长期多任务切换（消耗 PFC 有限的认知资源）、社交孤立（社会认知回路长期不用就会退化），以及物质滥用。
+## 什么在护着它
 
-## 什么在保护它
+真正甩开其他办法一截的，只有两样：运动和睡眠。
 
-有两个干预手段，效果明显高出其他一截：
+每周 150 分钟中等强度有氧运动，能拉高 BDNF、增加前额叶血流量、压低皮质醇基线，顺便把多巴胺和去甲肾上腺素调回合适区间。一项六个月的有氧训练研究里，坚持运动的老年人前额叶灰质和白质体积都测出了增长。
 
-**运动。** 每周 150 分钟中等强度有氧。它能提升 BDNF，改善 PFC 脑血流，降低皮质醇基线，把多巴胺和去甲肾上腺素调到最佳浓度。有项研究让老年人做了 6 个月有氧训练，PFC 的灰质和白质体积都增加了（Colcombe et al., 2006）。
+睡眠要保证 7 到 9 小时且作息规律，慢波睡眠正是前额叶和海马体巩固记忆的窗口。2013 年谢璐雯等人那项著名的小鼠实验发现，睡着时脑细胞空隙扩大了约 60%，清除注射进去的 β-淀粉样蛋白比醒着快一倍；不过 2024 年另一项小鼠研究却得出相反结果，睡眠期间清除反而变慢。所以“睡觉给大脑洗废物”的说法学界还在吵，但睡不够直接伤认知，这件事没什么争议。
 
-**睡眠。** 7–9 小时，作息规律。小鼠实验里，睡着时脑细胞之间的空隙扩大了约 60%，注射进去的 β-淀粉样蛋白清得比醒着时快一倍（Xie et al., 2013）。可后来另一项小鼠研究发现，睡眠时清除反而变慢（Miao et al., 2024）。“睡觉给大脑冲洗废物”这个说法，学界还在吵。慢波睡眠是 PFC 跟海马做记忆巩固的窗口。
+排第三的是冥想。Hölzel 团队的研究发现，八周正念练习增加了海马体和后扣带回的灰质密度，虽然没在前额叶本身测出变化，常见解释是前额叶对杏仁核的自上而下控制变强了。
 
-**冥想**排第三。8 周正念练习增加了海马体和后扣带回的灰质密度，不过这项研究没在 PFC 本身发现变化（Hölzel et al., 2011）。通常的解释是，PFC 对杏仁核的自上而下控制变强了。
+此外，地中海式抗炎饮食（Omega-3、多酚类、镁）、真实的社交互动、学一门新技能（乐器、外语、策略游戏）都有不错的支持证据。间歇性禁食和冷暴露有初步迹象，但人体数据还不多。
 
-其他有证据支持的策略：地中海式抗炎饮食（Omega-3、多酚类、镁）、有意义的社交互动、学习新技能（乐器、语言、策略游戏）。间歇性禁食和冷暴露有初步证据支持，但人体数据还不多。
+## 底层拧的是三个旋钮
 
-## 三大支柱
+这些办法看着散，背后其实都在调同一套底层机制：
 
-PFC 功能建立在三个基础之上：
+1. 神经递质平衡。多巴胺和去甲肾上腺素是倒 U 型曲线，太低坐不住，太高就焦虑；运动、睡眠和冥想把它们稳在中间段。
+2. 突触可塑性。主要靠 BDNF，有氧运动对它的拉动最强，慢性压力和炎症则往下压。
+3. 血管和供血。前额叶血流量直接连着认知表现，有氧、Omega-3 和多酚类帮它顺畅，高血压和糖尿病在悄悄堵它。
 
-1. **神经递质平衡**——多巴胺和去甲肾上腺素走的是倒 U 型曲线。太低 = 注意力涣散，太高 = 焦虑。运动、睡眠和冥想能把它们稳在最佳浓度。
-2. **突触可塑性**——BDNF 是关键驱动因子。运动对 BDNF 的提升效果超过任何其他干预。慢性压力和炎症则会压低它。
-3. **血管健康**——PFC 血流量与认知功能直接相关。有氧运动、Omega-3 和多酚类能改善它。高血压和糖尿病则在损害它。
+好消息是，多数负面变化是可逆的。习惯调过来之后，往往几周到几个月就能看到回升。
 
-好消息是：只要干预，大多数负面变化都能逆转，一般几周到几个月就能看到恢复。
+## 压缩成每天能盯住的几条
 
-## 每日清单
+真要落到日常，其实记不住太复杂的清单，盯住三档就够：
 
-**基础层（不可妥协）：** 睡够 7 小时以上。运动 30 分钟以上。远离垃圾食品。
+- 底线：睡够 7 小时以上，动 30 分钟以上，远离垃圾食品。
+- 加分项：10 到 20 分钟冥想、补点 Omega-3、留个解压出口（散步、写点字、深呼吸），尽量单任务做事，隔阵子学点不熟的东西。
+- 红线：连续一周以上每晚睡不够 6 小时、频繁酗酒、长期高压没恢复期、整天坐着不动。
 
-**强化层：** 10–20 分钟冥想。摄入 Omega-3。压力缓冲（户外散步、写日记、深呼吸）。
+## 一点私货：用 AI 别把自己切散了
 
-**优化层：** 学点新东西。单任务深度工作，减少上下文切换。如果适合你，试试间歇性禁食。
+翻这些研究时，有一条一直硌着我：上下文切换是前额叶最贵的操作之一。注意力每跳一次（标签页、任务、思路和消息弹窗之间），都要交一笔认知税。Ophir 等人的研究就发现，重度多任务者过滤干扰的能力反而更差。
 
-**红线（绝对避免）：** 连续一周以上每晚睡不到 6 小时。频繁大量饮酒。长期高压无恢复期。久坐不动的生活方式。
+可大多数人现在用 AI 的方式，其实就是把高频切换包装成了效率。发一条 prompt，等十秒，做个小判断，再补一句，一整天在自己的思路和模型输出之间打乒乓球。体感忙得飞起，其实一直在把本该掌舵的那块脑子耗干。
 
-## 一点私货：AI 与上下文切换
+我最近在试着反过来用：把 AI 当消息队列。把意图打包清楚，扔出去，人走开，让它异步跑完，别每个字都趴在旁边盯着。你待在自己的节奏里，它干它的活；等回来 review 时，接活的是一个还清醒的前额叶，而不是已经来回蹦跶了一小时的那个。
 
-文献里有一条我一直惦记着：上下文切换是 PFC 最贵的操作之一。注意力每跳一次（标签页之间、任务之间、思路和通知之间），PFC 都要交一次能量税。Ophir et al. (2009) 发现，重度多任务者过滤信息的能力反而更差。
-
-大多数人用 AI 的方式，说白了就是高频上下文切换披了层“高效”的皮。提示词一条接一条地发，不停琢磨下一句问什么，在自己的思路和模型输出之间来回跳。用着觉得挺高效，其实一直在消耗那块本该掌舵的脑子。
-
-我最近在试着反过来：把 AI 当成消息队列。意图打包，丢出去，走开。让它异步去跑，别每个按键都陪着。你待在自己的心流里，它跑它的。回来 review 时，你用的是一个还清醒的 PFC，而不是已经来回蹦了一小时的那个。
-
-少互动，不等于低效。到了晚上 6 点 PFC 还能正常干活，靠的也许只有这个办法。
+少一点来回拉扯，不会变慢。到了傍晚六点脑子还能转得动，靠的说不定就是这个。
 
 </div>

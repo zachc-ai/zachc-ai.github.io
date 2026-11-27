@@ -40,276 +40,144 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-## The seed
-
-Buffett took over Berkshire Hathaway in 1965 with a book value of $22 million. Half a century later he looked back and described the entire mechanism in one plain phrase:
+When Buffett took over Berkshire Hathaway in 1965, its book value was $22 million. Half a century later, shareholders' equity sat at $349 billion. Looking back, he boiled the whole mechanism down to one plain line:
 
 > "By retaining all earnings for a very long time, and allowing compound interest to work its magic, we have amassed funds..."
 
-Retain all earnings, give it long enough, let compound interest do its magic. That's Buffett's own summary of his life's work, and IQ, luck, and insider information don't come into it. Time × rate × no interruption.
+No mention of IQ, luck, or inside information. Just time, rate, and not interrupting the curve.
 
-Strip out the investing and what's left is a single equation: `Value(t) = Principal × (1 + rate)^time`. The math is centuries old. What I want to write about is what Naval did with it:
+Strip out the investing jargon and you're left with `Value(t) = Principal × (1 + rate)^time`. The math is centuries old. What sent me down this rabbit hole is what Naval did with it:
 
 > "All returns in life, whether in wealth, relationships, or knowledge, come from compound interest."
 
-I want to unfold that one sentence across four domains that don't look related: the stock market, learning, mental models, and raising a child. By the end I think you'll see they're four strokes of the same brush.
+Put that single equation next to four worlds that don't look related at first glance (stocks, learning, mental models, and raising a kid), and it starts looking like the same game in four costumes.
 
----
+## I. Stocks: protect the principal first
 
-## I. The stock market: the oldest compound
+Buffett has a line people quote constantly and still misread: "Time is the friend of the wonderful business, the enemy of the mediocre."
 
-Buffett has another counterintuitive line that gets quoted a lot and is rarely understood:
+Most people hear "hold long enough and you'll make money." He's saying the opposite: time only multiplies whatever quality is already sitting there. If the business is mediocre (low or negative `r`), extra years just compound the mediocrity. Time only works for you when the principal is solid and `r` actually holds up.
 
-> "Time is the friend of the wonderful business, the enemy of the mediocre."
-
-Most people read this as "time + investing = more money." That isn't what he's saying. Time only amplifies quality that's already there. If the business is mediocre (low or negative `r`), time only makes it more mediocre. Time is a friend only when the principal is good and `r` is sustainable.
-
-So the first secret of stock-market compounding comes before the rate: the quality of principal. Buffett's word for this is "circle of competence":
+That's why Buffett puts his "circle of competence" ahead of everything else:
 
 > "You only have to be able to evaluate companies within your circle of competence. The size of that circle is not very important; knowing its boundaries, however, is vital."
 
-High returns outside your circle are an illusion. They're things you don't understand, pretending to grow.
+Big returns outside what you understand are usually an illusion. WeWork going from $47 billion to bankruptcy and Terra/Luna vanishing $45 billion in a week weren't exceptions to compounding; their underlying `r` was negative, and FOMO just hid the math for a while. Stepping outside your circle means stacking debt and emotion onto a negative rate.
 
-This is why WeWork went from a $47 billion valuation to bankruptcy. Why Terra/Luna evaporated $45 billion in a week. They were still compounding. Their underlying `r` was just negative. FOMO and liquidity pushed prices up for a while; eventually the math caught up. Stepping outside your circle is adding leverage on top of a negative rate.
+Picking winners is hard. Admitting "I don't understand this, so the numbers on the screen are noise" is harder. As Benjamin Graham put it: price is what you pay, value is what you get. In the stock market, compounding is less magic than discipline: keep `r` from hitting zero before worrying about `t`.
 
-Picking winners is hard. Harder still is having the humility to say: "this is outside what I actually understand, so the apparent return is noise, not signal." Buffett's teacher Graham had a one-liner for it: "Price is what you pay; value is what you get."
+## II. Learning: what you compound matters more than hours
 
-The market's compound lesson is less a magic trick than a discipline. Make sure `r` doesn't go to zero before you start worrying about `t`.
-
----
-
-## II. Learning: knowledge compounds, too
-
-Naval put learning right next to wealth in that one sentence. His follow-up essay on specific knowledge explains why:
+Naval put knowledge right next to wealth for a reason. In his essay on specific knowledge, he writes:
 
 > "If you're operating with 1,000 times leverage and somebody is right 80% of the time, and somebody else is right 90% of time, the person who's right 90% of the time will literally get paid hundreds of times more by the market because of the leverage and because of the compounding factors and being correct."
 
-Why such a brutal gap from a 10-point difference? Because learning's compound isn't linear. The deeper you understand something, the cheaper the next layer becomes. "I read about it once" and "I've watched it run on my own machine" are different categories. Every working example you've actually built lowers the activation energy for the next one. That's the compounding mechanism.
+Why does a ten-point gap pay off by orders of magnitude? Because learning isn't linear. The deeper you understand a subject, the cheaper the next layer gets. "I read a blog post about it" and "I got it running on my own machine" aren't in the same league; every real thing you've built drops the activation energy for the next one.
 
-But learning has a famous anti-pattern worth pulling apart: the 10,000-hour rule.
+That's also why the famous "10,000-hour rule" misleads so many people. Anders Ericsson, whose research got flattened into that slogan, pushed back directly: 10,000 hours was merely the *average* logged by top violinists by age 20, not a universal cutoff, and it measured deliberate practice with goals and feedback rather than time spent coasting. Clocked hours don't compound. Deliberate ones do.
 
-It sounds like compounding. Practice 10,000 hours and you become an expert. Anders Ericsson — the researcher whose original paper got summarized into that rule — pushed back on it directly:
+Just as important is half-life. Framework APIs go stale in 1 to 2 years, syntax in 3 to 5, system design lasts 10 to 15, deep domain judgment 15 to 20, and meta-skills last a lifetime. Study for the same ten years, and the person piling up framework trivia is compounding an asset that resets every couple of years. In learning, your real `r` isn't how hard you grind; it's what you picked to compound on.
 
-> "Unfortunately, this rule — which is the only thing that many people today know about the effects of practice — is wrong in several ways."
+## III. Mental models: compounding on top of compounding
 
-His point: 10,000 hours was the *average* for his top violinists by age 20, not a threshold for any field. And it was hours of deliberate practice with feedback, goals, and correction, not "time spent." Hours don't compound. Deliberate hours do.
+Both investing and learning need a filter for what's worth keeping. Charlie Munger's version is the "latticework of models": hang your direct and borrowed experience on a mental grid, and the good news is you don't need thousands of them, because 80 or 90 solid models carry roughly 90% of the freight.
 
-Different skills have wildly different half-lives. Framework APIs decay in 1–2 years. Language syntax in 3–5. System design lasts 10–15. Deep domain expertise 15–20. Meta-skills, a lifetime. Learn for the same number of years, and the person stacking framework knowledge is compounding an asset that resets every two years. The person stacking domain expertise is compounding something that holds for two decades.
+One model nudges your `r` in one corner. Two or three crossing each other create what Munger called the Lollapalooza Effect, where aligned forces produce outsized jumps. The real waste is reading a sharp model once, nodding, and never pulling it out again. That's the mental equivalent of selling a great business too early and turning a compounding asset into one-time cash.
 
-So the rate in your learning compound isn't "how hard you tried." It's what you chose to compound on.
+Here, `t` isn't how old you are; it's how many years the same models have been running live in your head. Munger at 80 beat Munger at 60 with the same 80 or 90 models, just twenty more years of mileage on them.
 
----
+## IV. Raising a child: the longest window of all
 
-## III. Mental models: the compound on top of the compound
+With the first three domains I'm running experiments on myself. With raising a kid, I'm also looking back at myself as a product of early compounding.
 
-Both previous domains required something to filter what's worth compounding on. That something has a name. Charlie Munger:
+I learned to read earlier than my classmates. Tiny head start, long chain reaction: earlier access to children's books grew my vocabulary, which let me tackle harder books, understand class faster, get warmer feedback from teachers, explore on my own, and quietly build confidence along the way.
 
-> "You've got to have models in your head. And you've got to array your experience — both vicarious and direct — on this latticework of models."
+Psychologists call this the Matthew effect in reading (named after Matthew 25:29, which Malcolm Gladwell used to open *Outliers*): kids who nail reading fundamentals before third grade tend to accelerate for life, while kids who miss that window fall behind faster each year. Gladwell's hockey example makes the mechanics uncomfortable to ignore. Canadian junior hockey cuts age groups on January 1, so January-born kids are nearly a full year bigger and more coordinated than December-born peers in the same bracket. They make the better travel teams, get better coaching, widen the lead, and end up massively over-represented in the pros.
 
-And the follow-up, which matters more:
+It's unsettling because it means a child's starting curve is heavily shaped by parents and environment before the kid gets a vote.
 
-> "Fortunately, it isn't that tough — because 80 or 90 important models will carry about 90% of the freight in making you a worldly-wise person."
+It's also where the real leverage sits, just not in the way test-prep culture thinks. Cramming more facts into a kid is the worst reading of this. As Tsinghua's Professor Liu Jia puts it, pure memorization education is already over because every fact sits inside a language model; the real work is growing the kid's curiosity, AI-native instincts, and first-principles thinking.
 
-So you don't need every model, just the *right* 80 to 90.
+To me, what parents can genuinely compound comes down to three things:
 
-A single mental model nudges your `r` in one domain. Two or three intersecting models can produce a sudden non-linear jump. Munger called this the Lollapalooza Effect: multiple forces aligning in the same direction at the same time produce extreme outcomes.
+1. One early positive-feedback loop. Help the kid find a domain (reading is the classic one because it spills into everything else) where they get to feel "I'm a little ahead at this."
+2. Confidence tied to process. As Carol Dweck showed, praising intelligence makes kids dodge hard problems to protect their label, while praising effort makes them hunt for challenges.
+3. Unbroken time. A kid has 20-plus years of runway ahead. People love quoting `1.01^365 = 37.78`, though of course exponential math doesn't execute itself on a human being, and Daniel Coyle's popular "more myelin = more skill" story is much less settled scientifically than the book makes it sound. A parent's real job isn't forcing `37.78` into existence. It's not breaking the exponent: don't kill their curiosity, don't strip-mine their hobbies for your resume, and don't let `r` flip negative.
 
-The real opposite of a mental model is using a model once and forgetting it. The equivalent of selling a great company too early — you converted a compounding asset into a one-shot cash payment.
+## One equation, four worlds
 
-So in the compound equation for mental models, "time" means how many years a model has been running in my head, not how long I live. Munger at 80 used the same lattice better than at 60. Same 80 or 90 models, 60-plus years of operation.
+Buffett turning $22 million into $349 billion is a great patience story, yet that isn't really why I wrote this down.
 
----
+What strikes me about `Value(t) = Principal × (1 + rate)^time` is that life doesn't separate cleanly into finance, learning, thinking, and parenting. The discipline you build keeping `r` honest in one room carries straight into the other three.
 
-## IV. Raising a child: the longest compound of all
-
-I'm both the experimenter and a variable in this one. Because I'm a product of early compounding myself.
-
-I learned to read earlier than my classmates. Looks small. The downstream effects aren't:
-
-- Earlier access to children's books → read more → vocabulary expanded → could read harder books
-- Read more than peers → understood class faster → teachers gave positive feedback → liked learning
-- Liked learning → more independent exploration → learned more → confidence itself was compounding
-
-This isn't something I noticed at the time. There's a famous psychology finding for it: the Matthew effect in reading. Kids who get the basics down before grade three keep accelerating in vocabulary, knowledge, and comprehension for life. Kids who don't get there fall behind at an accelerating rate.
-
-The name comes from Matthew 25:29, which Gladwell put on the opening page of Chapter 1 of *Outliers*:
-
-> "FOR UNTO EVERYONE THAT HATH SHALL BE GIVEN, AND HE SHALL HAVE ABUNDANCE. BUT FROM HIM THAT HATH NOT SHALL BE TAKEN AWAY EVEN THAT WHICH HE HATH."
-
-There's a more visceral version of the same effect. Canadian junior hockey selection cuts off on January 1. Pull the stats and you find January, February, and March birthdays massively over-represented among elite professional players. Why?
-
-- Within a single age group, a January-born child is almost a year older than a December-born one.
-- At ages 8, 10, 12, a one-year size and coordination gap is enormous.
-- Older kids get picked for "good teams" → more training → gap widens → picked again at the next level → eventually professional.
-- Two children born the same year, separated by a few months on the calendar, end up on exponentially diverging tracks.
-
-It's uncomfortable because it shows that a child's compounding starting point is largely set by parents and environment, not by the child.
-
-But it's also where the hope lives. If small early advantages get amplified into life-changing differences, the little bit parents can control matters disproportionately. The point isn't "cram more knowledge into the kid." That's the worst reading of this. It's also the conclusion Tsinghua's Professor Liu Jia goes after directly: knowledge-based education is dead because all knowledge is in the language models now. The actual job is to grow the child — their interests, their AI-native instincts, their first-principles thinking.
-
-What parents can actually compound is closer to three things:
-
-1. A positive-feedback starting point. Pick one domain, any domain, where the kid gets to feel "I'm a little better at this than the people around me." Reading is the canonical one because early literacy radiates into every other subject.
-2. Confidence as a compoundable asset. Confidence isn't built by praise. Carol Dweck wrote a great book about this — the punchline is: "Praising children's intelligence harms motivation and it harms performance." Praise intelligence and kids avoid challenge. Praise effort and they seek it. Confidence compounds from feedback on process, not feedback on outcomes.
-3. The time window itself. A child has 20+ years of unbroken compounding ahead. The longest single window any human gets. The famous version of this: 1% better every day for a year leaves you 37 times better. The math is elementary. The point is that "every day" lasts twenty years if you don't break it.
-
-One honest caveat. That 1.01^365 = 37.78 number is just exponential math, not anyone's invention, and it doesn't auto-execute on children. The "myelin → skill" story from Coyle is popularization. Practice does change myelin, but the neat "more myelin, more skill" line is far less settled than the book makes it sound. The compound framework points in a direction. It doesn't promise the outcome will arrive on its own. Forget making 37.78 happen. The parent's actual job is to not break the exponent. Don't sever the kid's intrinsic motivation. Don't strip-mine their interests for your résumé. Don't let the rate go negative.
-
----
-
-## Closing
-
-Back to Buffett's $22 million that became $349 billion. It is a story about patience and compounding. But that's not why I wrote this.
-
-The secret in `Value(t) = Principal × (1 + rate)^time` is that **life doesn't have separate domains**. Principal, rate, time, leverage. Those four dimensions are the same in stocks, in learning, in mental models, in raising a child. Discipline you build in one becomes leverage in the other three.
-
-So the question I'd actually leave you with: which dimension did you cash out too early today? Did you pick something with a high `r` whose `t` will go to zero? Did you have good principal sitting idle? Did you have leverage you didn't use? Were you compounding on a negative `r` without noticing?
-
-The equation has four variables. Pick one, and move.
+Whenever I want a quick check on my own week, I just look at the four variables: where am I cashing out too early, chasing a flashy `r` whose `t` drops to zero, leaving good principal idle, or quietly compounding on a negative rate?
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-## 缘起
+1965 年巴菲特接手伯克希尔的时候，公司账面净值只有 2200 万美元；半个多世纪后，股东权益涨到了 3490 亿美元。回头总结一辈子，他说得特别平淡：把所有利润留存足够长的时间，让复利自己施展魔法。里头没提智商，没提运气，也没提内幕消息，只有时间、利率和不中断。
 
-Buffett 1965 年接管 Berkshire Hathaway 的时候，公司账面净值是 2200 万美元。半个多世纪后，股东权益长到了 3490 亿美元。回头看这段路，他用一句很朴素的话讲清了背后的机制：
+剥掉投资的外壳，剩下的就是那条老公式：`Value(t) = Principal × (1 + rate)^time`。数学本身没什么稀奇，真正让我想展开写一写的，是 Naval 那句话：人生里几乎所有回报，不管是财富、关系还是知识，归根结底都来自复利。
 
-> “By retaining all earnings for a very long time, and allowing compound interest to work its magic, we have amassed funds...”
+把这条公式放进四个表面八竿子打不着的领域（股市、学习、心智模型、养孩子），你会发现底下的规矩几乎一模一样。
 
-留住所有利润，给它足够长的时间，让复利去施展魔法。这是 Buffett 对自己一生事业的总结，里头没有智商、运气和独家信息，只有时间 × 利率 × 不中断。
+## 一、股市：先守住本金，再谈时间
 
-把投资这层拿掉，剩下的就是一条公式：`Value(t) = Principal × (1 + rate)^time`。这数学几百年前就有人写过了。我想写的，是 Naval 拿它说的那句话：
+巴菲特有句老话，被引用得最多，也最容易被看歪：“时间是好生意的朋友，是平庸生意的敌人。”
 
-> “All returns in life, whether in wealth, relationships, or knowledge, come from compound interest.”
+大家顺口就把它理解成“拿得久就能赚”。其实巴菲特说的是另一面：时间只负责放大本来就有的质地。要是生意本身平庸（`r` 很低甚至为负），时间越长，烂得越彻底。只有本金靠谱、`r` 站得住的时候，时间才算朋友。
 
-人生所有的回报，不管是财富、关系还是知识，都来自复利。
+这就像金庸小说里的内功和招式。乔峰会的套路不算多，降龙十八掌翻来覆去就那十八招，可他打一套最普通的太祖长拳都能震住全场，靠的是内功浑厚。招式是 `r`，内功才是本金。本金不对，招式越花哨，崩得越快。
 
-我想把这句话摊开到四个看起来不相干的领域：股市、学习、心智模型、养孩子。读到最后，我想你会看出来，它们是同一支笔画出来的四笔。
+所以巴菲特把“能力圈”压在利率前面：圈的大小其实没那么要紧，要命的是知道边界在哪儿。圈外冒出来的高回报大多是幻觉，是你压根没看懂的东西在装作增长。WeWork 从 470 亿美元一路跌进破产，Terra/Luna 一周蒸发 450 亿美元，照样在跑复利，只不过底层利率本来就是负的，靠 FOMO 和热钱盖住了几天，算术迟早追上来。走出能力圈，本质上就是在负利率上加杠杆。
 
----
+挑赢家很难，难得多的是老老实实承认“这玩意我不懂，屏幕上的涨幅对我来说只是噪音”。格雷厄姆一句话点透：价格是你付的，价值是你拿到的。股市复利没什么玄学，第一条纪律永远是先别让 `r` 归零，再去聊 `t`。
 
-## 一、股市：最老的复利
+## 二、学习：选对复利的对象，比苦熬小时数重要
 
-Buffett 还有一句被引用很多、被理解很少的话：
+Naval 把学习和财富并排放在一起，他在讲 specific knowledge 时举过一个很狠的例子：在有千倍杠杆的地方，90% 正确的人拿到的市场回报，会是 80% 正确的人的几百倍。
 
-> “Time is the friend of the wonderful business, the enemy of the mediocre.”
+只差 10 个百分点，凭什么拉开几百倍？因为理解本身不是线性的。吃得越透，下一层的学习成本越低。“听说过”和“在自己电脑上跑通过”根本不在一个量级；每亲手跑通一个 working example，下一个项目的启动门槛就矮一截。
 
-时间是好生意的朋友，是平庸生意的敌人。
+这也是为什么流行了十几年的“一万小时定律”坑了不少人。原论文作者 Anders Ericsson 后来亲自站出来反驳：一万小时只是他研究里那批顶尖小提琴手到 20 岁时的平均练习量，不是放之四海而皆准的及格线；而且算的是有目标、有反馈、不断纠错的刻意练习，不是傻坐着熬时间。小时数不会自动复利，刻意练习才会。
 
-大部分人把这句话读成“时间长了，收益就大”。Buffett 的意思是：时间只放大本来就有的质量。生意要是平庸（`r` 很低甚至是负的），时间只会让它更平庸。本金好、`r` 又能持续的时候，时间才是朋友。
+同样关键的是技能的半衰期。框架 API 往往一两年就换代，语言语法三五年，系统设计能管十到十五年，深耕的领域判断十五到二十年，元能力则用一辈子。同样花十年学东西，押在框架细节上的人，复利的是一笔每两年自动清零的资产；押在底层能力和领域判断上的人，攒下来的东西二十年不贬值。
 
-说到这儿，就是金庸小说里“内功和招式”那一套。乔峰会的招数不算特别多，降龙十八掌翻来覆去就那十八招，可他打一套太祖长拳，都能打得江湖闻风丧胆，靠的就是内功深。招式是 `r`，内功才是本金。本金不对，招式越花哨，崩得越快。
-
-所以股市复利的第一个秘密其实是本金质量，利率还得往后排。Buffett 管这叫“能力圈”：
-
-> “You only have to be able to evaluate companies within your circle of competence. The size of that circle is not very important; knowing its boundaries, however, is vital.”
-
-圈的大小不重要，重要的是你知道边界在哪。圈外的高回报是幻觉，是你不懂的东西在装作会涨。
-
-WeWork 从 470 亿美元估值一路跌到申请破产，Terra/Luna 一周蒸发 450 亿美元，都是这个道理。它们照样在复利，只不过底层的“利率”本来就是负的。FOMO 和流动性把价格暂时推了上去，算术迟早会追上来。走出能力圈，就是在负利率上加杠杆。
-
-投资里，挑赢家已经够难了。更难的是承认“这件事我其实不懂，所以表面的回报是噪音，不是信号”。Buffett 的老师 Graham 有一句话说得一针见血：“Price is what you pay; value is what you get.” 价格是你付的，价值是你得到的。
-
-股市的复利没什么魔法可教，它教的是一条纪律：先保证 `r` 不归零，再谈 `t`。
-
----
-
-## 二、学习与成长：知识也在结息
-
-Naval 把“学习”和“财富”并排放在复利那句话里。他另一篇关于 specific knowledge 的文章解释了原因：
-
-> “If you're operating with 1,000 times leverage and somebody is right 80% of the time, and somebody else is right 90% of time, the person who's right 90% of the time will literally get paid hundreds of times more by the market because of the leverage and because of the compounding factors and being correct.”
-
-在有杠杆的领域，90% 正确和 80% 正确的回报，能差出几百倍。
-
-为什么只差 10 个百分点，回报就能拉开几百倍？因为学习的复利不是线性的。理解越深，下一次理解的成本越低。“听说过”和“在自己机器上跑过”完全是两回事。每个亲手跑通的 working example，都会降低下一个项目的启动能量。知识就是这么复利的。
-
-但学习有一个挺值得拆的反模式：10,000 小时规则。
-
-听起来挺复利的：练 10,000 小时就是专家。但 Ericsson（就是写原论文的那位）后来自己出来反驳了这条总结：
-
-> “Unfortunately, this rule — which is the only thing that many people today know about the effects of practice — is wrong in several ways.”
-
-他的意思是：10,000 小时只是他研究里最好的那批小提琴手到 20 岁时的平均练习量，不是任何领域都适用的门槛。而且算的是刻意练习（有反馈、有目标、有纠正）的小时数，不是“做了多久”。小时数本身不会复利，刻意练习的小时才会。
-
-技能的半衰期差得很远：框架 API 1–2 年，语言语法 3–5 年，系统设计 10–15 年，领域专长 15–20 年，元能力终身。学同样长的时间，押在框架 API 上的人，复利的是一笔每两年就归零的资产；押在领域专长上的人，复利的东西二十年都不贬值。
-
-所以学习的复利里，利率不看你多认真，看你选了什么来复利。
-
-还是拿金庸来讲好懂。少林七十二绝技一辈子学不完，可学上十几门也就够用了。《九阳真经》《易筋经》这种内功心法却是越老越值钱，张三丰一百岁的时候武功还在涨。鸠摩智贪多务得，招式一门门往身上堆，四十多岁就走火入魔了。学什么，决定了你的复利能跑多久。
-
----
+再借金庸打个比方。少林七十二绝技一辈子学不完，其实精十几门就够；真正越老越值钱的是《九阳真经》《易筋经》这种内功心法，张三丰一百岁武功还在涨。鸠摩智贪多务得，招式往身上堆了一大摞，四十多岁就走火入魔。学什么，决定了你的复利能滚多久。
 
 ## 三、心智模型：复利之上的复利
 
-前两个领域（股市、学习）都得先筛一遍：什么东西值得拿来复利。用来筛的那样东西有个名字，Charlie Munger 是这么说的：
+前面两件事都绕不开一个问题：拿什么来筛出值得复利的东西？芒格给的答案是脑子里的“思维模型格栅”，把直接经历和间接经验全挂上去。好消息是不用学几千个，选对八九十个核心模型，就足够扛起 90% 的分量。
 
-> “You've got to have models in your head. And you've got to array your experience—both vicarious and direct—on this latticework of models.”
+单个模型只能轻轻推一下某个领域的 `r`；两三个模型交叉撞在一起，就会冒出芒格说的 Lollapalooza 效应，几股力量往同一个方向使劲，结果一下跳出线性区间。最可惜的用法，是读到一个好模型频频点头，合上书就再也没用过，相当于在股市里把一家好公司早早卖掉，把会复利的资产换成了微薄的一次性现金。
 
-他后面那句更关键：
+对心智模型来说，公式里的 `t` 不是你活了多少岁，而是同一个模型在你脑子里真刀真枪跑了多少年。芒格 80 岁比 60 岁通透，手里还是那八九十个模型，只是多滚了二十年。
 
-> “Fortunately, it isn't that tough—because 80 or 90 important models will carry about 90% of the freight in making you a worldly-wise person.”
+## 四、养孩子：最长的一段复利窗口
 
-80–90 个模型能扛起 90% 的分量。所以用不着把模型学全，关键是选对那 80–90 个。
+前三块我都是拿自己当小白鼠，这一块倒过来，我自己就是早期复利的样本。
 
-一个心智模型只能轻轻推一下某个领域的 `r`。几个心智模型交叉在一起，回报会非线性地跳。Munger 把这叫 Lollapalooza Effect：好几股力量同时往一个方向使劲，结果就会走到极端。
+我小时候识字比同龄人早。看着屁大点事，后面的连锁反应全是正反馈：早早读上童书，词汇量涨得快，能啃更难的书；上课反应快，老师夸得多，就更爱学；更爱学就自己往外探，连自信心都跟着一起滚起来。
 
-心智模型真正的反面，是用过一次就忘了。这就像在股市里把一家好公司卖得太早，把会复利的资产换成了一笔一次性的现金。
+心理学管这叫阅读上的马太效应（Gladwell 在《异类》第一章扉页引过《马太福音》那句“凡有的，还要加给他”）：三四年级之前打好阅读底子的孩子，后面往往越跑越快；没跟上的，差距也拉得越来越大。同一章里那个加拿大青少年冰球统计更让人坐立不安：分组截断线是 1 月 1 日，于是 1 到 3 月出生的孩子在同组里几乎比年底出生的孩子大一岁。八岁十岁差一岁，身高和协调性差一大截，自然更容易进好队、拿更好训练，雪球滚到最后，职业球员里年初出生的比例高得离谱。
 
-所以心智模型的复利方程里，“时间”指的是“同一个模型在我脑子里跑了多少年”，跟“我活多久”没关系。Munger 80 岁时用这套模型，比 60 岁时更熟练：还是那 80–90 个模型，只是已经跑了 60 多年。
+这事让人不太舒服，因为它说明孩子复利的起跑线，很大一部分在孩子还做不了主的时候，就已经由父母和环境画好了。
 
----
+但希望也正藏在这儿，只是千万别往“猛灌知识”那个方向跑偏。清华刘嘉教授讲过一点我很认：拼死记硬背的应试教育已经过时了，知识全在大模型里，家长真正该帮孩子长出来的，是兴趣、AI 原生直觉和第一性原理思考。
 
-## 四、培养孩子：最长的一次复利
+落在实操上，我觉得父母能帮着复利的差不多就三样：
 
-前三个领域，我是拿自己做实验；这一章，我既是做实验的人，也是实验里的变量，因为我自己就是一个“早期复利”的产物。
+1. 一个正反馈起点。帮孩子在哪怕一个领域里尝到“我比周围人稍微擅长一点”的甜头，阅读是最划算的入口，因为早识字会辐射到所有学科。
+2. 绑在过程上的自信。Carol Dweck 的研究说得很透：夸孩子“聪明”，他为了保住标签会躲着难题走；夸他“肯下功夫”，他才敢主动找挑战。
+3. 不被打断的时间窗口。孩子前面摆着二十多年的完整跑道。大家都爱提 `1.01^365 = 37.78`，不过指数数学不会自己跑进孩子身上，Daniel Coyle 书里把“髓鞘增厚等于技能变强”说得太丝滑，科学上其实远没那么板上钉钉。家长真正该操心的，不是硬催出那个 37.78，而是别把指数搞断：别掐灭孩子的兴趣，别拿他的热爱去凑自己的体面，别让 `r` 掉成负数。
 
-我小时候识字比同龄人早。看着是件小事，后面的连锁反应却全是正反馈：
+## 一条公式，四个世界
 
-- 更早能读童书 → 读得多 → 词汇量扩展 → 能读更难的书
-- 读得比同学多 → 课堂上理解得快 → 老师反馈是正面的 → 更爱学习
-- 爱学习 → 更愿意独立探索 → 学到更多 → 自信心本身在复利
+巴菲特把 2200 万滚成 3490 亿，当然是个讲耐心的好故事，但我写这篇不只是为了聊投资。
 
-这不是我发现的模式。心理学里有个挺有名的发现：阅读上的马太效应。三四年级之前打好阅读基础的孩子，词汇、知识和理解力会一辈子加速拉开差距；没打好基础的孩子，落后得也越来越快。
+`Value(t) = Principal × (1 + rate)^time` 最迷人的地方，是生活里其实没有彼此割裂的房间。你在股市里练出来的不乱伸手、在学习里练出来的挑长半衰期、在养娃里练出来的守住正反馈，全都是同一套纪律。
 
-名字来自《马太福音》25:29。Gladwell 把它放在 *Outliers* 第一章的扉页上：
-
-> “FOR UNTO EVERYONE THAT HATH SHALL BE GIVEN, AND HE SHALL HAVE ABUNDANCE. BUT FROM HIM THAT HATH NOT SHALL BE TAKEN AWAY EVEN THAT WHICH HE HATH.”
-
-“因为凡有的，还要加给他，叫他有余；没有的，连他所有的也要夺过来。”（和合本）
-
-同一章里还有一个更直观的例子。加拿大青少年冰球队的选拔按年龄分组，1 月 1 日为分界线。统计下来，顶级职业球员里 1、2、3 月出生的比例远高于 10、11、12 月。为什么？
-
-- 同一个年龄组里，1 月出生的孩子比 12 月出生的大接近一岁。
-- 8 岁、10 岁、12 岁这些关键年龄，差一岁，体型和协调性就差一大截。
-- 大的孩子被选进“好队”→ 接受更多训练 → 差距进一步拉大 → 更高级别选拔时又被选上 → 最终进职业。
-- 同一年生的孩子，只因为生日差了几个月，走上了两条指数发散的轨道。
-
-这个例子让人不舒服。它说明孩子复利的起点，很大程度上是父母和环境定的，不是孩子能选的。
-
-可希望也在这里。如果起点的差距会被复利放大，那父母能控的那一点点早期优势，会被放大成人生的巨大差异。关键不在“给孩子灌输更多知识”，这也是我从清华刘嘉教授那里学到的最重要的一点：应试教育已经彻底失效，基于记忆和知识的教育毫无价值，所有知识都在大模型里。真正要做的是回到“孩子”身上：培养他自己的兴趣、AI 原生思维、第一性原理思维。
-
-父母能复利的，差不多就三件事，跟“更多英语单词”没什么关系：
-
-1. 一个正反馈的起点。让孩子在某一个领域里能体验“我比周围人做得好一点点”。阅读是最典型的，因为早识字会辐射到所有其他学科。
-2. 自信这个复利资产。自信不是夸出来的。Carol Dweck 写过一本很好的书讲这件事，重点就一句话：“Praising children's intelligence harms motivation and it harms performance.” 夸聪明，孩子会躲着挑战走；夸努力，孩子会主动去找挑战。自信的复利来自对过程的反馈，不来自对结果的夸奖。
-3. 时间窗口本身。孩子前面有 20 多年可以不间断地复利，这是一个人能有的最长的一段窗口。最有名的说法是：每天进步 1%，一年后是 37 倍。数学很简单，重点是“每天”这件事，只要不中断，在孩子身上能连乘 20 年。
-
-不过得老实补一句。1.01^365 = 37.78 是标准指数数学，不是谁的原创，也不会在孩子身上自动实现。Coyle 关于“髓鞘 → 技能”的故事也是通俗化的比喻。练习确实会改变髓鞘，可“髓鞘越多，技能越强”这条线，远没有书里讲得那么板上钉钉。复利框架能指个方向，但不保证结果会自己来。父母用不着去让 37.78 发生，要做的是别让指数归零：别切断孩子的兴趣，别剥夺他的内在动机，也别把孩子当成自己简历的一部分。
-
----
-
-## 收束
-
-回到 Buffett 那个 2200 万长到 3490 亿的数字。它确实是一个关于耐心和复利的故事。但我写这篇文章不是为了讲 Buffett。
-
-复利方程 `Value(t) = Principal × (1 + rate)^time` 藏着的秘密是：**生活里其实没有“单独的”领域。** 本金、利率、时间、杠杆这四个维度，在股市、学习、心智模型、孩子身上是同一套。你在任何一个领域学到的复利纪律，都是其他三个领域的杠杆。
-
-那留给你一个问题：今天的某个决定，你在哪个维度上过早兑现了？是选了 `r` 很高但 `t` 会归零的东西？是有好本金却任它闲置？是有杠杆却没敢加？还是在复利一个负的 `r`？
-
-方程给你四个变量。你今天要动哪一个？
-
-也就这么回事。
+每周回头看一眼自己的四个变量，挺管用：哪件事兑现太早了？是不是又去追了个 `r` 看着吓人、`t` 转眼归零的东西？手里好好的本金闲着没动，还是不知不觉一直在负利率上猛踩油门？
 
 </div>

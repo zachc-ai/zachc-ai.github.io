@@ -44,366 +44,162 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-## The seed
+I stopped halfway through organizing my notes today. Not because there was nothing left to do, because there was too much.
 
-I stopped in the middle of organizing my notes today. Not because there was nothing to do. There was too much.
+My Obsidian vault has about 300 files. With Claude Code, I wired up an automated workflow: morning planning, task dispatch, knowledge digests, cross-project sync. Before AI, I'd never have bothered with any of it (too fiddly, not worth the weekend). Now "not worth it" quietly turns into "why not?"
 
-I have an Obsidian vault with around 300 files. Claude Code helped me build an automated workflow: morning planning, task dispatch, knowledge digestion, cross-project sync. Before AI, I'd never have attempted any of this — too complex, not worth the time. But now, "not worth it" has quietly become "maybe I could."
+Then came the twist. Everything became doable, yet everything took longer than expected. The tools got stronger, and I got more tired.
 
-Then I noticed a paradox. Everything became "doable," but everything took longer than expected. The tools got stronger. I got more tired.
-
-I assumed it was just me. Maybe I wasn't efficient enough. Maybe I hadn't found the right workflow. Then I saw the data:
+At first I figured I was just doing it wrong. Then I ran into Upwork's 2024 survey:
 
 Upwork's 2024 research found that 77% of employees using AI say the tools have added to their workload.
 {: .callout}
 
-It's not just me. It's structural.
+Turns out it isn't just me. It's built into the math.
 
----
+## I. The pipe stays the same width
 
-## I. The pipe is fixed
+Two thousand years ago, Zhuangzi wrote a line that hits a lot closer now: "My life has a limit, but knowledge has none. To pursue the limitless with the limited is perilous."
 
-Zhuangzi said something two thousand years ago that hits differently now:
+Cognitive science spent half a century putting numbers behind that line. In 1956, George Miller showed that working memory holds about 7 chunks at once (7 chunks, not 7 GB), a hardware ceiling you can't push wider by trying harder. In the late 1980s, John Sweller's Cognitive Load Theory added that this buffer is brief as well as small: jam too many options or noisy interfaces through it and learning and judgment collapse. And Rachel and Stephen Kaplan showed that just suppressing distractions drains a finite tank of directed attention, leaving you with worse judgment, a shorter fuse, and lazier impulses.
 
-> "My life has a limit, but knowledge has none. To pursue the limitless with the limited — that is perilous."
->
-> — Zhuangzi, *Nourishing Life*
-> {: .attribution}
-
-Sounds like a platitude, but cognitive science spent the next two thousand years proving him right.
-
-In 1956, George Miller published a now-famous paper: *The Magical Number Seven, Plus or Minus Two*. He found that human working memory holds roughly 7 chunks of information at once. Seven chunks, not 7 GB. It's a hardware limit, and you can't upgrade it by "trying harder," any more than you can grow a new heart chamber by running.
-
-Then John Sweller's Cognitive Load Theory in the late 1980s added the next layer. Working memory is small. It's also short-lived. Everything has to squeeze through this bottleneck before it gets to long-term memory. Too many options, too complex an interface, too much noise — and learning and decision-making fall apart.
-
-And then directed attention fatigue, from Rachel and Stephen Kaplan at Michigan. Your brain burns energy just suppressing distractions, and the fuel tank is finite. When it runs dry: more mistakes, worse planning, shorter temper, dumber impulses.
-
-From Miller to Sweller to the Kaplans, over half a century of research says the same thing: your brain is a pipe, and the pipe doesn't get wider.
-
----
+From Miller to Sweller to the Kaplans, the takeaway never budges: your brain is a fixed-width pipe.
 
 ## II. Ten times more valves
 
-Herbert Simon, in 1971, wrote a sentence the AI era keeps making truer:
+Back in 1971, before smartphones, Slack, or AI, Herbert Simon saw the whole joke coming:
 
-> "In an information-rich world, the wealth of information means a dearth of something else — a scarcity of whatever it is that information consumes: the attention of its recipients."
+> "In an information-rich world, the wealth of information means a dearth of something else: a scarcity of whatever it is that information consumes, the attention of its recipients."
 
-1971. No internet, no smartphones, no AI. Simon was watching TV channels and newspapers multiply. He still got the punchline. Attention is zero-sum. Give it to A, and B gets less.
+Attention is zero-sum. Hand it to A, and B gets less.
 
-Now apply that to the AI era.
+Now drop AI into that equation. Before AI, a normal workday threw maybe 5 to 10 real decision points at me. With coding agents, it's closer to 50. Should I ask AI to refactor this? Is its output actually right? One more iteration? Is this automation even worth maintaining? Who fixes it when it breaks? Do I understand the code it just wrote? Every new "possibility" installs another valve, and every valve asks whether to open it.
 
-Before AI, my day had maybe 5–10 decision points: what tasks to do, what methods to use, how to prioritize. With Claude Code, the count is closer to 50. Should I let AI refactor this code? Is its output correct? Should I iterate again? Is this automation worth building? Who fixes the bugs later? Do I understand the approach AI suggested? If not, how long until I do?
+The famous Israeli parole-judge study is often cited here: favorable rulings start around 65% early in a session, drop near 0% as cases stack up, and bounce back to 65% after a food break. Critics have pushed back on the fatigue story (pointing to case order and judges avoiding long cases right before breaks), so the exact cause is still argued over. Either way, I wouldn't want to be the last case before lunch.
 
-Every new "possibility" is a new valve. Every valve asks: open or not?
+David Meyer's switching research is less ambiguous: jumping between tasks can eat up to 40% of productive time in zero-progress restart overhead. And David Strayer at Utah found only 2.5% of people are real "supertaskers"; everyone else just performs worse when juggling.
 
-There's a famous Israeli study on parole judges that gets cited for exactly this. Favorable rulings start around 65% at the beginning of a session, then gradually drop to near 0% as decisions accumulate. After a food break, they reset to 65%. The popular reading is that the judges' brains got tired. The authors leaned that way but never measured fatigue. Critics pointed at case order (prisoners without lawyers were often heard last), and one simulation got a similar curve from judges just not starting long cases right before a break. The cause is still disputed. Either way, I wouldn't want to be the last case before lunch.
+AI lets you bolt ten times more valves onto the same pipe. Opening more valves doesn't widen the pipe; it just thins the pressure coming out of every single one.
 
-David Meyer's research is more direct. Switching between tasks can cost as much as 40% of your productive time. The brain spends zero-progress "restart" time every time it switches tasks. And David Strayer at Utah found only 2.5% of people are true "supertaskers"; everyone else just performs worse when multitasking.
+## III. The surveys back it up
 
-So AI lets you open more valves, but the pipe hasn't changed. Each new valve adds no output. It just thins what every valve gets.
+The exhaustion shows up across pretty much every workplace dataset from the last few years.
 
----
+In Upwork's 2024 study, 77% of AI-using workers said the tools increased their workload, 71% of full-time employees reported burnout, and 38% felt overwhelmed about using AI at work. Microsoft's 2024 Work Trend Index found 75% of knowledge workers already using AI (78% bringing their own tools), yet 59% of leaders couldn't quantify the productivity gains, 60% worried leadership lacked a real plan, and 46% of respondents were considering quitting in the next year (up from 40% in 2021).
 
-## III. The data doesn't lie
+Even before that wave peaked, APA's 2023 survey of 2,515 U.S. workers showed 38% worried AI would make their jobs obsolete (with over half of that group reporting mental-health strain and 64% feeling stressed at work), while tech monitoring pushed workday stress from 40% to 56%. Gallup's 2021 global emotions data already sat at record highs of 41% stress and 42% worry.
 
-If it were just me, fine. Maybe I'm doing it wrong. But the numbers say otherwise.
+Way back in 2007, Tarafdar named five flavors of technostress: overload, always-on invasion, steep complexity, job insecurity, and constant tool churn. AI turns every one of those dials past ten.
 
-**APA's 2023 Work in America Survey (n=2,515):**
+## IV. We've seen this lag before
 
-- 38% of employees worry AI will make their jobs obsolete
-- Among those worried: 51% say work hurts their mental health, 64% typically feel tense or stressed during the workday, 37% report emotional exhaustion
-- Surveillance adds its own load: 56% of workers monitored by tech feel tense or stressed during the workday, vs. 40% of those who aren't
+In 1987, Robert Solow summed up the computer boom in one dry line: "You can see the computer age everywhere but in the productivity statistics." Erik Brynjolfsson put numbers on it in 1993: computing power jumped 100× through the 1970s and 80s, yet labor productivity growth *fell* from over 3% in the 1960s to about 1%.
 
-**Microsoft's 2024 Work Trend Index:**
+Steam and electricity ran the exact same delay. Factories in the 1890s bolted electric motors onto steam-era floor plans and wondered why output barely moved; the payoff only showed up decades later once people redesigned the factory layout around electricity.
 
-- 75% of knowledge workers now use AI at work
-- 78% bring their own AI tools (BYOAI)
-- Yet 59% of leaders worry about quantifying AI's productivity gains
-- 60% of leaders worry their leadership lacks a plan and vision for AI
-- 46% of respondents are considering quitting in the year ahead, up from 40% in 2021
+AI is hitting the same wall: tools explode first, cognitive load spikes, habits and orgs lag behind. We're the slow layer.
 
-**Upwork's 2024 Research (the most damning):**
+## V. Knowing when to close the valve
 
-- 77% of AI-using employees say the tools have added to their workload
-- 71% of full-time employees are burned out; 38% feel overwhelmed about having to use AI at work
+Rejecting AI isn't realistic, and using it even harder just accelerates burnout. Laozi landed on the boring, durable answer 2,500 years ago: "He who knows when to stop does not find himself in danger," and "Less brings gain; more brings confusion."
 
-**Gallup Global Emotions data for 2021:**
+When Steve Jobs returned to Apple in 1997, he didn't start by launching new gadgets; he cut 70% of the product line. Focus, as he put it later, means saying no to the hundred other good ideas. Obama's gray-or-blue suits and Zuckerberg's gray T-shirts were tiny versions of the same defense: every trivial choice drinks from the same finite cognitive pool.
 
-- 41% of adults worldwide report stress, an all-time high
-- 42% report worry, also an all-time high
+That's the shift I'm trying to practice with Claude Code. It *can* help me automate notes, refactor code, build pipelines, run analyses, and draft docs. When I push all of them at once, I end the day more drained than before AI existed, because every new pipeline adds another system to maintain and another pile of AI output to verify. The days that actually feel good are the ones where I decide *not* to build something precisely because I could.
 
-Back in 2007, Tarafdar named five flavors of technostress: overload (work faster), invasion (always on), complexity (steep learning curves), insecurity (will I be replaced?), and uncertainty (this tool will be obsolete next quarter).
+Barry Schwartz called the consumer version of this the "paradox of choice": past a threshold, extra options mostly produce anxiety and regret. AI handed us more options than ever, while leaving our choosing hardware untouched.
 
-Sound familiar? AI cranks every single one up.
+## Back to Zhuangzi
 
----
+Zhuangzi's line wasn't telling people to give up. It sits in the chapter on *nourishing life*, and what needs nourishing is the pipe itself.
 
-## IV. History repeats
+The rule I keep coming back to is simple: **the more you can do, the less you should do.** Use the tools to go deeper on fewer things, not wider on shallower ones. Clay Shirky once said the real problem isn't information overload, it's filter failure. AI is the fastest generator we've ever built, which makes throwing most of it away the hardest part of the job.
 
-This isn't the first time.
+In 1971, Simon said an information-rich world makes attention scarce. In an AI-rich world, the scarcest thing might be the moments you decide *not* to use it.
 
-In 1987 Robert Solow wrote a line that became the "Solow Paradox":
-
-> "You can see the computer age everywhere but in the productivity statistics."
-
-Erik Brynjolfsson quantified it in 1993. Computing power grew 100× through the 1970s and 80s, and yet labor productivity growth *fell* from over 3% in the 1960s to roughly 1%. More computers didn't translate into more productivity, at least not in the short term.
-
-Same story with steam and electricity. The productivity payoff took decades. Factories in the 1890s bolted electric motors onto steam-era floor plans and wondered why nothing changed. It wasn't until someone rethought the entire factory layout that electricity actually delivered.
-
-AI is running the same cycle:
-
-Tool explosion → cognitive overload → organizational adaptation lag → productivity stagnation
-
-75% are using AI. 59% of leaders worry about quantifying what it's actually doing for them. More tools, more exhaustion. What's lagging is us: our habits, our orgs, our brains.
-
----
-
-## V. Knowing when to stop
-
-So what do you do? Reject AI? Obviously unrealistic. Use AI harder? The data already shows where that road ends.
-
-Lao Tzu:
-
-> "He who knows when to stop does not find himself in danger."
->
-> — *Tao Te Ching*, Chapter 44
-> {: .attribution}
-
-And the sharper one:
-
-> "Less brings gain; more brings confusion."
->
-> — *Tao Te Ching*, Chapter 22
-> {: .attribution}
-
-Two and a half thousand years before any of that research, same answer: do less.
-
-When Steve Jobs came back to Apple in 1997, the first thing he did wasn't ship new products. He killed 70% of the product line. He later said:
-
-> "People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas."
-
-Obama wore the same gray or blue suit every day. Zuckerberg wore the same gray T-shirt. They could afford variety. They just knew that every trivial decision draws from the same pool of limited cognitive resources. Reducing unimportant decisions protects the quality of the important ones.
-
-My own recent version of this: Claude Code can help me with dozens of things. Note automation, code refactoring, knowledge curation, data analysis, documentation. But when I try to push every one of those forward at the same time, I'm more exhausted than I was before AI. Every new automated pipeline is one more system to maintain, one more failure point, one more "is this AI output correct?" judgment.
-
-The moments that actually work are when I decide not to do something. Not because I can't. Because I can — which makes "not doing" an active decision I have to make deliberately.
-
-Jacoby's experiments showed the same thing. More brand information actually led to worse decisions. Barry Schwartz called it the "paradox of choice." Past a certain point, more options just mean more anxiety and more regret.
-
-AI has handed us more options than we've ever had. Our ability to choose well? Still the same.
-
----
-
-## Closing
-
-Back to Zhuangzi.
-
-"To pursue the limitless with the limited is perilous." But Zhuangzi didn't conclude with "so do nothing." He was talking about *nourishing life*. Nourishing what, exactly? The pipe itself.
-
-The line I keep coming back to: **the more you CAN do, the less you SHOULD do.**
-
-Keep the tools, and use them to do fewer, deeper things instead of more, shallower ones. The pipe diameter isn't going to change. The water pressure will keep rising. The only thing you control is how many valves you open.
-
-Eric Schmidt once warned that too much information could get in the way of "deep thinking, comprehension, and memory formation." Clay Shirky put it better: the problem isn't information overload, it's filter failure. Our filters can't keep up.
-
-AI generates information faster than anything before it. But the hard part was always throwing most of it away and actually paying attention to what's left.
-
-Simon, in 1971: in an information-rich world, the scarce resource isn't information. It's attention.
-
-So in an AI-rich world, what's scarce?
-
-The moments you decide **not** to use AI.
-
----
-
-*Written April 8, 2026. An evening when I used AI to organize 300 note files and found myself more exhausted than before I started.*
+*Written April 8, 2026, after an evening using AI to organize 300 note files and ending up more tired than when I started.*
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-## 缘起
+今天下午整理笔记整理到一半，我突然停手了。倒不是没事干，是能干的事太多了。
 
-今天下午整理笔记的时候，我突然停了下来。
+手头的 Obsidian vault 有三百多个文件，Claude Code 帮我搭了一套自动化流程：晨间规划、任务调度、知识摘要、跨项目同步。以前这些活儿我压根不会碰，太折腾，不值当。现在有了 AI，“不值当”悄悄变成了“顺手好像也能搞定”。
 
-倒不是没事做，是事情太多了。
+结果冒出一个悖论：每件事都变得“可以做”，可每件事做起来都比想象中耗神。工具越来越强，人反而更累了。
 
-面前是一个 Obsidian vault，300 多个文件。Claude Code 帮我搭了一套自动化工作流：晨间规划、任务调度、知识摘要、跨项目同步。以前这些事我根本不会去做，太复杂，不值得花时间。但有了 AI，“不值得”悄悄变成了“好像可以”。
-
-然后我发现了一个悖论：每件事都变得“可以做了”，但每件事做起来都比预想的要久。工具更强了，我更累了。
-
-一开始我以为是自己的问题。可能效率不够高，或者还没找到对的工作方式。直到看见一组数据：
+起初我以为是自己没用顺手，直到看到 Upwork 2024 年的一份调研：
 
 Upwork 2024 年的研究发现，用 AI 工具的员工里，77% 说这些工具反而加重了工作量。
 {: .callout}
 
-原来不只是我一个人这样，这是结构性的。
+原来不是我一个人的毛病，这是结构本身带来的。
 
----
+## 一、管子就那么粗
 
-## 一、管道是固定的
+庄子两千多年前说过一句，现在读着有点后背发凉：“吾生也有涯，而知也无涯。以有涯随无涯，殆已。”
 
-庄子两千多年前说过一句话，现在读起来后背发凉：
+后来的认知科学花了半个多世纪，把这句话拆出了硬件参数。1956 年 George Miller 提出著名的“7±2”：人的工作记忆一次大概只能塞进 7 个信息块，7 个 chunk，不是 7 GB，靠更努力也扩不了容。1980 年代末 John Sweller 的认知负荷理论又补了一刀：这小块缓存不仅窄，而且转瞬即逝，选项一多、噪音一大，理解和判断直接掉线。密歇根大学的 Kaplan 夫妇则发现，单是压住周围的干扰就在持续烧能量，油箱一空，人就容易判断失误、脾气变冲、做事草率。
 
-> “吾生也有涯，而知也无涯。以有涯随无涯，殆已。”
->
-> — 庄子《养生主》
-> {: .attribution}
+从 Miller 到 Sweller 到 Kaplan，半个世纪的研究说透了同一件事：大脑就是一根固定口径的管子，它不会跟着工具一起变粗。
 
-听着像鸡汤？后来的认知科学证明，他说得一点没错。
+这很像《天龙八部》里的鸠摩智。少林七十二绝技他一门门硬学下来，看着威风，其实是拿小无相功硬催，最后内息逆转、走火入魔。毛病不在招式，在他经脉就那么宽，却硬塞进七十二门。藏经阁里的扫地僧早点破过他：“每一项绝技，均须有相应的慈悲佛法为之化解。”鸠摩智没听进去。
 
-1956 年，心理学家 George Miller 发了一篇后来成为经典的论文：《神奇的数字 7±2》。他发现人类工作记忆（working memory）一次大约能装下 7 个信息单元。7 个 chunks，可不是 7 GB。这是硬件限制，靠“更努力”升级不了，就像跑步跑得再多，也不会多长出一个心房。
+AI 工具就像这少林七十二绝技，哪一门都能立刻上手，可你的内息（注意力和决策力）还是那么多。同时开的门越多，每一门就只能越用越浅。
 
-1980 年代末，John Sweller 的认知负荷理论补了一刀：工作记忆不光小，还短命。所有信息都得先挤过这个瓶颈，才能进长期记忆。选项一多、界面一乱、噪音一大，学习和决策质量直接崩。
+## 二、阀门一下子多了十倍
 
-再往下是密歇根大学 Kaplan 夫妇提出的“定向注意力疲劳”。大脑要集中注意力，就得不停压制周围的干扰，这件事本身就在烧能量。能量烧完了，后果就来了：判断失误、规划变差、脾气变大、做事冲动。
+1971 年，还没互联网，更没智能手机和 AI，Herbert Simon 就把结局写明白了：
 
-从 Miller 到 Sweller 到 Kaplan，半个多世纪的研究翻来覆去说的都是一件事：大脑是一根管子，这根管子不会变粗。
+> “在信息丰富的世界里，信息的富裕意味着其他东西的匮乏，即信息所消耗的东西的匮乏：接收者的注意力。”
 
-这就好比《天龙八部》里的鸠摩智。少林七十二绝技，他一门一门都学会了，看上去无敌。可他是运起小无相功硬撑着使那些招式，最后内息逆转，走火入魔。毛病不出在招式上，出在他那条经脉就那么粗，却硬塞进了七十二门。藏经阁里的扫地僧点破过他：“每一项绝技，均须有相应的慈悲佛法为之化解。”鸠摩智没听进去。
+注意力是零和的，分给 A，B 就变少。
 
-AI 工具就像这“少林七十二绝技”，哪一门都能上手，可你的内息（注意力、决策力）还是那么多。同时开的门越多，每一门就用得越浅。
+套进 AI 时代看看。以前一天下来，我大概面对 5 到 10 个真正要拍板的节点；用上 Claude Code 之后，决策点暴涨到 50 个左右：这段要不要让 AI 重构？结果对不对？要不要再改一轮？这条自动化值不值得搭？出 bug 谁来兜底？它给的方案我自己真看懂了吗？每多一种“可能性”，就等于多装了一个阀门，每个阀门都在等你点头开还是不开。
 
----
+以色列那项著名的假释法官研究常被拿来打比方：每轮开庭初期批准率约 65%，案子越审越多，批准率一路滑到接近 0%，吃完饭歇完又跳回 65%。流行解释说这是决策疲劳，不过后来也有人提出异议（比如没请律师的案子常排在后面，或者法官临近休息不接长案子），真正原因学界仍有争论。但不管怎么解释，反正我不想排在午饭前最后一个。
 
-## 二、阀门多了十倍
+David Meyer 关于任务切换的数据更直接：来回切任务最多能吃掉 40% 的有效时间，每次切换大脑都要空转一段“重启时间”。犹他大学的 David Strayer 则发现，只有 2.5% 的人是真正的“超级任务者”，其余人只要多任务并行，表现就会往下掉。
 
-Herbert Simon 在 1971 年写过一句话，到了 AI 时代越来越准：
+AI 让你能一口气多装十倍阀门，但管子还是那根管子。阀门越开越多，总产出未必涨，每个口子分到的水压反而薄了。
 
-> “在信息丰富的世界里，信息的富裕意味着其他东西的匮乏——即信息所消耗的东西的匮乏：接收者的注意力。”
+## 三、数据摆在桌面上
 
-那是 1971 年，没有互联网，没有智能手机，更没有 AI。Simon 看到的只是电视和报纸在变多，但他已经看透了：注意力是零和的，给了 A，B 就少了。
+这种累不是错觉，过去几年的职场数据几乎全指向同一个方向。
 
-现在把这个逻辑放到 AI 时代。
+最扎心的是 Upwork 2024 年的调研：77% 用 AI 的员工觉得工作量变重了，71% 的全职员工已经感到倦怠，38% 对工作中必须使用 AI 感到吃不消。Microsoft 2024 年工作趋势指数里，75% 的知识工作者已经在用 AI（78% 自己带工具上班），可 59% 的管理者愁着没法量化收益，60% 担心管理层压根没计划，46% 的受访者考虑未来一年离职（比 2021 年的 40% 还高）。
 
-以前我一天大概有 5–10 个决策点：今天做什么任务、用什么方法、优先级怎么排。现在用 Claude Code，决策点可能有 50 个：要不要让 AI 帮我重构这段？它出的结果对不对？要不要再迭代一次？这条自动化流程值不值得搭？搭了之后出 bug 谁来修？AI 建议的这个方案，我理解吗？不理解的话，理解它要多久？
+再往前看，APA 2023 年对 2,515 名美国职场人的调查里，38% 担心工作被 AI 淘汰（这群人里超过一半觉得心理健康受损，64% 上班时常紧张焦虑），被技术监控的员工高压比例高达 56%（未被监控的为 40%）。盖洛普 2021 年全球情绪调查本就处在 41% 压力、42% 担忧的历史高位。
 
-每多一个“可能性”就是多一个阀门。每个阀门都在问你一句：开还是不开？
+早在 2007 年，Tarafdar 就把技术压力分过五类：过载、全天候入侵、学习复杂、不安全感和工具频繁过时。到了 AI 时代，五条全被拧到了最大档。
 
-以色列有个挺有名的假释法官研究，常被拿来说明这件事。每轮裁决开始时，批准率大约 65%。案子一个接一个审下去，批准率一路降到接近 0%。吃完东西休息一下，又回到 65%。流行的说法是法官的脑子累了。作者自己也往这个方向解释，但从没直接测过疲劳。后来有人指出排案顺序并不随机（没请律师的犯人常常排在最后），也有人算过，法官只要别在休息前接手耗时长的案子，就能模拟出差不多的曲线。到底什么原因，现在还有争议。反正要是我，可不想排在午饭前最后一个。
+## 四、这套滞后，历史上演过好几回
 
-David Meyer 的研究更直接：来回切换任务，最多能吃掉 40% 的有效时间。大脑每切换一次任务，都得花一段“重启”时间，这段时间里一点进展都没有。犹他大学的 David Strayer 则发现，只有 2.5% 的人是真正的“超级任务者”，其余的人多任务时表现都会下降。
+1987 年，经济学家 Robert Solow 留过一句很损的话：“你到处都能看到计算机时代，唯独在生产力统计里看不到。”1993 年 Erik Brynjolfsson 算过账：七八十年代算力翻了 100 倍，劳动生产率增速反倒从六十年代的 3% 以上掉到了大约 1%。
 
-所以 AI 让你能开更多阀门，但管子没变粗。每多开一个，产出没多，每个阀门分到的水反而更少了。
+蒸汽机和电力也是同一个剧本。1890 年代的工厂把电动机直接装进蒸汽机时代的车间布局里，纳闷为什么产量没涨；直到几十年后大家彻底重排了厂房结构，电力的红利才真放出来。
 
----
+AI 眼下正卡在同一段滞后里：工具先爆发，认知跟着过载，习惯和组织还没跟上。掉队的不是模型，是我们自己。
 
-## 三、数据不说谎
+## 五、学会关阀门
 
-如果只是我一个人的感觉，那大可以说是我自己的问题。但数据不这么说。
+拒绝 AI 不现实，更拼命用 AI 只会更快把自己耗干。两千五百年前老子就给过一句很土但顶用的答案：“知止不殆”，还有更狠的：“少则得，多则惑。”
 
-**APA 2023 年美国职场调查（2,515 人）：**
+1997 年乔布斯回苹果，头一件事不是发新品，而是先砍掉 70% 的产品线。他后来说，专注不是对要做的事说“是”，而是对另外一百个同样不错的主意说“不”。奥巴马只穿灰蓝西装、扎克伯格天天灰 T 恤，背后的算盘也一样：哪怕挑衣服这么小的决定，扣的也是同一池有限的认知电量。
 
-- 38% 的员工担心 AI 会让自己的工作过时
-- 这些担心 AI 的人里，51% 觉得工作伤害了自己的心理健康，64% 上班时常感到紧张、有压力，37% 感到情感耗竭
-- 被技术监控本身就是压力：被监控的员工里，56% 上班时常感到紧张、有压力，没被监控的只有 40%
+我最近用 Claude Code 也在练这件事。它确实能帮我干几十种活，可一旦同时开五六条线，我比没用 AI 时还累，因为每多一条自动化流程，就多一个要维护的系统和一堆要验收的输出。真正舒服的日子，往往是我明明知道它能做，却主动决定“这次不做”的时候。
 
-**Microsoft 2024 年工作趋势指数：**
+Barry Schwartz 管消费里的同类现象叫“选择悖论”：选项超过一定数量，多出来的全是焦虑和后悔。AI 把选项拉到了历史最高，我们大脑里那套做选择的硬件却还停在原地。
 
-- 75% 的知识工作者已经在工作中用上了 AI
-- 78% 自带 AI 工具上班（BYOAI）
-- 但 59% 的领导担心，没法量化 AI 带来的生产力提升
-- 60% 的领导担心，自家管理层在 AI 上缺乏愿景和计划
-- 46% 的受访者考虑在一年内辞职，比 2021 年的 40% 还高
+## 回到庄子
 
-**Upwork 2024 年研究（最扎心的一组）：**
+庄子说“以有涯随无涯，殆已”，落点不是让你躺平，而是“养生”。养的是什么？就是大脑这根管子本身。
 
-- 用 AI 的员工里，77% 说这些工具反而加重了工作量
-- 71% 的全职员工已经倦怠（burnout），38% 因为工作中必须用 AI 而不堪重负
+我反复提醒自己的一句话：**能做的事越多，该做的事就越少。** 工具照用，但拿它去做更少、更深的事，而不是更多、更浅的事。Clay Shirky 说得准，问题从来不是信息过载，而是过滤失败。AI 是史上最猛的内容生成器，这就让“扔掉大部分、只留真正重要的”成了最难的一步。
 
-**Gallup 全球情绪调查（2021 年数据）：**
+1971 年 Simon 说，信息过剩的时代，稀缺的是注意力。到了 AI 过剩的时代，最稀缺的，说不定是你主动决定**不用** AI 的那些时刻。
 
-- 全球 41% 的成年人感到压力，历史新高
-- 全球 42% 的成年人感到担忧，也是历史新高
-
-2007 年 Tarafdar 总结过五种技术压力：过载（逼你加速）、入侵（永远在线）、复杂（学不完的新工具）、不安全（怕被替代）、不确定（下个季度又换一套）。
-
-放到 AI 身上，五条全中，而且每条都在加码。
-
----
-
-## 四、历史总在重复
-
-这不是第一次了。
-
-1987 年，Robert Solow 写过一句话，后来被叫做“Solow 悖论”：
-
-> “你到处都能看到计算机时代，唯独在生产力统计中看不到。”
-
-Erik Brynjolfsson 在 1993 年把这件事量化了。1970–80 年代计算能力翻了 100 倍，但劳动生产率的增速却从 1960 年代的 3% 以上掉到大约 1%。更多计算机没带来更高生产力，至少短期内没有。
-
-蒸汽机和电力也是同一个故事，生产力红利花了几十年才兑现。1890 年代的工厂装上了电动机，车间布局却还是蒸汽机时代那一套，大家还纳闷怎么什么都没变。直到有人想明白，要把整个工厂的布局重新设计，电力的好处才真正出来。
-
-AI 现在也在跑同一个循环：
-
-工具爆发 → 认知过载 → 组织适应滞后 → 生产力停滞
-
-75% 的人在用 AI，但 59% 的领导担心没法量化它到底带来了什么。工具更多了，人更累了。掉队的是我们自己：习惯、组织、脑子，都还没跟上。
-
----
-
-## 五、知止
-
-那怎么办？拒绝 AI？显然不现实。更努力地用 AI？前面的数据已经说了，这条路走到头就是倦怠。
-
-老子：
-
-> “知止不殆。”
->
-> — 《道德经》第四十四章
-> {: .attribution}
-
-还有一句更狠的：
-
-> “少则得，多则惑。”
->
-> — 《道德经》第二十二章
-> {: .attribution}
-
-比这些研究早两千五百年，老子给的就是同一个答案：少做一点。
-
-Steve Jobs 1997 年回 Apple，第一件事没去推新品，先砍掉了 70% 的产品线。他后来说：
-
-> “People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas.”
-
-说白了，专注就是对另外一百个好主意说“不”。
-
-Obama 每天穿同款灰色或蓝色西装。Zuckerberg 每天穿同款灰 T 恤。他们当然买得起各种衣服，只是明白一件事：日常决策再小，也要从同一个认知资源池里扣，这个池子就那么大。减少不重要的决策，是为了保护重要决策的质量。
-
-我最近自己也有体会。Claude Code 能帮我做的事有几十种：自动化笔记、代码重构、知识整理、数据分析、写文档。可真要同时推进这么多事，我比不用 AI 的时候还累。每多一条自动化流程，就多一个要维护的系统、多一个可能出错的环节、多一次“这个 AI 输出对不对”的判断。
-
-真正管用的，反而是我决定不做某件事的时候。我不是做不到；正因为做得到，“不做”才成了一件得我主动拍板的事。
-
-Jacoby 的实验也说了同一件事：给消费者的品牌信息越多，决策反而越差。Barry Schwartz 管这叫“选择的悖论”。选项多过某个点，多出来的就只是焦虑和后悔了。
-
-AI 给了我们空前多的选项。但选的能力呢？还是老样子。
-
----
-
-## 收束
-
-回到庄子。
-
-“以有涯随无涯，殆已。”用有限追无限，危险。但庄子没说“所以什么都别做”。他说的是养生。养的是什么？是那根管子本身。
-
-我反复想到的一句话：**能做的事越多，该做的事就越少。**
-
-工具照用，只是拿它去做更少、更深的事，别去做更多、更浅的事。管道口径不会变，水压还会继续涨，唯一能控制的，是你主动打开多少个阀门。
-
-Eric Schmidt 说过，信息太多会妨碍“深度思考、理解和记忆形成”。Clay Shirky 说得更到位：问题不是信息太多，是过滤失败。我们的过滤能力跟不上信息的增长速度。
-
-AI 是有史以来最猛的信息生成器。但难的从来都是另一头：扔掉大部分，再把注意力真正放到剩下那点东西上。
-
-Simon 在 1971 年就说清楚了：信息丰富的世界里，匮乏的不是信息，是注意力。
-
-那在 AI 丰富的世界里，匮乏的是什么？
-
-是你决定**不用** AI 的那些时刻。
-
-也就这么回事。
-
----
-
-*写于 2026 年 4 月 8 日。一个用 AI 帮自己整理了 300 个笔记文件、然后发现自己比整理之前更累的晚上。*
+*写于 2026 年 4 月 8 日，一个用 AI 整理完 300 个笔记文件、结果比动手前更累的晚上。*
 
 </div>

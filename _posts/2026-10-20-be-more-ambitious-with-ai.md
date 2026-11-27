@@ -7,6 +7,7 @@ description_zh: "Felix Rieseberg 讲怎样把 AI 用得更大胆：把任务追�
 date: 2026-10-20
 categories: digest
 tags: [ai, engineering, systems, learning]
+source: "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/"
 bilingual: true
 sources:
   - title: "Felix Rieseberg — How to be more ambitious: A tutorial for humans with models"

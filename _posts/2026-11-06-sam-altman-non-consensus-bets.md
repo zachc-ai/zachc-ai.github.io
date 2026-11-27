@@ -6,7 +6,8 @@ description: "Notes from Sam Altman's interview with Raj Shamani: scaling before
 description_zh: "记下 Sam Altman 接受 Raj Shamani 访谈里几处有用的话：世界还没信的时候押 scaling，ChatGPT 内部留存大约只有 5% 也照样发，以及他怎么区分非共识赌注和一厢情愿。"
 date: 2026-11-06
 categories: digest
-tags: [ai, startups, learning, career]
+tags: [ai, career, learning]
+source: "https://www.youtube.com/watch?v=TjPPIf-M6KE"
 bilingual: true
 sources:
   - title: "Sam Altman On AI Revolution, Superintelligence & Future Of Humanity | FO583 Raj Shamani"

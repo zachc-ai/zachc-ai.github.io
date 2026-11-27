@@ -7,6 +7,7 @@ description_zh: "Meshy 创始人胡渊鸣在 ARR 从 8000 万涨到一亿美金�
 date: 2026-10-20
 categories: digest
 tags: [career, ai, systems, learning]
+source: "https://mp.weixin.qq.com/s/MjVgIG3SwLsNP7qJ_L4aBw"
 bilingual: true
 sources:
   - title: "Yuanming Hu — $1 亿美金 ARR，我的 48 条反思 (in Chinese)"

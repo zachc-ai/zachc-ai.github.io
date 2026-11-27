@@ -30,7 +30,7 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-I recently read a digest about *The Stormlight Archive* that included these three lines:
+Three lines from a digest about *The Stormlight Archive* caught me off guard recently:
 
 > Life before death.
 >
@@ -38,69 +38,61 @@ I recently read a digest about *The Stormlight Archive* that included these thre
 >
 > Journey before destination.
 
-I thought they were deep, and worth spending some time with. Each line puts something first while acknowledging that the other thing exists. Death, weakness, and destinations are all part of the picture.
+What makes them stick is the word *before*. None of them denies that death, weakness, or destinations exist. They just tell you what comes first.
 
-They are the First Ideal of the Knights Radiant in Brandon Sanderson's series. All ten orders share it, though their later commitments differ. In the first book, *The Way of Kings*, Teft explains the words to Kaladin. His explanation is a useful starting point for thinking about them, rather than a complete account of what every Radiant believes.
+In Brandon Sanderson's series, this is the First Ideal shared by all ten orders of the Knights Radiant before their later oaths diverge. In the first book, *The Way of Kings*, Teft breaks it down for Kaladin, and his reading is a good way into all three.
 
 <img src="{{ '/assets/images/first-ideal-cover.png' | relative_url }}" width="1200" height="630" alt="An original illustration of a winding path beneath rain clouds, continuing toward a patch of light.">
 
 ## Life before death
 
-Teft starts with protecting life, including your own: avoid unnecessary killing and don't risk your life for a frivolous reason.
+Teft starts plainly: protect life, including your own. Don't kill needlessly, and don't throw your life away for nothing.
 
-That gives the line a practical weight. A life matters before it has produced an impressive result. Other people don't become expendable because a goal seems important, and my own life deserves care too.
+That grounds the line fast. A life matters before it has anything impressive to show for it. Nobody turns into collateral damage just because a goal sounds big, and my own life isn't an exception.
 
-I also read it as a way of thinking about the fact that everything ends. Knowing that a conversation will end doesn't make it pointless to listen carefully. A friendship can matter without a promise that it will last forever. I don't think eventual loss cancels the value of what happens before it.
+I also read it against the fact that everything ends. Knowing a conversation is going to wrap up doesn't make listening pointless. A friendship doesn't need a lifetime guarantee to matter. Ending later doesn't erase what happened before.
 
-There will be days when loving life feels like too much to ask. Sadness doesn't make someone less worthy of care. On those days, getting through the day may be enough. I wouldn't use this oath to demand optimism from a person who is already struggling.
-
-For me, the part worth keeping is that I don't have to be certain everything will turn out well before I take care of the life I'm living.
+Of course, on bad days, "love life" sounds fake. Sometimes just getting through the day is the whole job. What I want to keep from this line isn't forced cheerfulness; it's not waiting until everything is guaranteed to turn out fine before taking care of the life in front of me.
 
 ## Strength before weakness
 
-Sanderson has an explanation of this line that I find especially useful. Everyone is strong sometimes and weak sometimes. When someone cannot be strong, another person can be there for them. Eventually, I may need the same help.
+Sanderson's own take on this one is my favorite. Everyone has strong days and weak days. When you can't hold yourself up, someone else steps in; later, you do the same for them.
 
-The roles can change. A person I help today doesn't have to remain "the weak one," and accepting help doesn't take away whatever strength I have in other parts of my life.
+Neither role is permanent. Helping someone today doesn't label them "the weak one," and taking help when I need it doesn't wipe out what I'm good at elsewhere.
 
-In Teft's explanation, strength is for serving others. Being more capable gives me more ways to help; it doesn't automatically give me the right to decide for someone else.
+Teft adds a sharp guardrail: strength is for serving others. Having more capability gives you more ways to help, not a license to run someone else's life. And it still respects limits. Having a little spare energy doesn't mean taking on every request. When I'm already stretched, saying what I can manage and leaving the rest fits an oath that assumes weakness is part of being human.
 
-I still want to know what I can actually offer. Having a little spare energy doesn't oblige me to take on every request. If I'm already struggling, I can say what I can manage and leave the rest. That feels consistent with an oath that recognizes weakness in everyone.
-
-I like that this leaves room for care in both directions. I can try to be useful when I have the capacity, and let someone else be useful when I don't. I don't need to make being self-sufficient a condition of having any self-respect.
+What I like most is that the care runs both ways. Step up when I can, let someone else catch me when I can't, and drop the idea that self-respect requires handling everything solo.
 
 ## Journey before destination
 
-This is easy to read as advice to enjoy the process. Teft's explanation also asks a harder question: what means am I willing to use to get where I want to go? He puts failure ahead of victory gained through unjust means.
+On the surface this sounds like "enjoy the process." Teft pushes it somewhere harder: what are you willing to do to get there? In his book, losing cleanly beats winning dirty.
 
-A goal can give me direction. Results can tell me whether an effort worked. But a good outcome doesn't settle every question about how it was achieved.
+Goals give you direction, and results tell you whether your plan worked. Neither one excuses how you got them. If hitting a target means lying to someone who trusts me, that lie stays on my ledger after the win. I'd rather count that cost before I move than spin a story for it afterward.
 
-If reaching a goal requires me to deceive someone who trusts me, the deception is part of what I did. It doesn't disappear when I get the result I wanted. I would want to count that cost while making the decision, not explain it away afterward.
-
-That brings to mind a line from *Batman Begins*:
+It immediately reminded me of Rachel and Bruce in *Batman Begins*:
 
 > "It's not who I am underneath, but what I do that defines me."
 
-Rachel first makes this point to Bruce; later, he answers her with the first-person version. Who he believes he is inside has to answer to what he actually does.
-
-The two ideas aren't identical. The Batman line asks how conduct defines a person. The oath's last line asks how to pursue a destination. They meet in the choices along the way: those choices affect other people, and they show something of who I actually am. I can't use the person I hope to become as a permanent excuse for how I treat people now.
+The Batman line is about identity; the oath is about means and ends. They meet in the same place: the choices you make on the way. Those choices hit real people, and they show who I actually am far better than the person I plan to become someday.
 
 ## Seeing clearly, and still caring
 
-Romain Rolland has another line that fits beside the first line of the oath. In the preface to his biography of Michelangelo, he writes, in my translation:
+Next to "life before death," I keep putting a line from Romain Rolland's preface to his biography of Michelangelo (my translation):
 
 > There is only one heroism in the world: to see the world as it is, and to love it.
 
-The familiar Chinese version is "在认清生活的真相后依然热爱生活." The surrounding passage discusses suffering and human weakness. Rolland doesn't want to turn heroes into statues so perfect that nobody can approach them.
+In Chinese it usually travels as "在认清生活的真相后依然热爱生活." The paragraph around it is full of human suffering and frailty; Rolland wasn't interested in turning heroes into untouchable marble statues.
 
-That context helps. Caring about life can include seeing what is painful or unjust in it. Loving it doesn't require calling all of it good. There can still be something worth protecting, someone I can help, or a choice worth making carefully.
+That context makes the line usable. Loving life doesn't mean pretending the painful or unfair parts aren't there. You can see them straight on and still find something worth protecting, someone worth helping, or a choice worth making cleanly.
 
-I'll keep these three lines around. I can come back to them when there's an actual choice to make.
+I'm keeping these three lines nearby for the next time a real choice shows up.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-最近读了一篇介绍《飓光志》的 digest，里面有这三句话：
+前阵子在一篇介绍《飓光志》的 digest 里刷到三句话，一下子记住了：
 
 > 生先于死。
 >
@@ -108,62 +100,56 @@ I'll keep these three lines around. I can come back to them when there's an actu
 >
 > 行先于至。
 
-我觉得这几句挺深刻的，值得花点时间想想。每一句都把一样东西排在前面，同时承认另一样也在。死亡、软弱和终点，都算在里面。
+妙的地方都在“先于”这两个字。它没否认死亡、软弱和终点存在，只是把先后次序排了出来。
 
-它们出自布兰登·桑德森的《飓光志》，是光辉骑士的第一誓言。十个骑士团用的都是这段誓言，之后的誓言才各有不同。在第一部《The Way of Kings》里，Teft 给 Kaladin 讲过这几句话的意思。要琢磨它们，他的讲法是个不错的起点，但代表不了每位光辉骑士的全部想法。
+在布兰登·桑德森的书里，这是光辉骑士十个骑士团共同的第一誓言，后面的誓言才各走各的路。第一部《The Way of Kings》里，Teft 给 Kaladin 拆解过这三句话，顺着他的讲法往下想，挺有意思。
 
 <img src="{{ '/assets/images/first-ideal-cover.png' | relative_url }}" width="1200" height="630" alt="原创插画：一条小路从雨云下蜿蜒向前，远处有一片亮光。">
 
 ## 生先于死
 
-Teft 先讲的是保护生命，也包括自己的生命：不做没必要的杀戮，也不为无谓的理由拿命冒险。
+Teft 先讲得很实在：保护生命，包括你自己的。不滥杀，也不为无聊的理由拿命去赌。
 
-这么一讲，这句话就很实在了。一个人还没做出什么了不起的成绩，他的生命就已经值得珍惜。不能因为某个目标看起来重要，就觉得别人可以牺牲。我自己的生命也一样，要好好照顾。
+这么一落下来，话就有了分量。一条命在做出什么了不起的成绩之前，本身就值钱。不能因为某个目标听着宏大，别人就成了可以顺手牺牲的代价；我自己的命也一样。
 
-我也拿这句话来想另一件事：所有事情都会结束。明知道谈话会结束，认真听也不白费。没有谁能保证一段友谊永远不散，它照样可以很重要。就算最后总会失去，我也不觉得失去之前的那些就不算数了。
+我还会拿它去想另一件事：万物都会散场。明知道一场聊天总会结束，不代表认真听就白费了；一段友谊用不着签终身保单才算珍贵。最后会失去，不会把之前经历过的那部分清零。
 
-有些日子，连“热爱生活”都像是强人所难。难过的人也一样该被照顾。那样的日子，能把一天过完，也许就够了。一个人已经很辛苦了，我不会拿这段誓言去要求他乐观。
-
-这句话里，我想留下的是：不用等到确定一切都会好起来，才去好好对待眼下的生活。
+当然，状态差的时候，硬逼自己“热爱生活”其实挺假。那种日子能熬过去，就已经算交差了。我留下这句话，不是为了强撑乐观，而是提醒自己：不用等一切都稳妥了，才开始认真过眼下的生活。
 
 ## 强先于弱
 
-桑德森对这句有过一段解释，我觉得特别有用。每个人都有强的时候，也都有弱的时候。有人暂时撑不住，别人就可以为他撑一会儿。哪天我自己也可能需要同样的帮助。
+桑德森自己对这句的解释，我觉得最通透：每个人都有强的时候，也有撑不住的时候。你弱的时候别人拉你一把，回头别人弱的时候你再顶上去。
 
-强和弱的位置是可以换的。我今天帮的人，不必一直当那个“弱者”；我在某件事上接受帮助，自己在别处的能力也还在。
+强和弱本来就是轮流坐的。今天我帮了谁，不代表他就成了“弱者”；哪天我需要拉一把，也抹不掉我在别处的本事。
 
-在 Teft 的解释里，力量是用来服务别人的。能力多一点，能帮的忙就多一点，但这不代表我就有权替别人做决定。
+Teft 还补了一条很硬的规矩：力量是用来帮人的。本事大一点，能搭把手的地方多一点，但不等于有权替别人做主。同样，有力气也不代表来者不拒。自己都顾不过来时，说清能帮多少、剩下的先放一放，正好配得上这句本来就承认人会软弱的誓言。
 
-我还是想先弄清楚，自己实际能给出多少。手上有点余力，也不是什么请求都得接。要是自己都已经顾不过来了，就说清楚能做多少，剩下的先放一放。我觉得这跟誓言也对得上：它本来就承认谁都有软弱的时候。
-
-我喜欢它留下的这点余地：照顾可以是双向的。有余力的时候，我尽量帮上忙；自己撑不住的时候，也让别人帮我一把。用不着非得什么都自己扛，才算有自尊。
+我最喜欢它双向的那股劲儿：撑得住时多扛一点，撑不住时大方让人搭把手，别把“什么都自己死扛”当成自尊。
 
 ## 行先于至
 
-这句很容易读成“享受过程”。不过 Teft 的解释还问了一个更难的问题：为了到达想去的地方，我愿意用什么手段？他宁可失败，也不愿用不义的方式赢。
+这句一眼看去像“享受过程”，但 Teft 问得更狠：为了到终点，你愿意用什么手段？在他看来，体面地输，强过用脏手段赢。
 
-目标可以给我方向，结果可以告诉我这番努力有没有用。但就算结果不错，它是怎么得来的，也还得问一问。
+目标用来指路，结果用来验效，但这两样都洗不白过程。如果达成目标的前提是骗一个信任我的人，那这笔账不会因为赢了就一笔勾销。我宁可在动手前就把这笔代价算清楚，也别等事后再编一套理由圆过去。
 
-如果为了达成一个目标，我得去骗一个信任我的人，那这次欺骗也是我做过的事，不会因为我拿到了想要的结果就一笔勾销。这笔代价，我想在做决定的时候就算进去，不想等到事后再找理由把它圆过去。
-
-这让我想到《蝙蝠侠：侠影之谜》里的那句：
+写到这儿，一下想起《蝙蝠侠：侠影之谜》里那句台词：
 
 > It's not who I am underneath, but what I do that defines me.
 
-先是 Rachel 对 Bruce 说了这个意思，后来 Bruce 换成第一人称，把这句话说回给她。他觉得自己骨子里是什么样的人，得拿他实际做的事来检验。
+先是 Rachel 这么点醒 Bruce，后来 Bruce 换成第一人称说了回去。心里觉得自己是什么人不算数，做的事才算数。
 
-这两句并不完全一样。蝙蝠侠那句问的是，一个人做的事怎样定义他；“行先于至”问的是，该怎样走向一个目标。两者相通的地方，是一路上做的那些选择：这些选择会影响别人，也多少显出我实际是个怎样的人。我不能一直拿“以后想成为的人”，为现在怎么对待别人开脱。
+蝙蝠侠那句谈的是怎么定义自己，“行先于至”谈的是怎么走向目标，最后撞在同一个地方：一路上做的每一个选择。这些选择会真真切切落到别人身上，也比“我以后想成为什么样的人”更能说明我现在是谁。
 
 ## 看清以后，仍然热爱
 
-罗曼·罗兰有句话，可以和“生先于死”放在一起读。他在《米开朗基罗传》的前言里写道（我自己译的）：
+跟“生先于死”摆在一起，我老会想起罗曼·罗兰在《米开朗基罗传》前言里的一句话（我自己译的）：
 
 > 世上只有一种英雄主义：看清世界本来的样子，并且爱它。
 
-大家更熟悉的中文说法是“在认清生活的真相后依然热爱生活”。这句话前后，罗曼·罗兰谈的是人的痛苦和软弱；他不想把英雄塑成完美得没人能接近的雕像。
+中文里流传更广的版本是“在认清生活的真相后依然热爱生活”。那段原文前后都在写人的痛苦和软弱，罗曼·罗兰压根不想把英雄雕成不食人间烟火的大理石像。
 
-知道了前后文，这句话就好懂一些。珍惜生活，也可以同时看清里面痛苦和不公的部分；爱它，用不着把一切都说成好的。生活里仍然可能有值得保护的东西、我帮得上忙的人，或者一个值得认真去做的选择。
+放在这个上下文里，话就好懂多了。爱生活不需要闭着眼把糟心事和不公平全说成好的。看清它们之后，生活里照样有值得护着的东西、帮得上忙的人，还有值得认真做干净的选择。
 
-这三句话我先留着。等真遇到要做选择的时候，再拿出来看看。
+这三句话我先揣着。下次真碰到难选的岔路口，再翻出来看看。
 
 </div>

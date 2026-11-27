@@ -17,60 +17,44 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-> Put scripts and helper functions in skill folders. Then agents spend tokens on composition and decision-making instead of rewriting boilerplate.
+In Anthropic's write-up on how they use skills, one line stood out: "one of the most powerful tools you can give Claude is code." When a skill ships with runnable scripts and helper functions, Claude stops burning tokens rewriting boilerplate data-fetching code from scratch. It calls what's already there and spends its attention on the actual question.
 
-## The insight
+Say a data science skill includes helpers for pulling event logs. Ask "What happened on Tuesday?" and Claude doesn't spend half a turn writing API glue. It writes a short script composing the existing functions: filter, aggregate, inspect.
 
-Anthropic noticed something specific: "one of the most powerful tools you can give Claude is code." When a skill ships with executable scripts and function libraries, Claude stops spending tokens reinventing data-fetching code. It just calls what's already there. The tokens go into the higher-order question instead.
+## Turn repeated steps into a library
 
-For example, a data science skill includes helpers for fetching events. A user asks: "What happened on Tuesday?" Claude doesn't write the fetching code. It writes a script that composes the existing functions: filter, aggregate, analyze.
+Look for the operations you keep explaining to agents over and over: API calls, data transforms, file plumbing. Pull them into a script library inside the skill folder and document what's available in `SKILL.md`. Now the agent composes working pieces instead of reinventing them every session.
 
-## The technique
+That moves your token budget from rebuilding plumbing to combining building blocks, which stretches both your context window and your patience a lot further.
 
-Find the operations you keep repeating in your workflows: API calls, data transforms, file operations. Pull them into a script library inside the skill folder. Document the library in SKILL.md. The agent finds the functions and composes them instead of reinventing them every session.
+## CLI-Anything pushes it all the way
 
-The shift is from _reconstruction_ to _composition_. A much higher-leverage use of both tokens and the context window.
+CLI-Anything (from HKUDS, with 21.5k GitHub stars) takes this idea to its literal extreme. A 7-phase automated pipeline wraps desktop software into an installable CLI package. Run `pip install`, and an agent can drive Blender, GIMP, or OBS through structured JSON commands without ever touching the underlying GUI or internal APIs.
 
-## CLI-Anything: the logical extreme
+Each generated CLI ships with its own `SKILL.md` for discovery, a REPL for exploring commands, and undo/redo so a bad state stays reversible. The library literally *is* the CLI package.
 
-CLI-Anything (HKUDS, 21.5k GitHub stars) pushes this all the way. A 7-phase automated pipeline turns any desktop software into an installable CLI package. After `pip install`, the agent can drive Blender, GIMP, OBS, and others through structured JSON commands.
-
-The agent never learns the underlying API or GUI. It calls a pre-built CLI library. Each generated CLI ships with a SKILL.md for auto-discovery, a REPL for exploration, and undo/redo for safe state management.
-
-This is the most literal version of "give agents libraries": the library *is* the CLI package.
-
-## The principle
-
-Any time you catch yourself writing the same kind of instructions to an agent twice, extract a callable library instead. Instructions are consumed once and forgotten. Libraries persist across sessions and compose with each other.
+My simple rule of thumb now: the second time I catch myself writing the same kind of prose instructions to an agent, I stop and turn them into a callable script instead. Instructions vanish when the chat ends. Libraries stick around and compose.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-> 把脚本和辅助函数放进 skill 文件夹。Agent 的 token 就能花在组合和判断上，不用再重写样板代码。
+Anthropic 分享内部怎么用 skill 时，有句话挺扎眼：“你能给 Claude 的最强大的工具之一，就是代码。”如果一个 skill 文件夹里直接带着能跑的脚本和辅助函数，Claude 就不用每回花一堆 token 重新写拉数据的样板代码，直接调用现成的，把力气留给真正要回答的问题。
 
-## 核心洞察
+比如一个数据科学 skill 自带拉事件日志的函数。你问一句“周二出了啥事？”，Claude 不用先从零拼接口，直接写段小脚本把现成函数串起来：过滤、聚合、分析。
 
-Anthropic 发现了一件挺具体的事：“你能给 Claude 的最强大的工具之一，就是代码。”如果 skill 里带着能执行的脚本和函数库，Claude 就不用花 token 重新生成获取数据的代码了。它直接调已有的函数，把精力放在更高阶的问题上。
+## 把重复交代的步骤抽成库
 
-举个例子，一个数据科学 skill 自带获取事件的辅助函数。用户问“周二发生了啥？”，Claude 不写数据获取那一段，直接写个脚本，把现成的函数串起来：过滤、聚合、分析。
+翻翻自己日常的工作流，API 调用、数据清洗、文件处理这些反复给 agent 解释的步骤，抽出来做成脚本库塞进 skill 文件夹，再在 `SKILL.md` 里列清楚怎么调就行。以后 agent 自己就能找来拼着用，不用每次开新对话都重造一遍轮子。
 
-## 技巧
+这么一换，token 和上下文窗口就从“每次重搭脚手架”省出来，全花在组合和判断上。
 
-先把工作流里反复出现的操作找出来，比如 API 调用、数据转换、文件操作，提取成脚本库放进 skill 文件夹，再在 SKILL.md 里写清楚库里有什么。这样 agent 会自己找到这些函数拿来组合，不用每次会话都重新造一遍轮子。
+## CLI-Anything 把这套推到了头
 
-精力就从**重建**挪到了**组合**。同样的 token 和上下文窗口，能撬动的东西多了一大截。
+HKUDS 的开源项目 CLI-Anything（GitHub 上 21.5k star）直接把这件事做绝了。它用一条 7 步自动化流水线，把任意桌面软件封成一个能 `pip install` 的 CLI 包。装完以后，agent 不用学软件原本的界面或底层 API，直接发结构化 JSON 命令就能驱动 Blender、GIMP、OBS 这些工具。
 
-## CLI-Anything：逻辑极限
+每个生成的 CLI 还自带一份 `SKILL.md` 方便发现、一个 REPL 用来摸索命令，外加 undo/redo，改坏了随时能撤回。这大概是“给 agent 库而不是指令”最彻底的写法：库本身就是那个 CLI 包。
 
-CLI-Anything（HKUDS，21.5k GitHub stars）把这个思路推到了头。一条 7 步自动化流水线，把任意桌面软件变成一个可安装的 CLI 包。`pip install` 完，agent 就能通过结构化 JSON 命令操控 Blender、GIMP、OBS 这些软件。
-
-Agent 不用学软件本身的 API 或者 GUI。它调一个预先构建好的 CLI 库就行。每个生成的 CLI 都自带一份 SKILL.md 供自动发现，一个 REPL 方便探索，还有 undo/redo，状态改坏了能撤回。
-
-这是“给 agent 库而不是指令”最字面的实现：库就是 CLI 包本身。
-
-## 原则
-
-只要你发现自己在反复给 agent 写同一类指令，就该把它抽出来，做成一个能调用的库。指令用一次就没了。库跨会话留着，还能互相组合。
+我现在给自己定了个很简单的门槛：同一类文字指令，只要发现自己在给 agent 写第二遍，就停下来把它做成能直接调的脚本。指令聊完就散了，库会留下来，还能互相拼着长。
 
 </div>

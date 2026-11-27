@@ -17,286 +17,122 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-OK here's a sentence I've caught myself saying way too often this year:
+I caught myself saying one sentence way too often this year:
 
 > "That's not really me."
 
-Usually right before I don't do something. *I should write more, but honestly I'm not really a writer. I should be more outgoing at parties, but I'm just an introvert. I should run in the morning, but I've never been a morning person.* You get the idea.
+Usually right before I bail on something. *I should write more, I'm just not a writer. I should talk to more people at parties, I'm just an introvert. I should run in the morning, I've never been a morning person.*
 
-Each one feels reasonable. Even kind of self-aware. And every single one is doing the same trick: using "the real me" as a permission slip to skip the harder, newer, more exposing version of me.
+Every line sounds reasonable, almost self-aware. And every single one does the same job: handing me a permission slip, signed by "the real me," to skip the harder, clumsier version of myself.
 
-Lately I've been reading an old book that finally cracked this open. *Psycho-Cybernetics*, by some plastic surgeon named Maxwell Maltz. He kept noticing something weird at work. He'd successfully reshape someone's nose, and they'd look in the mirror and still feel ugly. The face was different. The *self-image* wasn't. Other times, a tiny little correction would crack a person open into a totally different personality. The size of the surgery had basically nothing to do with it. The size of the *internal* shift was everything.
+An old book finally pried this open for me: *Psycho-Cybernetics*, written by a plastic surgeon named Maxwell Maltz. He kept noticing something strange in his practice. He'd reshape someone's nose cleanly, and they'd look in the mirror and still feel ugly because the face changed while the self-image didn't. Other times, a tiny tweak opened someone up into a completely different personality. The surgery barely mattered; the internal picture did.
 
-So Maltz borrowed an idea from cybernetics: your brain is a servo. You set a target — "the kind of person I am" — and the brain runs feedback loops to keep you locked on it. Behaviors that don't match get filtered out as "weird, not me." Behaviors that do match get amplified. The servo doesn't actually care whether you've aimed it high or low. It just keeps you parked wherever you've parked it.
+Maltz borrowed an idea from cybernetics: your brain runs like a servo. You hand it a target ("the kind of person I am") and it runs feedback loops to keep you parked on it. Actions that don't fit get rejected as "weird, not me." Actions that match get reinforced. The servo doesn't care whether you aimed high or low; it just holds whatever coordinate you gave it.
 
-A few annoying things follow.
+Three annoying conclusions follow. First, the guy on the couch saying "I'm just not a fitness person" isn't reporting a fact; he's programming the servo. Second, willpower can wrestle the servo for two or three weeks before the servo wins, which is why diets evaporate: you were fighting your self-image, not your discipline. Third, the target *is* editable, just not by reading books or deciding really hard. Your brain sits locked inside your skull; the only real evidence it gets about who you are is what you actually do. Keep doing the thing you swear isn't you, and eventually the brain shrugs and updates: *huh, guess we're a writer now.*
 
-**One.** The guy on the couch saying "I'm just not a fitness person" is not stating a fact. He's setting a target. The servo will do what it's told.
+That's the real engine under "fake it till you make it." It sounds cheesy right up until you compare it to the alternative: waiting until you feel like it, which means never.
 
-**Two.** Willpower can override the servo for two or three weeks. Then the servo wins. This is why every diet you've ever tried evaporated. You were fighting your self-image, not your willpower.
+## Wanting it harder backfires
 
-**Three.** The self-image is editable, just not by reading about it or deciding really hard. It's editable by *behavior*. Your brain is locked inside your skull. It can't see the outside world. The only data it gets about who you are is what you do. So if you keep doing the thing you don't think you are, eventually the brain shrugs and updates: huh, I guess we're a writer now.
-
-This is what's actually under "fake it till you make it." A phrase that sounds like bullshit until you remember the alternative is "wait until you feel like it" — i.e., never.
-
----
-
-## Trap 1: I want it really bad
-
-Naval has a sentence that gets sharper every year I read it:
+Naval has a line that hits harder every year I read it:
 
 > "Desire is a contract you sign with yourself to be unhappy until you get what you want."
 
-Read that twice.
+When you tell yourself "I want X," the message landing in your brain is "I don't have X, and I stay unhappy until I do." You just turned today into a deficit and aimed the servo at "someone who's missing X." Even if you grab X, the servo spins up a fresh "I want Y" within forty-eight hours.
 
-When you say "I want X," what you're announcing to your brain is "I currently don't have X, and I will be unhappy until I do." You just made *now* a deficit. You set the servo target to "person who is missing X." That target stays even if you somehow get X — because the servo will spawn a new "I want Y" within roughly 48 hours and lock you into the next contract.
+Mine is money. I spent years vaguely wanting to feel more financially set, and even when the numbers on the screen went up, the feeling never showed up. The servo wasn't chasing a number; it was playing a role ("person who needs more"), and it played that role faithfully.
 
-Mine is money. I have spent years vaguely "wanting to be more financially set." The feeling never fully arrives. Even when the screen numbers go up, the feeling doesn't. Because the servo target was never the number. The servo target was the *role* — "person who needs more." That role is doing what it was told to do.
+Naval and Maltz point to the same exit: stop wanting it harder, and step into the state. Instead of "I want to be wealthy," ask with slightly embarrassing literalness: *what would someone who already has enough money do today?* Then do that. The servo switches from "chasing" to "having," and your actions start feeding it new evidence.
 
-Naval and Maltz point at the same fix. Don't want it harder. *Enter the state.* Stop saying "I want to be wealthy." Start asking, with embarrassing literalness: "What would someone who already has enough money do today?" And then do that. The servo target just changed from "person chasing" to "person who has." Which means the action stream now produces evidence consistent with the new self.
+## "Being authentic" can be a trap too
 
-It sounds woo. It is also roughly what every successful person you've ever read about did, more or less knowingly.
+This one is trickier because nobody pushes back when you say you just want to be your true self.
 
----
+Look closely, though, and that "true self" is mostly a stack of accidents: childhood scripts your parents installed by mistake, bruises from when you were twelve, habits picked up from bad dorm lighting, lazy defaults that compounded after one exhausted Tuesday in 2019. We call that pile "the real me" because it's familiar, not because it's sacred.
 
-## Trap 2: I just want to be authentic
+Buddhism puts this cleanly with *anatta*, no-self. There isn't a fixed, original you sitting underneath all the roles waiting to be uncovered. The person you've been playing for the past twenty years is also a costume; it's just been worn longer. Once you see that, the question stops being "which version is real?" and turns into "which costume actually makes me stronger, happier, and more useful, and why am I still wearing the old one?"
 
-This one is harder to dismantle because it sounds so good.
+## How you actually move the servo
 
-*I want to be authentic. I want to live as my true self.* You say it, people nod. Nobody pushes back.
+Three moves have worked for me at different stages.
 
-But the "true self" you're protecting is mostly a stack of accidents. Childhood scripts your parents accidentally installed. Imprints from things that didn't work out when you were twelve. Habits you fell into because the dorm room had bad lighting. Lazy patterns that compounded because you were tired one Tuesday in 2019 and never quite came back online.
+**Rehearse the role first.** Maltz's main observation was that the nervous system struggles to separate a real experience from a vivid, specific rehearsal. Thirty minutes of concrete mental run-through (not vague daydreams of success, just *what do I say at 9 a.m. tomorrow, what do I push back on, what do I ignore?*) feeds the servo synthetic training data, and the servo doesn't audit the source. I used to roll my eyes at visualization until I tried it for two weeks before a tough conversation last year. The real conversation went smoother than every version in my head. Maybe it was "training," maybe I just thought it through properly. Either way, it was free.
 
-That stack got the label "the real me" because it's familiar. Not because it's true.
+**Stop arguing with your own resistance.** Start a new habit and your brain will immediately try to kill it, simply because building new neural grooves costs energy and brains are lazy. When you sit down to write and a wave of "ugh, not today, you're tired" rolls in, that's just the opening fee. What helps me is stepping back and watching the complaints like a screaming toddler in the back seat while I drive. The toddler hates reason. Fine; we're still going to the dentist. Boring trick, annoyingly effective.
 
-Buddhism has the cleanest take I know on this. *Anatta*, no-self. There is no fixed, permanent you waiting underneath all the performances to be honored. Whoever you've been performing for the last twenty years is also a performance. It's just been running longer.
+**Grade the process, not the label.** Praise a kid for being smart and they dodge hard problems to protect their "smart" asset; praise their effort and they hunt for challenges. Same rule applies to you. Stop asking "did I become a writer this month?" and ask "did I write today?" Every rep shaves a millimeter off the old groove and cuts a millimeter into the new one. Month one is ugly, month twelve is noticeably lighter, and after a year the new habit becomes the default. It really does get easier once the servo gets enough real data.
 
-Once you accept that every version is a costume, the question stops being "which one is real?" and becomes "which one would I rather wear?" Because there's no fact-of-the-matter version waiting underneath. Just versions with different track records.
+## Not just humans
 
-So which performance gets me richer, stronger, happier? And why am I not playing that one?
+Because I work with code and AI agents, I keep seeing the exact same loop in software. People assume the secret to a better coding agent is a clever one-off prompt. Usually it's the config file (`CLAUDE.md` or whatever your harness uses): the standing rules, persona, and durable instructions. That file is the agent's self-image. Change the file and the behavior shifts; drop a polite "be more careful" in chat without updating the file and the agent drifts right back within a few turns.
 
-Uncomfortable question, and hard to unhear once you've heard it.
+Kids run the same loop, with higher stakes. Ages zero to ten install the coordinates for the next seventy years. Tell a six-year-old "you're a reader" and you don't just get one extra book; you lock their servo onto "reader," nudging thousands of tiny choices for decades. Outcome praise installs a fragile coordinate ("I'm smart, don't risk looking dumb"). Process praise installs one that grows under pressure ("I try hard, challenges fit me").
 
----
+Anyway, I'll stop here. Everything boils down to one plain question: you always act in line with who you think you are, so who do you think you are? If the answer is "someone who's been meaning to write more for four years," your brain heard you and delivered right on spec. You can install a different target, just not by deciding. Only by doing.
 
-## So how do you actually move the servo?
-
-Three levers. Not equal weight. You'll lean on different ones at different stages.
-
-**Cold start: replay the role in your head.** Maltz's headline finding is that the nervous system can't fully tell the difference between a real experience and a vividly imagined one. So 30 minutes of *specific* mental rehearsal — not "imagine being successful" but "imagine exactly what I'd do at 9 AM tomorrow if I were already this person, what I'd say, what I'd push back on, what I'd ignore" — feeds the servo synthetic training data. The servo doesn't audit the source.
-
-I used to roll my eyes at visualization. Then before a difficult conversation last year I tried it for two weeks. The actual conversation was easier than every version I had run in my head. Whether that's "training" or just "I thought it through more carefully," I don't know. Probably some of both. Either way it was free.
-
-**Live execution: don't argue with your brain.** When you start a new behavior, *your brain will actively sabotage it*. Not because the goal is wrong. Because new neural pathways are expensive, and your brain is a deeply lazy organ that would rather you keep doing the cheap thing.
-
-So when you sit down to write and a wave of "ugh, not today, you're tired" rises up — that's the cost of doing business. The technique I've found most useful is to step *back* from the brain. Don't fight it, observe it. Like there's a screaming toddler in the back seat and I'm the adult driving. The toddler doesn't want to listen to reason. Fine. We're still going to the dentist.
-
-It's the most boring superpower you can develop. Annoyingly, it also works.
-
-**Compounding: feedback the process, not the outcome.** Praise a kid for being smart and they avoid challenge — because being smart is the asset, and challenge risks the asset. Praise a kid for the *effort* and they seek challenge, because effort is where the asset is built.
-
-Same for you, today. Stop measuring "did I become a writer this month." Start measuring "did I write today." The first metric is fragile and depressing. The second one compounds. Every time you do the action of the new role, you cut a millimeter off the old neural groove and add a millimeter to the new one. Month one is brutal. Month twelve is meaningfully easier. After year one, the new role is the default — willpower can go back to other jobs.
-
-This is the part that I wish someone had told me earlier: *it does get easier.* The servo really does install the new target. You just have to feed it real data for long enough.
-
----
-
-## One last thing — this isn't only about you
-
-I write code for a living, and I've been noticing: the same mechanism that makes humans hard to change makes AI agents hard to change too.
-
-If you've used Claude Code or any of the agent harnesses, you know there's a config file (CLAUDE.md, or whatever your harness calls it) where you describe how the agent should behave. People assume the secret to a better agent is a smarter prompt. It's the *file* — the persona, the standing rules, the durable instructions. That's the agent's self-image. Change the file, change the behavior. Add a vague "be more careful" instruction in chat without changing the file, and the agent reverts within a few turns.
-
-Same servo loop. Persona is the target. Completions are the feedback. The agent drifts toward whoever it thinks it is.
-
-Kids too, and harder. Ages 0 to 10 is when the servo target gets installed for the next 70 years. A six-year-old who's been told "you're a reader" doesn't just read more. Their servo is locked onto "reader." Which means decade over decade they will, on every margin, drift toward more reading, fun or not, because that's who they are.
-
-This is also why "praise the process, not the outcome" matters so much for parents. Outcome praise installs a fragile target ("I'm smart, must protect smart"). Process praise installs an antifragile one ("I'm someone who tries hard, more challenge = more me"). One self-image compounds. The other one cracks under the first real test.
-
----
-
-OK I'll stop. The whole thing collapses to a question that sounds dumb until you actually sit with it:
-
-**You always act consistently with who you think you are. So — who do you think you are?**
-
-If your answer is something like "a person who's been meaning to write more for like four years" — the brain has been listening, and it's been giving you exactly that. The servo is doing its job. The job's just installed wrong.
-
-The good news is, you can install something different. The bad news is, not by deciding. By doing.
-
-Anyway. Going to go drag my tail in the mud now, I guess.
+Going to go drag my tail in the mud now, I guess.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-今年我老挂在嘴边一句话，最近才注意到：
+今年我老挂在嘴边一句话，前阵子才猛然注意到：
 
 > “我不是那种人。”
 
-这话一出口，基本就意味着有件事我不会去做了：
+这话一出口，基本就宣告有件事我不会去做了：“应该多写点东西吧，可我又不是会写的人”；“饭局上应该活跃一点，但我就是 i 人”；“应该早起跑步，我从小就起不来”。
 
-“应该多写点东西吧，可我又不是会写的人。”
-“应该饭局上活跃一点嘛，但我就是 i 人。”
-“应该早起跑步——我从小就起不来。”
+每句听着都挺通情达理，甚至带点自知之明。其实干的都是同一件事：拿“真实的我”当请假条，绕开那个更难、更生疏、更容易露怯的新版本。
 
-每一句听起来都挺合理。甚至有点自省的味道。
+直到翻到 Maxwell Maltz 那本老书《Psycho-Cybernetics》（中译《心理控制术》），才算把这毛病拆开了。Maltz 是个整形外科医生，他在诊室里见过不少怪事：鼻子修得很漂亮，病人照镜子依然觉得自己丑，脸变了，心里那个“我”没变；反过来，有时一个微小的调整，却让整个人性格大变。手术大小几乎无关，关键是脑子里那张自我画像动了多少。
 
-可每一句都在干同一件事：拿“真实的我”当借口，绕开那个更难、更陌生、更容易露怯的我。
+他从控制论借了个词叫 **servo（伺服）**。大脑就是一套伺服系统：你给它输一个“我是哪种人”的坐标，它就老老实实跑反馈环，把你的行为往那个坐标上拽。不合坐标的动作被标成“这不像我”过滤掉，合拍的被放大。伺服不管你坐标定高还是定低，你停在哪儿，它就把你按在哪儿。
 
-最近在读一本老书，Maxwell Maltz 的《Psycho-Cybernetics》（中文译名《心理控制术》），总算把我这毛病拆开了。
+金庸小说里也有现成对照。郭靖学降龙十八掌时，洪七公夸他：“傻小子心眼儿不错，当真说一是一。”郭靖资质鲁钝，但他认死“我就是老老实实学武的人”这个坐标，最后把降龙十八掌练得重若千钧。反观令狐冲，天资绝顶，独孤九剑一碰就通，早年却因为体内八道真气乱撞差点送命；方证愿意传他易筋经救命，条件是改投少林，他谢过还是走了。他的伺服锁死在“我是什么样的人”上，练什么武功反倒排在后面。
 
-Maltz 是个整形外科医生。他在工作里注意到一件挺怪的事。
+往下推，有三条挺烦人的结论。第一，躺在沙发上说“我天生不适合健身”的哥们，不是在陈述事实，是在给伺服下指令。第二，意志力最多能把伺服按住两三周，之后还是伺服赢，每次减肥半途而废都是因为你在跟自我形象硬刚。第三，自我形象能改，但看书、立 flag、暗暗下决心都没用，大脑关在头骨里看不见外面，它认“你是谁”的唯一证据就是你真干了什么。硬着头皮去做“不像自己”的事，做久了大脑自己就会改口：“行吧，看来咱们是个写东西的人。”
 
-手术做得很成功，鼻子改漂亮了，病人照镜子还是觉得自己丑。脸变了，心里那个“我”没变。反过来也有：一个非常小的修整，能让一个人整个性格都变了。手术大小几乎没关系，关键是脑子里那张“我长这样”的图变了多少。
+这才是 “fake it till you make it” 真正靠谱的地方。听着是有点鸡汤，可想想另一个选项（“等有感觉了再开始”），基本等于永远不开始。
 
-Maltz 顺手从控制论里借了一个词，叫 **servo（伺服）**。
+## 越拼命“想要”，越容易卡死
 
-大脑就是个伺服。你给它设一个“我是个怎样的人”的目标，它就老老实实跑反馈循环，把你的行为往那个目标上拽。
-
-跟目标不符的，被它过滤掉，标签是“这不像我”。
-跟目标一致的，被它放大。
-
-伺服不挑。目标定高定低它都不在乎，你把自己停在哪儿，它就把你按在哪儿。
-
-金庸小说里也有现成的例子。郭靖学降龙十八掌那会儿，洪七公夸他：“傻小子心眼儿不错，当真说一是一。”郭靖资质鲁钝，可他认了“我就是个老实学武的人”这个目标。然后降龙十八掌就给他练成了。
-
-反观令狐冲，天资极高，独孤九剑一上手就开窍，可他前面被人往体内灌了八道真气，互相打架，差点送命。他的伺服锁在“我是什么样的人”上，练成什么反倒排在后面。他偏偏死活不肯改投别派：方证要传他易筋经救命，条件是入少林，他谢过方证，还是走了。
-
-也就是说，练什么招式不重要，先得想清楚自己锁的是哪个目标。郭靖锁对了，所以降龙十八掌从他手里出来重若千钧。
-
-这件事再往下推，有几条挺烦人的结论。
-
-**一**，那个躺在沙发上说“我天生不适合健身”的哥们，哪是在陈述事实？他是在给伺服设目标。然后伺服很尽职地照办了。
-
-**二**，意志力能把伺服压住两三周，然后伺服赢。你试过的每次减肥最后都不了了之，就是这个原因：你一直在跟自我形象较劲，跟意志力关系不大。
-
-**三**，自我形象能改，但只能靠做，看书、立 flag、下决心都不管用。大脑关在头骨里，看不见外面的世界，它判断“你是谁”，唯一的证据就是你做了什么。所以就算你是硬着头皮去做“不像自己”的事，做久了，大脑也会自己更新：“行吧，看来咱们是写作的人。”
-
-这才是 “fake it till you make it” 背后的意思。这话一直听着挺鸡汤，可想想另一个选项：“等我有感觉了再开始”，基本等于永远不开始。
-
----
-
-## 陷阱一：我特别想要
-
-Naval 有句话，每年读都更狠一点：
+Naval 有句话，隔一年读一次都觉得更狠：
 
 > “欲望是你和自己签的一份合同，规定在拿到 X 之前你都不许开心。”
 
-读两遍。
+你嘴上说“我想要 X”，大脑收到的信号其实是“我现在缺 X，拿到之前我不许开心”。当下立刻变成了亏空，伺服也被锁在了“那个还没拿到 X 的人”上。更坑的是，哪怕真拿到了 X，过两天伺服又会冒出个 Y，让你接着签下一份合同。
 
-你说“我想要 X”，其实是在告诉自己：我现在没有 X，拿到之前我都不能开心。这么一说，“现在”就成了**亏空**，伺服的目标也被设成了“那个还没拿到 X 的人”。
+我自己最典型的坑就是钱。“想财务更宽裕”这念头挂了好多年，屏幕上的数字明明在涨，“到了”的感觉却总不来。因为伺服锁住的从不是具体金额，而是“那个总觉得还差一点的人”。
 
-更糟的是，这事没完没了。就算真拿到了 X，伺服也很快会给你生出一个 Y，让你接着签下一份合同。
+Naval 和 Maltz 给的解法一样：别更用力地“想要”，直接进状态。别再念叨“我想变富”，换个直白到有点不好意思的问法：**一个已经不缺钱的人，今天会怎么过？** 然后就照那样过。伺服目标从“追着跑的人”换成“已经拥有的人”，日常动作也就开始给新身份攒证据了。
 
-我自己最典型的例子是钱。“想要财务更宽裕”，这念头我有好多年了。可那种“到了”的感觉一直没真正来过。屏幕上的数字明明在涨，感觉就是不来。因为伺服锁定的，从头到尾都是“那个总觉得自己缺一点的人”这个角色，跟数字没关系。这个角色干得很尽职。
+## “做真实的自己”也可能是个坑
 
-Naval 跟 Maltz 都指向同一个解法：别更努力地“想要”。**直接进入状态。**
+这句更难拆，因为太政治正确了：“我想活得真实”“我想做自己”，谁会反驳？
 
-别再说“我想变富”，换个问法，直白到有点难为情：**一个已经不缺钱的人，今天会怎么过？** 然后就照那样过。这么一来，伺服锁定的目标就从“还在追的人”换成了“已经有了的人”，你做的事也开始给这个新身份攒证据。
+可仔细扒开看看，所谓“真实的我”，多半是一堆意外凑出来的：爸妈无意间灌的童年剧本、十二岁某次受挫留下的阴影、大学宿舍灯光太差养出的习惯、2019 年某个周二太累没爬起来结果一路复利到今天的懒劲。我们叫它“真我”，只是因为它熟，不是因为它真。
 
-听着挺玄。可你读过的那些“成功的人”，多多少少都在干这件事，只是有人自觉，有人不自觉。
+佛家讲“无我”讲得最干净：所有表演底下，根本没有一个固定不变的“你”。你过去二十年一直在演的那个版本，同样是件戏服，只是穿得久了点。想通这一点，问题就从“哪件是真的”，变成了“哪件戏服能让我变得更强、更开心，我为什么还没换上？”
 
----
+## 怎么真把伺服拧过去
 
-## 陷阱二：我只是想做真实的自己
+对我管用的办法差不多就三招，不同阶段用不同的。
 
-这个更难拆，因为它听上去太无懈可击了。
+**先在脑子里排练。** Maltz 最出名的发现是，神经系统分不太清真实经历和细节逼真的想象。每天花半小时做具体的心理排练，别泛泛幻想“我成功了”，要细到明天早上九点我会做什么、怎么开口、推掉哪个会、忽略哪条消息。伺服不管数据是真是假，给它喂够细节它就认。我以前对 visualization 一直翻白眼，直到去年一场硬仗般的谈话前，连着两周每天排练，真聊起来比脑子里跑过的任何一版都轻松。说不清是训练管用还是想透了，反正免费的事，不做白不做。
 
-“我想活得真实啊。”“我想做最真实的自己嘛。”这话说出来，谁会反对？
+**真上场时，别跟大脑讲道理。** 刚开新习惯，大脑肯定会捣乱：犯困、焦虑、冒出一堆“今天太累明天再说”的理由。这不说明目标错，只是新神经回路耗能，懒脑子想把你拽回省事的老路。我发现最管用的是退半步看着它闹，就像后座有个三岁小孩撒泼，我是开车的大人。小孩不听讲理没关系，车还是照样往牙医那儿开。招数挺无聊，烦人的是真管用。
 
-可你要是认真扒一扒，所谓“真实的我”，大多是一摞意外堆起来的东西：
+**给过程反馈，别给结果打分。** 夸孩子聪明，他会躲挑战，怕把“聪明”砸了；夸孩子用功，他反而爱碰硬骨头。大人也一样，别问“我这个月成作家了吗”，只问“我今天写了吗”。每写一次，旧沟浅一毫米，新沟深一毫米。头一个月最难熬，到第十二个月明显顺手，过了一年新习惯成了默认项，意志力就能省出来干别的。这件事真会越往后越轻松，前提是拿真实行动喂够时间。
 
-- 童年时候爸妈无意装在你身上的剧本。
-- 12 岁那年某件事失败留下的阴影。
-- 大学宿舍灯光不好养出的习惯。
-- 2019 年某个礼拜二你太累，没爬起来，后来这股懒劲一路复利到了今天。
+## 不光人这样，AI 和孩子也一样
 
-这一堆东西被贴上“真实的我”四个字，不是因为它真，是因为它熟。
+我平时跟代码和 AI agent 打交道，发现让人难改的机制，在 agent 身上原模原样重演。大家都以为让 agent 变聪明靠的是某句神 prompt，其实起决定作用的是配置文件（比如 `CLAUDE.md`）：里面写着 persona、长期规则和边界，这就是 agent 的自我形象。改文件，行为真变；不改文件，只在聊天里随口嘱咐一句“仔细点”，几轮之后它就漂回老样子了。
 
-关于这一点，我知道最干净的说法来自佛家：无我。所有表演底下，并没有一个固定不变的“你”，等着你回去尊重。你过去二十年演的那个角色，也是表演，只是演得久一点。
+孩子更是一样，而且赌注更大。0 到 10 岁装进去的坐标，往往一用就是七十年。六岁就被当成“爱读书的孩子”，伺服锁在“读书人”上，往后几十年每逢可读可不读，都会悄悄往多读一点偏。夸结果装的是脆弱坐标（“我聪明，千万别露怯”），夸过程装的才是越撞越结实的坐标（“我肯下功夫，有难度正合我意”）。
 
-一旦接受了每个版本都是戏服，问题就从“哪个是真的”变成了“我更想穿哪一件”。底下本来就没有一个“真正的版本”，只有战绩各不相同的几个版本。所以该问的是：
+行了，我打住。整件事最后就剩一句听着傻、细想却坐不住的话：你的行动永远跟着“你以为自己是谁”走。所以，你以为自己是谁？如果答案是“一个打算多写点东西、已经打算了四年的人”，大脑听见了，也正尽职尽责地照着演。坐标可以换，只是没法靠下决心换，只能靠做。
 
-**我演哪一个，能让我变富、变强、变开心？我为什么还没在演它？**
-
-这问题挺扎心。而且听过一次，就很难再当没听过了。
-
----
-
-## 那怎么真的把伺服推过去？
-
-三个杠杆，分量不一样，不同阶段你会偏重不同的那个。
-
-**冷启动：在脑子里把那个角色排练一遍。**
-
-Maltz 最出名的一个发现是：真实的经历和生动的想象，神经系统不太分得清。所以“每天 30 分钟具体的心理排练”，别停在泛泛的“想象自己成功”，要具体到：
-
-> 如果我已经是那个人了，明天早上 9 点我会在做什么？说什么？推掉哪个会？忽略哪条消息？
-
-用细节去喂伺服。伺服懒得查你给它的数据是真的还是合成的。
-
-我以前对 visualization 一直翻白眼。直到去年，在一场挺难的谈话之前，我连着两周都这么排练。真谈的时候，比我脑子里跑过的任何一个版本都简单。是“训练”起了作用，还是我只是想得更周全了？说不清，大概两样都有点。反正免费的事，不做白不做。
-
-**真上场：别跟你的大脑讲道理。**
-
-开始做一件新事的时候，大脑会主动使绊子：焦虑、犯困，还有各种合理化（“明天再开始”“这真不像我”）。
-
-这些不说明目标错了，只是开张的成本。新的神经回路费能量，大脑又特别懒，当然想把你拉回省事的老路。
-
-我觉得最管用的办法，是退一步看着它，别跟它吵。就像后座有个三岁小孩在闹脾气，我是开车的大人。小孩不听道理。没关系，我们还是去看牙医。
-
-这是世界上最无聊的一种超能力。烦人的是，它真管用。
-
-**复利：反馈过程，不反馈结果。**
-
-夸一个孩子聪明，他会回避挑战。因为“聪明”是他的资产，挑战会威胁这个资产。
-夸一个孩子用功，他会主动找挑战。因为努力才是产出资产的地方。
-
-你现在也一样。别量“我这个月成为作家了吗”，量“我今天写了吗”。第一个指标脆弱又压抑，第二个会复利。
-
-每做一次新角色会做的事，旧的那道沟就浅一毫米，新的那道就深一毫米。第一个月很苦，到第十二个月会明显轻松。一年以后，新角色成了默认设置，意志力可以挪去别的地方了。
-
-这一段，我真希望早点有人告诉我：**它真的会变容易**。伺服真的会把新目标装上，只是你得拿真实的数据喂它，喂够时间。
-
----
-
-## 最后一个延伸——这事儿不光是你自己的事
-
-我是写代码吃饭的，最近发现：让人难改的那套机制，也让 AI agent 一样难改。
-
-用过 Claude Code 这类 agent 的人应该熟悉：它有个配置文件（CLAUDE.md，或者你 harness 里叫别的名字），你在里面写这个 agent 该怎么做事。
-
-大家都以为让 agent 变好的秘诀是 prompt 写得更聪明，其实关键在这个**文件**：persona、长期规则、稳定的指令。这就是 agent 的“自我形象”。
-
-改文件，行为就变。不改文件，光在对话里临时说一句“你要更仔细一点”，几轮之后它就漂回去了。
-
-是同一个伺服回路。Persona 是目标，completion 是反馈。Agent 会往它“以为自己是谁”的方向漂。
-
-孩子也一样，而且更狠。0 到 10 岁是自我形象装进去的时候，一装就跟你 70 年。
-
-一个 6 岁就被告知“你是个会读书的孩子”的小孩，不只是“读得更多”。他的伺服锁定在“读书的人”这个目标上。几十年下来，每到可读可不读的时候，他都会往多读一点那边偏。读书好不好玩，倒在其次，他就是这样的人。
-
-这也是为什么“夸过程不夸结果”对家长这么要紧。
-
-夸结果，装的是**脆弱目标**：“我聪明，我得保住聪明”。
-夸过程，装的是**反脆弱目标**：“我是个肯下功夫的人，挑战越多越像我”。
-
-一个会复利。一个会在第一次真考验来的时候碎掉。
-
----
-
-行了，打住。
-
-整件事最后落到一个听起来很傻、但你真的坐下来想就坐不住的问题：
-
-**你的行为永远和“你以为自己是谁”一致。**
-**所以——你以为自己是谁？**
-
-如果你的答案是“一个想多写点东西、想了四年的人”，那大脑听到了，也很忠实地照办了。伺服一直在尽职干活，只是任务装错了。
-
-好消息：你可以装一个不一样的进去。
-坏消息：**不是靠决心，是靠去做。**
-
-也就这么回事。我去泥里[拖尾巴](/blog/drag-your-tail-in-the-mud/)了。
+我去泥里[拖尾巴](/blog/drag-your-tail-in-the-mud/)了。
 
 </div>

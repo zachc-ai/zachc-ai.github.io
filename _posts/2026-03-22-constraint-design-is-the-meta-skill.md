@@ -19,77 +19,59 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-> The highest-leverage design work is choosing which constraints to impose. They decide what the system discovers on its own.
+I was building a topology map for a data analytics platform. In the first version, I hardcoded every link by hand: which table fed which function, written out one by one. It went stale within days.
 
-## The breakthrough
+So I threw away the list and switched to rules instead: regex patterns and parameter defaults that let the tool parse the codebase and discover the graph on its own. It turned up 2 to 3 times more connections than I would ever have typed out.
 
-I was building a topology visualization for a data analytics platform. The first version hardcoded the relationships — which tables fed which functions, listed by hand. It was stale within days. So I switched to constraint-based design: define parsing rules (regex patterns, parameter defaults) and let the system discover the relationships itself. It found 2–3× more connections than I would have ever typed out.
-
-The pattern goes well past code. Designing good constraints — in systems, processes, orgs, personal workflows — is the meta-skill. A well-chosen constraint doesn't limit. It channels energy toward behavior you couldn't have predicted, let alone enumerated.
+That stuck with me well past that project. Whether you're designing software, workflows, or an org, listing every desired behavior rarely holds up. Picking a few constraints and putting them in the right places does far more work, because the constraints decide what the system discovers on its own.
 
 ## System convergence in the AI era
 
-AI-Ghost-Lab calls this "system convergence" — constraint design specifically aimed at AI-era development. His earlier mistake was leaning on broad test coverage to contain the chaos AI was generating. An agent might take three different paths from A to B, and the test surface triples with it. The fix is to funnel similar functionality through unified entry points. Control the core nodes. Let everything else flex.
+AI-Ghost-Lab calls this "system convergence" for AI-assisted coding. His earlier mistake was trying to contain AI-generated sprawl with ever-wider test suites. When an agent can wander from A to B along three different paths, your test surface triples right along with it.
 
-The constraints that actually work:
+His fix is to funnel similar capabilities through shared entry points, lock down the core nodes, and let the edges stay flexible. The constraints that carry the weight are pretty plain: clear module boundaries, centralized state, unified extension points, and unified error handling.
 
-- Clear module boundaries
-- Centralized state management
-- Unified extension points
-- Unified error handling
-
-His metaphor lands it. Roughly translated: "AI can make a mess, but only where you allow it. Not in the living room."
+His joke sums it up cleanly (roughly translated): AI can make a mess, just only where you allow it, not in the living room.
 
 ## Constrain agents, don't railroad them
 
-Anthropic's skill-writing advice, as Thariq Shihipar from the Claude Code team wrote it up, is constraint design pointed at AI agents. Two principles do most of the work:
+Thariq Shihipar from the Claude Code team wrote up how Anthropic thinks about writing agent skills, and it lands in the exact same place. Two rules do most of the lifting:
 
-1. **"Don't state the obvious."** Don't constrain what the model already does well. Aim constraints at the places its defaults are wrong.
-2. **"Avoid railroading Claude."** Over-specific instructions kill adaptability.
+1. "Don't state the obvious." Don't waste constraints on things the model already handles fine; aim them where its defaults go wrong.
+2. "Avoid railroading Claude." Over-specified scripts kill the model's ability to adapt when reality doesn't match your checklist.
 
-The art is constraining where the model goes wrong and leaving room where it goes right. The `frontend-design` skill is the clean example. Instead of teaching CSS (Claude knows CSS), it corrects Claude's aesthetic defaults — the Inter-font, purple-gradient instinct.
+The `frontend-design` skill is a neat example. Instead of teaching CSS (Claude already knows CSS), it aimed straight at Claude's default habits at the time, like reaching for Inter and purple gradients on every page.
 
-## The principle
-
-The best designers don't enumerate every behavior they want, whether they're designing systems, organizations, or AI workflows. They pick a small number of constraints and let the right behaviors emerge. The meta-skill is knowing where to put the walls.
+Put the walls where the system drifts off track, and leave the rest open. Most good design comes down to knowing where those walls belong.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-> 最高杠杆的设计动作，是选择施加哪些约束。约束决定系统自己能发现什么。
+前阵子给一个数据分析平台做拓扑图。第一版图省事，哪张表连哪个函数全靠手写硬编码，结果没几天就跟不上变化了。
 
-## 突破
+后来干脆把清单全删了，只定几条解析规则（正则和参数默认值），让程序自己去扫代码。跑出来一看，它挖出的连接数是我手写版本的两三倍。
 
-我在给一个数据分析平台做拓扑可视化。第一版是把已知关系硬编码进去：哪张表喂哪个函数，全靠手列。没几天就过时了。后来换成基于约束的设计：定义解析规则（正则、参数默认值），让系统自己去发现关系。它找出来的连接数，是我手动能列出来的 2–3 倍。
-
-这个模式远不止用在代码上。系统、流程、组织、个人工作流都一样：把约束设计好，就是那项元技能。选得好的约束不是在限制，而是在引导：让力气流向你预料不到、更列不出来的行为。
+写完这东西我才琢磨明白，不管做系统、流程还是 AI 工作流，把想要的每种行为一条条列全几乎都会过时。真正值钱的是挑几个对的约束立在关键位置，剩下的让系统自己长出来。
 
 ## AI 时代的“系统收敛”
 
-AI-Ghost-Lab 把这个叫“系统收敛”，也就是专门针对 AI 时代开发的约束设计。他之前犯过的错是靠扩大测试覆盖去兜 AI 的混乱。Agent 从 A 到 B 可能走三条路，要测的面也跟着变成三倍。解决办法是让相似的功能都走统一的入口。核心节点管住，其他地方放开。
+AI-Ghost-Lab 管这叫“系统收敛”，专门用来治 AI 写代码容易散架的毛病。他踩过的坑是想靠狂堆测试覆盖去兜住 AI 的混乱：agent 从 A 到 B 能绕出三条路，你要测的面就跟着翻三倍。
 
-真正管用的约束就那几条：
+解法是把相似功能收进统一入口，死守住几个核心节点，别的地方放开。真正管用的约束听着都很朴素：清晰的模块边界、集中的状态管理、统一的扩展入口、统一的错误处理。
 
-- 明确的模块边界
-- 集中的状态管理
-- 统一的扩展入口
-- 统一的错误处理
+他打过一个很糙但一针见血的比喻，大意是：AI 可以拉屎，但只能拉在你指定的地方，客厅不行。
 
-他那个比喻一句话就说透了，大意是：AI 可以拉屎，但只能拉在你指定的地方，客厅不行。
+## 约束 agent，别把路写死
 
-## 约束 agent，不是绑住 agent
+Claude Code 团队的 Thariq Shihipar 分享过 Anthropic 内部写 skill 的经验，落点一模一样。最管用的是两条：
 
-Claude Code 团队的 Thariq Shihipar 总结过 Anthropic 内部怎么写 skill，那套建议说白了就是把约束设计用在 AI agent 身上。其中两条原则最管用：
+1. “不要说显而易见的事。”模型本来就能干好的别瞎管，约束只加在它默认容易跑偏的地方。
+2. “别把 Claude 的路线写死。”步骤抠得太死，现场稍有变化它就没法随机应变了。
 
-1. **“不要说显而易见的事。”** 模型本来就做得好的，别约束。约束要放在它默认就跑偏的地方。
-2. **“别把 Claude 的路线写死。”** 指令写得太细，模型就没法随机应变了。
+`frontend-design` 这个 skill 就是很好的例子。它压根不教 CSS（Claude 本来就会），专门盯着 Claude 当时爱犯的审美默认值下手，比如动不动就上 Inter 字体加紫色渐变。
 
-诀窍是：模型容易出错的地方加约束，做得对的地方放开手。`frontend-design` 这个 skill 就是个很典型的例子。它不教 CSS（Claude 本来就会），专门纠正 Claude 那套审美默认值：动不动就上 Inter 字体加紫色渐变。
-
-## 原则
-
-最好的设计师不会去穷举自己想要的每一种行为，不管是设计系统、组织还是 AI 工作流。他们挑少数几个约束，让正确的行为自己长出来。元技能，就是知道把墙放在哪里。
+好设计很少去穷举所有正确答案，它只是想清楚该把墙立在哪儿，其余的留给系统自己找。
 
 </div>
 
