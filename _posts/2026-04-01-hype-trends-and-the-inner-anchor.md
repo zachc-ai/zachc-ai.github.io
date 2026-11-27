@@ -8,6 +8,13 @@ date: 2026-04-01
 categories: life
 tags: [philosophy, career, ai]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/hype-trends-and-the-inner-anchor.en.mp3
+    duration: 575
+  zh:
+    src: /assets/audio/hype-trends-and-the-inner-anchor.zh.mp3
+    duration: 587
 sources:
   - title: "TechCrunch — *A quarter of startups in YC's current cohort have codebases that are almost entirely AI-generated*"
     url: "https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated/"
