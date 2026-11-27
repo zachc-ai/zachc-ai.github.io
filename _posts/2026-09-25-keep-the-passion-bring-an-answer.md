@@ -10,6 +10,13 @@ tags: [career, mind]
 bilingual: true
 redirect_from:
   - /blog/bring-yourself/
+narration:
+  en:
+    src: /assets/audio/keep-the-passion-bring-an-answer.en.mp3
+    duration: 191
+  zh:
+    src: /assets/audio/keep-the-passion-bring-an-answer.zh.mp3
+    duration: 215
 ---
 
 <div class="lang-en" markdown="1">
