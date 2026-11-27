@@ -13,6 +13,13 @@ image:
   width: 1080
   height: 1564
   alt: "Charlie Brown and Snoopy on a bench at sunset. Charlie Brown asks, What do you miss? Snoopy says, I miss the way I viewed the world before I knew too much about it."
+narration:
+  en:
+    src: /assets/audio/before-i-knew-too-much.en.mp3
+    duration: 254
+  zh:
+    src: /assets/audio/before-i-knew-too-much.zh.mp3
+    duration: 261
 ---
 
 <div class="lang-en" markdown="1">
