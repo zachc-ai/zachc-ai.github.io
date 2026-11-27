@@ -14,7 +14,7 @@ narration:
     duration: 356
   zh:
     src: /assets/audio/owning-my-domain-github-pages-cloudflare.zh.mp3
-    duration: 371
+    duration: 364
 sources:
   - title: "GitHub Pages — Managing a custom domain"
     title_zh: "GitHub Pages — 管理自定义域名"
