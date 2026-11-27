@@ -9,6 +9,13 @@ categories: digest
 tags: [ai, career, learning]
 source: "https://www.youtube.com/watch?v=TjPPIf-M6KE"
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/sam-altman-non-consensus-bets.en.mp3
+    duration: 378
+  zh:
+    src: /assets/audio/sam-altman-non-consensus-bets.zh.mp3
+    duration: 376
 sources:
   - title: "Sam Altman On AI Revolution, Superintelligence & Future Of Humanity | FO583 Raj Shamani"
     url: "https://www.youtube.com/watch?v=TjPPIf-M6KE"
