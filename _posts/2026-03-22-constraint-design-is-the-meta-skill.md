@@ -8,6 +8,13 @@ date: 2026-03-22
 categories: tech
 tags: [engineering, ai, systems]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/constraint-design-is-the-meta-skill.en.mp3
+    duration: 155
+  zh:
+    src: /assets/audio/constraint-design-is-the-meta-skill.zh.mp3
+    duration: 147
 sources:
   - title: "AI-Ghost-Lab on Bilibili"
     url: "https://space.bilibili.com/1731330412"
