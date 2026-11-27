@@ -16,7 +16,7 @@
   }
 
   function block() {
-    return body.querySelector('.lang-' + lang()) || body;
+    return body.querySelector(':scope > .lang-' + lang()) || body.querySelector('div.lang-' + lang()) || body;
   }
 
   function textOf(heading) {
