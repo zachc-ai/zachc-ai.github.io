@@ -8,6 +8,13 @@ date: 2026-09-28
 categories: life
 tags: [life, learning, philosophy]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/young-with-a-little-hindsight.en.mp3
+    duration: 141
+  zh:
+    src: /assets/audio/young-with-a-little-hindsight.zh.mp3
+    duration: 141
 ---
 
 <div class="lang-en" markdown="1">
