@@ -9,6 +9,13 @@ categories: digest
 tags: [ai, engineering, productivity]
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/"
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/agentic-engineering-patterns-simon-willison.en.mp3
+    duration: 413
+  zh:
+    src: /assets/audio/agentic-engineering-patterns-simon-willison.zh.mp3
+    duration: 403
 ---
 
 <div class="lang-en" markdown="1">
