@@ -16,112 +16,108 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-Felix Rieseberg's October 13 essay separates ambition with AI into speed, altitude, depth, and range. Speed is familiar: get the same work done sooner. He spends the article on the other three, using a quarterly business review as a running example.
+Felix Rieseberg's October 13 essay splits ambition with AI into four axes: speed, altitude, depth, and range. Everyone already gets speed (doing the same work faster). He spends the piece on the other three, using a quarterly business review as a running example.
 
-Model capabilities keep changing, while our idea of what to ask for can stay where it was months ago. But those capabilities are uneven, so a bigger request still needs a way to establish whether the result works.
+Model capabilities keep jumping while our mental template for what to ask stays stuck six months behind. At the same time, those capabilities are uneven, so asking for bigger outcomes only works if you pair the request with a real way to check the result.
 
-## Altitude: follow the task to its purpose
+## Altitude: chase the actual goal
 
-Ask for a quarterly review deck, and the model can fill the slides. Felix proposes working upward from there:
+Ask a model for a quarterly review deck and it'll happily fill slides. Rieseberg pushes three steps higher:
 
-- Explain what changed this quarter, why it changed, and what to do about it.
-- Identify the three most urgent decisions and develop arguments for and against possible directions.
-- Design a better way to catch problems early and allocate resources. Test it against the company's history, then run it alongside the quarterly review for a quarter.
+- Explain what shifted this quarter, why it shifted, and what we should actually do next.
+- Surface the three most urgent decisions and build the case for and against each path.
+- Design a better way to catch problems early and allocate resources, backtest it against company history, and run it in parallel with the quarterly review for a quarter.
 
-Moving upward also changes the setup. Felix describes going from asking Claude to fix individual crashes to asking it to keep an app crash-free. That required access to crash reports, a mapping from app versions to commits, and computers on which it could reproduce problems and verify fixes.
+Moving up in altitude changes the environment you have to give the agent. Rieseberg went from asking Claude to patch individual crashes to asking it to keep an app crash-free. That meant wiring up crash reports, mapping app versions to commits, and giving it machines where it could reproduce bugs and verify its own fixes.
 
-## Depth: work with professional methods
+## Depth: demand real methods, not expert cosplay
 
-A model told to act like an expert may adopt the expert's language while keeping its usual methods. Felix wants the methods to change too: use databases and statistical models, start with raw data, and challenge the assumed explanation.
+Tell a model to "act like an expert" and it often adopts the vocabulary while sticking to shallow habits. Rieseberg wants the methods themselves to change: start from raw data, pull in databases and statistical models, and test the assumed story instead of repeating it.
 
-For a churn problem, that means testing whether onboarding really explains customer losses. He then proposes building a simulation that reproduces the previous year and looking for an earlier warning signal that predicts outcomes on unseen data. A plausible account of the past and a successful prediction are different standards.
+On a churn problem, that means checking whether onboarding actually drives customer losses, then building a simulation that reproduces last year and hunting for an earlier warning signal that predicts churn on unseen data. Telling a tidy story about the past and predicting unseen outcomes are very different bars.
 
-He also recommends stretch goals. His hypothetical performance request goes from improving a ten-second load to five seconds, to aiming for 200 milliseconds. I would keep the test conditions next to that target so there is something concrete to measure.
+He also pushes for stretch targets. In his hypothetical performance example, you don't stop at cutting a ten-second load time to five; you aim for 200 milliseconds to force a different architecture. (I'd pin the exact test conditions right next to that target so the number actually means something.)
 
-And use an outside judge. Felix explicitly warns against making the model its own evaluator; ideally, a tool can give it feedback as it works.
+And bring in an outside judge. Rieseberg warns straight out against letting the model grade its own homework; ideally, a real tool or test harness feeds back results as it works.
 
-## Range: borrow another field's methods
+## Range: borrow playbooks from outside your field
 
-For the quarterly review deck, describe the activity: helping busy people understand cause and effect and decide under uncertainty.
+Strip away the slides, and a quarterly review is really about helping busy people spot cause and effect and make calls under uncertainty.
 
-So the next question is which fields know how to do those things well. Felix imagines an analyst, a journalist, and an editor, with motion and audio designers if presentation matters. A short seller and a forensic accountant could bring adversarial methods.
+Ask which professions are great at that, and a different crew shows up: an analyst, a journalist, and an editor (plus motion and audio designers if presentation counts), alongside a short seller and a forensic accountant for adversarial digging. Telling a model to sound like a short seller just changes its tone; asking it to pressure-test your assumptions the way a short seller would changes the work.
 
-The point of assembling this crew is to find techniques worth using. Asking a model to sound like a short seller changes the transcript; asking it to investigate a position the way one would changes the work.
+## Where it holds, and where it doesn't
 
-## What makes the request workable
+Rieseberg closes on self-efficacy: what you believe is possible shapes what you even bother trying, and our defaults need an update as models improve.
 
-Felix closes with self-efficacy: beliefs about what we can accomplish affect which attempts we make. His argument is that those beliefs need updating as the tools change.
+He's realistic about the edges, too. Pushing up in abstraction works best when there's a clear outcome to optimize, and much less well for open-ended creative work. In 2026, telling Claude to "go make money" still falls flat for most businesses. Every working example depends on real data access, an environment to act in, and an independent check.
 
-He also marks limits. Higher abstraction is most useful when there is an ultimate outcome to pursue, and less useful for some creative work. In his account, telling Claude to "go make money" is still insufficient for most businesses in 2026. The examples depend on access to relevant data, an environment in which to act, and ways to check the result.
+My own takeaway: push much harder on the goal and the method, while keeping the fence clear on what data and tools the agent can touch and how we'll verify what comes back.
 
-My reading is to ask more of the outcome and the method within a clear boundary: specify the data and tools the agent is authorized to use, and how its output will be checked.
+## A prompt worth reusing
 
-## A prompt to reuse
+Condensed from the essay's prompting advice:
 
-Here is my condensed adaptation of the article's prompting advice:
-
-> What outcome is this task meant to produce?
+> What outcome is this task actually meant to produce?
 >
 > What would a strong practitioner start from, and which tools and methods would they use?
 >
-> Which other field could improve the approach?
+> Which other field could improve this approach?
 >
-> What independent test would show that the result works?
+> What independent test proves the result works?
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-Felix Rieseberg 在 10 月 13 日的文章里，把用 AI 时的进取心拆成四个方向：速度、高度、深度和广度。速度已经很熟悉了，就是同样的活儿做得更快。他主要讲后面三个方向，用季度业务回顾串起整篇文章。
+Felix Rieseberg 10 月 13 日写了篇文章，把用 AI 时的野心拆成四个维度：速度、高度、深度和广度。速度大家早就熟了，无非是把原来的活干快点；他整篇重点聊后面三个，拿季度业务回顾（QBR）一路串下来。
 
-模型的能力一直在变，我们对“可以让它做什么”的想象，却可能还停在几个月前。不过能力的增长并不均匀，目标定大了，照样得有办法验收。
+模型能力每隔几个月就跳一截，我们对“能交给它干什么”的想象却常常停在半年前。不过能力涨得并不均匀，敢提更大的要求，前提还是得有靠谱的验收办法。
 
-## 高度：顺着任务往上找目的
+## 高度：顺着任务追到真正目的
 
-让模型做季度汇报，它可以帮忙填幻灯片。Felix 建议往上多走几步：
+让模型做季度汇报，它顺手就能帮你填完几页 PPT。Rieseberg 建议再往上拔三层：
 
-- 解释这个季度变了什么，为什么变，接下来该怎么办。
-- 找出最紧迫的三个决策，分析几种方向各自的利弊。
-- 重新设计一套更早发现问题、调整资源的办法。先用历史数据检验，再和现有季度回顾并行跑一个季度。
+- 讲清这个季度变了什么、为什么变、接下来该干嘛。
+- 拎出眼下最急的三个决策，把不同方向的利弊摊开。
+- 干脆重做一套更早发现问题、重新分配资源的机制，拿公司历史数据回测，再跟现有季度回顾并行跑一个季度。
 
-要求往上走，工作环境也得跟着变。Felix 以前让 Claude 一个个修崩溃，后来干脆交给它一个目标：让应用保持零崩溃。为此，他得先让它拿得到崩溃报告，弄清每个应用版本对应哪次代码提交，再给它能复现问题、验证修复的电脑。
+目标拔高了，给 agent 配的环境也得跟着换。Rieseberg 以前让 Claude 一条条修崩溃，后来直接给它一个目标：让应用保持零崩溃。为此，他把崩溃日志、版本和代码提交的对应关系全接进去，再配好能复现问题、跑通验证的机器。
 
-## 深度：专业方法也得跟上
+## 深度：换掉方法，别只换术语
 
-让模型“扮演专家”，它可能先换一套术语，做事方法却没变。Felix 要求换掉的是方法：用数据库和统计模型，回到原始数据，检查原先认定的解释。
+让模型“扮演专家”，它往往只换了一嘴行话，干活套路还是老样子。Rieseberg 要换的是真方法：回到原始数据，上数据库和统计模型，先拿数据敲打大家默认相信的那个解释。
 
-比如用户流失，先别认定是新手引导出了问题，要看原始数据支不支持这个判断。他接着提了更深的要求：建一个能复现过去一年情况的模拟，找出一个还没人注意到、出现得更早的流失信号，再验证它在没见过的数据上也能预测。能把过去讲通，和能预测对，是两种不同的标准。
+拿用户流失来说，别上来就认定是新手引导的锅，先验原始数据撑不撑得住；接着搭个能复现过去一年的模拟，挖一个更早出现的预警信号，再看它在没见过的数据上预测得准不准。把过去讲圆，和能预测未来，完全是两道门槛。
 
-他也建议把目标定得激进一点，让模型继续找办法。比如页面原本要十秒才能加载，常规目标是五秒，他举的假设例子则直接瞄准两百毫秒。我会把测试条件一起写清楚，免得最后只剩一个漂亮数字。
+他也鼓励定个看着离谱的拉升目标。比如原本加载要十秒，常规思路是压到五秒，他的假设例子直接盯两百毫秒，逼着模型换一套架构思路。（我自己用这招时，会把测试条件一起钉死，免得最后只剩个好看的数字。）
 
-还有一条值得留着：找外部裁判。Felix 明确提醒，不要让模型自己给自己判分，最好有个工具能在工作过程中持续给它反馈。
+还有一条很关键：别让模型自己给自己打分，尽量接一个外部工具或测试在干活过程里持续给反馈。
 
-## 广度：借别的领域的本事
+## 广度：借外行的手法来干活
 
-季度汇报看起来是一套幻灯片。换成动词来描述，它是在帮忙碌的人理解因果，并在信息不完整时做决定。
+把幻灯片的外壳剥掉，季度汇报干的其实是帮一群大忙人看清因果、在信息不全时拍板。
 
-这样就能继续问：哪些领域擅长做这些事？Felix 设想的团队里有分析师、记者和编辑；需要呈现时，再找动态设计和音频设计的方法。做空研究与法务会计，也能提供挑错、核查的视角。
+顺着这个动作去找擅长干这事的行当，就能拉出一支跨界班子：分析师、记者、编辑（讲究呈现再加动效和音频设计），甚至拉来做空研究员和法务会计专门挑刺。让模型模仿做空者的口吻，只会改聊天腔调；让它按做空研究的路数去核查你的判断，才会真正改变产出。
 
-组这个团队，是为了找到能用的方法。让模型模仿做空者的口吻，聊天记录会变个样；让它按做空研究的办法调查一个判断，才会改变实际工作。
+## 边界在哪
 
-## 怎么把这些要求落到实处
+文章最后落回自我效能感：你觉得自己能做成什么，决定了你敢不敢开口试；工具变了，这套心理预期也得跟着刷新。
 
-文章最后谈到自我效能感：我们相信自己能做到什么，会影响愿意尝试什么。Felix 的判断是，工具变了，这套预期也得更新。
+他也没把话说满。往上抽高目标，最适合结果明确的任务，放到开放式创作上没那么灵。放到 2026 年，扔给 Claude 一句“去赚钱”，对绝大多数生意依然行不通。前面跑得通的例子，全靠三样底座：真数据、能动手的环境、独立的验收标准。
 
-他也讲了边界。把任务往上抽象，比较适合确实有最终目标要追的工作，对一些创作任务没那么管用。按他写作时的观察，只给一句“去赚钱”，对大多数生意仍然不够。前面的例子，都需要相关数据、能动手的环境，以及检验结果的办法。
+我自己记下来的落点很简单：目标和方法可以大胆往上要，同时把围栏划清，说透 agent 能碰哪些数据和工具、交回来的东西怎么验。
 
-我的理解是，目标可以提得更高，方法可以追问得更细；同时讲清楚 agent 能用哪些数据和工具，结果又该怎么检查。
+## 一套可复用的问法
 
-## 一个可以复用的问法
+把文章里的建议压成四个问题：
 
-下面是按这篇文章压缩、改写的提问框架：
-
-> 这件事最终是为了得到什么结果？
+> 这件事最终到底要拿到什么结果？
 >
-> 一个专业人士会从什么材料入手，用哪些工具和方法？
+> 真正厉害的从业者会从什么材料入手，用哪些工具和方法？
 >
-> 有没有别的领域，能帮我们换一种做法？
+> 哪个别的行业有现成套路能借过来？
 >
-> 用什么独立检验，才能知道结果真的管用？
+> 用什么独立检验，才能确认结果真管用？
 
 </div>

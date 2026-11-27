@@ -18,102 +18,100 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-Raj Shamani's *Figuring Out* podcast released a long interview with Sam Altman on November 3. A Chinese write-up of it started circulating the next day. I watched the English original and took notes on the parts that stuck.
+Raj Shamani's *Figuring Out* podcast released a long interview with Sam Altman on November 3, and a Chinese write-up started circulating the next day. I watched the English original and jotted down the parts that stuck.
 
 ## What he gave up
 
-Shamani asks which version of him has died. Altman says the carefree one. When OpenAI started, he had hobbies and could take a Tuesday-night dinner on short notice. Now the calendar is precise, and spontaneous time is rare.
+Asked which version of himself has died, Altman points straight to the carefree one. When OpenAI started, he still had hobbies and could say yes to a last-minute Tuesday dinner. Now every hour is scheduled, and spontaneous time barely exists.
 
-What he misses most is a Saturday afternoon in a coffee shop with a laptop, mostly scrolling, catching up on email slowly. He could still go. Two security people would sit at the next tables, and he wouldn't be anonymous anymore.
+What he misses most is a Saturday afternoon in a coffee shop with a laptop, scrolling aimlessly and catching up on email. Technically he could still go, except two security guards would sit at the next tables and anonymity is gone.
 
-He calls the trade fair. Nobody was going to build superintelligence and keep a quiet life. He also says he should hear "you're delusional" more often. People in his seat fail when they get surrounded by yes-men. Old friends who have worked with him for ten-plus years help. So does a culture that rewards hard pushback.
+He calls the trade fair: nobody was going to build superintelligence and keep a quiet life. He also thinks he should hear "you're delusional" more often. People in his seat fail when everyone around them starts nodding. Old friends who've worked with him for over a decade help, and so does a culture that actually rewards blunt pushback.
 
-## Scaling when almost nobody believed it
+## Betting on scale before people bought it
 
-Starting OpenAI in 2015 was low-status. AGI sounded like a hundred-year dream, or never. His recurring insight was scale: companies, cities, careers, and networks often pay super-linear returns when something that works small gets big. Once neural nets worked at all and got better with size, he wanted to push that hard, years before the scaling laws were clean.
+Starting OpenAI in 2015 was low-status work; AGI sounded like a hundred-year sci-fi dream, if ever. Altman's recurring instinct was scale: companies, cities, careers, and networks like YC often pay super-linear returns once something that works small gets big. The moment neural nets worked at all and kept improving with size, he wanted to push scale hard, years before scaling laws looked clean.
 
-Smart people had a clean argument against it. Next-token prediction can only remix the training set, so it can't make new knowledge. Show a model a million math problems and it learns those problems; it won't invent a proof nobody has written. That sounded convincing. What it missed, he says, is that the models were learning a general reasoning skill that can move into new domains.
+Smart critics had a neat objection: next-token prediction just remixes the training set, so it can't create new knowledge. Feed a model a million math problems and it'll learn those problems, not invent a proof nobody has written. Convincing on paper, except Altman thinks it missed the real trick: models were learning general reasoning that transfers into new domains.
 
-One decision he walks through is the compute bet after GPT-4 finished training around August 2022, months before public release. Internally they could see new research paths, including what became chain-of-thought and reasoning models. The rest of the world hadn't seen GPT-4 yet. They bet the company on buying a lot of compute. The quieter option was a smaller bet and slower scaling. If GPT-4 had come out closer to a "GPT-3.8," he says they wouldn't have had the conviction for the big one.
+One call he walks through is the compute bet right after GPT-4 finished training around August 2022, months before public launch. Internally they could see new research paths opening up, including what became chain-of-thought and reasoning models, while the outside world hadn't seen GPT-4 yet. They bet the company on buying massive compute instead of playing it safe with slower scaling. Had GPT-4 landed closer to a "GPT-3.8," they wouldn't have had the conviction to swing that hard.
 
-He also says going against *everyone's* advice is rare for him, and should feel expensive. Founders who take pride in ignoring smart people make him uneasy. Most of the time, listen. When you don't, you need real conviction, not posture.
+Still, overriding *everyone's* advice is rare for him, and should feel expensive. Founders who take pride in ignoring smart people make him uneasy. Most of the time, listen. When you do go the other way, you need real conviction, not swagger.
 
-## ChatGPT's awkward first version
+## ChatGPT's awkward launch
 
-Launching ChatGPT is his example of a call most of the leadership thought was early and not good enough. The YC habit he cites: if the first version doesn't embarrass you a little, you waited too long. You need feedback.
+Shipping ChatGPT is his textbook example of a launch most of leadership felt was too early and too rough. He falls back on the old YC rule: if your first version doesn't embarrass you a little, you waited too long. You need real feedback.
 
-The internal prototype's retention was terrible, around 5%. Normally that kills a launch. Talking to those 5% showed some of them really loved it and used it a lot. Another YC lesson: for an early project, a small group that loves the thing beats a large group that likes it a little.
+The internal prototype's retention was awful, roughly 5%. Normally that kills a launch on the spot. Talking to those 5% revealed a small pocket of people who genuinely loved it and used it constantly. Another YC rule: early on, a tiny crowd that loves what you built beats a huge crowd that mildly likes it.
 
-The bar is different now. Things that ship to the whole ChatGPT user base, and especially enterprise products that sit near critical infrastructure, need a high threshold. He still wants early sketches in other lanes, some of which will fail.
+The bar is completely different now. Anything shipping to the entire ChatGPT user base, especially enterprise products near critical infrastructure, has to clear a much higher threshold. Even so, he still wants rough early bets in side lanes, fully expecting some to flop.
 
-On picking non-consensus work more generally: in 2015 there were maybe a handful of AGI labs, and something like ten thousand photo-sharing companies. Most people thought photo sharing was the better idea. His test for a non-obvious bet is whether you can explain it to an optimistic, disciplined, smart friend who isn't the domain expert, and update them. If you convince everyone, it was probably too obvious. If you convince no one, get more skeptical. He adds that history has exceptions, so at some point you also trust your own read.
+On picking non-consensus work in general: in 2015 there were a handful of serious AGI labs and maybe ten thousand photo-sharing startups, and most people bet on photo sharing. His filter for a non-obvious idea is explaining it to an optimistic, disciplined, sharp friend outside the field and seeing if you update their view. Convince everybody and it's probably too obvious; convince nobody and you should get more skeptical. History still has exceptions, so eventually you have to trust your own read.
 
-## Two ways it goes wrong, and what he wants next
+## Two bad endings, and what's next
 
-He names two cartoonish ways this can go really wrong. One is losing control to systems far more capable than people, and not getting it back. The other is one person, company, or country getting too powerful relative to everyone else. He prefers several competing AI efforts with different approaches. Pluralism was part of why he wanted something outside Google in the first place.
+He sketches two cartoonish ways AI goes horribly wrong: losing control to systems far more capable than humans and never getting it back, or letting one person, company, or country grab way too much power relative to everyone else. He wants multiple competing AI efforts taking different paths, which is part of why he wanted an effort outside Google in the first place.
 
-He admits not taking equity in OpenAI was a mistake. He did it for reasons that felt right then. It has mostly confused people.
+He admits skipping equity in OpenAI was a mistake. It felt principled at the time; mostly it just confused people.
 
-Asked what extraordinary thing he wants to build next, he goes to science. Math results made him think the milestone is closer than he expected: a machine that helps find new physics, medicine, and energy, and things we can't picture yet. Better scientific understanding is how he thinks the world usually gets better.
+Asked what extraordinary thing he wants to build next, he jumps straight to science. Recent math breakthroughs convinced him the milestone is closer than he expected: machines that help unlock new physics, medicine, energy, and things we can't picture yet. Deeper scientific understanding is how he thinks the world actually improves.
 
-On careers, he returns to compounding. The joke is twenty years of experience that is the same year twenty times. The useful path is stacking each phase on the last, which means keeping yourself on uncomfortable, non-obvious new work. From what he's seen, most people fall off that curve early.
+On careers, he comes back to compounding. The old joke is twenty years of experience that's just the same year repeated twenty times. Real compounding means stacking each phase on the last by staying on uncomfortable, non-obvious work, and most people drop off that curve early.
 
-He ends the personal-cost question with one word, twice: fair.
+Asked again about the personal cost, he answers with one word, twice: fair.
 
 ## A short note
 
-
-The bit I keep coming back to is the 5% retention, and the few people who loved it. Early averages hide the only users who matter then. I also keep the part about how rarely he wants to override a room of smart people. Non-consensus gets romanticized. A lot of dissent is just wrong.
+What stays with me is that 5% retention number and the handful of users who actually loved it. Early averages hide the only people who matter. I also keep his point about how rarely he wants to overrule a room of smart people. Non-consensus bets get romanticized; plenty of dissent is just wrong.
 
 </div>
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-Raj Shamani 的播客 *Figuring Out* 在 11 月 3 日放出了跟 Sam Altman 的长访谈。第二天中文圈开始流传一篇整理。我对照英文原片听了一遍，记下几处印象较深的内容。
+Raj Shamani 的播客 *Figuring Out* 11 月 3 日放出了跟 Sam Altman 的长访谈，第二天中文圈就刷起了一篇整理。我对照英文原片听了一遍，记下几处印象深的点。
 
-## 他丢掉的那部分
+## 丢掉的那部分生活
 
-主持人问他，哪一个版本的自己已经死了。Altman 说，是那个无忧无虑的自己。刚创办 OpenAI 时，他还有不少爱好，周二晚上临时约饭也去得了。现在日程掐得很死，很久没做过一件随性的事。
+主持人问哪个版本的自己已经死了，Altman 脱口而出：那个无忧无虑的自己。刚办 OpenAI 那会儿，他还有爱好，周二晚上临时约顿饭说去就去；现在日程掐得死死的，很久没干过随性的事了。
 
-他最想念的，是周六下午坐在咖啡馆，面前一大杯咖啡，打开电脑，慢慢回邮件，更多时候只是漫无目的地刷网页。他其实还能去。旁边桌上会坐着两名安保，他就不再是人群里那个默默无闻的人了。
+他最想念周六下午泡在咖啡馆，面前一大杯咖啡，打开电脑慢慢回邮件，多数时候只是漫无目的地刷网页。现在其实也能去，只是旁边桌会坐着两名安保，再也做不了人群里不起眼的普通人。
 
-他说这笔交换是公平的。没人能一边建超级智能，一边过平静日子。他也说，自己应该多听几句“你是不是疯了”。坐在他这个位置的人，身边如果全是点头的人，事情就容易搞砸。共事十多年的老朋友有用，鼓励别人当面硬顶的文化也有用。
+这笔交换他觉得公平：没人能一边建超级智能，一边过清闲日子。他也觉得自己该多听几句“你是不是疯了”。坐在这个位置上，身边一旦全是点头附和的人，事情很快就会搞砸。共事十多年的老朋友管用，鼓励当面硬顶的文化也管用。
 
 ## 几乎没人信的时候押 scaling
 
-2015 年创办 OpenAI，在当时并不受重视。AGI 听起来像一百年后的事，也可能永远不会来。他反复用到的一个直觉是规模：公司、城市、个人事业，还有像 YC 这样的网络，小规模管用的东西一旦做大，回报常常是超线性的。神经网络刚开始能跑、而且越大越好用时，他就想继续往大里推。那时候离 scaling laws 整理清楚，还差好几年。
+2015 年做 OpenAI 根本不算体面选择，AGI 听起来像一百年后的科幻梦。Altman 反复押的直觉是规模：公司、城市、个人事业，还有 YC 这样的网络，小规模跑通的东西一旦做大，回报常常是超线性的。神经网络刚开始能跑、而且越大越灵时，他就想往大里推，那时离 scaling laws 整理清楚还差着好几年。
 
-聪明人有一套听起来很有力的反驳：模型只是根据训练集预测下一个词，所以造不出新知识。你给它一百万道数学题，它学会的是这些题；没见过的证明，它做不出来。当时这话很有说服力。在他看来，这种说法漏掉了模型学到的通用推理能力：学会的东西，可以用到新的领域。
+聪明人当时有一套听着很硬的反驳：模型只是照着训练集预测下一个词，造不出新知识。喂它一百万道数学题，它只学会这批题，没见过的证明写不出来。听起来很有说服力，但 Altman 觉得这套逻辑漏掉了最关键的一步：模型练出来的是能迁移到新领域的通用推理能力。
 
-他举的一个具体决策，是 GPT-4 训练完之后的算力豪赌。大约 2022 年 8 月训完，离公开发布还有七八个月。内部已经看得出新的研究方向，也包括后来的思维链和推理模型。外面的人还没见过 GPT-4。他们决定把公司的未来押在大量买算力上。另一条路是押得小一点，扩得慢一点。他说，如果当时模型只到“GPT-3.8”那个水平，他们不会有信心下这么大的注。
+他举了一个具体赌局：GPT-4 大约在 2022 年 8 月训完，离公开发布还有七八个月。内部已经看到思维链和推理模型这些新方向，外界却还没见过 GPT-4。他们押上整个公司去猛买算力，没选小步慢跑的稳妥路线。如果当时训出来的只是“GPT-3.8”，他们不会有底气下这么大的注。
 
-他也说，自己极少在所有人反对时硬干，而且做这种决定，理应感到代价大、风险高。有些创始人以“大家都不看好我还是要干”为荣，他并不欣赏。身边都是聪明人，多数时候该听。真要反着来，得有实打实的信念，不能光摆姿态。
+不过，跟屋里所有聪明人反着干对他来说依然极少见，而且理应觉得代价大、心里发虚。那些把“大家都不看好我偏要干”挂在嘴边当勋章的创始人，他并不买账。多数时候该听劝；真要硬顶，靠的是实打实的信念，不是摆姿态。
 
-## ChatGPT 那个尴尬的第一版
+## ChatGPT 那个别扭的第一版
 
-发布 ChatGPT，是他举的“只有自己特别想发”的例子。大家不是不想做聊天机器人。多数人觉得太早，也还不够好。他搬出在 YC 反复跟创始人说的那句：如果你对第一版不感到一点尴尬，说明你发晚了。你真正需要的是反馈。
+发 ChatGPT，是他举的“几乎只有自己急着发”的例子。管理层大多觉得太早、太糙。他搬出在 YC 跟创始人念叨过无数遍的话：第一版如果没让你有点不好意思，说明发晚了，你真正缺的是反馈。
 
-内部原型的留存差得很，大概只有 5%。按常规，这种数字意味着别发。可他去跟那 5% 聊，发现有些人真的很爱用，而且用得很勤。YC 的另一条经验是：早期项目有一小群人特别喜欢，比有一大群人只觉得还行更重要。
+内部原型的留存难看得很，大概只有 5%。按常理这数字直接宣判死刑。可他去跟那 5% 的人聊，发现一小撮人爱得不行，天天高强度用。YC 另一条老经验：早期项目有一小群人真爱，比一大群人觉得“还行”值钱得多。
 
-现在门槛不一样了。推给全体 ChatGPT 用户的东西，尤其是已经接近关键基础设施的企业产品，标准必须很高。他仍然希望在别的方向多发一些早期草图，其中一部分会失败。
+现在门槛完全变了。推给全体 ChatGPT 用户的功能，尤其是贴近关键基础设施的企业产品，标准必须拉满。不过他依然希望在边缘方向多发粗糙草图，并且接受一部分会砸掉。
 
-说到怎么选非共识的事：2015 年认真做 AGI 的实验室大概一只手数得过来，做照片分享的公司可能有上万家。多数人觉得照片分享更靠谱。他判断一个不显而易见的赌注值不值得押，会先讲给一个乐观、严谨、聪明、但不是领域专家的朋友听，看能不能让对方改变看法。如果人人都被说服，多半太显而易见了；如果一个都说不服，自己也该多怀疑一点。他又补了一句：历史上也有说服不了任何人却做对了的例子，所以有时候还是得信自己的判断。
+聊到怎么挑非共识的事：2015 年认真做 AGI 的实验室一只手数得过来，做照片分享的创业公司却有上万家，多数人觉得照片分享靠谱得多。他的检验办法是把想法讲给一个乐观、严谨、聪明但不是行家的朋友听，看能不能刷新对方的判断。所有人都点头，多半太显而易见；一个都说不动，自己也该多留个心眼。当然历史上总有谁都说服不了却成了的例外，走到最后还是得信自己的眼光。
 
-## 两种搞砸的方式，以及他接下来想造什么
+## 两种最坏结局，和下一件事
 
-他把最坏情况简化成两种。一种是失去对 AI 的控制，把未来交给远强过人类的系统，而且收不回来。另一种是某个人、某家公司或某个国家相对其他人强得太多。他更希望有多条互相竞争、路径略有不同的 AI 路线。当初希望 Google 之外也有人做这件事，就是出于这个想法。
+他把 AI 失控画成两种最糟的剧本：要么把未来交给了远强于人类的系统且收不回来，要么让某个人、某家公司或某个国家相对其他人强得过头。他更希望有几股路线不同的力量互相竞争，当初想在 Google 之外另起炉灶，原因就在这儿。
 
-他承认，自己不持有 OpenAI 股权是个错误。当时觉得理由正当，后来主要是把大家搞糊涂了。
+他坦承不拿 OpenAI 股权是个错误。当时觉得理由很正，结果只是把外界搞糊涂了。
 
-问到接下来最想造什么非凡的东西，他立刻说到科学。数学上的结果让他觉得，这个里程碑比预想的近。他想要一台能帮人更好理解世界的机器：在物理上有更深的发现，找到新的医疗办法和新能源，甚至发现我们现在还想不到的东西。在他看来，世界能变得更好，很大程度上靠的是对科学的理解不断加深。
+问到接下来最想造什么，他直接指向科学。数学上的进展让他觉得这一天比预想近得多：造出能帮人发现新物理、新疗法、新能源，甚至我们眼下还想不到的东西的机器。世界真正变好，靠的终究是对科学理解变深。
 
-说到个人事业，他又回到复利。有个笑话是：你说自己有 20 年经验，其实只是把同一年重复了 20 次。要让经验真正积累起来，每一阶段就得接着上一阶段往前走，也得一直逼自己去做不舒服、还看不太清楚的新事情。按他的观察，多数人很早就离开了这条持续积累的路。
+谈到个人职业，他又绕回复利。老笑话说“20 年经验，其实只是把同一年重复了 20 遍”。真正的积累是每一段都叠在上一段上面，一直逼自己去做不舒服、还看不清的新活，只是大多数人很早就掉下这条曲线了。
 
-谈到成为现在的自己要付什么代价，他连说了两遍：公平。
+聊回个人付出的代价，他干脆地连说了两遍：公平。
 
 ## 顺便记一句
 
-
-我老想起那 5% 留存，还有真爱的那一小撮人。早期看平均数，容易把真正重要的用户盖住。还有一句我也留着：他很少想压过一屋子聪明人的意见。非共识听起来很浪漫。好多异议其实只是错的。
+最让我反复回味的，是那 5% 留存和里面真爱的那一小撮人。早期看平均数，最容易把唯一重要的用户埋掉。另一句我也记着：他其实极少想压过一屋子聪明人的意见。非共识总被说得很浪漫，可很多特立独行纯粹只是错了。
 
 </div>
