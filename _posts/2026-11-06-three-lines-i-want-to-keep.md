@@ -13,6 +13,13 @@ image:
   width: 1200
   height: 630
   alt: "A winding path beneath rain clouds, continuing toward a patch of light."
+narration:
+  en:
+    src: /assets/audio/three-lines-i-want-to-keep.en.mp3
+    duration: 277
+  zh:
+    src: /assets/audio/three-lines-i-want-to-keep.zh.mp3
+    duration: 285
 sources:
   - title: "Brandon Sanderson — The Ten Orders of Knights Radiant"
     url: "https://www.brandonsanderson.com/blogs/blog/the-ten-orders-of-knights-radiant"
