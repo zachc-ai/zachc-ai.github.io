@@ -8,6 +8,13 @@ date: 2026-10-24
 categories: life
 tags: [ai, attention, mind, productivity]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/the-hour-i-dont-want-to-give-up.en.mp3
+    duration: 288
+  zh:
+    src: /assets/audio/the-hour-i-dont-want-to-give-up.zh.mp3
+    duration: 301
 ---
 
 <div class="lang-en" markdown="1">
