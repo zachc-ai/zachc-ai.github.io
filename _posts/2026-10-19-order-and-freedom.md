@@ -8,6 +8,13 @@ date: 2026-10-19
 categories: life
 tags: [mind, philosophy, systems, attention]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/order-and-freedom.en.mp3
+    duration: 370
+  zh:
+    src: /assets/audio/order-and-freedom.zh.mp3
+    duration: 365
 sources:
   - title: "Zhuangzi — Nourishing Life"
     title_zh: "《庄子·养生主》"
