@@ -8,6 +8,13 @@ date: 2026-04-05
 categories: life
 tags: [philosophy, life]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/the-journey-is-the-scripture.en.mp3
+    duration: 458
+  zh:
+    src: /assets/audio/the-journey-is-the-scripture.zh.mp3
+    duration: 436
 sources:
   - title: "Jensen Huang — Keynote at the 2024 SIEPR Economic Summit, Stanford"
     url: "https://www.youtube.com/watch?v=cEg8cOx7UZk"
