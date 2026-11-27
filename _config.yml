@@ -10,6 +10,8 @@ permalink: /blog/:title/
 
 header_pages:
   - blog.html
+  - projects.md
+  - now.md
   - tags.html
   - about.md
 

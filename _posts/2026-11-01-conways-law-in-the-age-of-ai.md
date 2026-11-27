@@ -38,7 +38,8 @@ Cutting the handoff had quietly cut a check. A shorter pipeline didn't mean the 
 
 That's the tension I've been chewing on lately: can a small team armed with AI finish work that used to bounce across four teams? It's tempting to say yes. Conway's law doesn't tell you small teams beat big ones; it just says your system will mirror how your people actually talk and decide. Before handing a small team more surface area, you still have to look at what the old boundaries were protecting.
 
-<img src="{{ '/assets/images/conways-law-cover.png' | relative_url }}" width="1200" height="630" alt="An illustrative change passes through UI, service, data, and release owners. A second arrangement puts those activities inside one bounded team with authorized agents, required checks, and a feedback loop.">
+<img class="theme-img-light" src="{{ '/assets/images/conways-law-cover.svg' | relative_url }}" width="1200" height="630" alt="An illustrative change passes through UI, service, data, and release owners. A second arrangement puts those activities inside one bounded team with authorized agents, required checks, and a feedback loop.">
+<img class="theme-img-dark" src="{{ '/assets/images/conways-law-cover-dark.svg' | relative_url }}" width="1200" height="630" alt="An illustrative change passes through UI, service, data, and release owners. A second arrangement puts those activities inside one bounded team with authorized agents, required checks, and a feedback loop.">
 
 ## Conway's law shows up in agent architectures too
 
@@ -104,7 +105,8 @@ Anthropic 写过一次 agent 改造：把配送 subagent 合并进主循环之�
 
 这正好撞上我最近一直在琢磨的事：一个小团队配上 AI，能不能自己啃完过去要跨好几个团队的活？听起来挺诱人。但康威定律没说过人少就一定快，它只是提醒你，做出来的系统早晚会长成你们平时沟通和拍板的样子。真想让小团队多扛一块地盘，先得看清旧边界原本在拦什么。
 
-<img src="{{ '/assets/images/conways-law-cover.png' | relative_url }}" width="1200" height="630" alt="一种示意安排把同一个改动交给界面、服务、数据和发布的不同负责人；另一种把这些工作放进一个有明确边界的小团队，由获授权的 agent 协助，保留必要检查，并接收结果反馈。">
+<img class="theme-img-light" src="{{ '/assets/images/conways-law-cover.svg' | relative_url }}" width="1200" height="630" alt="一种示意安排把同一个改动交给界面、服务、数据和发布的不同负责人；另一种把这些工作放进一个有明确边界的小团队，由获授权的 agent 协助，保留必要检查，并接收结果反馈。">
+<img class="theme-img-dark" src="{{ '/assets/images/conways-law-cover-dark.svg' | relative_url }}" width="1200" height="630" alt="一种示意安排把同一个改动交给界面、服务、数据和发布的不同负责人；另一种把这些工作放进一个有明确边界的小团队，由获授权的 agent 协助，保留必要检查，并接收结果反馈。">
 
 ## 康威定律一样长在 agent 架构里
 

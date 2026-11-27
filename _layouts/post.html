@@ -3,6 +3,7 @@ layout: default
 ---
 {%- assign zc_is_digest = false -%}
 {%- if page.categories contains "digest" -%}{%- assign zc_is_digest = true -%}{%- endif -%}
+<div class="reading-progress" aria-hidden="true"></div>
 <article class="container post"{% if page.toc == false %} data-toc="false"{% endif %}>
   <header class="post-header">
     {%- if zc_is_digest %}
@@ -17,6 +18,7 @@ layout: default
       {%- if zc_is_digest and page.source -%}
       <span class="dot" aria-hidden="true">·</span><a href="{{ page.source }}" rel="noopener"><span class="lang-en">Original</span><span class="lang-zh">原文</span> <span aria-hidden="true">↗</span></a>
       {%- endif %}
+      <span class="dot" aria-hidden="true">·</span><button type="button" class="post-meta-btn" data-share-link><span class="lang-en">Copy link</span><span class="lang-zh">复制链接</span></button>
     </p>
     {%- if page.tags.size > 0 %}
     <ul class="tag-list post-tags" aria-label="Tags">

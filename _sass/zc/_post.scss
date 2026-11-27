@@ -1,5 +1,47 @@
 // Post and page chrome: titles, meta, tags, older/newer, comments, 404.
 
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.reading-progress.is-active {
+  opacity: 0.85;
+}
+
+@media print {
+  .reading-progress {
+    display: none !important;
+  }
+}
+
+.post-meta-btn {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.2em;
+}
+
+.post-meta-btn:hover,
+.post-meta-btn.is-copied {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
 .post,
 .page:not(.page-index) {
   max-width: calc(var(--measure) + 2 * var(--gutter));

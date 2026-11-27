@@ -15,7 +15,7 @@ layout: default
 {%- capture zc_latest_items -%}
   {%- assign zc_shown = 0 -%}
   {%- for post in site.posts -%}
-    {%- if zc_shown >= 6 -%}{%- break -%}{%- endif -%}
+    {%- if zc_shown >= 5 -%}{%- break -%}{%- endif -%}
     {%- unless post.categories contains "digest" or zc_featured_slugs contains post.slug -%}
       {%- if zc_shown == 0 -%}
         {%- include post-item.html post=post lead=true -%}
@@ -29,7 +29,7 @@ layout: default
 {%- capture zc_topic_links -%}
   {%- for slug in page.home_topics -%}
     {%- if site.tags[slug].size > 0 -%}
-      <a href="{{ '/tags/' | relative_url }}#{{ slug | slugify }}">{% include tag-name.html tag=slug %}</a>
+      <li><a class="tag" href="{{ '/tags/' | relative_url }}#{{ slug | slugify }}">{% include tag-name.html tag=slug %}<span class="tag-count">{{ site.tags[slug].size }}</span></a></li>
     {%- endif -%}
   {%- endfor -%}
 {%- endcapture -%}
@@ -64,11 +64,11 @@ layout: default
     <h2 class="section-label" id="home-notes"><span class="lang-en">Reading notes</span><span class="lang-zh">阅读笔记</span></h2>
     <p class="home-section-note"><span class="lang-en">What I kept from long articles and guides.</span><span class="lang-zh">长文章和指南里，值得留下的部分。</span></p>
     <ol class="post-feed">
-      {%- for post in zc_digests limit: 3 -%}
+      {%- for post in zc_digests limit: 4 -%}
         {%- include post-item.html post=post compact=true -%}
       {%- endfor -%}
     </ol>
-    {%- if zc_digests.size > 3 %}
+    {%- if zc_digests.size > 4 %}
     <p class="more"><a class="more-link" href="{{ '/digests/' | relative_url }}"><span class="lang-en">All reading notes</span><span class="lang-zh">全部阅读笔记</span> <span aria-hidden="true">→</span></a></p>
     {%- endif %}
   </section>
@@ -78,14 +78,18 @@ layout: default
     {%- if zc_topic_links != empty %}
     <nav class="home-section" aria-labelledby="home-topics">
       <h2 class="section-label" id="home-topics"><span class="lang-en">Explore by topic</span><span class="lang-zh">按主题读</span></h2>
-      <div class="home-topic-links">{{ zc_topic_links }}</div>
+      <ul class="tag-cloud home-topic-links">{{ zc_topic_links }}</ul>
       <p class="more"><a class="more-link" href="{{ '/tags/' | relative_url }}"><span class="lang-en">All topics</span><span class="lang-zh">全部主题</span> <span aria-hidden="true">→</span></a></p>
     </nav>
     {%- endif %}
     <section class="home-section" aria-labelledby="home-subscribe">
       <h2 class="section-label" id="home-subscribe"><span class="lang-en">Subscribe</span><span class="lang-zh">订阅</span></h2>
-      <p class="home-section-note"><span class="lang-en">New essays and reading notes in your RSS reader.</span><span class="lang-zh">用 RSS 订阅，新文章和阅读笔记更新了就能看到。</span></p>
-      <p class="more"><a class="more-link" href="{{ '/feed.xml' | relative_url }}"><span class="lang-en">RSS feed</span><span class="lang-zh">RSS 订阅</span> <span aria-hidden="true">→</span></a></p>
+      <p class="home-section-note"><span class="lang-en">Separate English and Chinese RSS feeds for your reader.</span><span class="lang-zh">提供独立的中英文 RSS 订阅源，不混排不重复。</span></p>
+      <p class="more">
+        <a class="more-link" href="{{ '/feed.xml' | relative_url }}">RSS (EN) <span aria-hidden="true">→</span></a>
+        <span class="dot" aria-hidden="true">·</span>
+        <a class="more-link" href="{{ '/feed-zh.xml' | relative_url }}">RSS (中文) <span aria-hidden="true">→</span></a>
+      </p>
     </section>
   </div>
   </div>

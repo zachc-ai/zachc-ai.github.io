@@ -48,6 +48,84 @@
     heading.appendChild(anchor);
   });
 
+  // Copy link with the active ?lang= parameter for bilingual sharing.
+  var shareBtn = article && article.querySelector('[data-share-link]');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', function () {
+      var u = new URL(window.location.href);
+      u.searchParams.set('lang', lang());
+      u.hash = '';
+      if (!navigator.clipboard || !window.isSecureContext) return;
+      navigator.clipboard.writeText(u.toString()).then(function () {
+        var enSpan = shareBtn.querySelector('.lang-en');
+        var zhSpan = shareBtn.querySelector('.lang-zh');
+        if (enSpan) enSpan.textContent = 'Link copied';
+        if (zhSpan) zhSpan.textContent = '已复制链接';
+        shareBtn.classList.add('is-copied');
+        setTimeout(function () {
+          if (enSpan) enSpan.textContent = 'Copy link';
+          if (zhSpan) zhSpan.textContent = '复制链接';
+          shareBtn.classList.remove('is-copied');
+        }, 1500);
+      }, function () {});
+    });
+  }
+
+  // Copy button on fenced code blocks.
+  [].forEach.call(body.querySelectorAll('pre'), function (pre) {
+    var host = pre.closest('.highlighter-rouge') || pre;
+    if (host.parentNode && host.parentNode.classList.contains('code-block-wrap')) return;
+    var wrap = document.createElement('div');
+    wrap.className = 'code-block-wrap';
+    host.parentNode.insertBefore(wrap, host);
+    wrap.appendChild(host);
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'code-copy-btn';
+    btn.innerHTML = '<span class="lang-en">Copy</span><span class="lang-zh">复制</span>';
+    btn.addEventListener('click', function () {
+      var text = pre.textContent || '';
+      if (!navigator.clipboard || !window.isSecureContext) return;
+      navigator.clipboard.writeText(text).then(function () {
+        btn.innerHTML = '<span class="lang-en">Copied</span><span class="lang-zh">已复制</span>';
+        btn.classList.add('is-copied');
+        setTimeout(function () {
+          btn.innerHTML = '<span class="lang-en">Copy</span><span class="lang-zh">复制</span>';
+          btn.classList.remove('is-copied');
+        }, 1400);
+      }, function () {});
+    });
+    wrap.appendChild(btn);
+  });
+
+  // Thin reading progress bar along the top edge.
+  var progressBar = document.querySelector('.reading-progress');
+  var progressTicking = false;
+  function updateProgress() {
+    progressTicking = false;
+    if (!progressBar) return;
+    var rect = body.getBoundingClientRect();
+    var total = body.offsetHeight - window.innerHeight;
+    if (total <= 120) {
+      progressBar.classList.remove('is-active');
+      return;
+    }
+    var ratio = Math.min(1, Math.max(0, -rect.top / total));
+    progressBar.style.transform = 'scaleX(' + ratio.toFixed(4) + ')';
+    progressBar.classList.toggle('is-active', rect.top < 0 && ratio < 1);
+  }
+  if (progressBar) {
+    window.addEventListener('scroll', function () {
+      if (!progressTicking) {
+        progressTicking = true;
+        window.requestAnimationFrame(updateProgress);
+      }
+    }, { passive: true });
+    window.addEventListener('resize', updateProgress, { passive: true });
+    document.addEventListener('zc:lang', updateProgress);
+    updateProgress();
+  }
+
   // Narration: one player at a time, and switching language stops it.
   var players = [].slice.call(document.querySelectorAll('.post-listen audio'));
   players.forEach(function (player) {

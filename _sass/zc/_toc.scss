@@ -67,8 +67,9 @@ html[data-lang="zh"] .post-toc-title {
   border-left: 2px solid transparent;
   color: var(--muted);
   font-size: 0.875rem;
-  line-height: 1.4;
+  line-height: 1.45;
   text-decoration: none;
+  text-wrap: pretty;
   transition: color 0.15s, border-color 0.15s;
 }
 
@@ -85,7 +86,7 @@ html[data-lang="zh"] .post-toc-title {
 @media screen and (min-width: 72rem) {
   .post:has(> .post-toc:not([hidden])) {
     display: grid;
-    grid-template-columns: minmax(0, var(--measure)) 14rem;
+    grid-template-columns: minmax(0, var(--measure)) 15.5rem;
     grid-template-areas:
       "header header"
       "listen toc"
@@ -93,8 +94,8 @@ html[data-lang="zh"] .post-toc-title {
       "sources toc"
       "footer toc"
       "comments toc";
-    column-gap: 4rem;
-    max-width: calc(var(--measure) + 18rem + 2 * var(--gutter));
+    column-gap: 3.5rem;
+    max-width: calc(var(--measure) + 19rem + 2 * var(--gutter));
   }
 
   .post-header {

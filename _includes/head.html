@@ -7,7 +7,9 @@
       var saved = function (key) { try { return window.localStorage.getItem(key); } catch (e) { return null; } };
       var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       var theme = saved('theme') || (dark ? 'dark' : 'light');
-      var lang = saved('lang') || ((navigator.language || 'en').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
+      var q = window.URLSearchParams ? new URLSearchParams(window.location.search).get('lang') : null;
+      var urlLang = q === 'zh' || q === 'en' ? q : null;
+      var lang = urlLang || saved('lang') || ((navigator.language || 'en').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
       root.setAttribute('data-theme', theme);
       root.setAttribute('data-lang', lang);
       root.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
@@ -25,5 +27,6 @@
   <script src="{{ '/assets/post.js' | relative_url }}" defer></script>
   {%- endif %}
   {%- feed_meta -%}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }} (中文)" href="{{ '/feed-zh.xml' | absolute_url }}">
   {%- include custom-head.html -%}
 </head>

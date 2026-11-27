@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}" data-lang="en" data-theme="light" id="top">
   {%- include head.html -%}
-  <body class="layout-{{ page.layout | default: 'default' }}" data-site-title="{{ site.title | escape }}" data-search-url="{{ '/search/' | relative_url }}"{% if page.title_zh %} data-title-zh="{{ page.title_zh | escape }}"{% endif %}>
+  <body class="layout-{{ page.layout | default: 'default' }}" data-site-title="{{ site.title | escape }}" data-search-url="{{ '/search/' | relative_url }}" data-index-url="{{ '/search.json' | relative_url }}"{% if page.title_zh %} data-title-zh="{{ page.title_zh | escape }}"{% endif %}>
     <a class="skip-link" href="#main"><span class="lang-en">Skip to content</span><span class="lang-zh">跳到正文</span></a>
     {%- include header.html -%}
     <main id="main" class="site-main">
       {{ content }}
     </main>
     {%- include footer.html -%}
+    <div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-label="Search / 搜索" hidden>
+      <div class="search-modal-backdrop" data-modal-close></div>
+      <div class="search-modal-panel">
+        <div class="search-modal-head">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 20.5 20.5"/></svg>
+          <input id="modal-search-q" type="search" autocomplete="off" spellcheck="false" placeholder="Search essays and notes…" data-placeholder-en="Search essays and notes…" data-placeholder-zh="搜索文章标题、摘要和正文…">
+          <kbd class="search-modal-kbd">ESC</kbd>
+        </div>
+        <p class="search-modal-status" id="modal-search-status"></p>
+        <ul class="search-modal-results" id="modal-search-results"></ul>
+      </div>
+    </div>
   </body>
 </html>

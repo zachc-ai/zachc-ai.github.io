@@ -17,11 +17,11 @@ Life is an odyssey. Let's compare notes along the way.
 
 ## About the site
 
-Most posts are essays. A few are [reading notes]({{ '/digests/' | relative_url }}): the parts of a long article or guide worth keeping.
+Most posts are essays. A few are [reading notes]({{ '/digests/' | relative_url }}): the parts of a long article or guide worth keeping. You can also see what I'm tinkering with on [Projects]({{ '/projects/' | relative_url }}) and what I'm focused on lately on [Now]({{ '/now/' | relative_url }}).
 
-Every post comes in English and Chinese. The two versions make the same argument, but the Chinese isn't a line-by-line translation; each is written to read naturally on its own. Switch with **EN / 中** at the top of the page, and the site will remember your choice.
+Every post comes in English and Chinese. The two versions make the same argument, but the Chinese isn't a line-by-line translation; each is written to read naturally on its own. Switch with **EN / 中** at the top of the page (or share a link with `?lang=en` / `?lang=zh`), and the site will remember your choice.
 
-Comments are open at the end of each post (they run on GitHub Discussions). To follow along, there's an [RSS feed]({{ '/feed.xml' | relative_url }}).
+Comments are open at the end of each post (they run on GitHub Discussions). To follow along, there are separate [English]({{ '/feed.xml' | relative_url }}) and [Chinese]({{ '/feed-zh.xml' | relative_url }}) RSS feeds, and you can find my public code on [GitHub](https://github.com/zachc-ai).
 
 </div>
 
@@ -37,10 +37,10 @@ Comments are open at the end of each post (they run on GitHub Discussions). To f
 
 ## 关于这个网站
 
-这里大多是随笔，也有几篇[阅读笔记]({{ '/digests/' | relative_url }})，把长文章和指南里值得留下的部分摘出来。
+这里大多是随笔，也有几篇[阅读笔记]({{ '/digests/' | relative_url }})，把长文章和指南里值得留下的部分摘出来。想看我最近在折腾什么或做过哪些公开小东西，可以顺便翻一下[近况]({{ '/now/' | relative_url }})和[项目]({{ '/projects/' | relative_url }})。
 
-每篇文章都有中英两个版本。观点一样，但中文不是逐句翻译，两边都尽量写得像人话。页面顶部的 **EN / 中** 可以切换，网站会记住你的选择。
+每篇文章都有中英两个版本。观点一样，但中文不是逐句翻译，两边都尽量写得像人话。页面顶部的 **EN / 中** 可以随时切换（分享给朋友也可以直接带 `?lang=zh` 或 `?lang=en`），网站会记住你的选择。
 
-每篇文章末尾都能留言（用的是 GitHub Discussions），也可以用 [RSS]({{ '/feed.xml' | relative_url }}) 订阅。
+每篇文章末尾都能留言（用的是 GitHub Discussions），也可以用独立的[中文 RSS]({{ '/feed-zh.xml' | relative_url }}) 或[英文 RSS]({{ '/feed.xml' | relative_url }}) 订阅，公开代码放在 [GitHub](https://github.com/zachc-ai)。
 
 </div>

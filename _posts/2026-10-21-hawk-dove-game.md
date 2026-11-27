@@ -31,7 +31,8 @@ sources:
 
 <div class="lang-en" markdown="1">
 
-<img src="{{ '/assets/images/hawk-dove-cover.png' | relative_url }}" width="1200" height="630" alt="An angular hawk and a rounded dove face a small red resource between them.">
+<img class="theme-img-light" src="{{ '/assets/images/hawk-dove-cover.svg' | relative_url }}" width="1200" height="630" alt="An angular hawk and a rounded dove face a small red resource between them.">
+<img class="theme-img-dark" src="{{ '/assets/images/hawk-dove-cover-dark.svg' | relative_url }}" width="1200" height="630" alt="An angular hawk and a rounded dove face a small red resource between them.">
 
 Picture a Friday afternoon. Someone drops a new feature request and wants it by end of day. Getting it done means dropping something you already promised, or giving up your evening.
 
@@ -140,7 +141,8 @@ So on that Friday afternoon, I'd start with one plain question: "What breaks if 
 
 <div class="lang-zh lang-hidden" markdown="1">
 
-<img src="{{ '/assets/images/hawk-dove-cover.png' | relative_url }}" width="1200" height="630" alt="线条锐利的鹰与轮廓圆润的鸽相对而立，中间是一份红色的资源。">
+<img class="theme-img-light" src="{{ '/assets/images/hawk-dove-cover.svg' | relative_url }}" width="1200" height="630" alt="线条锐利的鹰与轮廓圆润的鸽相对而立，中间是一份红色的资源。">
+<img class="theme-img-dark" src="{{ '/assets/images/hawk-dove-cover-dark.svg' | relative_url }}" width="1200" height="630" alt="线条锐利的鹰与轮廓圆润的鸽相对而立，中间是一份红色的资源。">
 
 设想一个周五下午。有人临时塞进来一个需求，要求今天上线。想赶出来，要么推掉原本答应好的事，要么有人晚上接着加班。
 
