@@ -8,6 +8,13 @@ date: 2026-10-29
 categories: life
 tags: [philosophy, life, mind]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/when-nobodys-watching.en.mp3
+    duration: 92
+  zh:
+    src: /assets/audio/when-nobodys-watching.zh.mp3
+    duration: 96
 ---
 
 <div class="lang-en" markdown="1">
