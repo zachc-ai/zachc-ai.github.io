@@ -8,6 +8,13 @@ date: 2026-04-20
 categories: life
 tags: [philosophy, learning, money, mind]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/compound-interest-one-secret-four-worlds.en.mp3
+    duration: 559
+  zh:
+    src: /assets/audio/compound-interest-one-secret-four-worlds.zh.mp3
+    duration: 603
 sources:
   - title: "Berkshire Hathaway 2018 Chairman's Letter"
     url: "https://www.berkshirehathaway.com/letters/2018ltr.pdf"
