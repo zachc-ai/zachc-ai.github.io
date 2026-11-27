@@ -8,6 +8,13 @@ date: 2026-03-28
 categories: tech
 tags: [systems, engineering, ai]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/from-executor-to-steersman.en.mp3
+    duration: 158
+  zh:
+    src: /assets/audio/from-executor-to-steersman.zh.mp3
+    duration: 148
 sources:
   - title: "George (@odysseus0z) on X"
     url: "https://x.com/odysseus0z/status/2030416758138634583"
