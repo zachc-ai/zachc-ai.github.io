@@ -9,6 +9,13 @@ categories: digest
 tags: [career, ai, systems, learning]
 source: "https://mp.weixin.qq.com/s/MjVgIG3SwLsNP7qJ_L4aBw"
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/yuanming-hu-48-reflections-at-100m-arr.en.mp3
+    duration: 1074
+  zh:
+    src: /assets/audio/yuanming-hu-48-reflections-at-100m-arr.zh.mp3
+    duration: 1019
 sources:
   - title: "Yuanming Hu — $1 亿美金 ARR，我的 48 条反思 (in Chinese)"
     title_zh: "胡渊鸣《$1 亿美金 ARR，我的 48 条反思》"
