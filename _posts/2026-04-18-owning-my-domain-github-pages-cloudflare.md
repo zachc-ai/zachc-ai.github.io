@@ -8,6 +8,13 @@ date: 2026-04-18
 categories: tech
 tags: [engineering]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/owning-my-domain-github-pages-cloudflare.en.mp3
+    duration: 356
+  zh:
+    src: /assets/audio/owning-my-domain-github-pages-cloudflare.zh.mp3
+    duration: 371
 sources:
   - title: "GitHub Pages — Managing a custom domain"
     title_zh: "GitHub Pages — 管理自定义域名"
