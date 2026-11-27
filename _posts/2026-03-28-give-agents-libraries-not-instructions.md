@@ -8,6 +8,13 @@ date: 2026-03-28
 categories: tech
 tags: [ai, engineering]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/give-agents-libraries-not-instructions.en.mp3
+    duration: 136
+  zh:
+    src: /assets/audio/give-agents-libraries-not-instructions.zh.mp3
+    duration: 138
 sources:
   - title: "Thariq on X — How We Use Skills"
     url: "https://x.com/trq212/status/2033949937936085378"
