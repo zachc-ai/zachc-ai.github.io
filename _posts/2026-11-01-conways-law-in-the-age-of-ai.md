@@ -13,6 +13,13 @@ image:
   width: 1200
   height: 630
   alt: "One change crossing several ownership boundaries, compared with a bounded team owning the work and its feedback."
+narration:
+  en:
+    src: /assets/audio/conways-law-in-the-age-of-ai.en.mp3
+    duration: 496
+  zh:
+    src: /assets/audio/conways-law-in-the-age-of-ai.zh.mp3
+    duration: 505
 sources:
   - title: "Melvin Conway — How Do Committees Invent?"
     url: "https://www.melconway.com/research/committees.html"
