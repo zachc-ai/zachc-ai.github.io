@@ -43,6 +43,10 @@ These words are statistically over-represented in AI output. Replace unless quot
 
 ## Structural anti-patterns
 
+- **No preemptive disclaimers & committee-safe hedging (highest priority modern AI tell).** Distinguish *epistemic honesty* ("the cause of the hungry-judge curve is still disputed") from *Twitter/HR-proofing your own opinion* ("This is my application of the model, not something the payoff table proves", "These are proposed ways of communicating, not guarantees that the other person will respond well", "I wouldn't use this oath to demand optimism from a person who is already struggling"). Also cut repetitive `I can... / I would... / I'd like to...` tentative stacks. State your point cleanly and trust the reader has common sense.
+- **Use contractions naturally in essays and digests.** Strings of uncontracted `is not / does not / do not / cannot / I would / I am` make a personal blog read like a policy memo.
+- **No digest attribution crutches.** Once a digest names its source author in the intro, state the argument directly instead of stuffing `he says / he writes / he adds / in his view` into every paragraph.
+- **No quote carousels or vault-note templates.** Don't line up 6+ famous thinkers in a row with two-sentence captions, and don't ship raw note scaffolding (`> thesis blockquote` + `## The insight / ## The technique / ## The principle`).
 - **No "Challenges and Future Outlook" sections.** Strongest AI structural tell.
 - **No "Despite its X, Y faces challenges..."** formula.
 - **No preamble definitions** — never open by defining the topic.
@@ -54,7 +58,7 @@ These words are statistically over-represented in AI output. Replace unless quot
 
 ## Formatting anti-patterns
 
-- **Em-dashes:** Zach uses them. **Allow ~1 per paragraph average.** Flag clusters of 3+ in one paragraph or "every sentence has one" patterns. (Zach's-style override of ContractorKeith's "zero em-dashes" rule.)
+- **Em-dashes:** default to **zero** (`—`) in prose, matching `humanizer` §8 and Zach's 2026-11-26 Tier 1 feedback. Replace with periods, commas, colons, or parentheses. Keep only inside verbatim quotations, code, or URLs.
 - **No emoji decoration** in headings or bullets.
 - **Tables** only when comparing 3+ items across 2+ dimensions.
 - **Straight quotes**, not curly/smart quotes.
@@ -89,7 +93,7 @@ These words are statistically over-represented in AI output. Replace unless quot
 
 - [ ] Empty figurative vocabulary removed, with quotations and necessary literal or technical uses preserved?
 - [ ] Plain "is/are/was/has" used where they fit, without forced substitution?
-- [ ] Em-dashes: ≤1 per paragraph average?
+- [ ] Em-dashes: zero in prose (outside verbatim quotations, code, or URLs)?
 - [ ] Empty -ing riders removed without dropping supported claims?
 - [ ] Lists contain the actual material, without padding or deletions to change item counts?
 - [ ] Opening: hook, not definition?

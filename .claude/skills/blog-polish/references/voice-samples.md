@@ -27,6 +27,12 @@ These are verbatim from Zach's feedback memory or live conversation. They are vo
 - Say what he actually thinks. Keep real doubt, and cut both defensive hedges and performed confidence. Don't add theory vocabulary ("无差别之物") unless the argument needs it.
 - Sincere means nothing invented. Don't claim habits, origin stories, or feelings he hasn't stated; phrase them as things he's trying or wants.
 
+### No em-dashes (2026-11-26 feedback)
+> "我不喜欢AI写作里 大量使用 破折号 这个不符合我的写作习惯"
+> — pushback on `——` in the `hawk-dove-game` polish preview, 2026-11-26
+
+**Implication:** default to **zero** em-dashes (`—` in EN, `——` in ZH) outside verbatim quotations, code, or URLs. Earlier April–May posts had 10–16 dashes because of early AI drafting, not because Zach likes them. (Corrects the earlier mistaken note: *"I thought one `——` added a nice pause → Zach immediately flagged it as AI-like and not his habit."*)
+
 ### Translation quality
 > "中文翻译 太像机器翻译了 / 把中文版重新 用人话 写一遍"
 > — pushback on `2026-05-06-you-dont-discover-yourself.md`, 2026-05-06
@@ -94,7 +100,31 @@ Would Naval Ravikant put this citation in a tweet? If no, drop it.
 ### Voice tone classification (from feedback memory)
 - Philosophical posts → reflective tone OK, longer form, big-name framings allowed
 - Setup walkthroughs → direct, terse, no grand outro
+- Digests → clean theme synthesis, minimal attribution crutches, short personal note at the end
 - Default to philosophical pacing only when topic actually warrants it
+
+### Gold-standard positive anchors (Oct 2026 — Zach's best voice)
+
+When calibrating tone, match these passages before consulting any banned-word list:
+
+- **Plain, funny, sincere (`2026-10-24-meditations-and-stoicism.md`):**
+  - EN: *"Book Five of Meditations opens with a Roman emperor arguing with his blankets... I find this weirdly comforting. The man running the Roman Empire kept a private notebook, and part of it is him talking himself out of bed."*
+  - ZH: *"《沉思录》第五卷一开头，罗马皇帝马可·奥勒留在跟被窝较劲……读到这儿我挺乐的，也挺安心。管着整个罗马帝国的人，私下的本子里，有一部分是在劝自己起床。"*
+- **Data + honest self-doubt (`2026-10-24-the-hour-i-dont-want-to-give-up.md`):**
+  - EN: *"That number doesn't prove much. A commit marks when something got finished, not how long I spent thinking about it, and some of those commits were written by an agent anyway. But it lined up with the feeling, so I stopped writing the feeling off."*
+  - ZH: *"这个数字说明不了太多。commit 只记事情做完的那一刻，前面想了多久，它不知道。而且有些 commit 本来就是 agent 写的。不过它跟我的感觉对得上，我也就不觉得那是错觉了。"*
+- **Specific memory, half-step exit (`2026-10-25-before-i-knew-too-much.md`):**
+  - ZH: *"小时候家里有一台电脑，赛扬处理器，接着一台大屁股 CRT 显示器，上网靠拨号……行了，我接着折腾去了。"*
+
+### Three-way calibration (the sweet spot)
+
+Avoid BOTH ditches on either side of Zach's voice:
+
+| Ditch / target | What it sounds like |
+|---|---|
+| **Too flashy (old AI manifesto)** | *"The temple is welcoming. The cloth is flattering. The mud is honest."* / *"The equation has four variables. Pick one, and move."* / 10 celebrity quotes in a row. |
+| **Too bleached (new AI committee-hedge)** | *"This is my application of the model, not something the payoff table proves."* / *"These are proposed ways of communicating, not guarantees that the other person will respond well."* / zero contractions. |
+| **Target (Zach)** | *"The person who pushes hardest isn't necessarily tougher. Sometimes their seat just lets them pocket the upside and hand the bill to someone else."* / *"状态差的时候，硬逼自己“热爱生活”其实挺假。那天能把日子熬过去，就已经算交差了。"* |
 
 ---
 
@@ -164,7 +194,7 @@ These slipped through. Flag and consider rewriting.
 - **"It's not X. It's Y." rhetorical reversal** — known AI tic. Allowed once per post max. Catch every other instance.
 
 ### Em-dash usage
-**Existing posts overuse em-dashes.** Don't take their density as a baseline. Apply the rule from `en-antipatterns.md`: ≤1 per paragraph average, flag clusters of 3+.
+**Promoted to Tier 1 (2026-11-26):** existing April–May posts had heavy em-dashes solely from early AI drafting. Default to zero (`—` / `——`) in prose outside verbatim quotations.
 
 ### Closing kickers
 - "The temple is welcoming. The cloth is luxurious. The mud is honest." — three-beat closing, likely AI-poetic. Keep ONE such kicker per post if it lands; flag if multiple posts reuse the structure.
