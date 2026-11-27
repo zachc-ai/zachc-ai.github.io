@@ -14,7 +14,7 @@ narration:
     duration: 473
   zh:
     src: /assets/audio/drag-your-tail-in-the-mud.zh.mp3
-    duration: 521
+    duration: 520
 sources:
   - title: "Fire一期一会 — *EP7 对话大狮姐：Fire是包装成成功学的失败学*"
     url: "https://podcasts.apple.com/us/podcast/fire%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A/id1877746180?i=1000762967732"
