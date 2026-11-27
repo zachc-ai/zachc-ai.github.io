@@ -13,6 +13,13 @@ image:
   width: 1200
   height: 630
   alt: "An open notebook and a pen on a stone table beneath an arch."
+narration:
+  en:
+    src: /assets/audio/meditations-and-stoicism.en.mp3
+    duration: 380
+  zh:
+    src: /assets/audio/meditations-and-stoicism.zh.mp3
+    duration: 380
 sources:
   - title: "Marcus Aurelius — *Meditations*"
     title_zh: "马可·奥勒留《沉思录》"
