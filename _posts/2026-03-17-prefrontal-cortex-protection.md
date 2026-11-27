@@ -9,6 +9,13 @@ categories: digest
 tags: [mind, productivity, ai]
 source: "https://en.wikipedia.org/wiki/Prefrontal_cortex"
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/prefrontal-cortex-protection.en.mp3
+    duration: 352
+  zh:
+    src: /assets/audio/prefrontal-cortex-protection.zh.mp3
+    duration: 345
 sources:
   - title: "Arnsten — Stress signalling pathways that impair prefrontal cortex structure and function"
     url: "https://doi.org/10.1038/nrn2648"
