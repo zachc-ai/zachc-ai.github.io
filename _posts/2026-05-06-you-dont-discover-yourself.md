@@ -8,6 +8,13 @@ date: 2026-05-06
 categories: life
 tags: [mind, philosophy, systems, ai]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/you-dont-discover-yourself.en.mp3
+    duration: 481
+  zh:
+    src: /assets/audio/you-dont-discover-yourself.zh.mp3
+    duration: 531
 sources:
   - title: "Maxwell Maltz — *Psycho-Cybernetics*"
     url: "https://en.wikipedia.org/wiki/Psycho-Cybernetics"
