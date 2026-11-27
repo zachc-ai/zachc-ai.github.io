@@ -17,7 +17,7 @@ from pathlib import Path
 import yaml
 
 
-def spoken(line):
+def spoken(line, lang="en"):
     line = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", line)                 # images
     line = re.sub(r"\[((?:[^\[\]]|\[[^\]]*\])+)\]\([^)]*\)", r"\1", line)  # links -> text
     line = re.sub(r"\*\*(.+?)\*\*|__(.+?)__", lambda m: m.group(1) or m.group(2), line)
@@ -25,6 +25,13 @@ def spoken(line):
     line = re.sub(r"(?<!\w)_(?!\s)(.+?)(?<!\s)_(?!\w)", r"\1", line)
     line = re.sub(r"`([^`]+)`", r"\1", line)
     line = re.sub(r"<[^>]+>", "", line)
+    # Turn visual arrows into spoken transitions instead of unpronounceable symbols.
+    to_word = " to " if lang == "en" else "到"
+    and_word = " to " if lang == "en" else "和"
+    comma = ", " if lang == "en" else "，"
+    line = re.sub(r"(?<=\w)→(?=\w)", to_word, line)
+    line = re.sub(r"\s*→\s*", comma, line)
+    line = re.sub(r"\s*↔\s*", and_word, line)
     return re.sub(r"\s+", " ", line).strip()
 
 
@@ -38,22 +45,32 @@ def blocks_for(body, title, lang):
     blocks = [{"section": "title", "text": end_sentence(title, lang)}]
     section = "intro"
     paragraph = []
+    in_fence = False
 
     def flush():
         if paragraph:
-            text = spoken(" ".join(paragraph) if lang == "en" else "".join(paragraph))
+            text = spoken(" ".join(paragraph) if lang == "en" else "".join(paragraph), lang)
             if text:
                 blocks.append({"section": section, "text": text})
             paragraph.clear()
 
     for raw in body.split("\n"):
         line = raw.strip()
+        if line.startswith("```"):
+            flush()
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        if re.match(r"^\|.*\|$", line):            # markdown tables
+            flush()
+            continue
         if re.match(r"^\{:.*\}$", line):          # kramdown attribute lines
             continue
         heading = re.match(r"^#{2,4}\s+(.*)$", line)
         if heading:
             flush()
-            section = spoken(heading.group(1))
+            section = spoken(heading.group(1), lang)
             blocks.append({"section": section, "text": end_sentence(section, lang)})
             continue
         if not line or line == "---" or line.startswith("<"):
@@ -63,8 +80,9 @@ def blocks_for(body, title, lang):
         item = re.match(r"^([-*]|\d+\.)\s+(.*)$", line)
         if item:
             flush()
-            paragraph.append(end_sentence(spoken(item.group(2)), lang))
-            flush()
+            text = spoken(item.group(2), lang)
+            if text:
+                blocks.append({"section": section, "text": end_sentence(text, lang)})
             continue
         paragraph.append(line)
     flush()

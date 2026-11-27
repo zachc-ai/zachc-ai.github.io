@@ -19,7 +19,7 @@ import urllib.request
 import uuid
 from pathlib import Path
 
-REF_TEXT = Path.home() / "Library/Application Support/home-ai/mac-voice/voices/zach/reference.txt"
+VOICE_DIR = Path.home() / "Library/Application Support/home-ai/mac-voice/voices/zach"
 MODEL = Path.home() / ".cache/whisper-cpp/ggml-large-v3.bin"
 ZH_NUM = "零〇一二三四五六七八九十百千万亿两点"
 EN_NUM = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
@@ -59,8 +59,12 @@ def main():
     manifest = json.loads(a.manifest.read_text())
     run_dir = a.manifest.parent
     n = 6 if a.lang == "zh" else 4
-    ref = tokens(REF_TEXT.read_text(encoding="utf-8"), "zh") + tokens(REF_TEXT.read_text(encoding="utf-8"), "en")
-    leak = {tuple(ref[i:i + n]) for i in range(max(0, len(ref) - n + 1))}
+    leak = set()
+    for ref_file in sorted(VOICE_DIR.glob("reference*.txt")):
+        raw_ref = ref_file.read_text(encoding="utf-8")
+        for ref_toks in (tokens(raw_ref, "zh"), tokens(raw_ref, "en")):
+            for i in range(max(0, len(ref_toks) - n + 1)):
+                leak.add(tuple(ref_toks[i:i + n]))
     prompt = "以下是普通话的句子，使用简体中文。" if a.lang == "zh" else "The following is a spoken English essay."
     server = subprocess.Popen(["whisper-server", "-m", str(MODEL), "-l", a.lang, "--host", "127.0.0.1",
                                "--port", str(a.port), "--convert", "-nt", "-t", "6", "--prompt", prompt],
@@ -91,6 +95,11 @@ def main():
             print(f"\n#{row['part']} sim={row['similarity']} ratio={row['length_ratio']}\n  want: {row['text']}\n  heard: {row['heard']}")
     finally:
         server.terminate()
+        try:
+            server.wait(timeout=15)
+        except subprocess.TimeoutExpired:
+            server.kill()
+            server.wait(timeout=5)
 
 
 if __name__ == "__main__":
