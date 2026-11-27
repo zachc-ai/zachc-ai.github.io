@@ -71,12 +71,18 @@ def blocks_for(body, title, lang):
         if heading:
             flush()
             section = spoken(heading.group(1), lang)
+            if lang == "zh":
+                # Keep numbered headings together ("2、...") so the sentence splitter never isolates "2.".
+                section = re.sub(r"^(\d+)\.\s+", r"\1、", section)
             blocks.append({"section": section, "text": end_sentence(section, lang)})
             continue
-        if not line or line == "---" or line.startswith("<"):
+        if line == "---" or line.startswith("<"):
             flush()
             continue
         line = re.sub(r"^>\s?", "", line)
+        if not line:
+            flush()
+            continue
         item = re.match(r"^([-*]|\d+\.)\s+(.*)$", line)
         if item:
             flush()
