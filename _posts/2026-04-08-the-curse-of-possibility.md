@@ -8,6 +8,13 @@ date: 2026-04-08
 categories: life
 tags: [mind, productivity, ai, philosophy]
 bilingual: true
+narration:
+  en:
+    src: /assets/audio/the-curse-of-possibility.en.mp3
+    duration: 543
+  zh:
+    src: /assets/audio/the-curse-of-possibility.zh.mp3
+    duration: 573
 sources:
   - title: "The Magical Number Seven, Plus or Minus Two"
     url: "https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two"
