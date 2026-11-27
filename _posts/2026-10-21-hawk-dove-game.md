@@ -13,6 +13,13 @@ image:
   width: 1200
   height: 630
   alt: "A hawk and a dove face a shared resource."
+narration:
+  en:
+    src: /assets/audio/hawk-dove-game.en.mp3
+    duration: 532
+  zh:
+    src: /assets/audio/hawk-dove-game.zh.mp3
+    duration: 558
 sources:
   - title: "John Maynard Smith and George Price — The Logic of Animal Conflict"
     url: "https://www.iasi.cnr.it/~vbonifaci/semcn/Smith1973.pdf"
